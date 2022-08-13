@@ -1,0 +1,9 @@
+Great! Both exhibits now have terrain that the animals like. Animals require more than just terrain, however, to be happy in their exhibits. They like rocks and shelters, and some even like toys to play with. 
+
+As an example, African lions like trees from the savannah. Grass trees are from the savannah, so let's place two grass trees in the lion's exhibit.
+
+1. Click the Construction button, and then click the Foliage tab.
+2. On the Foliage panel, click the grass tree icon.
+3. Move the cursor to the lion's exhibit, and then click twice to place two grass trees in the exhibit.
+
+Click the OK button to proceed.

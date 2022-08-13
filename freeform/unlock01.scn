@@ -1,0 +1,285 @@
+[goals]
+goal=DEFAULT_ITEMS
+goal=FIRST_UNLOCK
+goal=SECOND_UNLOCK
+goal=THIRD_UNLOCK
+goal=FOURTH_UNLOCK
+
+[DEFAULT_ITEMS]
+;Items available at the beginning of the game.
+rulea=7
+ruleb=2
+value=0
+text=17700
+trulea=7
+truleb=0
+targa=1000
+hidden=0
+sticky=0
+
+[1000]
+;Items available at beginning of game
+
+;Fences
+;Reinforced Concrete fence
+id=9332
+;Reinforced Concrete and Glass fence
+id=9333
+;Electric Chain-link fence
+id=9334
+
+;Dinosaurs
+;Smilodon
+id=5086
+;Styracosaurus
+id=5092
+;Allosaurus
+id=5094
+;Wooly Rhino
+id=5330
+;Meiolania
+id=5331
+;gallim
+id=5088
+;pleto
+id=5328
+
+
+;Foliage
+;Red Gum Tree
+id=7030
+;Decorative Hedge
+id=9309
+;Arctic Bush
+id=7098
+;Gingkos
+id=7086
+;Fern Bush
+id=7085
+;Arctic Grass
+id=7097
+;Sigillaria tree
+id=7094
+
+;Buildings
+;Heli base
+id= 8031
+;Dinosaur gift cart
+id = 8032
+;Bouncy Ride
+id=8035
+    
+;Shelters
+;dinoCave
+id=8128
+;dino nest
+id=8129
+;ice cave
+id=8130
+
+; Objects
+;Stone Torch 1
+id=6400
+;Velociraptor Statue
+id=6402
+;Giant Turtle fountain
+id=6404
+;Dino Viewing Area 1
+id=6412
+;Stone Bench
+id=6428
+;Dinosaur rock 1
+id=9230
+;Dinosaur rock 2
+id=9231
+;Dinosaur rock 3
+id=9232
+;Dinosaur rock 4
+id=9233
+;Dinosaur rock 5
+id=9234
+;Steam Vent
+id=6447
+
+;Staff
+;Scientist			
+id=9551
+
+
+[FIRST_UNLOCK]
+;Items available at 3 months after start of game.
+rulea=7
+ruleb=2
+value=3
+text=17700
+trulea=7
+truleb=4
+targa=2000
+targb=33
+hidden=0
+sticky=0
+
+[2000]
+;Items available at 3 months after start of game.
+;Camptosaurus
+id=5095
+;Caudipteryx
+id=5096
+;Tree Swing
+id=8037
+;Bar fence
+id=9331
+;Williamsonia Tree
+id=7095
+;Walchian Conifer tree
+id=7081
+;Dino Arch 1
+id=6405
+;T Rex Statue
+id=6401
+;geyser
+id=6446
+Skeltric
+id = 6420
+
+[SECOND_UNLOCK]
+;Items available at 6 months after start of game.
+rulea=7
+ruleb=2
+value=6
+text=17700
+trulea=7
+truleb=4
+targa=3000
+targb=33
+hidden=0
+sticky=0
+
+[3000]
+;Items available at 6 months after start of game.
+;Iguanodon
+id=5089
+;Stegosaurus
+id=5099
+;Dino gift shop
+id=8027
+;Dinosaur burger stand
+id= 8033
+;Lepidodendron Tree
+id=7089
+;Magnolia Tree
+id=7091
+;Dinosaur Archway 2
+id=6406
+;Wooly Mammoth Fountain
+id=6408
+;Velociraptor Skeleton
+id=6436
+;Stone Torch 2
+id=6427
+;Fossil Wall 1	
+id=6422
+;VIEWING_AREA3
+id=6440
+;VIEWING_AREA4
+id=6441
+;geyser
+id=6445
+
+
+[THIRD_UNLOCK]
+;Items available at 9 months after start of game.
+rulea=7
+ruleb=2
+value=9
+text=17700
+trulea=7
+truleb=4
+targa=4000
+targb=33
+hidden=0
+sticky=0
+
+[4000]
+;Items available at 9 months after start of game.
+;Lambeosaurus
+id=5090
+;Jurassic Putt
+id = 8034
+;Dinosaur ice cream stand
+id=8038
+;Tarpit
+id=6438
+;Steam Vent
+id=6434
+;T rex skeleton
+id=6425
+;Bone Bed
+id=6426
+;Fossil wall 2
+id=6423
+;Triceratops Statue
+id=6403
+;small volcano
+id=6443
+;iron bar observation area
+id=6437
+
+
+
+[FOURTH_UNLOCK]
+;Items available at 12 months after start of game.
+rulea=7
+ruleb=2
+value=12
+text=17700
+trulea=7
+truleb=4
+targa=5000
+targb=33
+hidden=0
+sticky=0
+
+[5000]
+;Items available at 12 months after start of game.
+;Herrerasaurus
+id=5327
+:Dinosaur Cinema
+id=8030
+;Brontosaurus Slide
+id=8036
+;Electrified Iron Bar Fence
+id=9335
+;Leptocycas tree
+id=7090
+;Lava pit
+id=6439
+;Fossil Wall 3
+id=6424
+VIEWING_AREA5
+id=6442
+large volcano
+id=6444
+
+
+//////////////////////////
+;confirm=45000
+;confirm2=45100
+;confirmm=45200
+
+[33]
+layout=45200
+background=ui/tutorial/tutoria2/tutoria2
+icon=
+image1=ui/event/unlock/unlock
+image2=
+shortText1=
+longText1=FREEFORM_AVAILITEM 
+shortText2=
+longText2=0 
+ok=1
+yes=0
+no=0
+cancel=0
+pause=0
+

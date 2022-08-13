@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = orngutan
+dir2 = f
+dir3 = rpgeton
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -95
+y0 = -100
+x1 = 95
+y1 = 47

@@ -1,0 +1,40 @@
+[Icon]
+Icon = objects/skelvelo/SE/SE
+Icon = objects/skelvelo/SW/SW
+Icon = objects/skelvelo/NW/NW
+Icon = objects/skelvelo/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 300
+cNameID = 6436
+cHelpID = 6436
+cFootprintX = 4
+cFootprintY = 4
+cUsedThought=10582
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 6
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 6

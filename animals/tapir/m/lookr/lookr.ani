@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = tapir
+dir2 = m
+dir3 = lookr
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -17
+y0 = -23
+x1 = 19
+y1 = 10

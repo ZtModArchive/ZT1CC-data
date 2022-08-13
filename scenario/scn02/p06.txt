@@ -1,0 +1,9 @@
+Oops! Did you notice the little red angry faces that floated up from the lion as you placed the trees? These indicate that the lion doesn't like this tree. (We can't imagine where you got the idea to do that!) 
+
+On closer inspection, although the grass tree is a savannah tree, it is native to Australia, not Africa. Now let's put the proper trees in the lion's exhibit.
+
+1. Click the Construction button and click the Foliage tab.
+2. On the Foliage panel, click the umbrella thorn tree icon.
+3. Move the cursor to the lion's exhibit, and then place four umbrella thorn trees in the exhibit.
+
+Click the OK button to proceed.

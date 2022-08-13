@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = apato
+dir2 = m
+dir3 = frnt2bck
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -214
+y0 = -236
+x1 = 152
+y1 = 107

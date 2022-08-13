@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = main
+dir2 = zoomin
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -18
+y0 = -11
+x1 = 18
+y1 = 11

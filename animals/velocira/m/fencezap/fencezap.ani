@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = velocira
+dir2 = m
+dir3 = fencezap
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -55
+y0 = -90
+x1 = 89
+y1 = 28

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = cloulep
+dir2 = m
+dir3 = sleep
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -39
+y0 = -20
+x1 = 15
+y1 = 19

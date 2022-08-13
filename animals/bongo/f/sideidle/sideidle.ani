@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = bongo
+dir2 = f
+dir3 = sideidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -17
+y0 = -13
+x1 = 18
+y1 = 7

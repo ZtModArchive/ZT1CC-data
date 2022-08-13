@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = baracuda
+dir2 = y
+dir3 = surfbrsh
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -9
+y0 = -7
+x1 = 8
+y1 = 4

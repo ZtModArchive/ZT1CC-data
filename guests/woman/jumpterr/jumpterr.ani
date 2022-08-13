@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = woman
+dir2 = jumpterr
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -13
+y0 = -36
+x1 = 14
+y1 = 7

@@ -1,0 +1,169 @@
+[LayoutInfo]
+x=center
+y=center
+dx=510
+dy=295
+id=14
+layer=5
+state=1
+
+[Background]
+type=UIImage
+id=4100
+x=0
+y=0
+animation=ui/sharedui/zoobck/zoobck
+alias=-1
+layer=0
+
+
+[PanelTitle]
+type=UIText
+id=4101
+textid=4101
+x=160
+y=2
+dx=170
+dy=fitfont
+font=4136
+fontsize=4137
+justify = center
+textid=4137
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+alias=-1
+layer=1
+
+
+
+[Zoo_Info_buttonRadioSet]
+type = UIRadioSet
+id = 4103
+button = 4104
+button = 4105
+button = 4153
+button = 4154
+button = 4180
+button = 4181
+
+[StatusTab1]
+type = UIButton
+id = 4104
+helpid = 4104
+x = 485
+y = 48
+animation=ui/guest/tbinfo/tbinfo
+layer=1
+state=8
+state=4096
+action=3
+target=800
+
+[Finances_Tab]
+type = UIButton
+id = 4154
+helpid = 4154
+x = 485
+y = 80
+animation=ui/finance/incexp/incexp
+layer=1
+state=4096
+action=3
+target=110
+
+[Graph_Tab]
+type = UIButton
+id = 4153
+helpid = 4153
+x = 485
+y = 112
+animation=ui/sharedui/tbgraph/tbgraph
+layer=1
+state=4096
+action=3
+target=809
+
+[Zoo_Awards_Tab]
+type = UIButton
+id = 4105
+helpid = 4105
+x = 485
+y = 144
+animation=ui/sharedui/tbaward/tbaward
+layer=1
+state=4096
+action=3
+target=801
+
+[Zoo_Multibuilding_Tab]
+type = UIButton
+id = 4180
+helpid = 4180
+x = 485
+y = 176
+animation=ui/buyobj/bldngtb/bldngtb
+layer=1
+state=4096
+action=3
+target=810
+
+[Zoo_Research_Tab]
+type = UIButton
+id = 4181
+helpid = 4181
+x = 485
+y = 208
+animation=ui/research/tbreser/tbreser
+layer=1
+state=4096
+action=3
+target=804
+
+[Zoo_StatusLayout]
+type=UILayout
+layout=ui/zooinfo1.lyt
+state=1
+
+[Zoo Awards_List_Layout]
+type=UILayout
+layout=ui/zooinfo2.lyt
+state=1
+
+[Zoo_FinanceLayout]
+type=UILayout
+layout=ui/zoofin1.lyt
+state=1
+
+[Zoo_Graphs]
+type=UILayout
+layout=ui/graphs.lyt
+state=1
+
+[Zoo_Multibuilding_List]
+type=UILayout
+layout=ui/zooinfo5.lyt
+state=1
+
+[Zoo_Research_List]
+type=UILayout
+layout=ui/zooinfo6.lyt
+state=1
+
+
+[CloseWindow]
+type=UIButton
+id= 4134
+helpid=3112
+x=472
+y=1
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=-1
+

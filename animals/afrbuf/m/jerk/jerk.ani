@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = afrbuf
+dir2 = m
+dir3 = jerk
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -45
+x1 = 38
+y1 = 20

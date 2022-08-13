@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = monkpuzz
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -69
+y0 = -162
+x1 = 69
+y1 = 15

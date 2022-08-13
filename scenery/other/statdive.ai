@@ -1,0 +1,41 @@
+[Icon]
+Icon = objects/statdive/SE/SE
+Icon = objects/statdive/SW/SW
+Icon = objects/statdive/NW/NW
+Icon = objects/statdive/NE/NE
+
+[Member]
+scenery
+aqua
+
+[Characteristics/Integers]
+cNameID = 6470
+cHelpID = 6470
+cPurchaseCost = 200
+cFootprintX = 2
+cFootprintY = 2
+;Bad Habitat Type
+cHabitat = 9414
+cUsedThought=10595
+cHeight = 1
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cUnderwater = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15

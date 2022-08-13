@@ -1,0 +1,27 @@
+[Icon]
+Icon = objects/dock2/SE/SE
+Icon = objects/dock2/SW/SW
+Icon = objects/dock2/NW/NW
+Icon = objects/dock2/NE/NE
+
+[Member]
+developer
+
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6136
+cHelpID = 6136
+cFootprintX = 4
+cFootprintY = 4
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cSwims = 1
+cOnlySwims = 0
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

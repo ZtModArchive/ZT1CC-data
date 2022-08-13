@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = swcroc
+dir2 = lsmswcro
+animation = N
+x0 = -18
+y0 = 0
+x1 = 19
+y1 = 8

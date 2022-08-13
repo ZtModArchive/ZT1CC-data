@@ -1,0 +1,3 @@
+Great job! You now understand the basics of controlling the game! If you wish to learn more about basic gameplay, select Tutorial 2 from the scenario list.
+
+Tutorial 2 will teach you more about basic gameplay.

@@ -1,0 +1,8 @@
+SHOW TANK PORTAL
+
+When you create a show tank adjacent to an exhibit tank, a portal will be automatically placed between the two exhibits if the top edges of the walls are even. This will allow the show animal to move into the show tank for its scheduled performances and then back into its exhibit tank.
+ 
+Note that at least three fence segments must be adjacent and the top edges of the tank walls must be even for the portal to be created. 
+
+If you build multiple exhibit tanks connected to one show tank, a portal will be placed between the show tank and each exhibit tank.
+

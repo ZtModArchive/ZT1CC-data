@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lion
+dir2 = f
+dir3 = pounce
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -28
+y0 = -35
+x1 = 32
+y1 = 16

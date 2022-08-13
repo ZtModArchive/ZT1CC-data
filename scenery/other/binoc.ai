@@ -1,0 +1,41 @@
+; $Id
+[Icon]
+Icon = objects/binoc/SE.tga
+Icon = objects/binoc/SW.tga
+Icon = objects/binoc/NW.tga
+Icon = objects/binoc/NE.tga
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 6027
+cHelpID = 6027
+cFootprintX = 1
+cFootprintY = 1
+cUserStaysOutside = 1
+cTimeInside = 0
+cUsedThought=10221
+cHeight = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 10
+; girl
+v = 9506
+v = 10
+[Satisfies]
+building
+
+

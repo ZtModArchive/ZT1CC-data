@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = pbirch
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -49
+y0 = -179
+x1 = 50
+y1 = 6

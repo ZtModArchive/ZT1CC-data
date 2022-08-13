@@ -1,0 +1,40 @@
+[Icon]
+Icon = objects/flower3/SE/SE
+Icon = objects/flower3/SW/SW
+Icon = objects/flower3/NW/NW
+Icon = objects/flower3/NE/NE
+
+[Member]
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 40
+cNameID = 6029
+cHelpID = 6029
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 1
+cUsedThought=10216
+cHeight = 1
+cUseNumbersInName=0
+cEstheticWeight = 10
+cGawkOnlyFromFront = 0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 2
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 4
+; girl
+v = 9506
+v = 4

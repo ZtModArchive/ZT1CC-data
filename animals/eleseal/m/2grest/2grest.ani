@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = eleseal
+dir2 = m
+dir3 = 2grest
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -52
+y0 = -51
+x1 = 49
+y1 = 26

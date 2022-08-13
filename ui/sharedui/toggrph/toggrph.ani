@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = toggrph
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -9
+y0 = -6
+x1 = 10
+y1 = 8

@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = snowrock
+dir2 = f
+dir3 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -18
+y0 = -24
+x1 = 18
+y1 = 8

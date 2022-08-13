@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = eleseal
+dir2 = m
+dir3 = ssubvoca
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -53
+y0 = -27
+x1 = 50
+y1 = 27

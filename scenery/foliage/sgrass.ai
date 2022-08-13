@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/sgrass/SE/SE
+Icon=objects/sgrass/SW/SW
+Icon=objects/sgrass/NW/NW
+Icon=objects/sgrass/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 100
+cNameID = 7417
+cHelpID = 7417
+cHabitat = 9413
+cLocation = 9625
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 2
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

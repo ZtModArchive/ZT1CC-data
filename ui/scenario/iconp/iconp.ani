@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = scenario
+dir2 = iconp
+animation = N
+x0 = -12
+y0 = -8
+x1 = 7
+y1 = 11

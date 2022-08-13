@@ -1,0 +1,127 @@
+Show trick requirements.
+
+Orca Tricks
+Wave to Crowd.
+Requirements: show tank 4 units deep.
+Potential benefit: +2.
+
+Play with Ball.
+Requirements: orca ball and show tank 8 units deep.
+Potential benefit: +6.
+
+Sideways Breach.
+Requirements: advanced trick area and show tank 8 units deep.
+Potential benefit: +3.
+
+Beach on Stage.
+Requirements: orca stage and show tank 4 units deep.
+Potential benefit: +6.
+
+Reverse Tail Walking.
+Requirements: research and show tank 4 units deep.
+Potential benefit: +4.
+
+Reverse Breach.
+Requirements: research, advanced trick area, and show tank 8 units deep.
+Potential benefit: +4.
+
+Spray Water.
+Requirements: show tank 4 units deep.
+Potential benefit: +4.
+
+
+Great White Shark Tricks
+Breach Attack.
+Requirements: research and show tank 4 units deep.
+Potential benefit: +4.
+
+Feeding Frenzy.
+Requirements: show tank 4 units deep.
+Potential benefit: +5.
+
+
+Bottlenose Dolphin Tricks
+Bubble Jump.
+Requirements: research, advanced trick area, and show tank 8 units deep.
+Potential benefit: +3.
+
+Hoop Jump.
+Requirements: dolphin hoop and show tank 4 units deep.
+Potential benefit: +4.
+
+Tail Walk.
+Requirements: show tank 4 units deep.
+Potential benefit: +3.
+
+Play with Ball.
+Requirements: dolphin ball and show tank 4 units deep.
+Potential benefit: +4.
+
+Belly Flop. 
+Requirements: advanced trick area, research and show tank 8 units deep.
+Potential benefit: +4.
+
+Flip.
+Requirements: show tank 4 units deep. 
+Potential benefit: +3.
+
+Jump.
+Requirements: show tank 8 units deep.
+Potential benefit: +3.
+
+Spin.
+Requirements: research and show tank 4 units deep. 
+Potential benefit: +3.
+
+Wave to Crowd. 
+Requirements: research and show tank 4 units deep.
+Potential benefit: +4.
+
+
+
+California Sea Lion
+Wave to Crowd.
+Requirements: sea lion raft and show tank 4 units deep.
+Potential benefit: +3.
+
+Play with Squeeze Horn.
+Requirements: sea lion squeeze horn and show tank 4 units deep.
+Potential benefit: +3.
+
+Play with Beach Ball.
+Requirements: sea lion beach ball and show tank 4 units deep.
+Potential benefit: +3.
+
+Breach. 
+Requirements: show tank 4 units deep.
+Potential benefit: +2.
+
+Surface Spin.
+Requirements: show tank 4 units deep.
+Potential benefit: +3.
+
+
+Southern Sea Otter
+Back Flip.
+Requirements: show tank 4 units deep.
+Potential benefit: +2.
+
+Hoop Jump.
+Requirements: sea otter hoop and show tank 4 units deep.
+Potential benefit: +4.
+
+Slam Dunk.
+Requirements: sea otter ball and show tank 4 units deep.
+Potential benefit: +4.
+
+Jump.
+Requirements: research and show tank 2 units deep.
+Potential benefit: +3.
+
+Surface Spin.
+Requirements: research and show tank 2 units deep.
+Potential benefit: +3."
+
+Wave to Crowd.
+Requirements: show tank at least 2 units deep.
+Potential benefit: +3."

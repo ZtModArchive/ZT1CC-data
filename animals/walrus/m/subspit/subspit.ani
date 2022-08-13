@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = walrus
+dir2 = m
+dir3 = subspit
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -27
+y0 = -52
+x1 = 72
+y1 = 66

@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = zebra
+dir2 = lsmzebra
+animation = N
+x0 = -16
+y0 = -12
+x1 = 15
+y1 = 13

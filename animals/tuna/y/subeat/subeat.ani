@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = tuna
+dir2 = y
+dir3 = subeat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -8
+y0 = -2
+x1 = 7
+y1 = 7

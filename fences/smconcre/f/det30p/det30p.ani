@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = smconcre
+dir2 = f
+dir3 = det30p
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -19
+y0 = -38
+x1 = 19
+y1 = 18

@@ -1,0 +1,12 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = mntnliom
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -46
+y0 = -75
+x1 = 46
+y1 = 18

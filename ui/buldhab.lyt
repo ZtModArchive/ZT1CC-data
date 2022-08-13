@@ -1,0 +1,394 @@
+[LayoutInfo]
+anchor=1032
+x=17
+y=6
+dx=179
+dy=440
+id=8
+helpid=8
+layer=1
+state=1
+
+[Background]
+type=UIImage
+id=3201
+helpid=3201
+x=0
+y=0
+animation=ui/sharedui/objpan/objpan
+layer=0
+
+
+[Panel_Sub_Title]
+type=UIText
+id=3261
+x=35
+y=4
+dx=110
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+[Xpac]
+type=UIButton
+animation=ui/sharedui/list/list
+id=3204
+helpid=22999
+x=34
+y=27
+font=3270
+fontsize=3271
+border=2
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent=1
+layer=1
+action=1
+target=152
+justify=center
+
+
+[GateButton]
+type=UIButton
+id=3240
+helpid=3240
+x=73
+y=259
+animation=ui/buildh/gate/gate
+layer=1
+state=2048
+
+[Objects]
+type=UIScrollingRegion
+id=3208
+x=38
+y=51
+dx=102
+dy=204
+radioset = 3209
+template = 3221
+scrollbar = 3222
+autofit = 1
+spacing = 2
+spacing = 4
+layer=1
+
+[ObjectButtonSet]
+type = UIRadioSet
+id = 3209
+
+[ObjectIconTemplate]
+type = UIButton
+id = 3221
+layer = 2
+animation = ui/sharedui/border/border
+transparent = 0
+state = 256
+state = 4096
+iconfirst = 1
+
+[ObjectScrollBar]
+type = UIScrollBar
+id = 3222
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+[NoItemText]
+type = UIText
+id = 3210
+textid = 11003
+x=40
+y=51
+dx=110
+dy=204
+font=3270
+fontsize=3271
+border=2
+justify = center
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+state = 1
+state = 16
+layer=3
+
+
+[TabRadioSet]
+type = UIRadioSet
+id = 3260
+button = 3251
+button = 3056
+button = 3252
+button = 3256
+button = 3362
+button = 3361
+
+[FenceTab]
+type = UIButton
+id = 3251
+helpid = 6203
+x = 154
+y = 47
+animation=ui/habitat/hfentb/hfentb
+layer=3
+state = 8
+state=4096
+stringData=fence
+
+[PathTab]
+type = UIButton
+id = 3056
+helpid = 6078
+x = 154
+y = 80
+animation=ui/buyobj/walktb/walktb
+layer=3
+state=4096
+stringData=paths
+
+[FoliageTab]
+type = UIButton
+id = 3252
+helpid = 6201
+x = 154
+y = 114
+animation=ui/habitat/hfoltb/hfoltb
+layer=3
+state=4096
+stringData=foliage
+
+[RocksTab]
+type = UIButton
+id = 3256
+helpid = 6206
+x = 154
+y = 147
+animation=ui/buyobj/rockstb/rockstb
+layer=3
+state=4096
+stringData=rocks
+
+[PaintTerrainTab]
+type = UIButton
+id = 3362
+helpid = 3362
+x = 154
+y = 180
+animation=ui/teraform/tbedit/tbedit
+layer=3
+state=4096
+action=3
+target=7
+
+[TerraformTab]
+type = UIButton
+id = 3361
+helpid = 3361
+x = 154
+y = 213
+animation=ui/teraform/tbpaint/tbpaint
+layer=3
+state=4096
+action=3
+target=7
+
+[RotateLeftButton]
+type = UIButton
+id = 3258
+helpid = 3054
+x = 37
+y = 260
+animation=ui/buyobj/rotatl/rotatl
+layer = 1
+state = 1
+
+[RotateRightButton]
+type = UIButton
+id = 3259
+helpid = 3055
+x = 94
+y = 260
+animation=ui/buyobj/rotatr/rotatr
+layer = 1
+state = 1
+
+[Name]
+type=UIText
+id=3263
+x=33
+y=303
+dx=122
+dy=30
+font=2006
+fontsize=2007
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+[Cost]
+type=UIText
+id=3207
+helpid=3207
+x=33
+y=332
+dx=122
+dy=fitfont
+font=2006
+fontsize=2007
+border=0
+forecolor=83
+forecolor=219
+forecolor=83
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+
+[Era]
+type=UIText
+id=3284
+x=33
+y=375
+dx=72
+dy=30
+font=2006
+fontsize=2007
+border=0
+forecolor=206
+forecolor=206
+forecolor=206
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=2
+justify=center
+alias=3283
+
+
+
+[Location_Icon]
+type=UIImage
+id=3283
+x=34
+y=348
+layer=1
+
+[Habitat_Icon2]
+type=UIImage
+id=3281
+x=109
+y=351
+layer=1
+transparent=0
+
+[Habitat_Icon2 Border]
+type=UIImage
+id=3280
+x=107
+y=348
+animation = ui/sharedui/border/border
+layer=2
+alias=3281
+
+
+[Fence Descriptor Label]
+type=UIText
+id=3296
+textid=3296
+x=33
+y=362
+dx=122
+dy=fitfont
+font=2006
+fontsize=2007
+;font=3227
+fontsize=3228
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+[Fence Descriptor]
+type=UIText
+id=3299
+x=33
+y=380
+dx=122
+dy=fitfont
+font=2006
+fontsize=2007
+border=0
+forecolor=83
+forecolor=219
+forecolor=83
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+
+[CloseWindow]
+type=UIButton
+id=3205
+helpid=3112
+x=142
+y=3
+animation=ui/sharedui/close/close
+layer=4
+action=2
+target=-1
+
+
+[Terraform]
+type=UILayout
+layout=ui/teraform.lyt
+state = 1

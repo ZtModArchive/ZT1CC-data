@@ -1,0 +1,9 @@
+[animation]
+dir0 = scenery
+dir1 = building
+dir2 = inbldg
+animation = N
+x0 = -32
+y0 = -32
+x1 = 33
+y1 = 33

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = gazelle
+dir2 = m
+dir3 = lookl
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -10
+y0 = -28
+x1 = 15
+y1 = 8

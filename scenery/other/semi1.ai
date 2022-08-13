@@ -1,0 +1,26 @@
+[Icon]
+Icon = objects/semi1/SE/SE
+Icon = objects/semi1/SW/SW
+Icon = objects/semi1/NW/NW
+Icon = objects/semi1/NE/NE
+
+[Member]
+developer
+
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6140
+cHelpID = 6140
+cFootprintX = 4
+cFootprintY = 18
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cRubbleable = 0
+
+[Animations]
+idle = idle

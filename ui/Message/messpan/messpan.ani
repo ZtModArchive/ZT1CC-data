@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = Message
+dir2 = messpan
+animation = N
+x0 = -206
+y0 = -76
+x1 = 207
+y1 = 76

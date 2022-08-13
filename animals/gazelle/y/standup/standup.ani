@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = gazelle
+dir2 = y
+dir3 = standup
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -9
+y0 = -21
+x1 = 14
+y1 = 7

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = octopus
+dir2 = m
+dir3 = subcrawl
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -46
+y0 = -8
+x1 = 45
+y1 = 61

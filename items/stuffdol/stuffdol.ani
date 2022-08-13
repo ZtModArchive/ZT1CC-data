@@ -1,0 +1,8 @@
+[animation]
+dir0 = items
+dir1 = stuffdol
+animation = N
+x0 = -13
+y0 = -15
+x1 = 13
+y1 = 15

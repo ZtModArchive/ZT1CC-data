@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = trshcan
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -7
+y0 = -18
+x1 = 7
+y1 = 3

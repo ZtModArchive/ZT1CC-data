@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = spino
+dir2 = y
+dir3 = blush
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -84
+y0 = -90
+x1 = 61
+y1 = 42

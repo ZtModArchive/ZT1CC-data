@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = showbuoy
+dir2 = sidle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -193
+y0 = -98
+x1 = 195
+y1 = 97

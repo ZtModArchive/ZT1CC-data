@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = komodo
+dir2 = m
+dir3 = 2sick
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -48
+y0 = -31
+x1 = 25
+y1 = 24

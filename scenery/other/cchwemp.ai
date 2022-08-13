@@ -1,0 +1,10 @@
+;Carnivore chow - empty
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6059
+cHelpID = 6059
+cFootprintX = 1
+cFootprintY = 1
+cFood = 1
+[Animations]
+idle = idle

@@ -1,0 +1,313 @@
+[LayoutInfo]
+x=0
+y=0
+dx=179
+dy=440
+id=7
+helpid=7
+layer=2
+state=1
+
+[Background]
+type=UIImage
+id=3300
+x=0
+y=0
+animation=ui/teraform/backgrnd/backgrnd
+layer=0
+
+[PanelTitle]
+type=UIText
+id=3301
+textid=3301
+x=35
+y=4
+dx=110
+dy=fitfont
+font=3336
+fontsize=3337
+border=2
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[Panel_sub_title]
+type=UIText
+id=3306
+x=35
+y=27
+dx=120
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=206
+forecolor=206
+forecolor=206
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+
+;[Sub_Title]
+;type=UIText
+;id=3399
+;textid=3399
+;x=50
+;y=20
+;dx=100
+;dy=fitfont
+;font=3336
+;fontsize=3337
+;border=2
+;forecolor=255
+;forecolor=228
+;forecolor=173
+;backcolor=100
+;backcolor=108
+;backcolor=108
+;transparent=1
+;layer=1
+
+[SaveButton]
+type=UIButton
+id=3302
+helpid=3302
+x=94
+y=289
+animation=ui/teraform/accept/accept
+layer=1
+
+
+
+[Cancelbutton]
+type=UIButton
+id=3303
+helpid=3303
+x=37
+y=289
+animation=ui/teraform/undo/undo
+layer=1
+
+
+[CostLabel]
+type=UIText
+id=3304
+textid=3304
+x=35
+y=340
+dx=121
+dy=fitfont
+font=3339
+fontsize=3340
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[Cost]
+type=UIText
+id=3305
+helpid=3305
+x=35
+y=355
+dx=121
+dy=fitfont
+font=3339
+fontsize=3340
+border=2
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+[plusbutton]
+type=UIButton
+id=3310
+helpid=3310
+x=122
+y=54
+animation=ui/research/mplus/mplus
+layer=1
+state=1
+
+[minusbutton]
+type=UIButton
+id=3314
+helpid=3314
+x=39
+y=54
+animation=ui/research/mmin/mmin
+layer=1
+state=1
+
+[brushimage]
+type=UIImageSet
+id=3320
+helpid=3320
+x=19
+y=66
+animation=ui/teraform/brush1/brush1
+animation=ui/teraform/brush2/brush2
+animation=ui/teraform/brush3/brush3
+animation=ui/teraform/brush4/brush4
+animation=ui/teraform/brush5/brush5
+layer = 1
+
+[ModeTitle]
+type=UIText
+id=3319
+x=35
+y=375
+dx=121
+dy=50
+font=3339
+fontsize=3340
+border=0
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+justify=center
+layer=1
+;wrappable=1
+
+[UnitCost]
+type=UIText
+id=3321
+x=35
+y=390
+dx=121
+dy=fitfont
+font=3339
+fontsize=3340
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+justify=center
+layer=1
+
+[terrainbuttonRadioSet]
+type = UIRadioSet
+id = 3370
+button = 3315
+button = 3316
+button = 3317
+button = 3318
+
+
+[modecontig]
+type=UIButton
+id=3315
+helpid=3315
+x=36
+y=158
+animation=ui/teraform/contig/contig
+layer=1
+state=4096
+
+
+[modenoncontig]
+type=UIButton
+id=3316
+helpid=3316
+x=93
+y=158
+animation=ui/teraform/ncontig/ncontig
+layer=1
+state=4096
+
+[modecontig_stamp]
+type=UIButton
+id=3317
+helpid=3317
+x=36
+y=217
+animation=ui/teraform/flat/flat
+layer=1
+state=4096
+
+
+[modenoncontig_stamp]
+type=UIButton
+id=3318
+helpid=3318
+x=93
+y=217
+animation=ui/teraform/nflat/nflat
+layer=1
+state=4096
+
+
+; PAINT TERRAIN
+
+[Objects]
+type=UIScrollingRegion
+id=3350
+helpid=3350
+x=38
+y=148
+dx=102
+dy=138
+radioset = 3353
+template = 3354
+scrollbar = 3355
+autofit = 1
+spacing = 2
+spacing = 4
+layer=1
+
+
+[ObjectButtonSet]
+type = UIRadioSet
+id = 3353
+
+[ObjectIconTemplate]
+type = UIButton
+id = 3354
+animation = ui/sharedui/border/border
+transparent = 0
+state = 256
+state = 4096
+iconfirst = 1
+layer = 2
+
+[ObjectScrollBar]
+type = UIScrollBar
+id = 3355
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+

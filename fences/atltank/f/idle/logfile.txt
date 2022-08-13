@@ -1,0 +1,5 @@
+BFLOG : ***** Blue Fang Application Logfile *****
+BFLOG : ***** Log Severity = 9  Delta1 = 0
+BFLOG : ***** Date: 10/03 Time: 14:46
+BFLOG : *****************************************
+C:\aqua\src\bf\bfapp.cpp(677) : FATAL : BFApp/WinMain - Couldn't load neutral resources.

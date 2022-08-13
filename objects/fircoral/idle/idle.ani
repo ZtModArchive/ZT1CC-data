@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = fircoral
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -34
+y0 = -35
+x1 = 34
+y1 = 13

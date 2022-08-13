@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = bigfoot
+dir2 = m
+dir3 = sitawava
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -29
+y0 = -44
+x1 = 27
+y1 = 14

@@ -1,0 +1,28 @@
+[Icon]
+Icon = objects/road1/SE/SE
+Icon = objects/road1/SW/SW
+Icon = objects/road1/NW/NW
+Icon = objects/road1/NE/NE
+
+[Member]
+developer
+
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6162
+cHelpID = 6162
+cFootprintX = 2
+cFootprintY = 2
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHeight = 1
+;Bad Habitat Type
+cHabitat = 9414
+cSwims = 0
+cOnlySwims = 0
+cUseNumbersInName=0
+cRubbleable = 0
+
+[Animations]
+idle = idle

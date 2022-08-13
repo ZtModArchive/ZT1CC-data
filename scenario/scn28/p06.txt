@@ -1,0 +1,7 @@
+In order to watch an animal show, the guests need a place to sit. Let's purchase and place three grandstands between the two existing grandstands next to the orca show exhibit. Guests enter the grandstand from the front, so make sure you leave at least one tile between the object and the show tank wall.
+
+1. On the left side of the game screen, click the Structures button.
+2. Click the grandstand icon.
+3. Place three grandstands right next to the orca show exhibit on the asphalt area. Make sure the grandstands face the exhibit so the guests can see the performance.
+
+Click the OK button to proceed.

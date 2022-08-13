@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = lwhedge
+dir2 = f
+dir3 = idle30p
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -23
+y0 = -26
+x1 = 23
+y1 = 19

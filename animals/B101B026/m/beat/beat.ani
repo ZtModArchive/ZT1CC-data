@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = B101B026
+dir2 = m
+dir3 = beat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -34
+y0 = -67
+x1 = 36
+y1 = 18

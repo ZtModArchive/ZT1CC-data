@@ -1,0 +1,17 @@
+[Icon]
+Icon=objects/zoowall/icbarfSE/icbarfSE
+
+[Characteristics/Integers]
+cPurchaseCost = 40
+cNameID = 6012
+cHelpID = 6012
+
+[Member]
+fence
+
+[Animations]
+idle = idle
+
+[Decay]
+minDecayTime = 480000
+maxDecayTime = 1200000

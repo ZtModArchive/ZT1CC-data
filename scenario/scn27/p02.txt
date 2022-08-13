@@ -1,0 +1,9 @@
+Your first task is to create a marine exhibit capable of holding a bottlenose dolphin.
+
+1. On the left side of the game screen, click the Construction button, and then select any tank wall.
+2. Move the cursor to the empty area on the map across from the narwhal exhibit.
+3. Click and drag the cursor to construct an exhibit. Remember to completely enclose an area with the tank wall to create an exhibit.
+
+Notice that instead of a gate, a platform is automatically placed. This is where the new marine specialist enters and exits the tank.
+
+Click the OK button to proceed.

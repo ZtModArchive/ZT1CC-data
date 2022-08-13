@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = smrail
+dir2 = f
+dir3 = det30p
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -19
+y0 = -35
+x1 = 19
+y1 = 16

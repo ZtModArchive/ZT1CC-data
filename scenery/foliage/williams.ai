@@ -1,0 +1,30 @@
+[Icon]
+Icon=objects/williams/SE/SE
+Icon=objects/williams/SW/SW
+Icon=objects/williams/NW/NW
+Icon=objects/williams/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 200
+cNameID = 7095
+cHelpID = 7095
+cHabitat = 9405
+cLocation = 9605
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9621
+cFootprintX = 2
+cFootprintY = 2
+
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+

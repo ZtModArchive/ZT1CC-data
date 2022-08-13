@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = deino
+dir2 = lsmdeino
+animation = N
+x0 = -19
+y0 = -6
+x1 = 18
+y1 = 8

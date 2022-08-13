@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = sage
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -22
+y0 = -45
+x1 = 22
+y1 = 6

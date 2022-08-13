@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = noncom
+dir2 = bordupg
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -17
+y0 = -17
+x1 = 17
+y1 = 17

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = lodgpine
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -45
+y0 = -176
+x1 = 45
+y1 = 6

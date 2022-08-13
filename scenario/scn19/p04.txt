@@ -1,0 +1,3 @@
+Now that you have constructed an exhibit, you will need to purchase a dinosaur to live in the exhibit. Unlike regular animals, dinosaurs are purchased in egg form. Once an egg is placed in an exhibit, it will undergo a stressful incubation period. During this time, it is imperative that a scientist visit the egg to keep the dinosaur egg healthy. After a bit of time, the dinosaur will hatch.
+
+Place an Allosaurus egg in the exhibit you have created.

@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = animal
+dir2 = ainfobox
+animation = N
+x0 = -86
+y0 = -62
+x1 = 87
+y1 = 63

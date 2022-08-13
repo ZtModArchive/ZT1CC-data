@@ -1,0 +1,40 @@
+[Icon]
+Icon = objects/junpond/SE/SE
+Icon = objects/junpond/SW/SW
+Icon = objects/junpond/NW/NW
+Icon = objects/junpond/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 350
+cNameID = 6718
+cHelpID = 6718
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 8
+cFootprintY = 8
+cUsedThought=10632
+cEstheticWeight = 20
+cGawkOnlyFromFront = 0
+cHeight = 1
+cUseNumbersInName=0
+cRubbleable = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 4
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 3

@@ -1,0 +1,8 @@
+[animation]
+dir0 = items
+dir1 = fishbowl
+animation = N
+x0 = -14
+y0 = -13
+x1 = 13
+y1 = 14

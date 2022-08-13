@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = okapi
+dir2 = m
+dir3 = rub
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -20
+y0 = -39
+x1 = 26
+y1 = 13

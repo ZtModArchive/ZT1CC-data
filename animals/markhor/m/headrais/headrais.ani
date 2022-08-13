@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = markhor
+dir2 = m
+dir3 = headrais
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -15
+y0 = -34
+x1 = 18
+y1 = 9

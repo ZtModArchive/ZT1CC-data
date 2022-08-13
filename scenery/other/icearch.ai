@@ -1,0 +1,36 @@
+[Icon]
+Icon = objects/icearch/SE/SE
+Icon = objects/icearch/SW/SW
+Icon = objects/icearch/NW/NW
+Icon = objects/icearch/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 90
+cNameID = 6710
+cHelpID = 6710
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 6
+cFootprintY = 2
+cHeight = 3
+walkable = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

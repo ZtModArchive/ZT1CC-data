@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = bamboo
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -31
+y0 = -75
+x1 = 31
+y1 = 14

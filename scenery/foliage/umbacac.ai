@@ -1,0 +1,24 @@
+[Icon]
+Icon=objects/umbacac/SE/SE
+Icon=objects/umbacac/SW/SW
+Icon=objects/umbacac/NW/NW
+Icon=objects/umbacac/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 210
+cNameID = 7058
+cHelpID = 7058
+cHabitat = 9400
+cLocation = 9600
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

@@ -1,0 +1,5 @@
+You should be seeing guests walking to the exhibit. Terrific!
+
+As guests walk around the zoo, they will become tired, hungry, and thirsty. Concession stands and benches are available to satisfy their needs.
+
+Click the OK button to proceed.

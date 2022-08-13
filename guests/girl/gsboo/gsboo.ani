@@ -1,0 +1,12 @@
+[animation]
+dir0 = guests
+dir1 = girl
+dir2 = gsboo
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -7
+y0 = -15
+x1 = 7
+y1 = 3

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = styraco
+dir2 = m
+dir3 = eat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -61
+y0 = -55
+x1 = 42
+y1 = 31

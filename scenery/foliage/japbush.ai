@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/japbush/SE/SE
+Icon=objects/japbush/SW/SW
+Icon=objects/japbush/NW/NW
+Icon=objects/japbush/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 75
+cNameID = 7430
+cHelpID = 7430
+cHabitat = 9402
+cLocation = 9612
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

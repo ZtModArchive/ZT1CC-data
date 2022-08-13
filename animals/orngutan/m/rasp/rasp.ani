@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = orngutan
+dir2 = m
+dir3 = rasp
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -10
+y0 = -25
+x1 = 20
+y1 = 10

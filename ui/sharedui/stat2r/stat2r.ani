@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = stat2r
+animation = N
+x0 = -58
+y0 = -8
+x1 = 58
+y1 = 8

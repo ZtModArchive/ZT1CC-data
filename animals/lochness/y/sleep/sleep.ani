@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lochness
+dir2 = y
+dir3 = sleep
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -45
+y0 = -24
+x1 = 32
+y1 = 21

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = orngutan
+dir2 = f
+dir3 = longcall
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -8
+y0 = -21
+x1 = 16
+y1 = 8

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = gsquid
+dir2 = m
+dir3 = ssurfres
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -71
+y0 = -37
+x1 = 57
+y1 = 36

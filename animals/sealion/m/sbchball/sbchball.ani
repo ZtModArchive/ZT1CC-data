@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = sealion
+dir2 = m
+dir3 = sbchball
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -47
+y0 = -25
+x1 = 50
+y1 = 24

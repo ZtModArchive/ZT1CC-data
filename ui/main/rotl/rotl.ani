@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = main
+dir2 = rotl
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -23
+y0 = -15
+x1 = 23
+y1 = 15

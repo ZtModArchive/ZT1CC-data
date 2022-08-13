@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = sawfish
+dir2 = lssawfis
+animation = N
+x0 = -16
+y0 = -3
+x1 = 18
+y1 = 4

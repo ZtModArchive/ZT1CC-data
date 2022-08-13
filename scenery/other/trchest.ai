@@ -1,0 +1,45 @@
+[Icon]
+Icon = objects/trchest/SE/SE
+Icon = objects/trchest/SW/SW
+Icon = objects/trchest/NW/NW
+Icon = objects/trchest/NE/NE
+
+[Member]
+scenery
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 185
+cNameID = 6468
+cHelpID = 6468
+cUsedThought=10596
+cFootprintX = 2
+cFootprintY = 2
+cHeight = 2
+;Bad Habitat Type
+cHabitat = 9414
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cUnderwater = 1
+cRubbleable = 0
+cDeadOnFlatWater=0
+cDeadOnLand=0
+cDeadUnderwater=1
+
+[Animations]
+idle = idle
+idledead = used
+
+[EstheticBonus]
+; man
+v = 9503
+v = 6
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 6
+; girl
+v = 9506
+v = 2

@@ -1,0 +1,12 @@
+[animation]
+dir0 = guests
+dir1 = woman
+dir2 = gsclap
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -10
+y0 = -19
+x1 = 10
+y1 = 5

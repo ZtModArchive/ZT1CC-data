@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = zoobck
+animation = N
+x0 = -250
+y0 = -146
+x1 = 250
+y1 = 148

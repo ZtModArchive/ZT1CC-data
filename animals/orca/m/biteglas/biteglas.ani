@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = m
+dir3 = biteglas
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -95
+y0 = -66
+x1 = 91
+y1 = 85

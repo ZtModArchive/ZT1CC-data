@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = willow
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -87
+y0 = -148
+x1 = 87
+y1 = 20

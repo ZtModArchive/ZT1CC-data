@@ -1,0 +1,41 @@
+[Icon]
+Icon = objects/hedge/SE/SE
+Icon = objects/hedge/SW/SW
+Icon = objects/hedge/NW/NW
+Icon = objects/hedge/NE/NE
+
+[Member]
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 100
+cNameID = 9309
+cHelpID = 9309
+cUsedThought=10253
+cFootprintX = 2
+cFootprintY = 1
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cUsesTreeRubble=1
+cEstheticWeight = 5
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 0
+; girl
+v = 9506
+v = 0
+

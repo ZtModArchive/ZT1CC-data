@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = emppeng
+dir2 = y
+dir3 = swim
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -12
+y0 = -12
+x1 = 22
+y1 = 11

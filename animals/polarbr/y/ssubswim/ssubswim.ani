@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = polarbr
+dir2 = y
+dir3 = ssubswim
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -20
+y0 = -11
+x1 = 15
+y1 = 10

@@ -1,0 +1,1 @@
+You may control the quality of the sound in Zoo Tycoon. Decreasing the sound quality can increase your computer’s performance. The controls for sound quality are located on the Advanced Options tab on the Options panel.

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = y
+dir3 = talsplsh
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -54
+y0 = -39
+x1 = 42
+y1 = 24

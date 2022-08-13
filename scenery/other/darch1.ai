@@ -1,0 +1,40 @@
+[Icon]
+Icon=objects/darch1/SE/SE
+Icon=objects/darch1/SW/SW
+Icon=objects/darch1/NW/NW
+Icon=objects/darch1/NE/NE
+
+; lava gate
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 375
+cNameID = 6405
+cHelpID = 6405
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 6
+cFootprintY = 2
+
+cHeight = 3
+walkable = 1
+
+
+
+[Animations]
+idle = idle
+[EstheticBonus]
+; man
+v = 9503
+v = 12
+; woman
+v = 9504
+v = 12
+; boy
+v = 9505
+v = 7
+; girl
+v = 9506
+v = 7

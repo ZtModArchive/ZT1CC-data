@@ -1,0 +1,14 @@
+[animation]
+dir0 = staff
+dir1 = keeper
+dir2 = m
+dir3 = gun
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -18
+y0 = -41
+x1 = 39
+y1 = 20

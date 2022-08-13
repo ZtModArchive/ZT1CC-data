@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = sandwall
+dir2 = f
+dir3 = idle30n
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -23
+y0 = -27
+x1 = 23
+y1 = 19

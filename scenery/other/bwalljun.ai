@@ -1,0 +1,24 @@
+; $Id: bwalljun.ai,v 1.1 2002/04/02 19:33:22 rmh Exp $
+[Icon]
+Icon = objects/bwalljun/SE/SE
+Icon = objects/bwalljun/SW/SW
+Icon = objects/bwalljun/NW/NW
+Icon = objects/bwalljun/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 500
+cNameID = 9217
+cHelpID = 9217
+cHabitat = 9405
+cLocation = 9618
+cFootprintX = 8
+cFootprintY = 2
+cHeight = 3
+cRubbleable = 0
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

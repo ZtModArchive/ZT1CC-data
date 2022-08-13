@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = polarbr
+dir2 = m
+dir3 = sicekeg
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -69
+y0 = -36
+x1 = 71
+y1 = 35

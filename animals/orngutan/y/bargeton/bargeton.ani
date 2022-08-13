@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = orngutan
+dir2 = y
+dir3 = bargeton
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -81
+y0 = -87
+x1 = 81
+y1 = 37

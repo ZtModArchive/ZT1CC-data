@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = grizzly
+dir2 = m
+dir3 = liescrch
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -39
+y0 = -38
+x1 = 18
+y1 = 20

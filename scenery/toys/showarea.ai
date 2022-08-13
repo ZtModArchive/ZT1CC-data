@@ -1,0 +1,94 @@
+[Icon]
+Icon=objects/showbuoy/SE/SE
+Icon=objects/showbuoy/SW/SW
+Icon=objects/showbuoy/NW/NW
+Icon=objects/showbuoy/NE/NE
+
+[Member]
+showtoys
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 650
+cNameID = 6500
+cHelpID = 6500
+cFootprintX = 6
+cFootprintY = 18
+cPlacementFootprintX = 6
+cPlacementFootprintY = 26
+cCommerce = 0
+cSelectable = 0
+cMoveable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 1
+cTimeInside = 9
+cUsedThought = 0
+cUserUsesExit = 1
+cUsesPlacementCube = 1
+cHeight = 0
+cDepth = 8
+cToySatisfaction = 2
+cUseNumbersInName=0
+cDeadOnLand=1
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cBlocksLOS = 0
+cSwims = 0
+cLand = 0
+; Is placable in show tank
+cShow = 1
+cRubbleable = 0
+
+; Animal moves into bldg more quickly
+cDirectEntrance = 1
+
+; building is placed on water surface
+cUnderwater = 1
+cSurface = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = objects/showbuoy/idle/idle.ani
+used = objects/showbuoy/idle/idle.ani
+shadowidle = objects/showbuoy/sidle/sidle.ani
+underidle = objects/showbuoy/uidle/uidle.ani
+idledead = objects/showbuoy/dead/dead.ani
+
+[Satisfies]
+building
+showtrick
+
+[slots]
+name=slot
+
+[slot]
+
+;ORCA
+id = 5400
+;shark
+id = 5401
+;dolphin
+id = 5402
+;sea lion
+id = 5040
+sea otter
+id = 5414
+
+filter = y
+slotpos = 0
+slotpos = 0
+
+entrpos = 0
+entrpos = -304
+
+exitpos = 0
+exitpos = 304
+
+capacity = 1
+facing = 0

@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = horzslid
+animation = N
+x0 = -55
+y0 = -13
+x1 = 55
+y1 = 13

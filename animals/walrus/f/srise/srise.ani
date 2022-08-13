@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = walrus
+dir2 = f
+dir3 = srise
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -31
+y0 = -17
+x1 = 26
+y1 = 16

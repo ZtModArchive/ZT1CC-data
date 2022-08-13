@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = woman
+dir2 = tap
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -9
+y0 = -27
+x1 = 10
+y1 = 2

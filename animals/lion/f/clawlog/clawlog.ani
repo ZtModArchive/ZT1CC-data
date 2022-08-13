@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lion
+dir2 = f
+dir3 = clawlog
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -22
+y0 = -31
+x1 = 25
+y1 = 13

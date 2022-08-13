@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = atltank
+dir2 = f
+dir3 = lcrlow
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -28
+y0 = -53
+x1 = 28
+y1 = 12

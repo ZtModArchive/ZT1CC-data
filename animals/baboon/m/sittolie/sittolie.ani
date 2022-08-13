@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = baboon
+dir2 = m
+dir3 = sittolie
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -19
+x1 = 9
+y1 = 9

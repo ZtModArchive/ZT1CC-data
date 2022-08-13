@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = edittext
+animation = N
+x0 = -96
+y0 = -8
+x1 = 97
+y1 = 10

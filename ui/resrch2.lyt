@@ -1,0 +1,262 @@
+[LayoutInfo]
+x=0
+y=0
+dx=179
+dy=440
+id=151
+layer=1
+state=1
+
+[Background]
+type=UIImage
+id= 4099
+x=0
+y=0
+animation=ui/research/resconpn/resconpn
+layer=0
+
+
+[Xpac]
+type=UIButton
+animation=ui/sharedui/list/list
+id=4021
+helpid=22999
+x=34
+y=27
+font=3270
+fontsize=3271
+border=2
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent=1
+layer=1
+action=1
+target=152
+justify=center
+
+[list]
+type = UIListBox
+id = 4022
+x=38
+y=51
+dx=102
+dy=148
+font = 3636
+fontsize = 3637
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 156
+selectcolor = 205
+selectcolor = 183
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+miniconwidth = 22
+toggleselect = 1
+highlightselection = 0
+transparent = 1
+scrollbar = 4023
+border = 2
+layer = 1
+
+[scrollbar]
+type = UIScrollBar
+id = 4023
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+[Less]
+type=UIButton
+id=4003
+helpid=4003
+x=37
+y=259
+animation=ui/research/minus/minus
+layer=1
+state=1
+
+[More]
+type=UIButton
+id=4004
+helpid=4004
+x=94
+y=259
+animation=ui/research/plus/plus
+layer=1
+state=1
+
+[FundingLabel]
+type=UIText
+id=4005
+textid=4005
+x=38
+y=200
+dx=110
+dy=30
+font=4036
+fontsize=4037
+border=0
+forecolor=206
+forecolor=206
+forecolor=206
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+[FundingLevel]
+type=UIText
+id=4006
+helpid=4006
+x=38
+y=233
+dx=110
+dy=30
+font=3270
+fontsize=3271
+border=0
+forecolor=83
+forecolor=219
+forecolor=83
+backcolor=68
+backcolor=36
+backcolor=20
+layer=1
+justify=center
+transparent=1
+
+
+[CategoryName]
+type = UIText
+id = 4024
+x=33
+y=303
+dx=122
+dy=30
+font=4036
+fontsize=4037
+border=0
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+transparent=1
+layer = 2
+justify=center
+
+
+[ProgramName]
+type = UIText
+id = 4025
+x=33
+y=330
+dx=122
+dy=30
+font=4036
+fontsize=4037
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer = 2
+justify=center
+
+
+[ProgramProgress]
+type = UIStatusImage
+id = 4027
+x = 40
+y = 402
+dx=110
+dy=12
+image=ui/sharedui/statg.tga
+layer=2
+
+[ProgramProgressBackground]
+type = UIImage
+id = 4026
+x = 34
+y = 400
+animation = ui/research/progback/progback
+layer = 1
+alias = 4027
+
+
+
+[ICON_IMAGE]
+type=UIImage
+id= 4029
+x=71
+y=363
+layer=2
+transparent=0
+
+
+[ICON_IMAGE _boader]
+type=UIImage
+id= 4063
+x=70
+y=361
+layer=3
+transparent=1
+animation = ui/sharedui/border/border
+
+[NoItemText]
+type = UIText
+id = 4030
+textid = 11003
+x=40
+y=51
+dx=110
+dy=204
+font=3270
+fontsize=3271
+border=2
+justify = center
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+state = 1
+state = 16
+layer=3

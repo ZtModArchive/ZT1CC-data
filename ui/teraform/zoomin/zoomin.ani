@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = teraform
+dir2 = zoomin
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -11
+y0 = -17
+x1 = 12
+y1 = 19

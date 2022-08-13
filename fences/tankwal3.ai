@@ -1,0 +1,142 @@
+
+[f/Icon]
+Icon = fences/tank3/SE/SE
+; vertical blue / white with 
+
+[Member]
+habitatfences
+highfence
+fence
+aqua
+
+[PortalSounds]
+cPortalOpenSound = sounds/portal.wav
+cPortalCloseSound = sounds/portal.wav
+cPortalOpenSoundAtten = 0
+cPortalCloseSoundAtten = 0
+
+[f/Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 9342
+cHelpID = 9342
+cSeeThrough = 1
+cHeight = 3
+
+cIsClimbable = 0
+cIsJumpable = 0
+cStrength = 500
+cLife = 13
+cDecayedLife = 5
+cDecayDelta = 23
+cIsShowFence = 1
+cIndestructible = 1 
+
+cBreakSound=sounds/brokfenc.wav
+
+[g/Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 9314
+cHelpID = 9314
+cSelectable = 1
+cSeeThrough = 0
+cHeight = 3
+cIsShowFence = 1
+
+cIsClimbable = 0
+cIsJumpable = 0
+cStrength = 500
+cLife = 13
+cDecayedLife = 5
+cDecayDelta = 23
+cIndestructible = 1
+
+[g/Animations]
+; basic fence animations.
+idle = fences/tank1/g/gate/gate.ani
+idle30p = fences/tank1/g/gate30p/gate30p.ani
+idle30n = fences/tank1/g/gate30n/gate30n.ani
+; low fence anims (1-height tank).
+tblidle = fences/tank3/f/lcrlow/lcrlow.ani
+tbmidle = fences/tank3/f/midlow/midlow.ani
+tbridle = fences/tank3/f/rcrlow/rcrlow.ani
+; left edge anims.
+blidle = fences/tank3/f/lcrbot/lcrbot.ani
+mlidle = fences/tank3/f/lcrmid/lcrmid.ani
+tlidle = fences/tank3/f/lcrtop/lcrtop.ani
+; middle piece anims.
+bmidle = fences/tank3/f/midbot/midbot.ani
+mmidle = fences/tank3/f/midmid/midmid.ani
+tmidle = fences/tank3/f/midtop/midtop.ani
+; right edge anims.
+bridle = fences/tank3/f/rcrbot/rcrbot.ani
+mridle = fences/tank3/f/rcrmid/rcrmid.ani
+tridle = fences/tank3/f/rcrtop/rcrtop.ani
+; single column anims (left and right edge).
+blridle = fences/tank3/f/colbot/colbot.ani
+mlridle = fences/tank3/f/colmid/colmid.ani
+tlridle = fences/tank3/f/coltop/coltop.ani
+; ladder and platform
+ladder = fences/tank3/g/ladrin/ladrin.ani
+platform = fences/tank3/g/platform/platform.ani
+portal = objects/portal/idle/idle.ani
+
+[f/Animations]
+; basic fence animations.
+idle = fences/tank3/f/idle/idle.ani
+idle30p = fences/tank3/f/idle30p/idle30p.ani
+idle30n = fences/tank3/f/idle30n/idle30n.ani
+; low fence anims (1-height tank).
+tblidle = fences/tank3/f/lcrlow/lcrlow.ani
+tbmidle = fences/tank3/f/midlow/midlow.ani
+tbridle = fences/tank3/f/rcrlow/rcrlow.ani
+; left edge anims.
+blidle = fences/tank3/f/lcrbot/lcrbot.ani
+mlidle = fences/tank3/f/lcrmid/lcrmid.ani
+tlidle = fences/tank3/f/lcrtop/lcrtop.ani
+; middle piece anims.
+bmidle = fences/tank3/f/midbot/midbot.ani
+mmidle = fences/tank3/f/midmid/midmid.ani
+tmidle = fences/tank3/f/midtop/midtop.ani
+; right edge anims.
+bridle = fences/tank3/f/rcrbot/rcrbot.ani
+mridle = fences/tank3/f/rcrmid/rcrmid.ani
+tridle = fences/tank3/f/rcrtop/rcrtop.ani
+; single column anims (left and right edge).
+blridle = fences/tank3/f/colbot/colbot.ani
+mlridle = fences/tank3/f/colmid/colmid.ani
+tlridle = fences/tank3/f/coltop/coltop.ani
+; temp, will change.
+det = fences/glass/f/det/det.ani
+det30n = fences/glass/f/det30n/det30n.ani
+det30p = fences/glass/f/det30p/det30p.ani
+broke = fences/glass/f/broke/broke.ani
+broke30n = fences/glass/f/broke30n/broke30n.ani
+broke30p = fences/glass/f/broke30p/broke30p.ani
+portal = objects/portal/idle/idle.ani
+; extra top graphics for connecting a combined exhibit.
+lcrtopsl = fences/tank2/f/lcrtopsl/lcrtopsl.ani
+midtopsl = fences/tank2/f/midtopsl/midtopsl.ani
+rcrtopsl = fences/tank2/f/rcrtopsl/rcrtopsl.ani
+coltopsl = fences/tank2/f/coltopsl/coltopsl.ani
+lcrlowsl = fences/tank2/f/lcrlowsl/lcrlowsl.ani
+midlowsl = fences/tank2/f/midlowsl/midlowsl.ani
+rcrlowsl = fences/tank2/f/rcrlowsl/rcrlowsl.ani
+idlesl = fences/tank2/f/idlesl/idlesl.ani
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 3
+
+[HabitatFence]
+
+[TankFence]

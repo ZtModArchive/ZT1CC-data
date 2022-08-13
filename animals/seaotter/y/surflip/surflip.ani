@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = seaotter
+dir2 = y
+dir3 = surflip
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -10
+y0 = -12
+x1 = 12
+y1 = 6

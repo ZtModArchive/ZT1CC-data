@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = eleseal
+dir2 = f
+dir3 = ssurfvoc
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -40
+y0 = -23
+x1 = 46
+y1 = 22

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = unicorn
+dir2 = f
+dir3 = buck
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -30
+y0 = -49
+x1 = 31
+y1 = 16

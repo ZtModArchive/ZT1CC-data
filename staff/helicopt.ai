@@ -1,0 +1,86 @@
+; $Id: helicopt.ai,v 1.1 2002/07/15 15:07:20 ia Exp $
+; IMPLEMENTED
+[Global]
+Class = staff
+Type = helicopter
+
+[Icon]
+Icon = animals/elephant/icele/icele
+
+[Member]
+staff
+dinosaur
+
+[Characteristics/Strings]
+cGeneralInfoTextName = DRT
+cPlaqueImageName = staff/pldrt/pldrt
+cInfoImageName = staff/inmkeepr/inmkeepr
+cListImageName = staff/lsdrt/lsdrt
+cTrainingIconName = research/smktran1/smktran1
+cTrainingIconName = research/smktran2/smktran2
+cLoopSoundName = sounds/helicopt.wav
+
+[Characteristics/Integers]
+cNameID = 9550
+cHelpID = 9550
+cMonthlyCost = 2000
+cSlowRate = 50
+cMediumRate = 75
+cFastRate = 150
+cMinHeight = 128
+cMaxHeight = 256
+cFootprintX = 2
+cFootprintY = 2
+cIsColorReplaced = 0
+cWeaponRange = 5
+cForceShadowBlack = 1
+cHasShadowImages = 1
+cLoopSoundAtten = 1200
+cIconZoom = -2
+cDutiesTextID = 3678
+cUnderwater = 1
+
+
+[Animations]
+idle = objects/heli/idle/idle.ani
+fly = objects/heli/tiltspin/tiltspin.ani
+fire = objects/heli/fire/fire.ani
+warmup = objects/heli/warmup/warmup.ani
+level = objects/heli/levspin/levspin.ani
+shadowidle = objects/heli/idle/idle.ani
+shadowtiltspin = objects/heli/tiltspin/tiltspin.ani
+shadowfire = objects/heli/fire/fire.ani
+shadowwarmup = objects/heli/warmup/warmup.ani
+shadowlevspin = objects/heli/levspin/levspin.ani
+
+[Sounds]
+fire_weapon = staff/heligun1.wav
+fire_weapon = 1000
+
+[BehaviorSet\bIdleGround]
+f = fPlay(idle)
+
+[BehaviorSet\bIdleAir]
+f = fPlay(level)
+
+[BehaviorSet\bFly]
+f = fFly(fly,150)
+
+[BehaviorSet\bAscend]
+f = fFly(level,150)
+
+[BehaviorSet\bDescend]
+f = fFly(level,150)
+
+[BehaviorSet\bChaseAnimal]
+f = fFly(fly,250)
+
+[BehaviorSet\bFireWeapon]
+f = fPlayWithSound(fire,fire_weapon)
+f = fPlay(level)
+
+[BehaviorSet\bSpinup]
+f = fPlay(warmup)
+
+[BehaviorSet\bSpindown]
+f = fPlayReverse(warmup)

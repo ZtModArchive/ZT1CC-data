@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = obelisk
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -28
+y0 = -94
+x1 = 28
+y1 = 14

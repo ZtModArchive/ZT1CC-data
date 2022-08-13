@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = macrauch
+dir2 = m
+dir3 = flyshlie
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -29
+y0 = -34
+x1 = 28
+y1 = 15

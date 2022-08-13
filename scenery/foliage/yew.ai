@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/yew/SE/SE
+Icon=objects/yew/SW/SW
+Icon=objects/yew/NW/NW
+Icon=objects/yew/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7021
+cHelpID = 7021
+;Coniferous forest	
+cHabitat = 9403
+;Europe
+cLocation = 9613
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

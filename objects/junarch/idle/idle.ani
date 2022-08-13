@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = junarch
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -37
+y0 = -101
+x1 = 36
+y1 = 18

@@ -1,0 +1,9 @@
+[animation]
+dir0 = objects
+dir1 = frown
+dir2 = idle
+animation = N
+x0 = -26
+y0 = -99
+x1 = 28
+y1 = -35

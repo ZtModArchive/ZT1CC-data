@@ -1,0 +1,12 @@
+Marine Mania: Tutorial 1 teaches you the basics of building an exhibit for the exciting new marine animals. 
+
+You will learn:
+-- How to filter content by Marine Mania only.
+-- How to hire a marine specialist.
+-- How to build a tank exhibit.
+-- How to adopt a marine animal.
+-- How to make an exhibit suitable for a marine animal.
+-- How to attach a tank filter to a tank.
+-- How to change the height of tank walls.
+-- How to change the elevation of a tank.
+-- How to place buildings on water terrain.

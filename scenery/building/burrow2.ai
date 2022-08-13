@@ -1,0 +1,72 @@
+[Icon]
+Icon = objects/burrow2/SE/SE
+Icon = objects/burrow2/SW/SW
+Icon = objects/burrow2/NW/NW
+Icon = objects/burrow2/NE/NE
+
+[Member]
+shelters
+
+[Characteristics/Integers]
+cPurchaseCost = 400
+cNameID = 8121
+cHelpID = 8121
+cHabitat = 9410
+cLocation = 9618
+cFootprintX = 2
+cFootprintY = 2
+cSelectable = 0
+cTimeInside = 10
+cHeight = 1
+cCommerce = 0
+cSelectable = 0
+cHideUser = 1
+cHideBuilding = 0
+cUserStaysOutside = 0
+cUserUsesExit = 0
+cShelter = 1
+cUseNumbersInName=0
+
+cCapacity = 4
+cAdultChange = 10
+cChildChange = 10
+cEnergyChange = 35
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle
+used = idle
+
+[Satisfies]
+building
+animalrest
+animalsex
+
+[slots]
+name=slot
+
+[slot]
+; Animals which can use this shelter
+;WARTHOG
+id=5043
+;GIANT ANTEATER
+id=5042
+
+; spot in the building where animal would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where animal paths to
+entrpos=0
+entrpos=48
+
+; spot to place animal in once they've used the building
+exitpos=0
+exitpos=48
+
+; 1000 = essentially infinite capacity
+capacity=4
+facing=0

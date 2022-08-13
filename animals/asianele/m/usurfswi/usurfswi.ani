@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = asianele
+dir2 = m
+dir3 = usurfswi
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -39
+y0 = -16
+x1 = 43
+y1 = 46

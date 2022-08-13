@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = duckpond
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -108
+y0 = -102
+x1 = 108
+y1 = 53

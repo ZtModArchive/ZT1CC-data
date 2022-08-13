@@ -1,0 +1,40 @@
+[Icon]
+Icon=objects/bonebed1/SE/SE
+Icon=objects/bonebed1/SW/SW
+Icon=objects/bonebed1/NW/NW
+Icon=objects/bonebed1/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 500
+cFootprintX = 6
+cFootprintY = 6
+;Bad Habitat Type
+cHabitat = 9414
+cNameID = 6426
+cHelpID = 6426
+cUsedThought=10270
+cHeight = 1
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15

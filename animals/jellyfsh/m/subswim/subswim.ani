@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = jellyfsh
+dir2 = m
+dir3 = subswim
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -24
+y0 = -29
+x1 = 27
+y1 = 31

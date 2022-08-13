@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = blacklep
+dir2 = y
+dir3 = roar
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -13
+y0 = -19
+x1 = 14
+y1 = 7

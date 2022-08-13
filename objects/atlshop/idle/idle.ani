@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = atlshop
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -124
+y0 = -173
+x1 = 123
+y1 = 60

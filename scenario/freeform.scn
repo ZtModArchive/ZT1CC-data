@@ -1,0 +1,9 @@
+[start]
+savegame=default.zoo
+setcash=50000
+reset=1
+research=research.cfg
+marketing=mktg.cfg
+
+[duration]
+nummonths=-1

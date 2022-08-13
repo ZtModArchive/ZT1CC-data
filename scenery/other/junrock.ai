@@ -1,0 +1,29 @@
+[Icon]
+Icon = objects/junrock/SE/SE
+Icon = objects/junrock/SW/SW
+Icon = objects/junrock/NW/NW
+Icon = objects/junrock/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 75
+cNameID = 9244
+cHelpID = 9244
+cHabitat = 9405
+cLocation = 9606
+cFootprintX = 2
+cFootprintY = 2
+cAutoRotate = 1
+cRubbleable = 0
+cRock = 1
+cSwims = 1
+cOnlySwims = 0
+cUnderwater = 0
+cLand = 1
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

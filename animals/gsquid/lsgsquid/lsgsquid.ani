@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = gsquid
+dir2 = lsgsquid
+animation = N
+x0 = -16
+y0 = -6
+x1 = 19
+y1 = 10

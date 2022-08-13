@@ -1,0 +1,9 @@
+Welcome to Marine Mania! This tutorial introduces you to some of the new features in this Zoo Tycoon expansion.
+
+If at any time you wish to replay this tutorial, simply select it from the scenario screen.
+
+When you play this tutorial, you will see reminder text displayed in the upper section of the gameplay area. Click this reminder panel to visit the current tutorial's instructions.
+
+If at any time you wish to exit the tutorial, you can click on the Game Options tab (blue disk) on the left side of the game screen and select Main Menu.
+
+Click the OK button to start the tutorial.

@@ -1,0 +1,7 @@
+Every show has a script created by default. The show script dictates the type of tricks to perform and the order to perform them in. This is important because the guests won't be happy if they see the same tricks over and over again.
+
+1. Click the platform on the orca show exhibit. The Show Script panel opens in the center of the screen.
+2. Click on any trick in the available trick list on the left side of the panel.
+3. Click the right arrow button in the center of the panel to add the trick to the show script.
+
+Click the OK button to proceed.

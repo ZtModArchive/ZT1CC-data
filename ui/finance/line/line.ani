@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = finance
+dir2 = line
+animation = N
+x0 = -218
+y0 = -1
+x1 = 218
+y1 = 1

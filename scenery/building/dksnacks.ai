@@ -1,0 +1,130 @@
+[Icon]
+Icon = objects/dksnacks/SE/SE
+Icon = objects/dksnacks/SW/SW
+Icon = objects/dksnacks/NW/NW
+Icon = objects/dksnacks/NE/NE
+
+[Member]
+structures
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 8069
+cHelpID = 8069
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 4
+cFootprintY = 4
+cCommerce = 1
+cSelectable = 1
+cNeedsConfirm = 1
+cAdultChange = 0
+cChildChange = 10
+cHungerChange = 0
+cThirstChange = 0
+cBathroomChange = 0
+cEnergyChange = 0
+cHideUser = 0
+cHideBuilding = 0
+cUserStaysOutside = 1
+cCapacity = 4
+cTimeInside = 6
+cUsedThought=10652
+cHeight = 3
+
+cIsColorReplaced = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 1.50
+cLowCost = .50
+cMedCost = 1.00
+cHighCost = 5.00
+cUpkeep = 25.00
+cPriceFactor = 2.00
+
+[UseSound]
+loops = 0
+name = scenery/building/brontbrg.wav
+attenuation = 1200
+
+[Sells]
+soda
+hotdog
+icecream
+
+[Animations]
+idle = idle
+used = used
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 5
+; girl
+v = 9506
+v = 5
+
+[Satisfies]
+building
+food
+
+[slots]
+name=slot
+
+[slot]
+id=9505
+id=9506
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=-48
+slotpos=80
+
+; spots outside the building where guest paths to
+entrpos=48
+entrpos=80
+
+entrpos=-16
+entrpos=80
+
+; spot to place guest in once they've used the building
+exitpos=-48
+exitpos=80
+
+; 1000 = essentially infinite capacity
+capacity=3
+
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2302
+defaultpal = scenery/building/pals/green16.pal
+
+; cr_part2 is listed in building.ai
+; replace = cr_part2
+; title = 3367
+; defaultpal = scenery/building/pals/green8.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/dksnacks/dksnacks.pal
+colorpal = objects/dksnacks/color.pal

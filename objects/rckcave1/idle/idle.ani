@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = rckcave1
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -67
+y0 = -64
+x1 = 67
+y1 = 34

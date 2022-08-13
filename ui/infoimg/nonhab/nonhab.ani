@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = infoimg
+dir2 = nonhab
+animation = N
+x0 = -21
+y0 = -15
+x1 = 22
+y1 = 15

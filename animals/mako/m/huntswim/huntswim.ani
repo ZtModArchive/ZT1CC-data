@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = mako
+dir2 = m
+dir3 = huntswim
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -29
+y0 = -21
+x1 = 35
+y1 = 28

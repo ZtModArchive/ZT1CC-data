@@ -1,0 +1,29 @@
+[Icon]
+Icon=objects/bush3/SE/SE
+Icon=objects/bush3/SW/SW
+Icon=objects/bush3/NW/NW
+Icon=objects/bush3/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 35
+cNameID = 7050
+cHelpID = 7050
+;Deciduous forest
+cHabitat = 9402
+;Europe
+cLocation = 9613
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 2
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

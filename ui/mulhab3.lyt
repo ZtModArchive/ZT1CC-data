@@ -1,0 +1,40 @@
+[LayoutInfo]
+x=0
+y=0
+dx=213
+dy=334
+id=702
+layer=1
+state=1
+
+[Thought_list]
+type = UIListBox
+id = 4330
+x=16
+y=191
+dx=154
+dy=133
+font = 3636
+fontsize = 3637
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+transparent = 1
+scrollbar = 4331
+border = 3
+layer = 1
+; trigger on selection change
+state = 262144
+spacing=4
+
+[scrollbar]
+type = UIScrollBar
+id = 4331
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2

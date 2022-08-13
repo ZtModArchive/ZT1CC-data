@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = komodo
+dir2 = lskomodo
+animation = N
+x0 = -19
+y0 = -4
+x1 = 19
+y1 = 10

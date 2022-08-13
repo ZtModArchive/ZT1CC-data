@@ -1,0 +1,8 @@
+[animation]
+dir0 = items
+dir1 = puzzle
+animation = N
+x0 = -15
+y0 = -17
+x1 = 16
+y1 = 17

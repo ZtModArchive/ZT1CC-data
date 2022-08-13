@@ -1,0 +1,8 @@
+[animation]
+dir0 = ui
+dir1 = cursors
+animation = N
+x0 = -5
+y0 = -9
+x1 = 5
+y1 = 11

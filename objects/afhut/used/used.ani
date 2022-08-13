@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = afhut
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -57
+y0 = -67
+x1 = 57
+y1 = 28

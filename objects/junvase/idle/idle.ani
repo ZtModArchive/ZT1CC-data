@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = junvase
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -14
+y0 = -62
+x1 = 14
+y1 = 5

@@ -1,0 +1,2 @@
+Maintenance workers can now be assigned to specific tasks. To do this, click a maintenance worker, then click the Assignments button on the maintenance worker's information panel. The maintenance worker will perform each duty you select. Clear the duty to remove it from the worker's task list.
+

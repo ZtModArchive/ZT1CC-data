@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = noncom
+dir2 = smiley
+animation = N
+x0 = -6
+y0 = -6
+x1 = 6
+y1 = 6

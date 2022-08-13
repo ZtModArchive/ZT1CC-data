@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = crabhous
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -146
+y0 = -144
+x1 = 146
+y1 = 73

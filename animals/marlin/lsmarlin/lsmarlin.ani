@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = marlin
+dir2 = lsmarlin
+animation = N
+x0 = -19
+y0 = -7
+x1 = 19
+y1 = 8

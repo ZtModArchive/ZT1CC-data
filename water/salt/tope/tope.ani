@@ -1,0 +1,9 @@
+[animation]
+dir0 = water
+dir1 = salt
+dir2 = tope
+animation = N
+x0 = 1
+y0 = -8
+x1 = 31
+y1 = 8

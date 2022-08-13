@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = lepidod
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -42
+y0 = -121
+x1 = 42
+y1 = 7

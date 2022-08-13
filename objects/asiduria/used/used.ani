@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = asiduria
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -71
+y0 = -130
+x1 = 70
+y1 = 10

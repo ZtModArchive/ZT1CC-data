@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = baracuda
+dir2 = lsbaracu
+animation = N
+x0 = -17
+y0 = -4
+x1 = 19
+y1 = 5

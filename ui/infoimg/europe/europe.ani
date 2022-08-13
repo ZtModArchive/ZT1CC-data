@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = infoimg
+dir2 = europe
+animation = N
+x0 = -32
+y0 = -36
+x1 = 37
+y1 = 33

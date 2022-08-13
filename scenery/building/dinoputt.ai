@@ -1,0 +1,113 @@
+[Icon]
+Icon = objects/dinoputt/SE/SE
+Icon = objects/dinoputt/SW/SW
+Icon = objects/dinoputt/NW/NW
+Icon = objects/dinoputt/NE/NE
+
+[Member]
+structures
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 1200
+cNameID = 8034
+cHelpID = 8034
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 10
+cFootprintY = 14
+cCommerce = 1
+cSelectable = 1
+cNeedsConfirm = 1
+cAdultChange = 5
+cChildChange = 12
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 1
+cTimeInside = 1
+cUsedThought=10264
+cHeight = 3
+cUserUsesExit = 1
+cRubbleable = 0
+cIsColorReplaced = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 10.00
+cLowCost = 5.25
+cMedCost = 12.00
+cHighCost = 20.00
+cUpkeep = 50.00
+cPriceFactor = 2.00
+
+[Animations]
+idle = idle
+used = used
+
+
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 22
+; girl
+v = 9506
+v = 22
+
+[Satisfies]
+building
+fun
+
+[slots]
+name=slot
+
+[slot]
+
+; using
+; restricts this slot only to "woman"
+id=9504
+id=9503
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=16
+entrpos=240
+
+entrpos=-16
+entrpos=240
+
+; spot to place guest in once they've used the building
+exitpos=16
+exitpos=240
+
+; 1000 = essentially infinite capacity
+capacity=1
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2302
+defaultpal = scenery/building/pals/choc16.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/dinoputt/dinoputt.pal
+colorpal = objects/dinoputt/color.pal

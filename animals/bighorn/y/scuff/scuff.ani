@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = bighorn
+dir2 = y
+dir3 = scuff
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -8
+y0 = -19
+x1 = 15
+y1 = 7

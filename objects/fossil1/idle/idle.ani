@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = fossil1
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -62
+y0 = -34
+x1 = 62
+y1 = 30

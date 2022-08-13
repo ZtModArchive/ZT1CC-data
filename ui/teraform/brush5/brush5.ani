@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = teraform
+dir2 = brush5
+animation = N
+x0 = -73
+y0 = -37
+x1 = 73
+y1 = 37

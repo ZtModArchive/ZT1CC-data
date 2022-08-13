@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = meiolan
+dir2 = m
+dir3 = swim
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -88
+y0 = -44
+x1 = 36
+y1 = 44

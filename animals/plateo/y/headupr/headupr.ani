@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = plateo
+dir2 = y
+dir3 = headupr
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -57
+y0 = -44
+x1 = 34
+y1 = 28

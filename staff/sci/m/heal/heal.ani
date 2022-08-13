@@ -1,0 +1,14 @@
+[animation]
+dir0 = staff
+dir1 = sci
+dir2 = m
+dir3 = heal
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -12
+y0 = -29
+x1 = 14
+y1 = 7

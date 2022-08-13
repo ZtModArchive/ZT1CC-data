@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = y
+dir3 = subfart
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -49
+y0 = -72
+x1 = 45
+y1 = 39

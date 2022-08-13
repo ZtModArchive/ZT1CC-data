@@ -1,0 +1,20 @@
+[Characteristics/Integers]
+cNameID = 6060
+cHelpID = 6060
+cHabitat = 9412
+cLocation = 9619
+cFootprintX = 1
+cFootprintY = 1
+cDeletable = 0
+cPurchaseCost = 229
+cFood = 1
+cFoodUnits = 1000
+cMaxFoodUnits = 1000
+cFoodCategory = 1
+cKeeperFoodType = 0
+cRubbleable = 0
+
+[Animations]
+full = full
+half = mid
+empty = small

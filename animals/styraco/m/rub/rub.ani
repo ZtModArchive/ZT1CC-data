@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = styraco
+dir2 = m
+dir3 = rub
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -67
+y0 = -53
+x1 = 36
+y1 = 33

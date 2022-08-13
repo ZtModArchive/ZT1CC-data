@@ -1,0 +1,88 @@
+[Icon]
+Icon=objects/sealhorn/SE/SE
+Icon=objects/sealhorn/SW/SW
+Icon=objects/sealhorn/NW/NW
+Icon=objects/sealhorn/NE/NE
+
+[Member]
+showtoys
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 600
+cNameID = 6507
+cHelpID = 6507
+cFootprintX = 2
+cFootprintY = 4
+cPlacementFootprintX = 2
+cPlacementFootprintY = 8
+cCommerce = 0
+cSelectable = 0
+cMoveable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 1
+cCapacity = 1
+cTimeInside = 9
+cUsedThought = 0
+cUserUsesExit = 1
+cUsesPlacementCube = 1
+cHeight = 0
+cToySatisfaction = 2
+cUseNumbersInName=0
+cDeadOnLand=1
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cBlocksLOS = 0
+cLand = 0
+cSwims = 0
+cRubbleable = 0
+
+; Is placable in show tank
+cShow = 1
+
+; Animal moves into bldg more quickly
+cDirectEntrance = 1
+
+
+; building is placed on water surface
+cUnderwater = 1
+cSurface = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = objects/sealhorn/idle/idle.ani
+used = objects/sealhorn/idle/idle.ani
+shadowidle = objects/sealhorn/sidle/sidle.ani
+underidle = objects/sealhorn/uidle/uidle.ani
+idledead = objects/sealhorn/dead/dead.ani
+
+[Satisfies]
+building
+showtrick
+
+[slots]
+name=slot
+
+
+[slot]
+
+;sea lion
+id = 5040
+
+filter = y
+slotpos = 0
+slotpos = 0
+
+entrpos = 0
+entrpos = -80
+
+exitpos = 0
+exitpos = -80
+
+capacity = 1
+facing = 0

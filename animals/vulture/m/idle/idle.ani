@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = vulture
+dir2 = m
+dir3 = idle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -21
+y0 = -33
+x1 = 21
+y1 = 7

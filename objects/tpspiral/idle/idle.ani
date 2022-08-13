@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = tpspiral
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -13
+y0 = -56
+x1 = 13
+y1 = 4

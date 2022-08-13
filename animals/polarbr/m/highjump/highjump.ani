@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = polarbr
+dir2 = m
+dir3 = highjump
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -34
+y0 = -58
+x1 = 36
+y1 = 18

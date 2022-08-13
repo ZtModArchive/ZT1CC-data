@@ -1,0 +1,9 @@
+[animation]
+dir0 = scenario
+dir1 = scn24
+dir2 = map24
+animation = N
+x0 = -183
+y0 = -136
+x1 = 184
+y1 = 140

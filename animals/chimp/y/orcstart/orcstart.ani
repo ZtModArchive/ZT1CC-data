@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = chimp
+dir2 = y
+dir3 = orcstart
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -39
+y0 = -101
+x1 = 39
+y1 = 16

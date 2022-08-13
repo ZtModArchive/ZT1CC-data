@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = elephant
+dir2 = m
+dir3 = dstng
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -45
+y0 = -75
+x1 = 67
+y1 = 34

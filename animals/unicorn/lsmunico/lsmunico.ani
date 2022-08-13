@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = unicorn
+dir2 = lsmunico
+animation = N
+x0 = -15
+y0 = -14
+x1 = 15
+y1 = 13

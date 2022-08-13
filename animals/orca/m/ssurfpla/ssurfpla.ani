@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = m
+dir3 = ssurfpla
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -81
+y0 = -53
+x1 = 106
+y1 = 53

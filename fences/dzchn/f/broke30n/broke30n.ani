@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = dzchn
+dir2 = f
+dir3 = broke30n
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -21
+y0 = -94
+x1 = 21
+y1 = 19

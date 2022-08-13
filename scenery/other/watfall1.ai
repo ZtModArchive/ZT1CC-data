@@ -1,0 +1,24 @@
+[Icon]
+Icon = objects/watfall1/SE/SE
+Icon = objects/watfall1/SW/SW
+Icon = objects/watfall1/NW/NW
+Icon = objects/watfall1/NE/NE
+
+[Member]
+
+[Characteristics/Integers]
+cPurchaseCost = 1400
+cNameID = 9213
+cHelpID = 9213
+cHabitat = 9405
+cLocation = 9618
+cFootprintX = 8
+cFootprintY = 8
+cHeight = 3
+cRubbleable = 0
+cSwims = 1
+cOnlySwims = 0
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

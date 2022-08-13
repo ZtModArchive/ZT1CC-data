@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/pineshrb/SE/SE
+Icon=objects/pineshrb/SW/SW
+Icon=objects/pineshrb/NW/NW
+Icon=objects/pineshrb/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 85
+cNameID = 7075
+cHelpID = 7075
+;Coniferous forest	
+cHabitat = 9403
+;Siberia
+cLocation = 9602
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

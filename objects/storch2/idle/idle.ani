@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = storch2
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -9
+y0 = -53
+x1 = 9
+y1 = 5

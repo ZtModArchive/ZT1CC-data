@@ -1,0 +1,29 @@
+[Icon]
+Icon = objects/mexrock/SE/SE
+Icon = objects/mexrock/SW/SW
+Icon = objects/mexrock/NW/NW
+Icon = objects/mexrock/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 70
+cNameID = 9247
+cHelpID = 9247
+cHabitat = 9409
+cLocation = 9607
+cFootprintX = 2
+cFootprintY = 2
+cAutoRotate = 1
+cRubbleable = 0
+cRock = 1
+cSwims = 1
+cOnlySwims = 0
+cUnderwater = 0
+cLand = 1
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

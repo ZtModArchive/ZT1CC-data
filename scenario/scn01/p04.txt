@@ -1,0 +1,8 @@
+Your zoo has its first Bengal tiger! Now you need to make sure it's cared for. 
+
+1. On the left side of the gameplay screen, click the Hire Staff button, and then click the zookeeper icon. 
+2. Place the cursor over the Bengal tiger's exhibit, and then click to place the zookeeper in it.
+
+Zookeepers will feed animals, clean their exhibits, and provide medical assistance to animals. It is important that you have a sufficient number of zookeepers.
+
+Click the OK button to proceed.

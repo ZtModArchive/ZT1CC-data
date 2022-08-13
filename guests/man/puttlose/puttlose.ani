@@ -1,0 +1,12 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = puttlose
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -107
+y0 = -77
+x1 = 108
+y1 = 47

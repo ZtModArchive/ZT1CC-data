@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = redgorgo
+dir2 = dead
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -34
+y0 = -32
+x1 = 34
+y1 = 13

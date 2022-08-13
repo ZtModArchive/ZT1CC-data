@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = uspermw
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -147
+y0 = -81
+x1 = 164
+y1 = 127

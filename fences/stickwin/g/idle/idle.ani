@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = stickwin
+dir2 = g
+dir3 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -18
+y0 = -49
+x1 = 17
+y1 = 8

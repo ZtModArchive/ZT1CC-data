@@ -1,0 +1,18 @@
+[Characteristics/Integers]
+cNameID = 5053
+cHelpID = 5053
+cSpeed = 50
+cFrequency = 20
+cHasShadowImages = 1
+cForceShadowBlack = 1
+
+[Characteristics/Strings]
+cSoundName = seagull.cfg
+
+[Member]
+ambient
+
+[Animations]
+idle = animals/seagull/m/idle/idle.ani
+shadowidle = animals/seagull/m/sidle/sidle.ani
+

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = iguano
+dir2 = m
+dir3 = stomp
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -111
+y0 = -117
+x1 = 50
+y1 = 55

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = brubble4
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -39
+y0 = -47
+x1 = 41
+y1 = 26

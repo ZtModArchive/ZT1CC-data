@@ -1,0 +1,9 @@
+[animation]
+dir0 = fences
+dir1 = smstkfen
+dir2 = smstkfen
+animation = N
+x0 = -22
+y0 = -16
+x1 = 22
+y1 = 16

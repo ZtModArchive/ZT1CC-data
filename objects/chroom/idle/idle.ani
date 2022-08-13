@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = chroom
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -79
+y0 = -86
+x1 = 79
+y1 = 39

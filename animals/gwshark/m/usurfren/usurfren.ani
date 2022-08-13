@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = gwshark
+dir2 = m
+dir3 = usurfren
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -107
+y0 = -66
+x1 = 58
+y1 = 61

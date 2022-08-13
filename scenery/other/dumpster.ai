@@ -1,0 +1,25 @@
+[Icon]
+Icon = objects/oildrum/SE/SE
+Icon = objects/oildrum/SW/SW
+Icon = objects/oildrum/NW/NW
+Icon = objects/oildrum/NE/NE
+
+[Member]
+developer
+
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6184
+cHelpID = 6184
+cFootprintX = 4
+cFootprintY = 2
+;Bad Habitat Type
+cHabitat = 9414
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

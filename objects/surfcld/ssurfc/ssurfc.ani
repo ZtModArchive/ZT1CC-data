@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = surfcld
+dir2 = ssurfc
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -123
+y0 = -63
+x1 = 125
+y1 = 62

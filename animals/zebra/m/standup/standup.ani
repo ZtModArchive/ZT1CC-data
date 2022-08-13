@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = zebra
+dir2 = m
+dir3 = standup
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -39
+x1 = 23
+y1 = 12

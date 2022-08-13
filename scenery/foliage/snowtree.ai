@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/snowtree/SE/SE
+Icon=objects/snowtree/SW/SW
+Icon=objects/snowtree/NW/NW
+Icon=objects/snowtree/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 110
+cNameID = 7422
+cHelpID = 7422
+cHabitat = 9408
+cLocation = 9607
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

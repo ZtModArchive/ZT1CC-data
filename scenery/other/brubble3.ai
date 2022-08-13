@@ -1,0 +1,21 @@
+; $Id
+[Member]
+
+[Characteristics/Integers]
+cNameID = 10513
+cFootprintX = 2
+cFootprintY = 2
+cAutoRotate = 1
+cRock = 1
+cHeight = 1
+walkableByTall = 1
+cExplosionSound=sounds/rubble3.wav
+cExplosionSoundAtten=1100
+cRubbleable = 0
+cSwims = 1
+cUnderwater = 1
+
+[Animations]
+idle = objects/brubble3/idle/idle.ani
+explode = objects/brubble3/used/used.ani
+

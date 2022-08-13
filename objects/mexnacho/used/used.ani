@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = mexnacho
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -30
+y0 = -84
+x1 = 30
+y1 = 15

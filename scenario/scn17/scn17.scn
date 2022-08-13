@@ -1,0 +1,202 @@
+; $Id: scn17.scn,v 2.0 2001/10/09 17:00:00 sds Exp $
+
+[desc]
+name=16017
+story=SCENARIO_START_STORY_SCN17
+picture=scenario/scn17/scn17/scn17
+winstory=SCENARIO_WIN_STORY_SCN17
+winpicture=ui/scenario/win/win
+losestory=SCENARIO_LOSE_STORY_scn17
+losepicture=ui/scenario/lose/lose
+lockedstory=SCENARIO_LOCK_STORY_1
+lockedpicture=ui/scenario/lock/lock
+
+;Icons for completion, in progress, not done
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+;BEACH RESORT ZOO
+
+[start]
+;Start condition
+; Small map 75x75
+; Varied terrain types with a bay. 
+; Set Starting Cash to $50,000
+
+economy=scenario/scn17/economy.cfg
+marketing=mktg.cfg
+research=research.cfg
+savegame=maps/scn17.zoo
+setcash=50000
+reset=1
+worldConfig=sounds/sea1.cfg
+extragoals=freeform/donation.scn
+extragoals=freeform/awards.scn
+extragoals=freeform/12months.scn
+
+[ambients]
+;Seagull
+id=5053
+;Parrot
+id=5054
+;Bi-Plane
+id=5082
+
+[duration]
+nummonths=12
+display=1
+text=18000
+icon=ui/scenario/clock/clock
+
+[goals]
+goal=ZOO_RATING
+goal=ANIMAL_HAPPY
+goal=SUITABLE_EXHIBITS
+goal=a
+goal=b
+goal=c
+goal=d
+goal=e
+goal=f
+goal=g
+goal=h
+goal=i
+
+;Objectives;;
+
+[ZOO_RATING]
+;Have a zoo rating of at least 80
+rulea=1
+ruleb=2
+type=0
+value=80
+text=17102
+
+[ANIMAL_HAPPY]
+;Have an average animal happiness rating of 90
+rulea=1
+ruleb=0
+type=0
+value=90
+text=17100
+
+[SUITABLE_EXHIBITS]
+;Have an exhibit suitability rating of 80 for 7 exhibits.
+rulea=6
+ruleb=0
+arga=7
+type=0
+value=80
+text=17600
+
+[a]
+;Have 2 animals from the Arctic
+rulea=4
+ruleb=3
+arga=9608
+value=2
+text=17404
+
+[b]
+;Have 2 animals from Australia
+rulea=4
+ruleb=3
+arga=9611
+value=2
+text=17403
+
+[c]
+;Have 2 animals from South America
+rulea=4
+ruleb=3
+arga=9606
+value=2
+text=17403
+
+[d]
+;Have 2 animals from North America
+rulea=4
+ruleb=3
+arga=9607
+value=2
+text=17403
+
+[e]
+;Have 2 animals from Southeast Asia
+rulea=4
+ruleb=3
+arga=9603
+value=2
+text=17403
+
+[f]
+;Have 2 animals from the North African Desert
+rulea=4
+ruleb=9
+arga=9409
+argb=9614
+value=2
+text=17409
+
+[g]
+;Have 5 animals from the African Savannah
+rulea=4
+ruleb=9
+arga=9400
+argb=9600
+value=5
+text=17409
+
+[h]
+;After getting 10 exhibits to a rating of at least 70 exhibit suitability, donate $10,000
+rulea=6
+ruleb=0
+value=70
+arga=10
+type=0
+sticky=1
+hidden=1
+optional=1
+text=17600
+trulea=3
+truleb=0
+targa=10000
+
+[i]
+;Displays popup dialog with donation message
+rulea=6
+ruleb=0
+value=10
+arga=10
+type=0
+sticky=1
+hidden=1
+optional=1
+text=17600
+trulea=2    
+truleb=0    
+targa=1    
+
+
+//////////////////////////
+;confirm=45000
+;confirm2=45100
+
+[default]
+layout=45200
+background=ui/tutorial/tutoria2/tutoria2
+icon=
+image1=ui/event/getcash/getcash
+image2=
+shortText1=18043
+longText1=
+shortText2=
+longText2=0 
+ok=1
+yes=0
+no=0
+cancel=0
+pause=1
+
+

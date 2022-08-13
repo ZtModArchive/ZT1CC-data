@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = grizzly
+dir2 = lsmgrizz
+animation = N
+x0 = -17
+y0 = -10
+x1 = 17
+y1 = 13

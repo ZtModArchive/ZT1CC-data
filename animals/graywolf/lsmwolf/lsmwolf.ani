@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = graywolf
+dir2 = lsmwolf
+animation = N
+x0 = -13
+y0 = -9
+x1 = 14
+y1 = 11

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = sealwav
+dir2 = uidle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = 0
+y0 = 0
+x1 = 0
+y1 = 0

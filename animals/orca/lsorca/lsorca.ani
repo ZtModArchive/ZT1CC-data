@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = lsorca
+animation = N
+x0 = -17
+y0 = -10
+x1 = 19
+y1 = 12

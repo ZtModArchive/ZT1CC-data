@@ -1,0 +1,88 @@
+[LayoutInfo]
+x=center
+y=center
+dx=510
+dy=295
+id=809
+layer=1
+state=1
+
+;;;;;;;;;;;;;;;;;;; graph stuff
+
+[Zoo_GraphsRadioSet]
+type = UIRadioSet
+id = 13980
+button = 4106
+button = 13982
+button = 13983
+button = 13984
+
+[Zoo_Rating_over_Time]
+type = UIButton
+id = 4106
+helpid = 4106
+x = 298
+y = 21
+animation=ui/finance/rate/rate
+layer=2
+state=8
+state=4096
+action=3
+target=802
+
+[DONATIONS_Tab]
+type = UIButton
+id = 13982
+helpid = 13982
+x = 328
+y = 21
+animation=ui/finance/tbdonat/tbdonat
+layer=2
+state=4096
+action=3
+target=111
+
+[MONTHLY_ZOO PROFIT]
+type = UIButton
+id = 13983
+helpid = 13983
+x = 358
+y = 21
+animation=ui/finance/profit/profit
+layer=2
+state=4096
+action=3
+target=112
+
+[ZOO_ATTENDANCE_Tab]
+type = UIButton
+id = 13984
+helpid = 13984
+x = 388
+y = 21
+animation=ui/finance/tbattnd/tbattnd
+layer=2
+state=4096
+action=3
+target=113
+
+
+[Zoo_Graph_Layout1]
+type=UILayout
+layout=ui/zoofin2.lyt
+state=1
+
+[Zoo_Graph_Layout2]
+type=UILayout
+layout=ui/zoofin3.lyt
+state=1
+
+[Zoo_Graph_Layout3]
+type=UILayout
+layout=ui/Zoofin4.lyt
+state=1
+
+[Zoo Rating_Over_Time_Layout]
+type=UILayout
+layout=ui/zooinfo3.lyt
+state=1

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = asblckbr
+dir2 = m
+dir3 = stalk
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -23
+x1 = 20
+y1 = 10

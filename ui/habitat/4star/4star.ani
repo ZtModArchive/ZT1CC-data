@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = habitat
+dir2 = 4star
+animation = N
+x0 = -59
+y0 = -8
+x1 = 60
+y1 = 10

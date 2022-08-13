@@ -1,0 +1,57 @@
+[goals]
+goal=sixmonths
+goal=onemonth
+
+[sixmonths]
+;When the scenario reaches month 29, the player is notified the scenario has six months 
+;left to go.
+rulea=7
+ruleb=2
+type=2
+value=29
+sticky=1
+hidden=1
+optional=1
+text=17700
+trulea=2    
+truleb=0    
+targa=2    
+
+[onemonth]
+;When the scenario reaches month 36, the player is notified the scenario has one month
+;to go.
+rulea=7
+ruleb=2
+type=2
+value=36
+sticky=1
+hidden=1
+optional=1
+text=17700
+trulea=2    
+truleb=0    
+targa=3    
+
+/////////////////////////////////
+
+[default]
+layout=45200
+background=ui/tutorial/tutoria2/tutoria2
+icon=
+image1=ui/event/clock/clock
+image2=
+shortText1=0
+longText1= 
+shortText2=0
+longText2= 
+ok=1
+yes=0
+no=0
+cancel=0
+pause=0
+
+[2]
+shortText1=18002
+
+[3]
+shortText1=18001

@@ -1,0 +1,11 @@
+To change terrain type
+1.  At the top of the Terrain Type panel, select the size of your tool by clicking the plus sign (+) to increase the tool's size or the minus sign (-) to decrease its size.
+
+2.  Select the type of terrain you want to use.
+
+3.  Place the cursor on the area that you want to change, and then click the mouse button to modify the terrain.
+
+4.  Click the checkmark button to make the change permanent, or click the curled arrow button to start over. As you convert terrain, a cost appears in the lower portion of the Terrain Type panel. This is a running total and you are not charged this amount until you click the checkmark button, click the right mouse button, switch to a new tool, or close the Construction panel.
+
+Trampled Terrain: 
+Animals may wear down the ground in their exhibits. If it becomes worn enough, the terrain will become "trampled," which may make animals unhappy. You can replace trampled terrain as you would change terrain normally.

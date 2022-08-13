@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = lionrck1
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -38
+y0 = -23
+x1 = 38
+y1 = 19

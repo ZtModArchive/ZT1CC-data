@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = animal
+dir2 = ichabtat
+animation = N
+x0 = -21
+y0 = -14
+x1 = 22
+y1 = 15

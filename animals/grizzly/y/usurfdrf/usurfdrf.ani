@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = grizzly
+dir2 = y
+dir3 = usurfdrf
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -13
+y0 = -4
+x1 = 12
+y1 = 12

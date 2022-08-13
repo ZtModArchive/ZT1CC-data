@@ -1,0 +1,9 @@
+Building dirt paths is wise when funds are low. Paths will not connect if the terrain slopes too much. Smooth the terrain so changes along the path are gradual.
+
+
+
+
+
+
+
+

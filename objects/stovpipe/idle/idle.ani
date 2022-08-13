@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = stovpipe
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -29
+y0 = -40
+x1 = 29
+y1 = 14

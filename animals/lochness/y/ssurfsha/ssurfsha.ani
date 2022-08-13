@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lochness
+dir2 = y
+dir3 = ssurfsha
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -74
+y0 = -39
+x1 = 52
+y1 = 37

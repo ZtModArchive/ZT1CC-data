@@ -1,0 +1,1 @@
+You may control the quality of the animation in Zoo Tycoon. Decreasing the animation quality can increase your computer’s performance. The controls for animation quality are located in the Advanced Options tab in the Options panel.

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = dkdigbox
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -107
+y0 = -118
+x1 = 107
+y1 = 53

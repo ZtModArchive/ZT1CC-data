@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = chimp
+dir2 = y
+dir3 = mb3end
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -57
+y0 = -55
+x1 = 57
+y1 = 28

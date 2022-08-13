@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = icecstnd
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -35
+y0 = -80
+x1 = 35
+y1 = 15

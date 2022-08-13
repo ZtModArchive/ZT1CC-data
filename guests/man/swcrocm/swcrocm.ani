@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = swcrocm
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -52
+y0 = -52
+x1 = 58
+y1 = 29

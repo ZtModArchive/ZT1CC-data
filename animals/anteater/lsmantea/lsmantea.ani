@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = anteater
+dir2 = lsmantea
+animation = N
+x0 = -17
+y0 = -5
+x1 = 15
+y1 = 9

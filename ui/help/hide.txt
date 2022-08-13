@@ -1,0 +1,1 @@
+You may hide foliage, guests, and buildings from view if you prefer (doing so may make it easier to add scenery or modify terrain in your exhibits). There is one button for each of these three features located in the lower left portion of the screen, by the map. Click a button once to hide a feature and click it again to show it.

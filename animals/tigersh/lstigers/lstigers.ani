@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = tigersh
+dir2 = lstigers
+animation = N
+x0 = -19
+y0 = -8
+x1 = 19
+y1 = 7

@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = lambeom
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -126
+y0 = -107
+x1 = 103
+y1 = 63

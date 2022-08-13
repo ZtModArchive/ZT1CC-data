@@ -1,0 +1,470 @@
+; $Id: scn01a.scn,v 1.1 2002/06/11 21:26:28 sds Exp $
+
+[desc]
+name=16022
+story=SCENARIO_START_STORY_SCN01A
+picture=scenario/scn01a/scn01a/scn01a
+winstory=SCENARIO_WIN_STORY_SCN01A
+winpicture=ui/scenario/win/win
+losestory=SCENARIO_LOSE_STORY_SCN01A
+losepicture=ui/scenario/lose/lose
+
+
+;Icons for completion, in progress, not done
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+[start]
+;Start condition
+economy=scenario/scn01a/economy.cfg
+marketing=mktg.cfg
+research=research.cfg
+savegame=maps/scn01a.zoo
+setcash=100000
+triggers=hideall
+triggers=disableUI
+;reset=1
+
+[resume]
+triggers=hideall
+triggers=disableUI
+
+[hideall]
+trulea=4
+truleb=9
+
+[disableUI]
+trulea=2
+truleb=12
+targa=2000
+
+[2000]
+;Construct
+id=1002
+;Fence tab
+id=3251
+;Path tab
+id=3056
+;Foliage tab
+id=3252
+;Rocks tab
+id=3256
+;Terrain tab
+id=3362
+;Terraform tab
+id=3361
+;Adopt
+id=1000
+;Buy
+id=1001
+;Building tab
+;id=3050
+;Scenery tab
+id=3053
+;Shelter tab
+id=3255
+;Toys tab
+id=3254
+;Hire
+id=1005
+;Delete
+id=1028
+;Message
+id=1006
+;Research
+id=1019
+;Scenario
+id=4107
+;Game options
+id=1004
+;Zoo status
+id=1014
+;Animal status
+id=1010
+;Guest status
+id=1012
+;Habitat status
+id=1050
+;Staff status
+id=1051
+;Zoom In
+id=1007
+;Zoom Out
+id=1023
+;Pause
+id=1071
+;Rotate ccw
+id=1008
+;Rotate cw
+id=1009
+;Save button
+id=1502
+;Tree toggle
+id=1066
+;Building toggle
+id=1067
+;Guest toggle
+id=1068
+;Show Objects Tab
+id=2076
+
+
+[goals]
+goal=INTRO
+goal=options_dialog
+goal=show_options
+goal=GAME_OPTIONS
+goal=click_options
+goal=show_zoom_out
+goal=show_zoom_in
+goal=ZOOM_IN
+goal=show_rotate_cw
+goal=show_rotate_ccw
+goal=ROTATE_CCW
+goal=show_pause
+goal=PLAY
+goal=bench_available
+goal=show_scenery
+goal=click_buy
+goal=UNDO
+goal=click_buy2
+;goal=hide_scenery
+goal=show_delete
+goal=DELETE
+
+
+[INTRO]
+; (welcome dialog)
+rulea=9
+ruleb=1
+value=1
+trulea=2
+truleb=0
+targa=1
+sticky=1
+hidden=1
+
+[1]
+; "Welcome to zoo tutorial.."
+image1=scenario/scn01a/01main/01main
+longText1=TUTORIAL_T1A_PROMPT1
+
+[options_dialog]
+;Display the "Select game options button" dialog
+rulea=9
+ruleb=1
+value=2
+sticky=1
+hidden=1
+trulea=2
+truleb=0
+targa=2
+
+[2]
+; "Select the game options button..."
+image1=scenario/scn01a/02opti/02opti
+longText1=TUTORIAL_T1A_PROMPT2
+persistentShortText = -1
+
+[show_options]
+; Make the game options button available
+rulea=9
+ruleb=1
+value=2
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1004
+
+;[2100]
+;Game options
+;id=1004
+
+[GAME_OPTIONS]
+; Select the game options button
+rulea=10
+ruleb=1
+arga=1004
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=3
+text=17732
+
+[3]
+; "Now zoom in..."
+image1=scenario/scn01a/03zoom/03zoom
+longText1=TUTORIAL_T1A_PROMPT3
+persistentShortText = -1
+
+[click_options]
+; Click tab to close options panel
+rulea=9
+ruleb=1
+value=5
+sticky=1
+hidden=1
+trulea=2
+truleb=2
+targa=1004
+
+[show_zoom_out]
+; Make the zoom out button available
+rulea=9
+ruleb=1
+value=5
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1023
+
+[show_zoom_in]
+; Show the zoom in button when zoom out button selected
+rulea=10
+ruleb=1
+arga=1023
+value=1
+sticky=1
+hidden=1
+trulea=2
+truleb=6
+targa=1007
+
+[ZOOM_IN]
+; Select the zoom in button
+rulea=10
+ruleb=1
+arga=1007
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=4
+text=17735
+
+[4]
+; "Great, now select the rotate button..."
+image1=scenario/scn01a/04rotat/04rotat
+longText1=TUTORIAL_T1A_PROMPT4
+persistentShortText = -1
+
+[show_rotate_cw]
+; Make the rotate cw button available
+rulea=9
+ruleb=1
+value=9
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1009
+
+[show_rotate_ccw]
+; Show the rotate ccw button when rotate cw button selected
+rulea=10
+ruleb=1
+arga=1009
+value=1
+sticky=1
+hidden=1
+trulea=2
+truleb=6
+targa=1008
+
+[ROTATE_CCW]
+; Select the rotate ccw button
+rulea=10
+ruleb=1
+arga=1008
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=5
+text=17733
+
+[5]
+; "Now pause the game..."
+image1=scenario/scn01a/05pause/05pause
+longText1=TUTORIAL_T1A_PROMPT5
+persistentShortText = -1
+
+[show_pause]
+; Make the pause button available
+rulea=9
+ruleb=1
+value=12
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1071
+
+[show_play]
+; Show the play button when pause button selected
+rulea=10
+ruleb=1
+arga=1023
+value=1
+sticky=1
+hidden=1
+trulea=2
+truleb=6
+targa=1007
+
+[PLAY]
+; Select the play button
+rulea=10
+ruleb=1
+arga=1072
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=6
+text=17737
+
+[6]
+; "Now undo the bench..."
+image1=scenario/scn01a/06buy/06buy
+longText1=TUTORIAL_T1A_PROMPT6
+persistentShortText = -1
+
+[bench_available]
+; Make the vending machine object available
+rulea=9
+ruleb=1
+value=14
+hidden=1
+sticky=1
+trulea=4
+truleb=0
+targa=6050
+
+[show_scenery]
+; Make the buy object and scenery tab available
+rulea=9
+ruleb=1
+value=14
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1001
+
+[click_buy]
+; Click to open the buy object panel
+rulea=9
+ruleb=1
+value=14
+hidden=1
+sticky=1
+trulea=2
+truleb=1
+targa=1001
+
+[UNDO]
+; Select the undo button
+rulea=10
+ruleb=1
+arga=1075
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=7
+text=17738
+
+[7]
+; "Great, now delete the fence..."
+image1=scenario/scn01a/07delete/07delete
+longText1=TUTORIAL_T1A_PROMPT7
+persistentShortText = -1
+
+[click_buy2]
+; Close the buy panel
+;rulea=9
+;ruleb=1
+;value=17
+rulea=2
+ruleb=0
+arga=6050
+value=1
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1001
+
+[hide_scenery]
+; Make the buy object and scenery tab available
+rulea=9
+ruleb=1
+value=19
+sticky=1
+hidden=1
+trulea=2
+truleb=4
+targa=1001
+
+[show_delete]
+; Show the delete button
+rulea=9
+ruleb=1
+value=19
+sticky=1
+hidden=1
+trulea=2
+truleb=6
+targa=1028
+
+[DELETE]
+; Delete one section of the lion exhibit
+rulea=1
+ruleb=1
+arga=0
+type=1
+value=75
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=8
+text=17739
+
+[8]
+; "Lion loose in zoo..."
+image1=scenario/scn01a/08undo/08undo
+longText1=TUTORIAL_T1A_PROMPT8
+
+\\\\\\\\\\\\\
+;45200 medium
+
+[default]
+layout=45100
+background=ui/tutorial/tutorial/tutorial
+icon=
+image1=
+image2=
+shortText1=0
+longText1=
+shortText2=0
+longText2=
+ok=1
+yes=1
+no=1
+cancel=0
+pause=1
+
+persistentTextLayout = 45400
+persistentShortText = 0
+persistentLongText = 

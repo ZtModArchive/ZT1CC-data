@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = japzen
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -123
+y0 = -73
+x1 = 124
+y1 = 61

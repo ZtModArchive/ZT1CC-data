@@ -1,0 +1,106 @@
+[Icon]
+Icon = objects/crabhous/SE/SE
+Icon = objects/crabhous/SW/SW
+Icon = objects/crabhous/NW/NW
+Icon = objects/crabhous/NE/NE
+
+[Member]
+structures
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 1500
+cNameID = 8052
+cHelpID = 8052
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 10
+cFootprintY = 10
+cSelectable = 1
+cCommerce = 0
+cNeedsConfirm = 1
+cAdultChange = 10
+cChildChange = 15
+cHideUser = 1
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 4
+cTimeInside = 15
+cUsedThought=10533
+cUserUsesExit = 0
+cHeight = 3
+
+cIsColorReplaced = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cUpkeep = 75.00
+
+[Animations]
+idle = idle
+used = used
+
+[UseSound]
+loops = 1
+name = scenery/building/crushus.wav
+attenuation = 1000
+
+[EstheticBonus]
+; man
+v = 9503
+v = 5
+; woman
+v = 9504
+v = 5
+; boy
+v = 9505
+v = 10
+; girl
+v = 9506
+v = 5
+
+[Satisfies]
+building
+fun
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=0
+entrpos=176
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=176
+
+; 1000 = essentially infinite capacity
+capacity=8
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2468
+defaultpal = scenery/building/pals/red16.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/crabhous/crabhous.pal
+colorpal = objects/crabhous/color.pal

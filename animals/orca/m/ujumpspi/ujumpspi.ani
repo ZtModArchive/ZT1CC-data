@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = m
+dir3 = ujumpspi
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -123
+y0 = -163
+x1 = 80
+y1 = 221

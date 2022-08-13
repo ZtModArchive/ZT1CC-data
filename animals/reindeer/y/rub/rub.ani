@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = reindeer
+dir2 = y
+dir3 = rub
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -9
+y0 = -21
+x1 = 15
+y1 = 8

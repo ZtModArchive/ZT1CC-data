@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = iguano
+dir2 = y
+dir3 = sleep
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -50
+y0 = -27
+x1 = 24
+y1 = 25

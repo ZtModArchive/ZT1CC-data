@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = gallim
+dir2 = y
+dir3 = eatdown
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -27
+y0 = -32
+x1 = 31
+y1 = 16

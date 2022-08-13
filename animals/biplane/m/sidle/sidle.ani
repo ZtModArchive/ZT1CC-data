@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = biplane
+dir2 = m
+dir3 = sidle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -145
+y0 = -74
+x1 = 149
+y1 = 73

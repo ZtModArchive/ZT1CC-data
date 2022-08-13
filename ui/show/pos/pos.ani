@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = show
+dir2 = pos
+animation = N
+x0 = -10
+y0 = -10
+x1 = 10
+y1 = 10

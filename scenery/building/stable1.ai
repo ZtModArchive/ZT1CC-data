@@ -1,0 +1,79 @@
+[Icon]
+Icon = objects/stable1/SE/SE
+Icon = objects/stable1/SW/SW
+Icon = objects/stable1/NW/NW
+Icon = objects/stable1/NE/NE
+
+[Member]
+shelters
+
+[Characteristics/Integers]
+cPurchaseCost = 300
+cNameID = 8113
+cHelpID = 8113
+cHabitat = 9410
+cLocation = 9618
+cFootprintX = 4
+cFootprintY = 2
+cShelter = 1
+cCommerce = 0
+cSelectable = 0
+cHideUser = 1
+cHideBuilding = 0
+cUserStaysOutside = 0
+cTimeInside = 10
+cUserUsesExit = 0
+cHeight = 3
+cShelter = 1
+cUseNumbersInName=0
+
+cCapacity = 2
+cAdultChange = 6
+cChildChange = 6
+cEnergyChange = 25
+
+[Animations]
+idle = idle
+used = idle
+
+[Satisfies]
+building
+animalrest
+animalsex
+
+[slots]
+name=slot
+
+[slot]
+; Animals which can use this shelter
+;BLACK_RHINOCEROS	    	
+id=5024
+;AMERICAN_BISON		
+id=5026
+;MOOSE			
+id=5029
+;AFRICAN_BUFFALO		
+id=5030
+;DROMEDARY_CAMEL		
+id=5034
+;GEMSBOK			
+id=5031
+;Llama
+id=5301
+
+; spot in the building where animal would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where animal paths to
+entrpos=-32
+entrpos=48
+
+; spot to place animal in once they've used the building
+exitpos=-32
+exitpos=48
+
+; 1000 = essentially infinite capacity
+capacity=2
+facing=0

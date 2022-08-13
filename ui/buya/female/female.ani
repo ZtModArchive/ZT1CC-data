@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = buya
+dir2 = female
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -25
+y0 = -18
+x1 = 26
+y1 = 19

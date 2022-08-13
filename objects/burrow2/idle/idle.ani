@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = burrow2
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -31
+y0 = -26
+x1 = 31
+y1 = 16

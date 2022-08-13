@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = monkbar2
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -64
+y0 = -53
+x1 = 64
+y1 = 33

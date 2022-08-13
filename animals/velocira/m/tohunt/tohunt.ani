@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = velocira
+dir2 = m
+dir3 = tohunt
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -51
+y0 = -50
+x1 = 28
+y1 = 26

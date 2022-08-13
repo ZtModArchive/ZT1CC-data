@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = moose
+dir2 = f
+dir3 = horns
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -21
+y0 = -37
+x1 = 30
+y1 = 15

@@ -1,0 +1,196 @@
+[LayoutInfo]
+anchor=1032
+x=17
+y=6
+dx=171
+dy=440
+id=902
+layer=1
+
+[Panel_SUB_Title]
+type=UIText
+id=1543
+textid=1543
+x=29
+y=29
+dx=127
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=206
+forecolor=206
+forecolor=206
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+[Tool Tip_Radio_Set]
+type=UIRadioSet
+id=1599
+button=1520
+button=1521
+
+[Tool_Tip_Short]
+type=UIButton
+id=1520
+textid=1520
+helpid=1571
+x=32
+y=217
+justify=center
+font = 3780
+fontsize = 14001
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+layer=2
+state=4096
+state=8
+
+[Tool_Tip_Long]
+type=UIButton
+id = 1521
+textid=1521
+helpid=1572
+x=32
+y=247
+justify=center
+font = 3780
+fontsize = 14001
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+layer=2
+state=4096
+
+[Tool_Tip_Delay_Label]
+type=UIText
+id=1522
+textid=1522
+x=38
+y=275
+dx=128
+dy=fitfont
+font=3452
+fontsize=3453
+border=1
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[Tool_Tip_Delay__ScrollBar]
+type = UIScrollBar
+id = 1523
+helpid=1573
+animation = ui/sharedui/horzslid/horzslid
+thumb = ui/sharedui/horzthm/horzthm
+x=38
+y=290
+dx=110
+dy=26
+layer = 1
+transparent=1
+
+[Tool_Tip_Duration_Label]
+type=UIText
+id=1524
+textid=1524
+x=38
+y=320
+dx=128
+dy=fitfont
+font=3452
+fontsize=3453
+border=1
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[Tool_Tip_Duration_Bar]
+type = UIScrollBar
+id = 1525
+helpid=1574
+animation = ui/sharedui/horzslid/horzslid
+thumb = ui/sharedui/horzthm/horzthm
+x=38
+y=335
+dx=110
+dy=26
+layer = 1
+transparent=1
+
+[Main_Scroll_Speed_Label]
+type=UIText
+id=1514
+textid=1514
+x=38
+y=365
+dx=128
+dy=fitfont
+font=3452
+fontsize=3453
+border=1
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[Main_Scroll_Speed_Bar]
+type = UIScrollBar
+id = 1515
+helpid=1575
+animation = ui/sharedui/horzslid/horzslid
+thumb = ui/sharedui/horzthm/horzthm
+x=38
+y=380
+dx=110
+dy=26
+layer = 1
+transparent=1

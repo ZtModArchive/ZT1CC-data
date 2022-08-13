@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = leopard
+dir2 = m
+dir3 = lieroar
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -32
+y0 = -22
+x1 = 18
+y1 = 16

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = spino
+dir2 = m
+dir3 = liedown
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -122
+y0 = -125
+x1 = 83
+y1 = 61

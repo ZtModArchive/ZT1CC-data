@@ -1,0 +1,108 @@
+; $Id: scn15.scn,v 1.1 2002/06/11 21:28:40 sds Exp $
+
+[desc]
+name=16015
+story=SCENARIO_START_STORY_SCN15
+picture=scenario/scn15/scn15/scn15
+winstory=SCENARIO_WIN_STORY_SCN15
+winpicture=ui/scenario/win/win
+losestory=SCENARIO_LOSE_STORY_SCN15
+losepicture=ui/scenario/lose/lose
+lockedstory=SCENARIO_LOCK_STORY_2
+lockedpicture=ui/scenario/lock/lock
+
+;Icons for completion, in progress, not done
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+;SUPER ZOO
+
+[start]
+economy=scenario/scn15/economy.cfg
+savegame=maps/scn15.zoo
+setcash=50000
+triggers=disableUI
+addcash=0
+reset=1
+research=research.cfg
+marketing=mktg.cfg
+worldConfig=sounds/forest1.cfg
+extragoals=freeform/donation.scn
+extragoals=freeform/awards.scn
+extragoals=freeform/36months.scn
+
+[resume]
+triggers=disableUI
+
+[disableUI]
+trulea=2
+truleb=12
+targa=2000
+
+[2000]
+;Show Objects Tab
+id=2076
+
+[ambients]
+;Bluejay
+id=5051
+;Crow
+id=5052
+;Parrot
+id=5054
+
+[duration]
+nummonths=36
+display=1
+text=18000
+icon=ui/scenario/clock/clock
+
+[goals]
+goal=a
+goal=b
+goal=c
+goal=d
+goal=e
+
+;Scenario objectives
+
+[a]
+;Adopt at least 17 different animal species.
+rulea=1
+ruleb=6
+type=0
+value=17
+text=17106
+
+[b]
+;Have an animal happiness rating of 90
+rulea=1
+ruleb=0
+type=0
+value=90
+text=17100
+
+[c]
+;Have a suitability rating of 85 for all habitats
+rulea=5
+ruleb=0
+value=90
+text=17500
+
+[d]
+;Have a zoo rating of at least 80
+rulea=1
+ruleb=2
+type=0
+value=80
+text=17102
+
+[e]
+;Have a guest happiness rating of at least 90
+rulea=1
+ruleb=1
+type=0
+value=90
+text=17101
+

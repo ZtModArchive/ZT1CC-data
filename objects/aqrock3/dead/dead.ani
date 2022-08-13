@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = aqrock3
+dir2 = dead
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -49
+y0 = -31
+x1 = 49
+y1 = 24

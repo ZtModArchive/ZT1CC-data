@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = moose
+dir2 = lsmmoose
+animation = N
+x0 = -17
+y0 = -14
+x1 = 19
+y1 = 15

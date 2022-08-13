@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = m
+dir3 = jumpspin
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -123
+y0 = -237
+x1 = 81
+y1 = 40

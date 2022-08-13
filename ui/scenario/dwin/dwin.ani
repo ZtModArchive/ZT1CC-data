@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = scenario
+dir2 = dwin
+animation = N
+x0 = -183
+y0 = -136
+x1 = 184
+y1 = 140

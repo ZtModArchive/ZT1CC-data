@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = mntnlion
+dir2 = y
+dir3 = liesub
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -16
+y0 = -13
+x1 = 12
+y1 = 8

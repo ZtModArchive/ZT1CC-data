@@ -1,0 +1,18 @@
+[Characteristics/Integers]
+cNameID = 5082
+cHelpID = 5082
+cSpeed = 100
+cFrequency = 0
+cSoundLoop = 1
+cHasShadowImages = 1
+cForceShadowBlack = 0
+
+[Characteristics/Strings]
+
+[Member]
+ambient
+
+[Animations]
+idle = animals/biplane/m/idle/idle.ani
+shadowidle = animals/biplane/m/sidle/sidle.ani
+

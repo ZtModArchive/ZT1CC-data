@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = froghous
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -157
+y0 = -173
+x1 = 157
+y1 = 144

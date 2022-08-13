@@ -1,0 +1,9 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = watcloud
+animation = N
+x0 = -80
+y0 = -91
+x1 = 117
+y1 = 37

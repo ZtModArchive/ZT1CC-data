@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = warthog
+dir2 = lsmwarth
+animation = N
+x0 = -12
+y0 = -6
+x1 = 14
+y1 = 8

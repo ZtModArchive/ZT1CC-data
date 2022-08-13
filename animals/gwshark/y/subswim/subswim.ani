@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = gwshark
+dir2 = y
+dir3 = subswim
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -41
+y0 = -28
+x1 = 39
+y1 = 31

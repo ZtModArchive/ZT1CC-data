@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/sage/SE/SE
+Icon=objects/sage/SW/SW
+Icon=objects/sage/NW/NW
+Icon=objects/sage/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 65
+cNameID = 7073
+cHelpID = 7073
+;Highland	
+cHabitat = 9407
+;North America
+cLocation = 9607
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

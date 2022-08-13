@@ -1,0 +1,39 @@
+[Icon]
+Icon=objects/sargass/SE/SE
+Icon=objects/sargass/SW/SW
+Icon=objects/sargass/NW/NW
+Icon=objects/sargass/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 7412
+cHelpID = 7412
+cHabitat = 9413
+cLocation = 9632
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 2
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 1
+cUnderwater = 1
+cSurface = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cDeadStateHeight=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+shadowidle = sidle
+underidle = uidle
+idledead = dead

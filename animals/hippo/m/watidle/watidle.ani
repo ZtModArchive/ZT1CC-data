@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = hippo
+dir2 = m
+dir3 = watidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -32
+y0 = -24
+x1 = 36
+y1 = 18

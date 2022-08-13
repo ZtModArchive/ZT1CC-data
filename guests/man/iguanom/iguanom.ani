@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = iguanom
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -100
+y0 = -131
+x1 = 77
+y1 = 50

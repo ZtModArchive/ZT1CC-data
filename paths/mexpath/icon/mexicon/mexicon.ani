@@ -1,0 +1,10 @@
+[animation]
+dir0 = paths
+dir1 = mexpath
+dir2 = icon
+dir3 = mexicon
+animation = N
+x0 = -22
+y0 = -16
+x1 = 22
+y1 = 16

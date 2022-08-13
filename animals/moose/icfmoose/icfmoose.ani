@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = moose
+dir2 = icfmoose
+animation = N
+x0 = -22
+y0 = -16
+x1 = 22
+y1 = 16

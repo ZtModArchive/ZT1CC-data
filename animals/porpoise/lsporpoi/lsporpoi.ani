@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = porpoise
+dir2 = lsporpoi
+animation = N
+x0 = -18
+y0 = -6
+x1 = 19
+y1 = 8

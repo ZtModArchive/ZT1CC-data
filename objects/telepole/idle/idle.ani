@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = telepole
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -170
+y0 = -186
+x1 = 170
+y1 = 80

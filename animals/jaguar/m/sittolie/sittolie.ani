@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = jaguar
+dir2 = m
+dir3 = sittolie
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -36
+y0 = -25
+x1 = 19
+y1 = 18

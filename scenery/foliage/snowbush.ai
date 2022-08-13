@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/snowbush/SE/SE
+Icon=objects/snowbush/SW/SW
+Icon=objects/snowbush/NW/NW
+Icon=objects/snowbush/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 75
+cNameID = 7423
+cHelpID = 7423
+cHabitat = 9408
+cLocation = 9607
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/dtcoral/SE/SE
+Icon=objects/dtcoral/SW/SW
+Icon=objects/dtcoral/NW/NW
+Icon=objects/dtcoral/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7406
+cHelpID = 7406
+cHabitat = 9413
+cLocation = 9625
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=1
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

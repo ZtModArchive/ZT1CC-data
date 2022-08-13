@@ -1,0 +1,21 @@
+[Global]
+Class = unit
+Type = ztunit
+Subtype =
+DefaultSubtype =
+
+[Member]
+entity
+unit
+ztunit
+
+[Characteristics/Strings]
+
+[Characteristics/Integers]
+cChaseTimeOut = 10
+cChaseLookAhead = 3
+cPreyRadius = 5
+cPredatorRadius = 7
+cNonPathCost = 5
+cNonPathCostEmergency = 1
+

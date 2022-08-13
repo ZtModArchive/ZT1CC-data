@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = cheetah
+dir2 = lsmcheet
+animation = N
+x0 = -19
+y0 = -5
+x1 = 17
+y1 = 10

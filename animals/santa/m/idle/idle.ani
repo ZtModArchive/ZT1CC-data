@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = santa
+dir2 = m
+dir3 = idle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -137
+y0 = -123
+x1 = 190
+y1 = 90

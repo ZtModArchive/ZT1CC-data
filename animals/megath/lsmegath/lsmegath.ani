@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = megath
+dir2 = lsmegath
+animation = N
+x0 = -19
+y0 = -10
+x1 = 18
+y1 = 12

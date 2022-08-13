@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = parkmap
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -23
+y0 = -28
+x1 = 23
+y1 = 11

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = flower7
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -33
+y0 = -29
+x1 = 33
+y1 = 16

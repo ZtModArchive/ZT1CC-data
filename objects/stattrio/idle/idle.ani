@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = stattrio
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -70
+y0 = -77
+x1 = 70
+y1 = 27

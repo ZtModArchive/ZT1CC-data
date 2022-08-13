@@ -1,0 +1,30 @@
+; $Id
+[Icon]
+Icon = objects/rstone/SE/SE
+Icon = objects/rstone/SW/SW
+Icon = objects/rstone/NW/NW
+Icon = objects/rstone/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 450
+cNameID = 9215
+cHelpID = 9215
+; Tropical Rainforest
+cHabitat = 9405
+; South America
+cLocation = 9606
+cFootprintX = 4
+cFootprintY = 2
+cAutoRotate = 0
+cRock = 1
+cHeight = 2
+cUseNumbersInName=0
+walkableByTall = 1
+cRubbleable = 0
+
+[Animations]
+idle = idle
+

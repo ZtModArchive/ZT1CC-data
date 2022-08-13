@@ -1,0 +1,10 @@
+[animation]
+dir0 = animals
+dir1 = eleseal
+dir2 = icfelese
+dir3 = SE
+animation = N
+x0 = -22
+y0 = -16
+x1 = 22
+y1 = 16

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = juntree
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -102
+y0 = -71
+x1 = 103
+y1 = 50

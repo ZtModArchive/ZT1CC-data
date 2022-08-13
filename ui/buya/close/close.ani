@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = buya
+dir2 = close
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -8
+y0 = -6
+x1 = 9
+y1 = 7

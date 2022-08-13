@@ -1,0 +1,53 @@
+[Icon]
+Icon = objects/wishwell/SE/SE
+Icon = objects/wishwell/SW/SW
+Icon = objects/wishwell/NW/NW
+Icon = objects/wishwell/NE/NE
+
+
+[Member]
+scenery
+aqua
+
+
+[AmbientSound]
+name = scenery/building/lwishing.wav
+attenuation = 1500
+
+
+[Characteristics/Integers]
+cNameID = 6472
+cHelpID = 6472
+cPurchaseCost = 250
+cFootprintX = 4
+cFootprintY = 4
+cUsedThought=10593
+cHeight = 2
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 50
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+
+[EstheticBonus]
+; man
+v = 9503
+v = 15
+; woman
+v = 9504
+v = 15
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15
+
+
+
+
+

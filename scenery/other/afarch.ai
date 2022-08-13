@@ -1,0 +1,36 @@
+[Icon]
+Icon = objects/afarch/SE/SE
+Icon = objects/afarch/SW/SW
+Icon = objects/afarch/NW/NW
+Icon = objects/afarch/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 70
+cNameID = 6713
+cHelpID = 6713
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 6
+cFootprintY = 2
+cHeight = 3
+walkable = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 2
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

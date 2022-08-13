@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = macrauch
+dir2 = y
+dir3 = rear
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -14
+y0 = -35
+x1 = 19
+y1 = 9

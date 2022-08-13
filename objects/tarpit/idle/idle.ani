@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = tarpit
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -104
+y0 = -57
+x1 = 104
+y1 = 51

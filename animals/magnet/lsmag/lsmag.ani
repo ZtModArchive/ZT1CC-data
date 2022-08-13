@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = magnet
+dir2 = lsmag
+animation = N
+x0 = -19
+y0 = -16
+x1 = 20
+y1 = 16

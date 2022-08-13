@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = seastar
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -28
+y0 = -18
+x1 = 27
+y1 = 14

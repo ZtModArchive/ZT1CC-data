@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = polarbr
+dir2 = lsmpolar
+animation = N
+x0 = -17
+y0 = -9
+x1 = 17
+y1 = 13

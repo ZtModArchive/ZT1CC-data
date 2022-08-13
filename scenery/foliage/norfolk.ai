@@ -1,0 +1,30 @@
+[Icon]
+Icon=objects/norfolk/SE/SE
+Icon=objects/norfolk/SW/SW
+Icon=objects/norfolk/NW/NW
+Icon=objects/norfolk/NE/NE
+
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 170
+cNameID = 7093
+cHelpID = 7093
+cHabitat = 9403
+cLocation = 9612
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra= 9622
+cUsesTreeRubble=1
+
+
+[Animations]
+idle = idle
+
+

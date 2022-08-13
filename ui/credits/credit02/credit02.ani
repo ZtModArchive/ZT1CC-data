@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = credits
+dir2 = credit02
+animation = N
+x0 = -171
+y0 = -176
+x1 = 142
+y1 = 217

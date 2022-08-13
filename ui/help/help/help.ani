@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = help
+dir2 = help
+animation = N
+x0 = -250
+y0 = -165
+x1 = 250
+y1 = 166

@@ -1,0 +1,1 @@
+How well a zookeeper performs depends on the number of animals in the exhibits the keeper is assigned to or patrols, not just on the number of exhibits. If an exhibit has lots of animals, a zookeeper tending that exhibit will have to work very hard compared to a zookeeper assigned to an exhibit with few animals.

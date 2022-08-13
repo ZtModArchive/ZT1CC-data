@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = thumb
+animation = N
+x0 = -6
+y0 = -19
+x1 = 6
+y1 = 19

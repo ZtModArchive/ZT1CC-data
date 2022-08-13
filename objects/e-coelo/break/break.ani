@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = e-coelo
+dir2 = break
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -21
+y0 = -17
+x1 = 20
+y1 = 10

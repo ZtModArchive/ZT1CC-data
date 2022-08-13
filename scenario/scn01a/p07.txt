@@ -1,0 +1,8 @@
+Finally, let's learn how to remove, or clear, objects from the zoo. We're going to remove one section of fence from the lion's exhibit. (We know, this sounds like it might be a bad idea, but trust us. After all, we're the experts.)
+
+1. Click the Clear Objects tab, located on the left side of the game screen. 
+2. Place the cursor over the section of fence you want to clear, and then click to remove one or more fence sections.
+
+You'll get a cautionary message that advises against doing this, but don't worry, we know what we're doing.
+
+Click the OK button to proceed.

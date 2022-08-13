@@ -1,0 +1,14 @@
+[animation]
+dir0 = staff
+dir1 = trainer
+dir2 = m
+dir3 = throw
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -12
+y0 = -59
+x1 = 56
+y1 = 28

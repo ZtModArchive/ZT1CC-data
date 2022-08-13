@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = bighorn
+dir2 = f
+dir3 = trot
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -12
+y0 = -28
+x1 = 23
+y1 = 12

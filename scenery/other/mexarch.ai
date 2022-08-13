@@ -1,0 +1,36 @@
+[Icon]
+Icon = objects/mexarch/SE/SE
+Icon = objects/mexarch/SW/SW
+Icon = objects/mexarch/NW/NW
+Icon = objects/mexarch/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 280
+cNameID = 6731
+cHelpID = 6731
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 6
+cFootprintY = 2
+cHeight = 3
+walkable = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 2

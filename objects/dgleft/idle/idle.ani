@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = dgleft
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -52
+y0 = -98
+x1 = 52
+y1 = 23

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = moose
+dir2 = f
+dir3 = sideidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -22
+y0 = -20
+x1 = 27
+y1 = 13

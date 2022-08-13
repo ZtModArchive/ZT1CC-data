@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = startup
+dir2 = mainbck
+animation = N
+x0 = -400
+y0 = -300
+x1 = 400
+y1 = 300

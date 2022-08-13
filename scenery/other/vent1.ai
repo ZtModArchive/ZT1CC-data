@@ -1,0 +1,56 @@
+[Icon]
+Icon=objects/vent1/SE/SE
+Icon=objects/vent1/SW/SW
+Icon=objects/vent1/NW/NW
+Icon=objects/vent1/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+
+
+[UseSound]
+loops = 0
+name = scenery/building/fountai2.wav
+attenuation = 1200
+
+[Characteristics/Integers]
+cPurchaseCost = 350
+cFootprintX = 6
+cFootprintY = 6
+cNameID = 6447
+cHelpID = 6447
+cUsedThought=10591
+;Bad Habitat Type
+cHabitat = 9414
+cHeight = 1
+cUseNumbersInName=0
+cRubbleable = 0
+cEstheticWeight = 25
+cGawkOnlyFromFront = 0
+cUnderwater = 0
+
+cRandomUse = 1
+cMinUsePeriod = 20
+cMaxUsePeriod = 60
+
+
+[Animations]
+idle = idle
+used = used
+
+
+[EstheticBonus]
+; man
+v = 9503
+v = 5
+; woman
+v = 9504
+v = 5
+; boy
+v = 9505
+v = 5
+; girl
+v = 9506
+v = 5

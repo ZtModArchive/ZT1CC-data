@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = spino
+dir2 = m
+dir3 = fencezap
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -129
+y0 = -150
+x1 = 138
+y1 = 65

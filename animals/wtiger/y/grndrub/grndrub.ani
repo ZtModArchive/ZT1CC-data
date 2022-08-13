@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = wtiger
+dir2 = y
+dir3 = grndrub
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -17
+y0 = -14
+x1 = 12
+y1 = 9

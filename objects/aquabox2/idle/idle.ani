@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = aquabox2
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -30
+y0 = -59
+x1 = 30
+y1 = 11

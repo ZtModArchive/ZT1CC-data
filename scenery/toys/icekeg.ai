@@ -1,0 +1,88 @@
+[Icon]
+Icon = objects/icekeg/SE/SE
+Icon = objects/icekeg/SW/SW
+Icon = objects/icekeg/NW/NW
+Icon = objects/icekeg/NE/NE
+
+
+[Member]
+toys
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 600
+cNameID = 6512
+cHelpID = 6512
+cFootprintX = 2
+cFootprintY = 2
+cCommerce = 0
+cSelectable = 0
+cMoveable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 1
+cCapacity = 1
+cTimeInside = 9
+cUsedThought = 0
+cUserUsesExit = 1
+cHeight = 1
+cToySatisfaction = 2
+cUseNumbersInName=0
+cDeadOnLand=1
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cLand = 0
+cSwims = 1
+cBlocksLOS = 0
+
+; Animal moves into bldg more quickly
+cDirectEntrance = 1
+
+; building is placed on water surface
+cUnderwater = 1
+cSurface = 1
+cRubbleable = 0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = objects/icekeg/idle/idle.ani
+used = objects/icekeg/idle/idle.ani
+shadowidle = objects/icekeg/sidle/sidle.ani
+underidle = objects/icekeg/uidle/uidle.ani
+idledead = objects/icekeg/dead/dead.ani
+
+
+
+[Satisfies]
+building
+animalrest
+
+
+[slots]
+name=slot
+
+
+[slot]
+
+;polar bear
+id = 5002
+
+filter = y
+slotpos = 0
+slotpos = 0
+
+entrpos = 0
+entrpos = -78
+
+exitpos = 0
+exitpos = -78
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1

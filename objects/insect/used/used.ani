@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = insect
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -204
+y0 = -161
+x1 = 205
+y1 = 103

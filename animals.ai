@@ -1,0 +1,54 @@
+[Global]
+Class = ztunit
+Type = animals
+Subtype =
+DefaultSubtype =
+
+[Member]
+entity
+unit
+ztunit
+animals
+
+[Characteristics/Strings]
+
+[Characteristics/Integers]
+cCaptivityCheck = 20			
+cOtherCheck = 40			
+cKeeperCheck = 30
+cSocialCheck = 30				
+cHungerCheck = 30			
+cHealthCheck = 30				
+cEnergyCheck = 30
+cEscapedCheck = 2
+cReproductionCheck = 20			
+cHabitatCheck = 20
+cBuildingUseCheck = 20
+cBoredCheck = 30
+cWaterCheck = 40
+cZapCheck = 5
+cBreathCheck = 30
+
+; the following assumes a 0 to 100 scale
+; if scale is -100 to 100 code will adjust appropriately			
+cUIThreshold = 75			
+
+cKeeperArrivesChange = 25
+cKeeperArrivesChangeAmphibious = 35
+; this is what used to be called cMateCheck
+; THIS IS IN UNITS OF NUMBER OF REPRODUCTION CHECKS!
+cMatePickDelay = 3 
+cDeathChance = 100
+cDeathChange = -20;
+
+; % chance of having a chance of grass to dirt
+cDirtChanceChance = 5
+; actual % chance of grass to dirt (asuming above chance happens)
+cDirtChance = 5
+
+; controls frequency of box check & box rattle
+cBoxedCheck = 2
+cRattleChance = 20
+
+; defense behavior set range
+cDefenseRadius = 3

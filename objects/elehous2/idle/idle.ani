@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = elehous2
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -90
+y0 = -113
+x1 = 90
+y1 = 45

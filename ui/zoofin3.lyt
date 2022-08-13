@@ -1,0 +1,162 @@
+[LayoutInfo]
+x=0
+y=0
+dx=500
+dy=295
+id=112
+layer=1
+state=1
+
+
+
+[Overlay to main panel]
+type=UIImage
+id=13004
+x=14
+y=19
+animation=ui/sharedui/zoobck4/zoobck4
+;layer=0
+
+
+
+[LayoutTitle]
+type=UIText
+id=13969
+textid=13969
+x=23
+y=30
+dx=170
+dy=fitfont
+font=3996
+fontsize=3997
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+
+[GraphButtonSet]
+type=UIRadioSet
+id=13993
+button=13994
+button=13995
+
+[Line]
+type=UIButton
+id=13994
+helpid=13994
+x=425
+y=30
+animation=ui/sharedui/toggrph/toggrph
+layer=1
+state=8
+state=4096
+
+
+[Bar]
+type=UIButton
+id=13995
+helpid=13995
+x=448
+y=30
+animation=ui/sharedui/togbar/togbar
+layer=1
+state=4096
+
+;profit not rating
+[Zoo_Profit_over_time]
+type=UIGraph
+id=13967
+helpid=13967
+x=10
+y=55
+dx=460
+dy=224
+font=3552
+fontsize=3553
+backcolor=44
+backcolor=60
+backcolor=44
+
+;type can be l(line), b(bar), or p(point)
+graphType=l
+
+;number of chars to allow space for in the Y axis labels.
+YAxisCharWidth=10
+
+;padding is used to offset the actual values from the axis lines.  makes things look prettier.
+VertPaddingPixels=5
+HorizPaddingPixels=20
+
+;the number of labels on the y axis.
+NumYLabels=10
+;the number of labels on the x axis.
+;if NumXLabels is set to 0, draw 1 label for each point.
+;bar graphs always pretend this val is 0.
+NumXLabels=5
+
+;use the label as the x axis val instead of the value.
+LabelAsXAxis=5
+;toggle whether or not the label/value gets drawn at the point
+DrawPointLabel=1
+
+;toggle whether the points in a line graph get drawn.
+DrawPointsLineGraph=1
+
+;max width in pixels of one bar. only used for bar graph.
+MaxBarWidth=50
+;spacing in pixels between each bar in a bar graph.
+BarSpacing=10
+
+;the forced minimum y value for the graph.
+;set to something other than -1 for it to take effect.
+;ForcedMinY=0
+;the forced maximum y value for the graph.
+;set to something other than -1 for it to take effect.
+;ForcedMaxY=100
+
+;the color used for drawing the line in line graph,
+LineColor=255
+LineColor=0
+LineColor=0
+
+;the color used for filling the boxes in a bar graph.
+BoxColor=100
+BoxColor=100
+BoxColor=100
+
+;the color used for y labels > 0
+YLabelColorPos=0
+YLabelColorPos=255
+YLabelColorPos=0
+
+;the color used for y labels < 0
+YLabelColorNeg=255
+YLabelColorNeg=0
+YLabelColorNeg=0
+
+;the color used for x labels.
+XLabelColor=0
+XLabelColor=255
+XLabelColor=0
+
+;the color used for drawing the point labels.
+PointLabelColor=0
+PointLabelColor=255
+PointLabelColor=0
+
+;the color used for drawing the points in a point/line graph.
+PointColor=0
+PointColor=0
+PointColor=0
+
+;the color used for drawing the axis lines.
+AxisLineColor=0
+AxisLineColor=0
+AxisLineColor=0
+
+yIsMoney=1

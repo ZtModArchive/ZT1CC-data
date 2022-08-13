@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/foxtail/SE/SE
+Icon=objects/foxtail/SW/SW
+Icon=objects/foxtail/NW/NW
+Icon=objects/foxtail/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 120
+cNameID = 7018
+cHelpID = 7018
+;Rainforest
+cHabitat = 9405
+;Southeast Asia
+cLocation = 9603
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

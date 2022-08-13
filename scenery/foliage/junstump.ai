@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/junstump/SE/SE
+Icon=objects/junstump/SW/SW
+Icon=objects/junstump/NW/NW
+Icon=objects/junstump/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 35
+cNameID = 7429
+cHelpID = 7429
+cHabitat = 9405
+cLocation = 9606
+cFootprintX = 4
+cFootprintY = 4
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

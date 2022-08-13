@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/gingkos/SE/SE
+Icon=objects/gingkos/SW/SW
+Icon=objects/gingkos/NW/NW
+Icon=objects/gingkos/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7086
+cHelpID = 7086
+cHabitat = 9402
+cLocation = 9607
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9622
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

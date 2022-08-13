@@ -1,0 +1,9 @@
+[animation]
+dir0 = objects
+dir1 = rstone
+dir2 = NE
+animation = N
+x0 = -22
+y0 = -16
+x1 = 22
+y1 = 16

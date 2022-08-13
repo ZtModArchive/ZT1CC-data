@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = panda
+dir2 = lsmpanda
+animation = N
+x0 = -12
+y0 = -8
+x1 = 15
+y1 = 10

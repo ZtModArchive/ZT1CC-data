@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = sealhorn
+dir2 = sidle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -48
+y0 = -25
+x1 = 50
+y1 = 24

@@ -1,0 +1,955 @@
+[Global]
+Class = animals
+Type = apato
+Subtype = 
+DefaultSubtype = m
+
+[AnimPath]
+m = animals/apato/m
+f = animals/apato/m
+y = animals/apato/y
+
+[m/Icon]
+Icon = animals/apato/icmapato/icmapato
+
+[Characteristics/Integers]
+cExpansionID=1
+
+[Member]
+dinosaur
+animals
+
+[m/Characteristics/Strings]
+cKeeperFoodType = herbivore
+cGeneralInfoTextName = APATO_GENERAL
+cPlaqueImageName = animals/apato/plmapato/plmapato
+cListImageName = animals/apato/lsmapato/lsmapato
+
+; Glossopteris Tree
+cPrefIcon = objects/glossop/SE/SE
+
+[m/Characteristics/Integers]
+cKeeperFoodType = 8
+; Glossopteris Tree
+cPrefIconID = 7087
+
+cLaysEggs = 1
+cEatsEggs = 0
+cTimeToHatch = 120
+cIconZoom = -2
+cEggIconZoom = 0
+cBoxedIconZoom = -2
+
+; Apatosaurus 
+cNameID = 5325
+cHelpID = 5325
+; Dinosaur
+cFamily = 5216
+; Apatosaurs
+cGenus = 5150
+; Deciduous Forest
+cHabitat = 9402
+; North America
+cLocation = 9607
+; Jurassic
+cEra = 9621
+cPurchaseCost = 5000
+cInitialHappiness  = 50
+cSlowRate = 20
+cMediumRate = 34
+cFastRate = 64
+cFootprintX = 4
+cFootprintY = 18
+; this is the sqr footprint that is added to the map
+cMapFootprint = 4
+walkable = 0
+cTall = 1
+cHeliRecovery=1
+
+;//Angry Effects//
+cCaptivity = 7
+cNoFoodChange  = -50
+cSickChange = -10	
+cOtherAnimalSickChange = -10		
+cCrowdHappinessChange = -5
+cOtherAnimalAngryChange = 0 
+cNumberMinChange = -5
+cNumberMaxChange = -10
+cAllCrowdedChange = -5
+cAngryHabitatChange = -5
+cVeryAngryHabitatChange = -30
+cDeathChange = -10 
+cNotEnoughKeepersChange = -20
+cAngryTreeChange = -10
+
+cRampageThreshold = 25
+cRampageChance = 15
+cRampageTimeMin = 30
+cRampageTimeMax = 45
+
+;//Happy Effects//
+cBabyBornChange = 70
+cHappyHabitatChange = 20
+
+cMaxHits  = 225
+cMinHits  = 0
+cPctHits  = 20
+
+cHungerThreshold  = 50
+cHungerIncrement  = 10
+cNeededFood = 100
+cKeeperFoodUnitsEaten = 10
+cHungryHealthChange = 10
+
+cSickChance = 15
+
+cEnergyThreshold = 100 
+cEnergyIncrement  = 10	
+cMaxEnergy = 100
+
+cCrowd = 20
+
+cKeeperFrequency = 2
+cKeeperArrivesChange = 1
+
+cSocial = 0
+cHabitatSize = 100
+cNumberAnimalsMin = 1
+cNumberAnimalsMax = 3
+cAnimalDensity = 250
+
+cPctHabitat = 10
+cHabitatPreference = 85
+
+cDirtyHabitatRating = 25
+cDirtyIncrement = 10
+cDirtyThreshold = 100
+
+cReproductionChance = 1 
+cReproductionInterval = 2400
+cBabyToAdult = 1800
+cHappyReproduceThreshold = 98
+cOffspring = 1
+cMatingType = 0
+cNoMateChange = 0
+
+cIsJumper = 1
+cIsClimber = 0
+cBashStrength = 325
+cPreattack = 0
+cResetPreyPosition = 1
+cCrushesFences = 2
+cBoxFootprintX = 4
+cBoxFootprintY = 4
+cBoxFootprintZ = 4
+cSwims = 0
+
+cEscapedChange = 30
+
+cSickTime = 4
+
+cMimic = 0
+cMimicHappyDiff = 0
+
+cOtherFood = 0
+cFoodTypes = 0
+
+cTreePref = 8
+cRockPref = 2
+cSpacePref = 60
+cElevationPref = 0
+
+cTimeDeath = 8640
+cDeathChance = 30 
+
+cEatVegetationChance = 20
+cDrinkWaterChance = 10
+cChaseAnimalChance = 8
+cClimbsCliffs = 1
+cDinoZoodoo = 1
+cGiantZoodoo = 1
+
+cBuildingUseChance = 0
+
+cAttractiveness = 95
+cNeedShelter = 0
+
+;Keeper
+cKeeper = 9551
+
+;PREY LIST
+;Man
+cPrey = 9503
+;Scientist
+cPrey = 9551
+;Zookeeper
+cPrey = 9500
+;Maintenance Worker
+cPrey = 9501
+;Tour Guide
+cPrey = 9502
+;Marine Specialist
+cPrey = 9552
+
+[y/Characteristics/Integers]
+cPrefIconID = 7087
+cChaseAnimalChance = 10
+cIsJumper = 0
+cBoxedIconZoom = -2
+cIconZoom = -2
+cAttractiveness = 120
+cTall = 0
+cEggFootprintX = 2
+cEggFootprintY = 2
+cEggFootprintZ = 2
+cGiantZoodoo = 0
+cFootprintX = 2
+cFootprintY = 10
+
+[m/Characteristics/Mixed]
+[cCompatibleAnimals]
+;Primitive ungulates		
+v = 5200
+v = -10
+;Racoon			
+v = 5201
+v = -5
+;Bears			
+v = 5202
+v = -5
+;Primates			
+v = 5203
+v = -5
+;Odd-toed ungulates		
+v = 5204
+v = -10
+;Even-toed ungulates			
+v = 5205
+v = -10
+;Cat			
+v = 5206
+v = -20
+;Canine			
+v = 5207
+v = -20
+;Hyena			
+v = 5208
+v = -20
+;Marsupial		
+v = 5210
+v = -5
+;Bird			
+v = 5211
+v = -5
+;Seal			
+v = 5212
+v = -5
+;Crocodile		
+v = 5213
+v = -20
+;Edentate		    	
+v = 5214
+v = -5
+;Pig			
+v = 5215
+v = -5
+;Monster			
+v = 5217
+v = -20
+;Tyrannosaurs
+v = 5135
+v = -10
+;Smilodons
+v = 5136
+v = -10
+;Ankylosaurs
+v = 5137
+v = -10
+;Gallimimuses
+v = 5138
+v = -10
+;Iguanodons
+v = 5139
+v = -10
+;Lambeosaurs
+v = 5140
+v = -10
+;Spinosaurs
+v = 5141
+v = -25
+;Styracosaurs
+v = 5142
+v = -10
+;Velociraptors
+v = 5143
+v = -10
+;Allosaurs
+v = 5144
+v = -10
+;Camptosaurs
+v = 5145
+v = -10
+;Caudipteryxes
+v = 5146
+v = -10
+;Kentrosaurs
+v = 5147
+v = -10
+;Plesiosaurs
+v = 5148
+v = -10
+;Stegosaurs
+v = 5149
+v = -10
+;Apatosaurs
+v = 5150
+v = -10
+;Coelophysises
+v = 5151
+v = -10
+;Herrerasaurs
+v = 5152
+v = -10
+;Plateosaurs
+v = 5153
+v = -10
+;Wooly Mammoths
+v = 5154
+v = -10
+;Wooly Rhinos
+v = 5155
+v = -10
+;Meiolanias
+v = 5156
+v = -10
+;Triceratopses
+v = 5157
+v = -10
+;Deinosuchus
+v = 5158
+v = -25
+;Apatosaurus
+v = 5325
+v = 10
+
+[cSuitableObjects]
+;Non-habitat
+v = 9410
+v = -10
+;Tropical rainforest
+v = 9405
+v = -25
+;Savannah
+v = 9400
+v = -5
+;Grassland
+v = 9401
+v = -5
+;Deciduos forest
+v = 9402
+v = -3
+;Coniferous forest
+v = 9403
+v = -3
+;Highlands
+v = 9407
+v = 3
+;Tundra
+v = 9408
+v = -5
+;Desert
+v = 9409
+v = -25
+;Aquatic
+v = 9413
+v = -10
+;Bad-habitat
+v = 9414
+v = -100
+
+;FOLIAGE AND ROCKS
+;Large Rock 1
+v = 9200
+v = 5
+;Large Rock 2
+v = 9201
+v = 5
+;Large Rock 3
+v = 9202
+v = 5
+;Large Rock 4
+v = 9203
+v = 5
+;Large Rock 5
+v = 9204
+v = 5
+;Small Rock 1
+v = 9205
+v = 3
+;Small Rock 2
+v = 9206
+v = 3
+;Small Rock 3
+v = 9207
+v = 3
+Small Rock 4
+v = 9208
+v = 3
+;Small Rock 5
+v = 9209
+v = 3
+;Glossopteris
+v = 7087
+v = 15
+;Gingkos
+v = 7086 
+v = 12
+;Magnolia Tree
+v = 7091
+v = 12 
+;Poo
+v = 6062
+v = -10
+
+[cCompatibleTerrain]
+; grass = 0
+; savannah grass = 1
+; sand = 2
+; dirt = 3
+; rainforest floor = 4
+; brown rock = 5
+; gray rock = 6
+; gravel = 7
+; snow = 8
+; fresh water = 9
+; salt water = 10
+; deciduous floor = 11
+; waterfall = 12
+; coniferous floor = 13
+; concrete = 14
+; asphalt = 15
+; trampled = 16
+
+v = 16
+v = -5
+
+v = 0
+v = 5
+
+v = 2
+v = -5
+
+v = 4
+v = -5
+
+v = 6
+v = -5
+
+v = 9
+v = 10
+
+v = 3
+v = 10
+
+v = 8
+v = -25
+
+v = 10
+v = -20
+
+v = 11
+v = 75
+
+[m/Animations]
+;From stand
+idle = stand
+stand = stand
+roar = roar
+head_ground = headgrnd
+eat_down = eatdown
+lie_down = liedown
+lie_idle = lieidle
+sleep = sleep
+head_down = headdown
+
+;Movement
+walk = walk
+
+;Box animations
+box_idle = objects/dinobox/idle/idle.ani
+box_used = objects/dinobox/used/used.ani
+dustball = objects/dustcl/large/large.ani
+egg_idle = objects/e-apato/idle/idle.ani
+egg_hatch = objects/e-apato/used/used.ani
+egg_break = objects/e-apato/break/break.ani
+
+[y/Animations]
+From stand
+idle = stand
+stand = stand
+roar = roar
+head_ground = headgrnd
+eat_down = eatdown
+lie_down = liedown
+lie_idle = lieidle
+sleep = sleep
+head_down = headdown
+
+;Movement
+walk = walk
+
+;Box animations
+box_idle = objects/dinobox/idle/idle.ani
+box_used = objects/dinobox/used/used.ani
+dustball = objects/dustcl/large/large.ani
+egg_idle = objects/e-apato/idle/idle.ani
+egg_hatch = objects/e-apato/used/used.ani
+egg_break = objects/e-apato/break/break.ani
+
+[Sounds]
+roar = animals/apato/roar.wav
+roar = 1500
+dustball = animals/apato/roar.wav
+dustball = 1000
+placesound = animals/apato/roar.wav
+placesound = 1500
+pickupsound = animals/apato/roar.wav
+pickupsound = 1500
+hatch = sounds/egghatch.wav
+hatch= 100
+snore = sounds/sleep03.wav
+snore = 100
+
+;Male Adult Apatosaurus Behavior Set Probabilites
+[m\BehaviorSet\bHappy]
+f = fPlaySetProb(bIdle1,20,bHappy1,50,bHappy2,30)
+
+[m\BehaviorSet\bFriendly]
+f = fPlaySetProb(bHappy3,70,bIdle2,30)
+
+[m\BehaviorSet\bCalm]
+f = fPlaySetProb(bCalm1,50,bIdle1,30,bIdle2,20)
+
+[m\BehaviorSet\bNeutral]
+f = fPlaySetProb(bIdle1,50,bIdle2,50)
+
+[m\BehaviorSet\bUneasy]
+f = fPlaySetProb(bUneasy1,50,bNoise1,15,bIdle2,35)
+
+[m\BehaviorSet\bTense]
+f = fPlaySetProb(bTense1,60,bAngry3,20,bNoise1,20)
+
+[m\BehaviorSet\bAngry]
+f = fPlaySetProb(bAngry1,40,bAngry2,40,bNoise1,20)
+
+[m\BehaviorSet\bEscaped]
+f = fPlaySetProb(bEscaped1,70,bNoise1,30)
+
+[m\BehaviorSet\bHappy1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlayTime(stand,4)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlay(stand)  
+
+[m\BehaviorSet\bHappy2]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bHappy3]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,15)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bCalm1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bUneasy1]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bTense1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry1]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry2]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlayTime(stand,4)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise1]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle2]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,20)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSleep]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,5)
+f = fPlay(head_ground)
+f = fPlayWithSound(sleep,snore)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(head_ground)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bDie]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,5)
+f = fPlay(head_ground)
+f = fPlayTime(sleep,5)
+f = fPlayTime(sleep,5)
+f = fDie()
+
+[m\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(stand)
+f = fPlay(head_down)
+f = fPlayTime(eat_down,9)
+f = fPlayReverse(head_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSick]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,5)
+f = fPlay(head_ground)
+f = fPlay(sleep)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(head_ground)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bEscaped1]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bChasePrey]
+f = fWalk(prey,0)
+
+[m\BehaviorSet\bRunFromPredator]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bCaughtGuest]
+; the time of animation below should match bCaughtBy in guest
+f = fPlayTime(stand,4)
+
+[m\BehaviorSet\bCaughtPrey]
+f = fDustBall()
+f = fPlaySet(bAfterCaught)
+
+[m\BehaviorSet\bAfterCaught]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bCaught]
+f = fFollow(keeper)
+
+[m\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bRun]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[m\BehaviorSet\bEscapedRampage]
+f = fPlayWithSound(roar,roar)
+f = fWalk(0,0)
+f = fPlayWithSound(roar,roar)
+f = fTargetBuilding()
+f = fWalk(0,0)
+
+[m\BehaviorSet\bHabitatRampage]
+f = fWalk(0,0)
+f = fPlayWithSound(roar,roar)
+f = fPlayWithSound(roar,roar)
+f = fWalk(0,0)
+f = fTargetBuilding()
+f = fWalk(0,0)
+
+;Apatosaurus young behavior sets
+[y\BehaviorSet\bHappy]
+f = fPlaySetProb(bIdle1,20,bHappy1,50,bHappy2,30)
+
+[y\BehaviorSet\bFriendly]
+f = fPlaySetProb(bHappy3,70,bIdle2,30)
+
+[y\BehaviorSet\bCalm]
+f = fPlaySetProb(bCalm1,50,bIdle1,30,bIdle2,20)
+
+[y\BehaviorSet\bNeutral]
+f = fPlaySetProb(bIdle1,50,bIdle2,50)
+
+[y\BehaviorSet\bUneasy]
+f = fPlaySetProb(bUneasy1,50,bNoise1,15,bIdle2,35)
+
+[y\BehaviorSet\bTense]
+f = fPlaySetProb(bTense1,60,bAngry3,20,bNoise1,20)
+
+[y\BehaviorSet\bAngry]
+f = fPlaySetProb(bAngry1,40,bAngry2,40,bNoise1,20)
+
+[y\BehaviorSet\bEscaped]
+f = fPlaySetProb(bEscaped1,70,bNoise1,30)
+
+[y\BehaviorSet\bHappy1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlayTime(stand,4)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlay(stand)  
+
+[y\BehaviorSet\bHappy2]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[y\BehaviorSet\bHappy3]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,15)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[y\BehaviorSet\bCalm1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[y\BehaviorSet\bUneasy1]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[y\BehaviorSet\bTense1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[y\BehaviorSet\bAngry1]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[y\BehaviorSet\bAngry2]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlayTime(stand,4)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[y\BehaviorSet\bAngry3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[y\BehaviorSet\bNoise1]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle2]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,20)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[y\BehaviorSet\bSleep]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,5)
+f = fPlay(head_ground)
+f = fPlayWithSound(sleep,snore)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(head_ground)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[y\BehaviorSet\bDie]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,5)
+f = fPlay(head_ground)
+f = fPlayTime(sleep,5)
+f = fPlayTime(sleep,5)
+f = fDie()
+
+[y\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[y\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+f = fPlaySet(bEat)
+
+[y\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(stand)
+f = fPlay(head_down)
+f = fPlayTime(eat_down,9)
+f = fPlayReverse(head_down)
+f = fPlay(stand)
+
+[y\BehaviorSet\bSick]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,5)
+f = fPlay(head_ground)
+f = fPlay(sleep)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(head_ground)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[y\BehaviorSet\bEscaped1]
+f = fWalk(0,0)
+
+[y\BehaviorSet\bChasePrey]
+f = fWalk(prey,0)
+
+[y\BehaviorSet\bRunFromPredator]
+f = fWalk(0,0)
+
+[y\BehaviorSet\bCaughtGuest]
+; the time of animation below should match bCaughtBy in guest
+f = fPlayTime(stand,4)
+
+[y\BehaviorSet\bCaughtPrey]
+f = fDustBall()
+f = fPlaySet(bAfterCaught)
+
+[y\BehaviorSet\bAfterCaught]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[y\BehaviorSet\bCaught]
+f = fFollow(keeper)
+
+[y\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+
+[y\BehaviorSet\bRun]
+f = fWalk(0,0)
+
+[y\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[y\BehaviorSet\bHatch]
+f = fPlayWithSound(egg_hatch,hatch)
+f = fPlay(idle)
+f = fHatch()
+
+[y\BehaviorSet\bEatenEgg]
+f = fPlayStopAtEnd(egg_break)
+
+[AmbientAnims]
+a = 81
+a = 100
+b = bHappy
+a = 61
+a = 80
+b = bFriendly
+a = 21
+a = 60
+b = bCalm
+a = -20
+a = 20
+b = bNeutral
+a = -60
+a = -21
+b = bUneasy
+a = -80
+a = -61
+b = bTense
+a = -100
+a = -81
+b = bAngry
+
+

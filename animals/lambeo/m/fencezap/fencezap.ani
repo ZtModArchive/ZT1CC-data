@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lambeo
+dir2 = m
+dir3 = fencezap
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -145
+y0 = -150
+x1 = 131
+y1 = 72

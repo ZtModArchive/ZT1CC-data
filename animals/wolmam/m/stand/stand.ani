@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = wolmam
+dir2 = m
+dir3 = stand
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -32
+y0 = -70
+x1 = 77
+y1 = 39

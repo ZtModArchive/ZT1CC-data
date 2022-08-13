@@ -1,0 +1,12 @@
+[animation]
+dir0 = food
+dir1 = fish
+dir2 = med
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -45
+y0 = -52
+x1 = 44
+y1 = 46

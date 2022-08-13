@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = main
+dir2 = backgnd4
+animation = N
+x0 = -165
+y0 = -17
+x1 = 165
+y1 = 18

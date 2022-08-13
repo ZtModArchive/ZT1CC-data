@@ -1,0 +1,9 @@
+[animation]
+dir0 = water
+dir1 = freshls
+dir2 = top
+animation = N
+x0 = -31
+y0 = -16
+x1 = 31
+y1 = 16

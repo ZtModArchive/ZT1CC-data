@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = plaque
+dir2 = geninfo
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -25
+y0 = -15
+x1 = 26
+y1 = 17

@@ -1,0 +1,218 @@
+[LayoutInfo]
+x=center
+y=center
+dx=500
+dy=200
+id=45200
+layer=7
+state=1
+
+[Background]
+type=UIImage
+id=45201
+x=0
+y=0
+animation=ui/tutorial/tutoria2/tutoria2
+alias=-1
+layer=0
+
+;icon id=45202
+;title id = 45203
+
+[Panel_Title_label]
+type=UIText
+id=45203
+textid=45203
+x=130
+y=2
+dx=217
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+shadowtext=0
+;layer=1
+;justify=center
+;alias=-1
+
+
+;image1 id = 45204
+[image 1]
+
+type=UIImage
+id=45204
+x=10
+y=27
+layer=1
+alias=-1
+transparent=0
+
+
+;image2 id = 45105
+
+[Message]
+type=UIText
+id=45206
+x=165
+y=31
+dx=309
+dy=100
+font=25003
+fontsize=25004
+forecolor=0
+forecolor=0
+forecolor=0
+backcolor=244
+backcolor=228
+backcolor=204
+border=1
+transparent=1
+shadowtext=0
+layer=1
+scrollbar=45207
+space=2
+
+
+
+[scrollbar]
+type = UIScrollBar
+id = 45207
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+;message2 id = 45208
+;message2 scrollbar id = 45209
+
+[Yes]
+type=UIButton
+id=45210
+textid=10600
+x=20
+y=140
+altx=73
+alty=140
+justify=center
+font = 14000
+fontsize = 14001
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+transparent = 0
+action = 5
+target = 6
+
+[No]
+type=UIButton
+id=45211
+textid=10601
+x=164
+y=140
+altx=287
+alty=140
+justify=center
+font = 14000
+fontsize = 14001
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+transparent = 0
+action = 5
+target = 7
+
+[OK]
+type=UIButton
+id=45212
+textid=10602
+x=185
+y=140
+altx=68
+alty=140
+justify=center
+font = 14000
+fontsize = 14001
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+transparent = 0
+action = 5
+target = 1
+
+[Cancel]
+type=UIButton
+id=45213
+textid=10603
+x=288
+y=140
+altx=241
+alty=140
+justify=center
+font = 14000
+fontsize = 14001
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+transparent = 0
+action = 5
+target = 2

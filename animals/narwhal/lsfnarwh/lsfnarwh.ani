@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = narwhal
+dir2 = lsfnarwh
+animation = N
+x0 = -15
+y0 = -5
+x1 = 18
+y1 = 7

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = woak
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -100
+y0 = -179
+x1 = 99
+y1 = 15

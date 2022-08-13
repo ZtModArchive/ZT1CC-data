@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = person
+dir2 = hire
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -28
+y0 = -17
+x1 = 29
+y1 = 18

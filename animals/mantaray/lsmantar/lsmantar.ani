@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = mantaray
+dir2 = lsmantar
+animation = N
+x0 = -19
+y0 = -11
+x1 = 19
+y1 = 14

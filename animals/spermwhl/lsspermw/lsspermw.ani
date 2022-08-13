@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = spermwhl
+dir2 = lsspermw
+animation = N
+x0 = -19
+y0 = -6
+x1 = 19
+y1 = 8

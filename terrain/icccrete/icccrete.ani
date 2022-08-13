@@ -1,0 +1,8 @@
+[animation]
+dir0 = terrain
+dir1 = icccrete
+animation = N
+x0 = -22
+y0 = -16
+x1 = 22
+y1 = 16

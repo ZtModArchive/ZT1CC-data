@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = ostrich
+dir2 = m
+dir3 = sleep
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -14
+y0 = -17
+x1 = 24
+y1 = 12

@@ -1,0 +1,103 @@
+[Icon]
+Icon = objects/aqbounce/SE/SE
+Icon = objects/aqbounce/SW/SW
+Icon = objects/aqbounce/NW/NW
+Icon = objects/aqbounce/NE/NE
+
+[Member]
+structures
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 100
+cNameID = 8065
+cHelpID = 8065
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cCommerce = 0
+cSelectable = 1
+cNeedsConfirm = 0
+cAdultChange = 5
+cChildChange = 12
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 1
+cCapacity = 1
+cTimeInside = 1
+cUsedThought=10557
+cHeight = 3
+cUserUsesExit = 1
+walkable = 1
+
+cIsColorReplaced = 0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 5.00
+cLowCost = 1.25
+cMedCost = 5.00
+cHighCost = 12.00
+cUpkeep = 15.00
+cPriceFactor = 2.00
+
+[Animations]
+idle = idle
+used = idle
+
+[UseSound]
+alwayson = 0
+loops = 1
+name = scenery/building/bounce.wav
+attenuation = 2000
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 22
+; girl
+v = 9506
+v = 22
+
+[Satisfies]
+building
+fun
+
+[slots]
+name=slot
+
+[slot]
+
+; using
+; restricts this slot only to "boy" and "girl"
+id=9505
+id=9506
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=0
+entrpos=48
+
+entrpos=0
+entrpos=-48
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=48
+
+; 1000 = essentially infinite capacity
+capacity=1
+facing=0

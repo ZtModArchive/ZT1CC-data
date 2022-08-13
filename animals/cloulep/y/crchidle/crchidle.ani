@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = cloulep
+dir2 = y
+dir3 = crchidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -14
+x1 = 9
+y1 = 10

@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = lion
+dir2 = f
+dir3 = rk1end
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -55
+y0 = -48
+x1 = 55
+y1 = 27

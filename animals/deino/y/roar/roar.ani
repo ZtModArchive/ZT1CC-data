@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = deino
+dir2 = y
+dir3 = roar
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -42
+y0 = -37
+x1 = 40
+y1 = 21

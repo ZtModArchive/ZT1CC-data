@@ -1,0 +1,8 @@
+[animation]
+dir0 = items
+dir1 = kyak
+animation = N
+x0 = -16
+y0 = -7
+x1 = 15
+y1 = 10

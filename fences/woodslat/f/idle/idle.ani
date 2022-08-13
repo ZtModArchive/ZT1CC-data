@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = woodslat
+dir2 = f
+dir3 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -17
+y0 = -41
+x1 = 17
+y1 = 8

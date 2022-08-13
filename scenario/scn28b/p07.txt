@@ -1,0 +1,7 @@
+There are two show animals that also use combined exhibits: the California sea lion and the Southern sea otter. Much like other show animals, the show tank should be attached to a normal exhibit tank in such a way that it creates a 'pass-through gate' between the two tanks.
+
+There is a pre-placed combined exhibit with a show tank by it; lower the show tank walls so that the pass-through gate appears between the two tanks.
+
+Open the Exhibit Information panel for the show tank and then lower the tank wall height by one unit.
+
+Click the OK button to proceed.

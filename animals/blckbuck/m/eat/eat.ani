@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = blckbuck
+dir2 = m
+dir3 = eat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -10
+y0 = -20
+x1 = 15
+y1 = 8

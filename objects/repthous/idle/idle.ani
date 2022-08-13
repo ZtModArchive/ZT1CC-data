@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = repthous
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -200
+y0 = -165
+x1 = 200
+y1 = 103

@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = afrbuf
+dir2 = lsmafrbu
+animation = N
+x0 = -17
+y0 = -9
+x1 = 18
+y1 = 15

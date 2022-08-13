@@ -1,0 +1,8 @@
+Show animals need a designated area to perform advanced tricks. In the show objects panel there is an advanced trick area object. Placing this object in the show exhibit will indicate to the orca where to perform advanced tricks.
+
+1. On the left side of the game screen, click the Adopt Animals button.
+2. Click the Show Objects tab.
+3. Select the advanced trick area.
+4. Place the cursor over the exhibit you just created and click to place the object. You can rotate the object using the rotate buttons on the Show Objects panel.
+
+Click the OK button to proceed.

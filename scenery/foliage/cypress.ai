@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/cypressd/SE/SE
+Icon=objects/cypressd/SW/SW
+Icon=objects/cypressd/NW/NW
+Icon=objects/cypressd/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 170
+cNameID = 7083
+cHelpID = 7083
+cHabitat = 9413
+cLocation = 9613
+cHeight = 7
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 1
+cLand = 1
+cUnderwater = 0
+cSurface = 0
+cUseNumbersInName=0
+cEra=9622
+cFootprintX = 2
+cFootprintY = 2
+cUsesTreeRubble=1
+cDeadOnLand=1
+
+[Animations]
+idle = idle
+idledead = dead

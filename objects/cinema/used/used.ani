@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = cinema
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -164
+y0 = -190
+x1 = 164
+y1 = 82

@@ -1,0 +1,8 @@
+[animation]
+dir0 = items
+dir1 = sub
+animation = N
+x0 = -17
+y0 = -10
+x1 = 17
+y1 = 11

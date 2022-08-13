@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = select
+dir2 = selsmall
+animation = N
+x0 = -5
+y0 = -5
+x1 = 5
+y1 = 6

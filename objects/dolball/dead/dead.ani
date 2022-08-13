@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = dolball
+dir2 = dead
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -9
+y0 = -17
+x1 = 9
+y1 = 1

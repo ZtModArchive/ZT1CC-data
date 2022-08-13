@@ -1,0 +1,18 @@
+[Characteristics/Integers]
+cNameID = 5051
+cHelpID = 5051
+cSpeed = 40
+cFrequency = 40
+cHasShadowImages = 1
+cForceShadowBlack = 1
+
+[Characteristics/Strings]
+cSoundName = bluejay.cfg
+
+[Member]
+ambient
+
+[Animations]
+idle = animals/bluejay/m/idle/idle.ani
+shadowidle = animals/bluejay/m/sidle/sidle.ani
+

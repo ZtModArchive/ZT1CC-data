@@ -1,0 +1,3 @@
+When a new tank is created, it is filled with salt water by default. You can change the water type by first draining the tank and then refilling it with either fresh water or salt water. On the Modify Tank tab of the Exhibit Information panel, click Drain Tank to empty the tank, and then click the appropriate button to fill with salt water or fresh water. Marine animals prefer salt water, but some land animals that like to swim prefer fresh water.
+
+To change the salinity in a tank you must first remove any animals contained in it.

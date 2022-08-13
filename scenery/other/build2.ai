@@ -1,0 +1,26 @@
+[Icon]
+Icon = objects/build2/SE/SE
+Icon = objects/build2/SW/SW
+Icon = objects/build2/NW/NW
+Icon = objects/build2/NE/NE
+
+[Member]
+developer
+
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6131
+cHelpID = 6131
+cFootprintX = 22
+cFootprintY = 10
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cRubbleable = 0
+
+[Animations]
+idle = idle

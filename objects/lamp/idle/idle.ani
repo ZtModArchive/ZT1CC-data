@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = lamp
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -9
+y0 = -70
+x1 = 9
+y1 = 5

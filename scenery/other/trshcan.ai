@@ -1,0 +1,143 @@
+; $Id: trshcan.ai,v 1.4 2002/07/17 23:02:04 sds Exp $
+[Icon]
+Icon=objects/trshcan/ictrshSE/ictrshSE
+Icon=objects/trshcan/ictrshSW/ictrshSW
+Icon=objects/trshcan/ictrshNW/ictrshNW
+Icon=objects/trshcan/ictrshNE/ictrshNE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cNameID = 6009
+cHelpID = 6009
+cPurchaseCost = 25
+cFootprintX = 1
+cFootprintY = 1
+cUserStaysOutside=1
+cTimeInside = 0
+cCapacity = 1000
+cUsedThought=10215
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+
+[Animations]
+empty = idle
+half = half
+full = full
+
+[EstheticBonus]
+; man
+v = 9503
+v = -10
+; woman
+v = 9504
+v = -10
+; boy
+v = 9505
+v = -5
+; girl
+v = 9506
+v = -10
+
+; TO DO: these are just some approximate data ...
+; Make four slots for trashcans so they are approachable from all directions
+[slots]
+name=slot1
+name=slot2
+name=slot3
+name=slot4
+
+[slot1]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=0
+entrpos=64
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=64
+
+; 1000 = essentially infinite capacity
+capacity=1000
+
+[slot2]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=64
+entrpos=0
+
+; spot to place guest in once they've used the building
+exitpos=64
+exitpos=0
+
+; 1000 = essentially infinite capacity
+capacity=1000
+
+[slot3]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=-64
+entrpos=0
+
+; spot to place guest in once they've used the building
+exitpos=-64
+exitpos=0
+
+
+; 1000 = essentially infinite capacity
+capacity=1000
+
+[slot4]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=0
+entrpos=-64
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=-64
+
+; 1000 = essentially infinite capacity
+capacity=1000
+
+[Removes]
+trash
+
+[Satisfies]
+building
+trash
+

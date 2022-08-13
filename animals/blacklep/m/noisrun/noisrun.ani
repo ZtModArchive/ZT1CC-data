@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = blacklep
+dir2 = m
+dir3 = noisrun
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -32
+y0 = -30
+x1 = 23
+y1 = 17

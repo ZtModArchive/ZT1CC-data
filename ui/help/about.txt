@@ -1,0 +1,10 @@
+Microsoft Zoo Tycoon(tm)
+Version %s
+
+(c) & (p) 2001-2002 Microsoft Corporation. All rights reserved.
+
+Microsoft, the Microsoft Game Studios logo, Marine Mania, and Zoo Tycoon are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries.
+
+This product is licensed. Your product identification number is: %s
+
+Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.

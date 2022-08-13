@@ -1,0 +1,67 @@
+[Icon]
+Icon = fences/filter/SE/SE
+
+[Member]
+habitatfences
+highfence
+fence
+aqua
+
+[FilterSounds]
+cHealthySound = scenery/building/filter.wav
+cHealthyAtten = 1700
+cDecayedSound = scenery/building/filterb.wav
+cDecayedAtten = 1700
+
+[Characteristics/Strings]
+cInfoImageName = objects/filter/off/off
+
+[Characteristics/Integers]
+cNameID = 6471
+cHelpID = 6471
+cPurchaseCost = 200
+cFootprintX = 2
+cFootprintY = 2
+;Bad Habitat Type
+cHabitat = 9414
+cHeight = 2
+cUseNumbersInName=1
+cSelectable = 1
+cNeedsConfirm = 1
+
+; initial health
+cStartingHealth = 10
+; health point where the decayed anim is played
+cDecayedHealth = 5
+; time in seconds before health decays one point
+cDecayTime = 200
+
+; time in seconds between cleanings
+cFilterDelay = 50
+; cost billed to the user ever time it filters.
+cFilterUpkeep = 50
+
+; amount of water cleaning done while fully efficient.
+cFilterCleanAmount = 10
+; amount of water cleaning done while decayed.
+cFilterDecayedCleanAmount = 5
+
+[Animations]
+idle = objects/filter/idle/idle.ani
+decayed = objects/filter/used/used.ani
+off = objects/filter/off/off.ani
+broken = objects/filter/off/off.ani
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 0
+; girl
+v = 9506
+v = 0

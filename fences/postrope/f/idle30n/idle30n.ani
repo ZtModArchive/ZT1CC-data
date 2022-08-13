@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = postrope
+dir2 = f
+dir3 = idle30n
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -18
+y0 = -34
+x1 = 18
+y1 = 16

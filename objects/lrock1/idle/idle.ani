@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = lrock1
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -25
+y0 = -28
+x1 = 25
+y1 = 14

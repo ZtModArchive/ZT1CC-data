@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = blackbr
+dir2 = m
+dir3 = sitscrch
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -24
+x1 = 15
+y1 = 10

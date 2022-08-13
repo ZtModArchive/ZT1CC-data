@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = sdeinom
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -119
+y0 = -106
+x1 = 200
+y1 = 105

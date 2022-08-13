@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = scenario
+dir2 = lock
+animation = N
+x0 = -184
+y0 = -136
+x1 = 185
+y1 = 140

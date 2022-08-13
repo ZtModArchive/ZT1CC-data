@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = dgate
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -64
+y0 = -124
+x1 = 64
+y1 = 32

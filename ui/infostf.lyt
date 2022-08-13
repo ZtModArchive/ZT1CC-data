@@ -1,0 +1,179 @@
+[LayoutInfo]
+x=right
+y=-248
+altx=right
+alty=-578
+dx=226
+dy=213
+id=17
+layer=1
+;hidden
+state=1
+
+[Background]
+type=UIImage
+id=3501
+helpid=3501
+x=0
+y=0
+animation=ui/sharedui/infopan/infopan
+layer=0
+
+[PanelTitle]
+type=UIText
+id=3599
+textid=3599
+x=78
+y=2
+dx=120
+dy=fitfont
+font=4736
+fontsize=4737
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+
+[StaffName]
+type=UIEditableText
+id=3502
+helpid=3502
+x=71
+y=27
+dx=141
+dy=fitfont
+font=3150
+fontsize=3151
+border=1
+forecolor=255
+forecolor=218
+forecolor=90
+backcolor=59
+backcolor=71
+backcolor=45
+transparent=1
+layer=4
+;justify=center
+state=1
+
+[TrackStaff]
+type=UIButton
+id=3515
+helpid=3515
+x=0
+y=3
+animation=ui/sharedui/crossh/crossh
+updateWhilePaused=0
+layer=1
+state=2048
+
+[Pickup Staff]
+type=UIButton
+id=3570
+helpid=3570
+x=66
+y=46
+animation=ui/sharedui/grab/grab
+layer=1
+
+[Fire Staff]
+type=UIButton
+id=3606
+helpid=3606
+x=139
+y=47
+animation=ui/keprinfo/fire/fire
+layer=1
+
+
+[Assignto-List_Staff]
+type=UIButton
+id=3578
+helpid=3578
+x=173
+y=46
+animation=ui/keprinfo/assign/assign
+layer=2
+state=2048
+
+[CloseWindow]
+type=UIButton
+id=3513
+helpid=3112
+x=197
+y=1
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=17
+
+[StaffbuttonRadioSet]
+type = UIRadioSet
+id = 3560
+button = 3562
+button = 3564
+button = 3565
+
+[StatusTab1]
+type = UIButton
+id = 3562
+helpid = 3562
+x = 196
+y = 92
+animation=ui/guest/tbinfo/tbinfo
+layer=1
+state=8
+state=4096
+action=3
+target=600
+
+[Job_AssignTab]
+type = UIButton
+id = 3564
+helpid = 3564
+x = 196
+y = 124
+animation=ui/keprinfo/tbass/tbass
+layer=1
+state=4096
+action=3
+target=601
+
+
+[MW_Job_AssignTab]
+type = UIButton
+id = 3565
+helpid = 3565
+x = 196
+y = 124
+animation=ui/keprinfo/tbass/tbass
+layer=1
+state=4096
+action=3
+target=602
+
+
+
+
+[StatusLayout]
+type=UILayout
+layout=ui/infostf1.lyt
+state=1
+
+[Job_AssignLayout]
+type=UILayout
+layout=ui/infostf2.lyt
+state=1
+
+
+[MW_Job_AssignLayout]
+type=UILayout
+layout=ui/infostf3.lyt
+state=1

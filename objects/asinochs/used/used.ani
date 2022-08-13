@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = asinochs
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -152
+y0 = -179
+x1 = 151
+y1 = 71

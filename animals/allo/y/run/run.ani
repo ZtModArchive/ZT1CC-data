@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = allo
+dir2 = y
+dir3 = run
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -71
+y0 = -71
+x1 = 65
+y1 = 36

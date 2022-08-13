@@ -1,0 +1,13 @@
+[Global]
+Class = entity
+Type = scenery
+Subtype =
+DefaultSubtype =
+
+[Member]
+entity
+scenery
+
+[Characteristics/Strings]
+
+[Characteristics/Integers]

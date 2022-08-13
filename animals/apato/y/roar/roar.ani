@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = apato
+dir2 = y
+dir3 = roar
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -107
+y0 = -111
+x1 = 78
+y1 = 54

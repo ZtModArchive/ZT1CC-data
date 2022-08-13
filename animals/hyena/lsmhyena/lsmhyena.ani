@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = hyena
+dir2 = lsmhyena
+animation = N
+x0 = -14
+y0 = -8
+x1 = 15
+y1 = 12

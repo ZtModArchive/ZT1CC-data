@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = bongo
+dir2 = m
+dir3 = trot
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -20
+y0 = -34
+x1 = 20
+y1 = 10

@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = main
+dir2 = bg2
+animation = N
+x0 = -8
+y0 = 0
+x1 = 9
+y1 = 1

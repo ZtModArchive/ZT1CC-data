@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = llama
+dir2 = lsllama
+animation = N
+x0 = -12
+y0 = -12
+x1 = 14
+y1 = 11

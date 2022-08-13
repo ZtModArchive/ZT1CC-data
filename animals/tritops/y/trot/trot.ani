@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = tritops
+dir2 = y
+dir3 = trot
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -48
+y0 = -42
+x1 = 36
+y1 = 25

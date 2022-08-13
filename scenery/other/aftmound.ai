@@ -1,0 +1,24 @@
+[Icon]
+Icon=objects/aftmound/SE/SE
+Icon=objects/aftmound/SW/SW
+Icon=objects/aftmound/NW/NW
+Icon=objects/aftmound/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 85
+cNameID = 9243
+cHelpID = 9243
+cHabitat = 9400
+cLocation = 9600
+cFootprintX = 4
+cFootprintY = 4
+cAutoRotate = 1
+cRock = 1
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

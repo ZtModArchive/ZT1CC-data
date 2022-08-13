@@ -1,0 +1,93 @@
+[Icon]
+Icon=objects/orcaball/SE/SE
+Icon=objects/orcaball/SW/SW
+Icon=objects/orcaball/NW/NW
+Icon=objects/orcaball/NE/NE
+
+[Member]
+showtoys
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 525
+cNameID = 6502
+cHelpID = 6502
+cFootprintX = 2
+cFootprintY = 4
+cPlacementFootprintX = 2
+cPlacementFootprintY = 8
+cCommerce = 0
+cSelectable = 0
+cMoveable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 1
+cCapacity = 1
+cTimeInside = 9
+cUsedThought = 0
+cUserUsesExit = 1
+cUsesPlacementCube = 1
+cHeight = 0
+cDepth = 8
+cToySatisfaction = 2
+cUseNumbersInName=0
+cDeadOnLand=1
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cBlocksLOS = 0
+cLand = 0
+cSwims = 0
+; Is placable in show tank
+cShow = 1
+cRubbleable = 0
+
+; Animal moves into bldg more quickly
+cDirectEntrance = 1
+
+
+; building is placed on water surface
+cUnderwater = 1
+cSurface = 1
+
+; building can't be placed next to the tank wall
+cAvoidEdges = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = objects/orcaball/idle/idle.ani
+used = objects/orcaball/idle/idle.ani
+shadowidle = objects/orcaball/sidle/sidle.ani
+underidle = objects/orcaball/uidle/uidle.ani
+idledead = objects/orcaball/dead/dead.ani
+
+
+
+[Satisfies]
+building
+showtrick
+
+[slots]
+name=slot
+
+
+[slot]
+
+;ORCA
+id = 5400
+
+filter = y
+slotpos = 0
+slotpos = 0
+
+entrpos = 0
+entrpos = -80
+
+exitpos = 0
+exitpos = -80
+
+capacity = 1
+facing = 0

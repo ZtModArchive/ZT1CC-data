@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = sawfish
+dir2 = m
+dir3 = s2surfsi
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -78
+y0 = -43
+x1 = 51
+y1 = 41

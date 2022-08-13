@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = dromcaml
+dir2 = m
+dir3 = walk
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -55
+x1 = 45
+y1 = 23

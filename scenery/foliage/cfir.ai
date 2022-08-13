@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/cfir/SE/SE
+Icon=objects/cfir/SW/SW
+Icon=objects/cfir/NW/NW
+Icon=objects/cfir/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7069
+cHelpID = 7069
+;Coniferous forest	
+cHabitat = 9403
+;China
+cLocation = 9605
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

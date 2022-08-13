@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = cloulep
+dir2 = m
+dir3 = dt1end
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -45
+y0 = -73
+x1 = 45
+y1 = 18

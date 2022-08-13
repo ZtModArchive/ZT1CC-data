@@ -1,0 +1,41 @@
+[Icon]
+Icon = objects/dkbronto/SE/SE
+Icon = objects/dkbronto/SW/SW
+Icon = objects/dkbronto/NW/NW
+Icon = objects/dkbronto/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 225
+cNameID = 6707
+cHelpID = 6707
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 4
+cFootprintY = 4
+cUsedThought=10619
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cHeight = 2
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15
+

@@ -1,0 +1,240 @@
+[Icon]
+Icon = objects/gstand/SE/SE
+Icon = objects/gstand/SW/SW
+Icon = objects/gstand/NW/NW
+Icon = objects/gstand/NE/NE
+
+[Member]
+structures
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 120
+cNameID = 6465
+cHelpID = 6465
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 8
+cCommerce = 1
+cSelectable = 1
+cNeedsConfirm = 1
+cAdultChange = 0
+cChildChange = 0
+cHungerChange = -5
+cThirstChange = -5
+cBathroomChange = 5
+cEnergyChange = 0
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cTimeInside = 15
+cCapacity = 12
+cUsedThought = 10544
+cIsRubbleable = 0
+cHeight = 3
+cPlacementFootprintX = 2
+cPlacementFootprintY = 12
+
+
+cIsColorReplaced = 1
+cUserUsesExit = 1
+cHoldsOntoUser = 1
+;cHideCommerceInfo = 1
+cHideCostChange = 1
+
+[UseSound]
+loops = 0
+name = scenery/building/coin.wav
+attenuation = 1800
+
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+; set the user to this animation on load
+cUserLoadAnim = gssit
+
+[Characteristics/Floats]
+cDefaultCost = 5.00
+cLowCost = 0.0
+cMedCost = 10.00
+cHighCost = 25.00
+cUpkeep = 15.00
+cPriceFactor = 1.00
+
+[Animations]
+idle = idle
+used = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 0
+; girl
+v = 9506
+v = 0
+
+[Satisfies]
+building
+grandstand
+
+[slots]
+name=slot
+
+[slot]
+; using man, woman, boy, girl
+id=9503
+id=9504
+id=9505
+id=9506
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=0
+entrpos=144
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=144
+
+; 1000 = essentially infinite capacity
+capacity=12
+facing=0
+
+cHasDrawSlots = drawslots
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2463
+defaultpal = scenery/building/pals/blue16.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/gstand/gstand.pal
+colorpal = objects/gstand/color.pal
+
+[drawslots]
+p = -13
+p = -102
+p = 50
+
+p = 13
+p = -102
+p = 50
+
+p = -13
+p = -70
+p = 40
+
+p = 13
+p = -70
+p = 40
+
+p = -13
+p = -38
+p = 30
+
+p = 13
+p = -38
+p = 30
+
+p = -13
+p = -6
+p = 21
+
+p = 13
+p = -6
+p = 21
+
+p = -13
+p = 26
+p = 12
+
+p = 13
+p = 26
+p = 12
+
+p = -13
+p = 58
+p = 2
+
+p = 13
+p = 58
+p = 2
+
+order = ordern
+order = ordere
+order = orders
+order = orderw
+
+[ordern]
+o = 0
+o = 1
+o = 2
+o = 3
+o = 4
+o = 5
+o = 6
+o = 7
+o = 8
+o = 9
+o = 10
+o = 11
+
+[ordere]
+o = 11
+o = 10
+o = 9
+o = 8
+o = 7
+o = 6
+o = 5
+o = 4
+o = 3
+o = 2
+o = 1
+o = 0
+
+[orders]
+o = 10
+o = 11
+o = 8
+o = 9
+o = 6
+o = 7
+o = 4
+o = 5
+o = 2
+o = 3
+o = 0
+o = 1
+
+[orderw]
+o = 1
+o = 0
+o = 3
+o = 2
+o = 5
+o = 4
+o = 7
+o = 6
+o = 9
+o = 8
+o = 11
+o = 10

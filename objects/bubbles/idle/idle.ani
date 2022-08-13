@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = bubbles
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -11
+y0 = -80
+x1 = 11
+y1 = 12

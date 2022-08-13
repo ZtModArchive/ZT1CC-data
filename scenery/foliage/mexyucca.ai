@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/mexyucca/SE/SE
+Icon=objects/mexyucca/SW/SW
+Icon=objects/mexyucca/NW/NW
+Icon=objects/mexyucca/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 115
+cNameID = 7435
+cHelpID = 7435
+cHabitat = 9409
+cLocation = 9607
+cFootprintX = 2
+cFootprintY = 2
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

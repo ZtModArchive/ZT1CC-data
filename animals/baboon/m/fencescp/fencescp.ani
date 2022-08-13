@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = baboon
+dir2 = m
+dir3 = fencescp
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -24
+y0 = -67
+x1 = 21
+y1 = 12

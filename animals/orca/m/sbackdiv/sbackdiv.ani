@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = m
+dir3 = sbackdiv
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -218
+y0 = -110
+x1 = 220
+y1 = 109

@@ -1,0 +1,12 @@
+[animation]
+dir0 = guests
+dir1 = woman
+dir2 = puttexit
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -113
+y0 = -83
+x1 = 114
+y1 = 54

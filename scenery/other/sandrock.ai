@@ -1,0 +1,33 @@
+[Icon]
+Icon = objects/sandrock/SE/SE
+Icon = objects/sandrock/SW/SW
+Icon = objects/sandrock/NW/NW
+Icon = objects/sandrock/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 350
+cNameID = 6457
+cHelpID = 6457
+;Desert
+cHabitat = 9409
+;North Africa
+cLocation = 9614
+cFootprintX = 4
+cFootprintY = 4
+cAutoRotate = 1
+cRock = 1
+cHeight = 3
+cSwims = 1
+cOnlySwims = 0
+cUnderwater = 0
+cLand = 1
+cUseNumbersInName=0
+cRubbleable = 0
+
+[Animations]
+idle = idle
+
+

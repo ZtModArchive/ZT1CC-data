@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = icekeg
+dir2 = sidle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -20
+y0 = -11
+x1 = 22
+y1 = 10

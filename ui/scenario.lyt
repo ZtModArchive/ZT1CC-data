@@ -1,0 +1,317 @@
+[LayoutInfo]
+x=center
+y=center
+dx=800
+dy=600
+id=32
+helpid=32
+layer=3
+state=1
+
+[Background]
+type=UIImage
+id=50000
+x=0
+y=0
+normal=ui/scenario/aquascen.tga
+transparent = 0
+layer=0
+
+[Picture]
+type=UIImage
+id=50001
+x=8
+y=10
+layer=1
+image = 
+
+;[Scenario Name Label]
+;type=UIText
+;id=14100
+;textid=14100
+;x=225
+;y=15
+;dx=150
+;dy=fitfont
+;font=11520
+;fontsize=11521
+;border=0
+;forecolor=253
+;forecolor=218
+;forecolor=88
+;backcolor=100
+;backcolor=108
+;backcolor=108
+;transparent=1
+;layer=1
+;justify=center
+
+;[Scenario Name]
+;type=UIText
+;id=50010
+;x=395
+;y=2
+;dx=374
+;dy=260
+;font = 14000
+;fontsize = 14001
+;forecolor = 156
+;forecolor = 205
+;forecolor = 183
+;backcolor = 121
+;backcolor = 104
+;backcolor = 50
+;transparent=1
+;layer=1
+
+[Scenario List Label]
+type=UIText
+id=14101
+textid=14101
+x=75
+y=302
+dx=200
+dy=fitfont
+font=11520
+fontsize=11521
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[ScenarioList]
+type=UIListBox
+id=50002
+x=16
+y=336
+dx=336
+dy=240
+font = 14002
+fontsize = 14003
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+transparent = 1
+miniconwidth=32
+miniconheight=32
+border = 2
+handledoubleclicks = 1
+; trigger on selection change
+state = 131072
+scrollbar=50003
+layer=1
+
+[ListScrollBar]
+type = UIScrollBar
+id = 50003
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+[Scenario Story Label]
+type=UIText
+id=14102
+textid=14102
+x=500
+y=15
+dx=200
+dy=fitfont
+font=11520
+fontsize=11521
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+[Story]
+type=UIText
+id=50004
+x=400
+y=47
+dx=374
+dy=243
+font = 14004
+fontsize = 14005
+forecolor = 255
+forecolor = 228
+forecolor = 173
+backcolor = 121
+backcolor = 104
+backcolor = 50
+scrollbar=50005
+transparent=1
+layer=1
+
+[StoryScrollBar]
+type = UIScrollBar
+id = 50005
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+
+
+[Objextives Label]
+type=UIText
+id=14103
+textid=14103
+x=500
+y=302
+dx=200
+dy=fitfont
+font=11520
+fontsize=11521
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[Objectives]
+type=UIListBox
+id=50006
+x=397
+y=327
+dx=380
+dy=219
+font = 14006
+fontsize = 14007
+forecolor = 83
+forecolor = 219
+forecolor = 83
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+transparent = 1
+miniconwidth=32
+miniconheight=32
+border = 2
+; not selectable
+state = 262144
+scrollbar=50007
+layer=1
+
+[ObjectivesScrollBar]
+type = UIScrollBar
+id = 50007
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+[StartScenario]
+type=UIButton
+id=50008
+helpid = 14010
+textid=14008
+x=660
+y=560
+justify=center
+font = 14000
+fontsize = 14001
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+transparent = 0
+layer = 2
+
+[Back to main menu]
+type=UIButton
+id=50009
+helpid = 14011
+textid=14009
+x=390
+y=560
+justify=center
+font = 14000
+fontsize = 14001
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+transparent = 0
+layer= 2
+action=2
+target=-1

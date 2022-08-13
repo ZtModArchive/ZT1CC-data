@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = dolball
+dir2 = sidle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -19
+y0 = -10
+x1 = 21
+y1 = 10

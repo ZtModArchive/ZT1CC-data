@@ -1,0 +1,39 @@
+; $Id: tpgiraf.ai,v 1.1 2002/05/22 18:27:21 rmh Exp $
+[Icon]
+Icon=objects/tpgiraf/ictgirSE/ictgirSE
+Icon=objects/tpgiraf/ictgirSW/ictgirSW
+Icon=objects/tpgiraf/ictgirNW/ictgirNW
+Icon=objects/tpgiraf/ictgirNE/ictgirNE
+
+[Member]
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 200
+cNameID = 6005
+cHelpID = 6005
+cFootprintX = 2
+cFootprintY = 2
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 6
+; girl
+v = 9506
+v = 6

@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = m
+dir3 = ballplay
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -121
+y0 = -174
+x1 = 121
+y1 = 60

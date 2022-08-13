@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = show
+dir2 = showbk
+animation = N
+x0 = -235
+y0 = -133
+x1 = 235
+y1 = 134

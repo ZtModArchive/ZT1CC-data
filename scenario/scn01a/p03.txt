@@ -1,0 +1,6 @@
+Now let's view the Zoo Tycoon game world. First, you can scroll the game map by moving the mouse cursor to the edge of the screen. In addition, zooming out allows you to see your entire zoo at once. Zooming in gives you a close-up view of the zoo. Let's try this.
+
+1. Move the mouse from one edge of the screen to another to scroll the map in different directions.
+2. Click the Zoom-out button (minus sign), located above the Rotate buttons, and then click the Zoom-in button (plus sign).
+
+Click the OK button to proceed.

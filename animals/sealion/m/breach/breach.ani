@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = sealion
+dir2 = m
+dir3 = breach
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -25
+y0 = -33
+x1 = 24
+y1 = 33

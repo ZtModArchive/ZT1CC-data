@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = seaotter
+dir2 = m
+dir3 = usurfspi
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -9
+x1 = 20
+y1 = 15

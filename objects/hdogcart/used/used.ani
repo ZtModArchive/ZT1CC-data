@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = hdogcart
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -27
+y0 = -55
+x1 = 27
+y1 = 12

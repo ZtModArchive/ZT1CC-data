@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = dslide
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -74
+y0 = -105
+x1 = 74
+y1 = 37

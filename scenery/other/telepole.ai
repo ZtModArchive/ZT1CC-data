@@ -1,0 +1,27 @@
+[Icon]
+Icon = objects/telepole/SE/SE
+Icon = objects/telepole/SW/SW
+Icon = objects/telepole/NW/NW
+Icon = objects/telepole/NE/NE
+
+[Member]
+developer
+
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6144
+cHelpID = 6144
+cFootprintX = 2
+cFootprintY = 20
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cSwims = 1
+cOnlySwims = 0
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

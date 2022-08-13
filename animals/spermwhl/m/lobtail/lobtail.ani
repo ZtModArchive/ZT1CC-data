@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = spermwhl
+dir2 = m
+dir3 = lobtail
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -166
+y0 = -110
+x1 = 130
+y1 = 82

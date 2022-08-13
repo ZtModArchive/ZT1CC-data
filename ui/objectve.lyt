@@ -1,0 +1,77 @@
+[LayoutInfo]
+x=center
+y=42
+dx=378
+dy=36
+id=45400
+layer=7
+state=1
+
+;[Background]
+;type=UIImage
+;id=45401
+;x=0
+;y=0
+;animation=ui/gamescrn/textbck/textbck
+;alias=-1
+;layer=0
+
+[Message]
+type=UIButton
+id=45406
+x=center
+y=2
+dx=370
+dy=34
+font = 3636
+fontsize = 3637
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation= ui/gamescrn/txtbut2/txtbut2
+transparent = 0
+layer=1
+justify=center
+
+
+;[ContinueButton]
+;itype=UIButton
+;id=45412
+;textid=10602
+;x=center
+;y=38
+;animation=ui/gamescrn/textbck/textbck
+;font = 14000
+;fontsize = 14001
+;forecolor = 255
+;forecolor = 186
+;forecolor = 16
+;backcolor = 131
+;backcolor = 125
+;backcolor = 53
+;highlightcolor = 255
+;highlightcolor = 223
+;highlightcolor = 41
+;selectcolor = 90
+;selectcolor = 255
+;selectcolor = 255
+;graycolor = 132
+;graycolor = 149
+;graycolor = 124
+;justify=center
+;border=1
+;transparent=1
+shadowtext=1
+layer=1

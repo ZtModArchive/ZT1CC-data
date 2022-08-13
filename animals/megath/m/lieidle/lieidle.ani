@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = megath
+dir2 = m
+dir3 = lieidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -52
+y0 = -40
+x1 = 36
+y1 = 26

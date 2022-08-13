@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = person
+dir2 = guide
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -18
+y0 = -17
+x1 = 18
+y1 = 19

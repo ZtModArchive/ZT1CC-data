@@ -1,0 +1,12 @@
+[animation]
+dir0 = food
+dir1 = inschow
+dir2 = mid
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -18
+y0 = -17
+x1 = 18
+y1 = 8

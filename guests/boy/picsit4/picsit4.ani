@@ -1,0 +1,12 @@
+[animation]
+dir0 = guests
+dir1 = boy
+dir2 = picsit4
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -9
+y0 = -21
+x1 = 9
+y1 = -5

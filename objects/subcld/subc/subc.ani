@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = subcld
+dir2 = subc
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -124
+y0 = -133
+x1 = 124
+y1 = 127

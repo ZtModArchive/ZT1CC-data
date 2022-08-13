@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = trnrinfo
+dir2 = trninfo
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -21
+y0 = -21
+x1 = 22
+y1 = 22

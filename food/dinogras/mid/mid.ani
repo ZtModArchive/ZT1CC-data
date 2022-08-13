@@ -1,0 +1,12 @@
+[animation]
+dir0 = food
+dir1 = dinogras
+dir2 = mid
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -28
+y0 = -20
+x1 = 28
+y1 = 13

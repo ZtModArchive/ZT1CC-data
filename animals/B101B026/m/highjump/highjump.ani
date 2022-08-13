@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = b101b026
+dir2 = m
+dir3 = highjump
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -34
+y0 = -75
+x1 = 42
+y1 = 22

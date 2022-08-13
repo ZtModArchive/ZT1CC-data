@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = bigfoot
+dir2 = y
+dir3 = throw
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -15
+y0 = -68
+x1 = 107
+y1 = 54

@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = caudipt
+dir2 = lscaudip
+animation = N
+x0 = -19
+y0 = -12
+x1 = 19
+y1 = 14

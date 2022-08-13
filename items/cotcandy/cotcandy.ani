@@ -1,0 +1,8 @@
+[animation]
+dir0 = items
+dir1 = cotcandy
+animation = N
+x0 = -11
+y0 = -16
+x1 = 14
+y1 = 16

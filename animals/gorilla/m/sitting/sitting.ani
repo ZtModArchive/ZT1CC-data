@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = gorilla
+dir2 = m
+dir3 = sitting
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -23
+y0 = -29
+x1 = 17
+y1 = 12

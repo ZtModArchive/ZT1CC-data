@@ -1,0 +1,191 @@
+[LayoutInfo]
+anchor=1032
+x=17
+y=6
+dx=179
+dy=440
+id=34
+layer=1
+state=1
+
+[Background]
+type=UIImage
+id=5000
+x=0
+y=0
+animation=ui/sharedui/objpan/objpan
+layer=0
+
+[PanelTitle]
+type=UIText
+id=5001
+textid=5001
+x=35
+y=5
+dx=100
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+
+[CloseWindow]
+type=UIButton
+id=5002
+helpid=3112
+x=142
+y=3
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=-1
+
+[Objects]
+type=UIScrollingRegion
+id=5003
+x=38
+y=51
+dx=102
+dy=204
+radioset = 5004
+template = 5005
+scrollbar = 5006
+autofit = 1
+spacing = 2
+spacing = 4
+layer=1
+
+[ObjectButtonSet]
+type = UIRadioSet
+id = 5004
+
+[ObjectIconTemplate]
+type = UIButton
+id = 5005
+layer = 2
+animation = ui/sharedui/border/border
+transparent = 0
+state = 256
+state = 4096
+iconfirst = 1
+
+[ObjectScrollBar]
+type = UIScrollBar
+id = 5006
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+[RotateLeftButton]
+type = UIButton
+id = 5007
+helpid = 3054
+x = 37
+y = 260
+animation=ui/buyobj/rotatl/rotatl
+layer = 1
+state = 1
+
+[RotateRightButton]
+type = UIButton
+id = 5008
+helpid = 3055
+x = 94
+y = 260
+animation=ui/buyobj/rotatr/rotatr
+layer = 1
+state = 1
+
+[NameLabel]
+type=UIText
+id=5009
+x=33
+y=306
+dx=122
+dy=fitfont
+font=3017
+fontsize=3018
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[Name]
+type=UIText
+id=5010
+x=43
+y=316
+dx=112
+dy=fitfont
+font=3017
+fontsize=3018
+border=2
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[CashLabel]
+type=UIText
+id=5011
+x=33
+y=330
+dx=122
+dy=fitfont
+font=3017
+fontsize=3018
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[CashEdit]
+type=UIEditableText
+id=5012
+x=43
+y=345
+dx=112
+dy=fitfont
+font=3017
+fontsize=3018
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+border=2
+transparent=1
+layer=1
+
+[ForceResearch]
+type=UIButton
+id=5013
+x=43
+y=370
+animation=ui/sharedui/close/close
+layer=1
+state=1

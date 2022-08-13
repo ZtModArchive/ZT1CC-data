@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = hippo
+dir2 = plhippo
+animation = N
+x0 = -90
+y0 = -99
+x1 = 91
+y1 = 99

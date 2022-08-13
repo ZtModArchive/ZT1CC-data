@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = keprinfo
+dir2 = kinfobk
+animation = N
+x0 = -223
+y0 = -149
+x1 = 223
+y1 = 150

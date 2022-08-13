@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = emppeng
+dir2 = lsmemppe
+animation = N
+x0 = -4
+y0 = -8
+x1 = 6
+y1 = 12

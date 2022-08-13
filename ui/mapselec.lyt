@@ -1,0 +1,343 @@
+[LayoutInfo]
+x=center
+y=center
+dx=800
+dy=600
+id=39
+layer=3
+state=1
+
+[Background]
+type=UIImage
+id=11500
+x=0
+y=0
+normal=ui/freeform/aquaffrm.tga
+transparent = 0
+layer=0
+
+
+[Map Picture]
+type=UIImage
+id=11501
+x=406
+y=37
+
+
+[Map Picture Label]
+type=UIText
+id=11502
+textid=11502
+x=525
+y=15
+dx=150
+dy=fitfont
+font=11520
+fontsize=11521
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[Map list Label]
+type=UIText
+id=11503
+textid=11503
+x=95
+y=15
+dx=150
+dy=fitfont
+font=11520
+fontsize=11521
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[Map List]
+type=UIListBox
+id=11504
+x=16
+y=40
+dx=340
+dy=474
+font = 14002
+fontsize = 14003
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+transparent = 1
+border = 2
+handledoubleclicks = 1
+; trigger on selection change
+state = 131072
+scrollbar=11505
+layer=1
+
+[MapListScrollBar]
+type = UIScrollBar
+id = 11505
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+
+[Map desciption Label]
+type=UIText
+id=11506
+textid=11506
+x=525
+y=321
+dx=150
+dy=fitfont
+font=11520
+fontsize=11521
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+
+[Map description]
+type=UIText
+id=11507
+x=395
+y=345
+dx=374
+dy=200
+font = 14004
+fontsize = 14005
+forecolor = 255
+forecolor = 228
+forecolor = 173
+backcolor = 121
+backcolor = 104
+backcolor = 50
+scrollbar=11508
+transparent=1
+layer=1
+
+[Map descriptionScrollBar]
+type = UIScrollBar
+id = 11508
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+[Starting Cash Label]
+type=UIText
+id=11509
+textid=11509
+x=195
+y=527
+dx=150
+dy=fitfont
+font=11520
+fontsize=11521
+border=0
+forecolor=255
+forecolor=212
+forecolor=60
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+
+[Starting Cash]
+type=UIEditableText
+id=11510
+helpid=11510
+x=180
+y=560
+dx=133
+dy=fitfont
+font=11522
+fontsize=11524
+border=0
+forecolor=83
+forecolor=219
+forecolor=83
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+numeric=1
+charlimit=8
+layer=1
+justify=right
+
+
+[up_Spinner]
+type=UIButton
+id=11511
+helpid=11511
+x=325
+y=555
+animation=ui/sharedui/spinup/spinup
+repeating=1
+layer=1
+
+
+[Down_Spinner]
+type=UIButton
+id=11512
+helpid=11512
+x=325
+y=570
+animation=ui/sharedui/spindwn/spindwn
+repeating=1
+layer=1
+
+[Difficulty Label]
+type=UIText
+id=11530
+textid=11530
+x=50
+y=527
+dx=125
+dy=fitfont
+font=11520
+fontsize=11521
+border=0
+forecolor=255
+forecolor=212
+forecolor=60
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+
+[Difficulty Text]
+type=UIText
+id=11531
+textid=11531
+x=50
+y=560
+dx=125
+dy=fitfont
+font=11520
+fontsize=11521
+border=0
+forecolor=83
+forecolor=219
+forecolor=83
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+
+
+
+[Play Map]
+type=UIButton
+id=11513
+helpid=11513
+textid= 14008
+x=660
+y=560
+justify=center
+font = 14000
+fontsize = 14001
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+transparent = 0
+layer = 2
+
+
+[Back to main menu]
+type=UIButton
+id=11514
+helpid=11514
+textid= 14009
+x=390
+y=560
+justify=center
+font = 14000
+fontsize = 14001
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+transparent = 0
+layer= 2
+action=2
+target=-1
+

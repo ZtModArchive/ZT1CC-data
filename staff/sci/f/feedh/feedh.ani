@@ -1,0 +1,14 @@
+[animation]
+dir0 = staff
+dir1 = sci
+dir2 = f
+dir3 = feedh
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -13
+y0 = -27
+x1 = 18
+y1 = 9

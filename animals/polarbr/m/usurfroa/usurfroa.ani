@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = polarbr
+dir2 = m
+dir3 = usurfroa
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -32
+y0 = -5
+x1 = 24
+y1 = 50

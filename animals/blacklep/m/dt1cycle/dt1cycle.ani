@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = blacklep
+dir2 = m
+dir3 = dt1cycle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -44
+y0 = -69
+x1 = 44
+y1 = -13

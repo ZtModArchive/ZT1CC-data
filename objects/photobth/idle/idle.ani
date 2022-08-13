@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = photobth
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -32
+y0 = -47
+x1 = 32
+y1 = 14

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = junrest
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -126
+y0 = -128
+x1 = 126
+y1 = 56

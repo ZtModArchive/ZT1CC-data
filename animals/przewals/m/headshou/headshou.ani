@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = przewals
+dir2 = m
+dir3 = headshou
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -24
+y0 = -36
+x1 = 22
+y1 = 12

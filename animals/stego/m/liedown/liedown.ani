@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = stego
+dir2 = m
+dir3 = liedown
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -94
+y0 = -78
+x1 = 68
+y1 = 47

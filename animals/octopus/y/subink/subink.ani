@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = octopus
+dir2 = y
+dir3 = subink
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -64
+y0 = -41
+x1 = 64
+y1 = 78

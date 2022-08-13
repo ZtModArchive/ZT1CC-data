@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = dolphin
+dir2 = y
+dir3 = usurfeat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -15
+y0 = -11
+x1 = 21
+y1 = 31

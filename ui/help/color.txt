@@ -1,0 +1,8 @@
+To change a building's roof color
+1.  Click the building to access its information panel.
+
+2.  Click the Change Color tab to view the colors that can be selected. 
+
+3.  Click any of the new colors shown to change the building’s roof color.
+
+Note: For some buildings, you can change more than their roof color. Try it!

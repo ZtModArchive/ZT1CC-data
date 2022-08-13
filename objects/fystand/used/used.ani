@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = fystand
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -54
+y0 = -118
+x1 = 54
+y1 = 26

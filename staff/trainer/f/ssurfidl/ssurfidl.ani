@@ -1,0 +1,14 @@
+[animation]
+dir0 = staff
+dir1 = trainer
+dir2 = f
+dir3 = ssurfidl
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -21
+y0 = -11
+x1 = 16
+y1 = 10

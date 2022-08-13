@@ -1,0 +1,396 @@
+[LayoutInfo]
+x=center
+y=center
+dx=384
+dy=600
+id=35
+layer=3
+state=1
+
+
+[Background]
+type=UIImage
+id=2100
+x=0
+y=0
+animation=ui/sharedui/updbck00.tga
+animation=ui/sharedui/updbck01.tga
+animation=ui/sharedui/updbck10.tga
+animation=ui/sharedui/updbck11.tga
+layer=0
+
+
+[PanelTitle]
+type=UIText
+id=2101
+textid=2101
+x=65
+y=244
+dx=250
+dy=fitfont
+font = 7108
+fontsize = 7109
+textid=4701
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[Information_Title_Label]
+type=UIText
+id=2102
+textid=2102
+x=115
+y=273
+dx=173
+dy=fitfont
+font=4736
+fontsize=4737
+textid=4701
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[Information Dialog_list]
+type = UIListBox
+id = 2103
+x=36
+y=292
+dx=313
+dy=50
+font = 3636
+fontsize = 3637
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+transparent = 1
+scrollbar = 2104
+border = 3
+layer = 1
+; trigger on selection change
+state = 131072
+justify=center
+
+[Information Dialog_list_scrollbar]
+type = UIScrollBar
+id = 2104
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+
+[FILE_Title_Label]
+type=UIText
+id=2105
+textid=2105
+x=100
+y=350
+dx=200
+dy=fitfont
+font=4736
+fontsize=4737
+textid=4701
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[File_List]
+type = UIListBox
+id = 2106
+x=43
+y=373
+dx=290
+dy=115
+font = 3636
+fontsize = 3637
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+transparent = 1
+scrollbar = 2107
+border = 3
+layer = 1
+toggleselect = 1
+; trigger on selection change
+state = 131072
+miniconwidth=25
+
+[filescrollbar]
+type = UIScrollBar
+id = 2107
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+
+[File_Progress_Meter]
+type=UIStatusImage
+id=2109
+x=43
+y=489
+dx=300
+dy=14
+animation=ui/sharedui/statg/statg
+transition=12
+transition=25
+layer=5
+
+
+[Cancel_Button]
+type = UIButton
+id = 2110
+textid = 2110
+helpid = 2120
+x =50
+y = 520
+dx = 100
+dy = fitfont
+border = 0
+justify = left
+font = 7108
+fontsize = 7109
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent = 1
+layer = 2
+;state = 2
+
+
+[Stop_Button]
+type = UIButton
+id = 2111
+textid = 2111
+helpid = 2121
+x =50
+y = 520
+dx = 100
+dy = fitfont
+border = 0
+justify = left
+font = 7108
+fontsize = 7109
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent = 1
+layer = 2
+;state = 2
+action=2
+target=-1
+
+
+[Add_Zoo_Items_Button]
+type = UIButton
+id = 2112
+textid = 2112
+helpid = 2122
+x = 170
+y = 510
+dx = 170
+dy = fitfont
+border = 0
+justify = right
+font = 7108
+fontsize = 7109
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent = 1
+layer = 2
+;state = 2
+
+[Check_Zoo_Items_Button]
+type = UIButton
+id = 2115
+textid = 2115
+helpid = 2125
+x = 190
+y = 510
+dx = 150
+dy = fitfont
+border = 0
+justify = right
+font = 7108
+fontsize = 7109
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent = 1
+layer = 2
+
+;[Restart_Button]
+;type = UIButton
+;id = 2113
+;textid = 2113
+;x = 240
+;y = 100
+;dx = 320
+;dy = fitfont
+;border = 2
+;justify = center
+;font = 7108
+;fontsize = 7109
+;forecolor = 255
+;forecolor = 186
+;forecolor = 16
+;backcolor = 131
+;backcolor = 125
+;backcolor = 53
+;highlightcolor = 255
+;highlightcolor = 223
+;highlightcolor = 41
+;selectcolor = 90
+;selectcolor = 255
+;selectcolor = 255
+;graycolor = 132
+;graycolor = 149
+;graycolor = 124
+;transparent = 1
+;layer = 2
+;state = 2
+
+
+
+[Get_Local_Items]
+type = UIButton
+id = 2114
+textid = 2114
+helpid = 2130
+x = 183
+y = 530
+dx = 150
+dy = fitfont
+border = 0
+justify = right
+font = 7108
+fontsize = 7109
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent = 1
+layer = 2
+

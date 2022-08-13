@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = cliff2
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -94
+y0 = -127
+x1 = 94
+y1 = 45

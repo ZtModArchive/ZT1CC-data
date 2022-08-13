@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = porpoise
+dir2 = m
+dir3 = ssubeat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -20
+y0 = -18
+x1 = 35
+y1 = 17

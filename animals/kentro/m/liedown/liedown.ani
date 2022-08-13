@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = kentro
+dir2 = m
+dir3 = liedown
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -97
+y0 = -89
+x1 = 58
+y1 = 48

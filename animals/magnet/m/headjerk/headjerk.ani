@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = magnet
+dir2 = m
+dir3 = headjerk
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -21
+y0 = -49
+x1 = 36
+y1 = 18

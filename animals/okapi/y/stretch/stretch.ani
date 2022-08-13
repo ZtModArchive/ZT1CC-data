@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = okapi
+dir2 = y
+dir3 = stretch
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -17
+y0 = -28
+x1 = 16
+y1 = 9

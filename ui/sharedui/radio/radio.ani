@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = radio
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -7
+y0 = -7
+x1 = 7
+y1 = 7

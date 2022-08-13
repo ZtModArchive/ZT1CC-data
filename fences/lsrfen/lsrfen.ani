@@ -1,0 +1,8 @@
+[animation]
+dir0 = fences
+dir1 = lsrfen
+animation = N
+x0 = -20
+y0 = -15
+x1 = 17
+y1 = 15

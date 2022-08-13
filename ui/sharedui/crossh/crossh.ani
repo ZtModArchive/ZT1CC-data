@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = crossh
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -34
+y0 = -30
+x1 = 34
+y1 = 38

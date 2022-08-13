@@ -1,0 +1,185 @@
+[Icon]
+Icon=objects/rockraft/SE/SE
+Icon=objects/rockraft/SW/SW
+Icon=objects/rockraft/NW/NW
+Icon=objects/rockraft/NE/NE
+
+[Member]
+toys
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 600
+cNameID = 6509
+cHelpID = 6509
+cFootprintX = 4
+cFootprintY = 4
+cCommerce = 0
+cSelectable = 0
+cMoveable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 1
+cTimeInside = 9
+cUsedThought = 0
+cUserUsesExit = 1
+cDeadOnLand=1
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cBlocksLOS = 0
+cSwims = 1
+cLand = 0
+cHeight = 1
+cToySatisfaction = 2
+cUseNumbersInName=0
+cRubbleable = 0
+
+; Animal moves into bldg more quickly
+cDirectEntrance = 1
+
+
+; building is placed on water surface
+cUnderwater = 1
+cSurface = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = objects/rockraft/idle/idle.ani
+used = objects/rockraft/idle/idle.ani
+shadowidle = objects/rockraft/sidle/sidle.ani
+underidle = objects/rockraft/uidle/uidle.ani
+idledead = objects/rockraft/dead/dead.ani
+
+
+[Satisfies]
+building
+animalrest
+
+
+[slots]
+name=bigslot1
+
+name=smallslot11
+name=smallslot22
+name=smallslot33
+name=smallslot44
+
+
+[bigslot1]
+
+;NORTHERN_ELEPHANT_SEAL
+id = 5404
+;WALRUS
+;id = 5417
+
+;filter = y
+slotpos = 0
+slotpos = 0
+
+entrpos = -32
+entrpos = -96
+
+exitpos = 0
+exitpos = 96
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1
+
+[smallslot11]
+
+;EMPEROR_PENGIUN
+id = 5039
+;sea lion
+id = 5040
+
+slotpos = -32
+slotpos = -32
+
+entrpos = -32
+entrpos = -96
+
+exitpos = -32
+exitpos = -96
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1
+
+[smallslot22]
+
+;EMPEROR_PENGIUN
+id = 5039
+;sea lion
+id = 5040
+
+
+slotpos = -32
+slotpos = 32
+
+entrpos = -32
+entrpos = 96
+
+exitpos = -32
+exitpos = 96
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1
+
+[smallslot33]
+
+;;EMPEROR_PENGIUN
+id = 5039
+;sea lion
+id = 5040
+
+
+slotpos = 32
+slotpos = -32
+
+entrpos = 32
+entrpos = -96
+
+exitpos = 32
+exitpos = -96
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1
+
+[smallslot44]
+
+;;EMPEROR_PENGIUN
+id = 5039
+;sea lion
+id = 5040
+
+
+slotpos = 32
+slotpos = 32
+
+entrpos = 32
+entrpos = 96
+
+exitpos = 32
+exitpos = 96
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1

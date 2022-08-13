@@ -1,0 +1,3 @@
+Great job! You now understand the basics of building a zoo! If you wish to continue the tutorials, select Tutorial 3 in the scenario list.
+
+Tutorial 3 will teach you more about making your animals happy.

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = wolrhn
+dir2 = m
+dir3 = walk
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -32
+y0 = -39
+x1 = 46
+y1 = 24

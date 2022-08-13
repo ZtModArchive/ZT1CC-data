@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = statvelo
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -71
+y0 = -71
+x1 = 71
+y1 = 31

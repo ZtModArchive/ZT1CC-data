@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = tankmod
+dir2 = modbk
+animation = N
+x0 = -37
+y0 = -80
+x1 = 37
+y1 = 80

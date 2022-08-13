@@ -1,0 +1,8 @@
+There are some new buildings in Marine Mania which allow the guests to have some aquatic fun. These buildings are placed directly on water terrain. They are not attached to tanks.
+
+1. Open the Zoo Buildings panel by clicking on the Structures button.
+2. Place the Swim with Dolphins attraction in the water provided just to the left of the boat rental shack area.
+
+Be sure to place the building with the entrance facing land.
+
+Click the OK button to proceed.

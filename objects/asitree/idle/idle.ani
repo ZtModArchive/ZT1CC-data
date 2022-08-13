@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = asitree
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -83
+y0 = -127
+x1 = 82
+y1 = 12

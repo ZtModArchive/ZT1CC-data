@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = confirm
+animation = N
+x0 = -196
+y0 = -57
+x1 = 197
+y1 = 59

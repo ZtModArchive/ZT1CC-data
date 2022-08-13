@@ -1,0 +1,356 @@
+[LayoutInfo]
+x=right
+y=-366
+dx=213
+dy=334
+id=12
+helpid=12
+layer=1
+state=1
+
+[Background]
+type=UIImage
+id=3700
+x=0
+y=0
+animation=ui/sharedui/multipan/multipan
+layer=0
+
+[Background2]
+type=UIImage
+id= 3788
+x=0
+y=187
+animation=ui/sharedui/multipa2/multipa2
+layer=0
+
+
+[PanelTitle]
+type=UIText
+id=3701
+x=10
+y=2
+dx=159
+dy=fitfont
+font=3736
+fontsize=3737
+textid=3701
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+
+
+[PanelTitle2]
+type=UIText
+id=3702
+textid=3702
+x=10
+y=172
+dx=159
+dy=fitfont
+font=3836
+fontsize=3837
+textid=3801
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+
+[Filter_Name]
+type=UIText
+id=3727
+x=10
+y=17
+dx=180
+dy=fitfont
+font=3450
+fontsize=3451
+border=1
+forecolor=254
+forecolor=219
+forecolor=89
+backcolor=59
+backcolor=71
+backcolor=45
+transparent=1
+layer=1
+;justify=center
+state=1
+
+
+[list]
+type = UIListBox
+id = 3705
+x=16
+y=35
+dx=154
+dy=134
+font = 3636
+fontsize = 3637
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+transparent = 1
+scrollbar = 3708
+border = 3
+miniconwidth = 39
+miniconheight = 31
+layer = 1
+; trigger on selection change
+state = 131072
+
+[scrollbar]
+type = UIScrollBar
+id = 3708
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+
+[Filters]
+type=UIRadioSet
+id=3730
+button=3715
+button=3717
+button=3719
+button=3721
+button=3723
+button=3725
+
+[Filter_All]
+type=UIButton
+id=3715
+helpid=3715
+x=25
+y=200
+animation=ui/guest/gall/gall
+layer=1
+state=1
+state=8
+state=4096
+
+[Filter_All_Num]
+type=UIText
+id=3716
+helpid=3716
+x=70
+y=205
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+;justify=center
+
+[Filter_Angry]
+type=UIButton
+id=3717
+helpid=3717
+x=110
+y=200
+animation=ui/guest/gangry/gangry
+layer=1
+state=1
+state=4096
+
+[Filter_Angry_Num]
+type=UIText
+id=3718
+helpid=3718
+x=155
+y=205
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[Filter_Thirsty]
+type=UIButton
+id=3719
+helpid=3719
+x=25
+y=235
+animation=ui/guest/gthirst/gthirst
+layer=1
+state=1
+state=4096
+
+[Filter_Thirsty_Num]
+type=UIText
+id=3720
+helpid=3720
+x=70
+y=240
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+
+[Filter_Hungry]
+type=UIButton
+id=3721
+helpid=3721
+x=110
+y=235
+animation=ui/guest/ghunger/ghunger
+layer=1
+state=1
+state=4096
+
+[Filter_Hungry_Num]
+type=UIText
+id=3722
+helpid=3722
+x=155
+y=240
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[Filter_BathRoom]
+type=UIButton
+id=3723
+helpid=3723
+x=25
+y=270
+animation=ui/guest/gbath/gbath
+layer=1
+state=1
+state=4096
+
+[Filter_BathRoom_Num]
+type=UIText
+id=3724
+helpid=3724
+x=70
+y=275
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+
+[Filter_Tired_Guest]
+type=UIButton
+id=3725
+helpid=3725
+x=110
+y=270
+animation=ui/guest/genergy/genergy
+layer=1
+state=1
+state=4096
+
+[Filter_Tired_Guest_Num]
+type=UIText
+id=3726
+helpid=3726
+x=155
+y=275
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+
+[CloseWindow]
+type=UIButton
+id= 3734
+helpid=3112
+x=184
+y=1
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=12
+

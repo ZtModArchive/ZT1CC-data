@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/seacuke/SE/SE
+Icon=objects/seacuke/SW/SW
+Icon=objects/seacuke/NW/NW
+Icon=objects/seacuke/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7414
+cHelpID = 7414
+cHabitat = 9413
+cLocation = 9632
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 2
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = fountain
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -56
+y0 = -132
+x1 = 56
+y1 = 28

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = mandrill
+dir2 = m
+dir3 = adnm4
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -12
+y0 = -24
+x1 = 19
+y1 = 10

@@ -1,0 +1,232 @@
+[LayoutInfo]
+x=center
+y=center
+dx=470
+dy=267
+id=41
+layer=5
+state=1
+
+
+[Background]
+type=UIImage
+id=11100
+x=0
+y=0
+animation=ui/show/showbk/showbk
+alias=-1
+layer=0
+
+[CloseWindow]
+type=UIButton
+id=11101
+helpid=3112
+x=417
+y=4
+animation=ui/sharedui/close/close
+layer=6
+action=2
+target=-1
+
+[ShowTankName]
+type=UIText
+id=11102
+x=195
+y=2
+dx=175
+dy=fitfont
+font=3270
+fontsize=3271
+border=1
+forecolor=255
+forecolor=218
+forecolor=90
+backcolor=59
+backcolor=71
+backcolor=45
+transparent=1
+shadowtext=0
+layer=6
+justify=left
+alias=-1
+
+
+
+
+[AdmissionLabel]
+type=UIText
+id=11103
+textid=11103
+x=7
+y=33
+dx=150
+dy=fitfont
+font=3996
+fontsize=3997
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+border=1
+transparent=1
+shadowtext=1
+layer=6
+
+[AdmissionCost]
+type=UIEditableText
+id=11104
+helpid=11104
+x=63
+y=51
+dx=65
+dy=fitfont
+font=3452
+fontsize=3453
+border=1
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=100
+backcolor=108
+backcolor=108
+highlightcolor=255
+highlightcolor=255
+highlightcolor=0
+transparent=1
+numeric=1
+charlimit=7
+layer=6
+justify=right
+
+[up_Spinner]
+type=UIButton
+id=11105
+helpid=11105
+x=133
+y=43
+animation=ui/sharedui/spinup/spinup
+repeating=1
+layer=6
+;state=4096
+
+[Down_Spinner]
+type=UIButton
+id=11106
+helpid=11106
+x=133
+y=59
+animation=ui/sharedui/spindwn/spindwn
+repeating=1
+layer=6
+
+
+
+[ShowSpeciesLabel]
+type=UIText
+id=11122
+textid=11122
+x=300
+y=33
+dx=125
+dy=fitfont
+font=3996
+fontsize=3997
+forecolor=255
+forecolor=218
+forecolor=90
+backcolor=59
+backcolor=71
+backcolor=45
+border=1
+transparent=1
+shadowtext=1
+layer=6
+justify=center
+
+
+
+[ShowSpecies]
+type=UIButton
+animation=ui/show/biglist/biglist
+id=11123
+helpid=11123
+x=287
+y=51
+font=3996
+fontsize=3997
+border=2
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent=1
+layer=6
+action=1
+target=45
+justify=center
+
+[ShowSpeciesList]
+type=UILayout
+layout=ui/showspec.lyt
+state=1
+
+
+
+
+
+[ShowbuttonRadioSet]
+type = UIRadioSet
+id = 11125
+button = 11126
+button = 11127
+
+[ShowTab1]
+type = UIButton
+id = 11126
+helpid = 11126
+x = 445
+y = 27
+animation=ui/show/showtb/showtb
+layer=6
+state=8
+state=4096
+action=3
+target=42
+
+
+[ShowFinacialsTab2]
+type = UIButton
+id = 11127
+helpid = 11127
+x = 445
+y = 63
+animation=ui/research/fund/fund
+layer=6
+state=4096
+action=3
+target=43
+
+
+
+[Show Layout]
+type=UILayout
+layout=ui/show1.lyt
+state=1
+
+[Show Finacials Layout]
+type=UILayout
+layout=ui/show2.lyt
+state=1

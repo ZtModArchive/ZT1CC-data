@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = tank4
+dir2 = f
+dir3 = midlow
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -18
+y0 = -31
+x1 = 18
+y1 = 8

@@ -1,0 +1,122 @@
+[Icon]
+Icon = objects/mexnacho/SE/SE
+Icon = objects/mexnacho/SW/SW
+Icon = objects/mexnacho/NW/NW
+Icon = objects/mexnacho/NE/NE
+
+[Member]
+structures
+
+[Characteristics/Integers]
+cPurchaseCost = 350
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cNameID = 8078
+cHelpID = 8078
+cSelectable = 1
+cCommerce = 1
+cNeedsConfirm = 1
+cAdultChange = 10
+cChildChange = 12
+cHungerChange = 0
+cThirstChange = 0
+cBathroomChange = 0
+cEnergyChange = 0
+cHideUser = 0
+cUserStaysOutside = 1
+cHideBuilding = 0
+cCapacity = 4
+cTimeInside = 8
+cUsedThought=10658
+cHeight = 3
+cIsColorReplaced = 0
+cUserUsesExit = 0
+cUserUsesEntranceAsEmergencyExit = 0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 2.00
+cLowCost = 1.00
+cMedCost = 2.00
+cHighCost = 6.00
+cUpkeep = 45.00
+cPriceFactor = 3.00
+
+[Sells]
+nacho
+
+[Animations]
+idle = idle
+used = used
+
+[UseSound]
+loops = 0
+name = scenery/building/nacho.wav
+attenuation = 1000
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 0
+; girl
+v = 9506
+v = 0
+
+[Satisfies]
+building
+food
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=0
+entrpos=80
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=80
+
+; 1000 = essentially infinite capacity
+capacity=12
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2467
+defaultpal = scenery/building/pals/rose16.pal
+
+; cr_part2 is listed in building.ai
+;replace = cr_part2
+;title = 2302
+;defaultpal = scenery/building/pals/burg8.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/atlshop/atlshop.pal
+colorpal = objects/atlshop/color.pal

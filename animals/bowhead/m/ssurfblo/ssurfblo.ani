@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = bowhead
+dir2 = m
+dir3 = ssurfblo
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -123
+y0 = -66
+x1 = 131
+y1 = 65

@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = woman
+dir2 = swanboat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -29
+y0 = -29
+x1 = 20
+y1 = 17

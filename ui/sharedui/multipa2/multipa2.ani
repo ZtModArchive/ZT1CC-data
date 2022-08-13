@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = multipa2
+animation = N
+x0 = -106
+y0 = -19
+x1 = 107
+y1 = 19

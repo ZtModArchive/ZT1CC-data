@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = mntnlion
+dir2 = lsmmntnl
+animation = N
+x0 = -19
+y0 = -5
+x1 = 20
+y1 = 12

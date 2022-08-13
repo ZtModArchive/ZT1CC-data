@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lochness
+dir2 = m
+dir3 = subrise
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -69
+y0 = -79
+x1 = 65
+y1 = 83

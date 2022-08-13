@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = deino
+dir2 = m
+dir3 = snap
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -109
+y0 = -150
+x1 = 200
+y1 = 112

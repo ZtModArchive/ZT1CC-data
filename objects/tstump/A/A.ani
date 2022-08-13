@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = tstump
+dir2 = A
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -30
+y0 = -53
+x1 = 30
+y1 = 14

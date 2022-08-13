@@ -1,0 +1,7 @@
+Marine Mania: Tutorial 3 teaches you the basics of creating combined land and tank exhibits. This is especially useful for animals like the polar bear. In addition, this tutorial will teach you how to build a combined exhibit with a show tank attached to the tank exhibit.
+
+You will learn:
+-- How to build a land exhibit adjacent to a tank exhibit.
+-- How to merge a tank exhibit with an adjacent land exhibit.
+-- How to hire a zookeeper to care for animals that live in combined land and tank exhibits.
+-- How to create a portal between an exhibit tank and a show tank.

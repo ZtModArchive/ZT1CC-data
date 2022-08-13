@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = rockwin
+dir2 = g
+dir3 = idle30p
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -22
+y0 = -67
+x1 = 22
+y1 = 18

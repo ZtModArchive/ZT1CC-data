@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = plaque
+dir2 = noanimal
+animation = N
+x0 = -90
+y0 = -99
+x1 = 91
+y1 = 99

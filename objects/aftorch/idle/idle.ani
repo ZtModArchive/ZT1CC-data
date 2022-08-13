@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = aftorch
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -4
+y0 = -77
+x1 = 4
+y1 = 2

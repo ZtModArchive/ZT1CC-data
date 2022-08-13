@@ -1,0 +1,9 @@
+There are five specific animals that perform shows when placed in a show exhibit: orcas, bottlenose dolphins, California sea lions, sea otters, and even great white sharks! Let's adopt an orca and place it in the tank exhibit with black tank walls.
+
+1. On the left side of the game screen, click the Adopt Animals button.
+2. Click the orca icon.
+3. Place the cursor over the tank exhibit, and then click to place an orca.
+
+Note: If an animal becomes unhappy because it is overworked or underfed, it won’t perform some of its tricks properly.
+
+Click the OK button to proceed.

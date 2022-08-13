@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = b101b026
+dir2 = y
+dir3 = adnm
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -20
+y0 = -37
+x1 = 22
+y1 = 12

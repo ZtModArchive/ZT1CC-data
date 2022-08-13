@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = iguano
+dir2 = m
+dir3 = fencezap
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -106
+y0 = -112
+x1 = 97
+y1 = 54

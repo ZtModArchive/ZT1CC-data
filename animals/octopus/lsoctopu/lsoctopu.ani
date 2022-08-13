@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = octopus
+dir2 = lsoctopu
+animation = N
+x0 = -18
+y0 = -7
+x1 = 19
+y1 = 11

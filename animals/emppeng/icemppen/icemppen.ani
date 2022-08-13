@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = emppeng
+dir2 = icemppen
+animation = N
+x0 = -22
+y0 = -16
+x1 = 22
+y1 = 16

@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = ibex
+dir2 = lsmibex
+animation = N
+x0 = -14
+y0 = -13
+x1 = 12
+y1 = 13

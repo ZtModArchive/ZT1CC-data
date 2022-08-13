@@ -1,0 +1,9 @@
+[animation]
+dir0 = scenario
+dir1 = scn30
+dir2 = scn30
+animation = N
+x0 = -183
+y0 = -136
+x1 = 184
+y1 = 140

@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = campto
+dir2 = lscampto
+animation = N
+x0 = -19
+y0 = -11
+x1 = 18
+y1 = 13

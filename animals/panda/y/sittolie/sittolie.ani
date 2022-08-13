@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = panda
+dir2 = y
+dir3 = sittolie
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -22
+y0 = -22
+x1 = 12
+y1 = 11

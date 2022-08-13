@@ -1,0 +1,14 @@
+[animation]
+dir0 = staff
+dir1 = tour
+dir2 = m
+dir3 = run
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -14
+y0 = -27
+x1 = 14
+y1 = 7

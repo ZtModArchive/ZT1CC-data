@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = ibex
+dir2 = y
+dir3 = lieidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -9
+y0 = -11
+x1 = 9
+y1 = 5

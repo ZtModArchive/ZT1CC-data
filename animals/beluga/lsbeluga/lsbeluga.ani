@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = beluga
+dir2 = lsbeluga
+animation = N
+x0 = -19
+y0 = -6
+x1 = 18
+y1 = 9

@@ -1,0 +1,43 @@
+[Icon]
+Icon=objects/xmastree/SE/SE
+Icon=objects/xmastree/SW/SW
+Icon=objects/xmastree/NW/NW
+Icon=objects/xmastree/NE/NE
+
+[Member]
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 200
+cNameID = 7077
+cHelpID = 7077
+cUsedThought=10256
+cLocation = 9618
+cHabitat = 9411
+cFootprintX = 2
+cFootprintY = 2
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cEstheticWeight = 50
+cGawkOnlyFromFront = 0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 10
+; girl
+v = 9506
+v = 10

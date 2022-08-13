@@ -1,0 +1,24 @@
+; $Id: bwallmtn.ai,v 1.1 2002/04/02 19:33:22 rmh Exp $
+[Icon]
+Icon = objects/bwallmtn/SE/SE
+Icon = objects/bwallmtn/SW/SW
+Icon = objects/bwallmtn/NW/NW
+Icon = objects/bwallmtn/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 600
+cNameID = 9210
+cHelpID = 9210
+cHabitat = 9407
+cLocation = 9618
+cFootprintX = 8
+cFootprintY = 2
+cHeight = 3
+cRubbleable = 0
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

@@ -1,0 +1,459 @@
+[LayoutInfo]
+anchor=1032
+x=17
+y=6
+dx=171
+dy=440
+id=901
+layer=1
+
+[Panel_SUB_Title]
+type=UIText
+id=1542
+textid=1542
+x=29
+y=29
+dx=127
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=206
+forecolor=206
+forecolor=206
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+[Main_Volume_Label]
+type=UIText
+id=1510
+textid=1510
+x=38
+y=120
+dx=110
+dy=fitfont
+font=3452
+fontsize=3453
+border=1
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[Main_Volume_ScrollBar]
+type = UIScrollBar
+id = 1511
+helpid=1564
+animation = ui/sharedui/horzslid/horzslid
+thumb = ui/sharedui/horzthm/horzthm
+x=38
+y=135
+dx=110
+dy=26
+layer = 1
+transparent=1
+
+[Menu_Music_Volume_Label]
+type=UIText
+id=1512
+textid=1512
+x=38
+y=165
+dx=110
+dy=fitfont
+font=3452
+fontsize=3453
+border=1
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[Main_Menu_Music_ScrollBar]
+type = UIScrollBar
+id = 1513
+helpid=1565
+animation = ui/sharedui/horzslid/horzslid
+thumb = ui/sharedui/horzthm/horzthm
+x=38
+y=180
+dx=110
+dy=26
+layer = 1
+transparent=1
+
+;[Video_Mode_Label]
+;type=UIText
+;id=1516
+;textid=1516
+;x=38
+;y=270
+;dx=110
+;dy=fitfont
+;font=3452
+;fontsize=3453
+;border=1
+;forecolor=237
+;forecolor=228
+;forecolor=173
+;backcolor=100
+;backcolor=108
+;backcolor=108
+;transparent=1
+;layer=1
+;;justify=center
+
+[Video_Mode_Radio_Set]
+type=UIRadioSet
+id=1580
+button=1517
+button=1518
+button=1519
+
+;[Video_Size_Label]
+;type=UIText
+;id=1586
+;textid=1586
+;x=38
+;y=228
+;dx=110
+;dy=fitfont
+;font=3452
+;fontsize=3453
+;border=1
+;forecolor=237
+;forecolor=228
+;forecolor=173
+;backcolor=100
+;backcolor=108
+;backcolor=108
+;transparent=1
+;layer=1
+;;justify=center
+
+[Window_Mode]
+type=UIButton
+id=1587
+textid=1587
+helpid=1566
+x=32
+y=210
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+layer=2
+;state=2
+
+[Full_Screen_Mode]
+type=UIButton
+id=1588
+textid=1588
+helpid=1567
+x=32
+y=210
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+layer=2
+;state=2
+
+[800x600]
+type=UIButton
+id=1517
+textid=1517
+helpid=1568
+x=32
+y=245
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+state=4096
+animation = ui/gameopts/textbck/textbck
+layer=2
+
+[1024x768]
+type=UIButton
+id=1518
+textid=1518
+helpid=1569
+x=32
+y=275
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+state=4096
+animation = ui/gameopts/textbck/textbck
+layer=2
+
+[1280x1024]
+type=UIButton
+id=1519
+textid=1519
+helpid=1570
+x=32
+y=305
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+state=4096
+animation = ui/gameopts/textbck/textbck
+layer=2
+
+[Terrain_RadioSet]
+type = UIRadioSet
+id = 1589
+button=1590
+button=1591
+button=1592
+button=1593
+
+[Terrain_Option_NoBlending]
+type = UIButton
+id = 1590
+helpid=1534
+animation = ui/sharedui/radio/radio
+x=36
+y=350
+layer = 1
+transparent=1
+state=4096
+
+[Terrain_Option_Speed]
+type = UIButton
+id = 1591
+helpid=1535
+animation = ui/sharedui/radio/radio
+x=36
+y=367
+layer = 1
+transparent=1
+state=4096
+
+[Terrain_Option_Balance]
+type = UIButton
+id = 1592
+helpid=1536
+animation = ui/sharedui/radio/radio
+x=36
+y=384
+layer = 1
+transparent=1
+state=4096
+
+[Terrain_Option_Quality]
+type = UIButton
+id = 1593
+helpid=1537
+animation = ui/sharedui/radio/radio
+x=36
+y=401
+layer = 1
+transparent=1
+state=4096
+
+; 1594-1597: text labels for terrain radio set
+; 1598: title for terrain radio set
+
+[Terrain_NoBlending_Label]
+type=UIText
+id=1594
+textid=1594
+helpid=1534
+x=54
+y=349
+dx=95
+dy=fitfont
+font=3452
+fontsize=3453
+border=0
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+alias=1590
+layer=1
+;justify=center
+
+[Terrain_Speed_Label]
+type=UIText
+id=1595
+textid=1595
+helpid=1535
+x=54
+y=366
+dx=95
+dy=fitfont
+font=3452
+fontsize=3453
+border=0
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+alias=1591
+layer=1
+;justify=center
+
+[Terrain_Balanced_Label]
+type=UIText
+id=1596
+textid=1596
+helpid=1536
+x=54
+y=383
+dx=95
+dy=fitfont
+font=3452
+fontsize=3453
+border=0
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+alias=1592
+layer=1
+;justify=center
+
+[Terrain_Quality_Label]
+type=UIText
+id=1597
+textid=1597
+helpid=1537
+x=54
+y=401
+dx=95
+dy=fitfont
+font=3452
+fontsize=3453
+border=0
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+alias=1593
+layer=1
+;justify=center
+
+[Terrain_Option_Label]
+type=UIText
+id=1598
+textid=1598
+x=33
+y=334
+dx=121
+dy=fitfont
+font=3452
+fontsize=3453
+border=0
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center

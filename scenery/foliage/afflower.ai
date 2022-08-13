@@ -1,0 +1,25 @@
+[Icon]
+Icon=objects/afflower/SE/SE
+Icon=objects/afflower/SW/SW
+Icon=objects/afflower/NW/NW
+Icon=objects/afflower/NE/NE
+
+[Member]
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 75
+cNameID = 7425
+cHelpID = 7425
+cHabitat = 9414
+cLocation = 9618
+cFootprintX = 2
+cFootprintY = 2
+cAutoRotate = 1
+cHeight = 1
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

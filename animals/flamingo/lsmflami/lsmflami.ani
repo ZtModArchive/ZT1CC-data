@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = flamingo
+dir2 = lsmflami
+animation = N
+x0 = -8
+y0 = -11
+x1 = 9
+y1 = 11

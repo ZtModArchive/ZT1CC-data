@@ -1,0 +1,9 @@
+[animation]
+dir0 = objects
+dir1 = dustcl
+dir2 = small
+animation = N
+x0 = -85
+y0 = -76
+x1 = 61
+y1 = 31

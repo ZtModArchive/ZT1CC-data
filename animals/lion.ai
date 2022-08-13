@@ -1,0 +1,1504 @@
+[Global]
+Class = animals
+Type = lion
+Subtype = 
+DefaultSubtype = f
+
+[AnimPath]
+m = animals/lion/m
+f = animals/lion/f
+y = animals/lion/y
+
+[f/Icon]
+Icon = animals/lion/icflion/icflion
+
+[m/Icon]
+Icon = animals/lion/icmlion/icmlion
+
+[Member]
+animals
+
+[f/Characteristics/Strings]
+cKeeperFoodType = carnivore
+cGeneralInfoTextName = LION_GENERAL
+cFoodInfoTextName = LION_ANIMAL
+cHabitatInfoTextName = LION_HABITAT
+cBehaviorInfoTextName = LION_BEHAVIOR
+cKeeperInfoTextName = LION_KEEPER
+cPlaqueImageName = animals/lion/pllion/pllion
+cListImageName = animals/lion/lsflion/lsflion
+
+;Umbrella Acacia 
+cPrefIcon = objects/umbacac/SE/SE
+
+[m/Characteristics/Strings]
+cListImageName = animals/lion/lsmlion/lsmlion
+
+;Umbrella Acacia 
+cPrefIcon = objects/umbacac/SE/SE
+
+[f/Characteristics/Integers]
+cKeeperFoodType = 1
+; Umbrella Acacia
+cPrefIconID = 7058
+
+; Lion
+cNameID = 5006
+cHelpID = 5006
+; Cat
+cFamily = 5206
+; Lion
+cGenus = 5106
+; Savannah
+cHabitat = 9400
+; Africa
+cLocation = 9600
+cPurchaseCost = 700
+cInitialHappiness  = 90
+cSlowRate = 20
+cMediumRate = 46
+cFastRate = 76
+cFootprintX = 1
+cFootprintY = 2
+
+;//ANGRY EFFECTS//
+cCaptivity = 2
+cNoFoodChange  = -50
+cSickChange = -12	
+cOtherAnimalSickChange = -5		
+cCrowdHappinessChange = -5
+cOtherAnimalAngryChange = 0 
+cNumberMinChange = -10
+cNumberMaxChange = -5
+cAllCrowdedChange = -5
+cAngryHabitatChange = -5
+cVeryAngryHabitatChange = -30
+cDeathChange = -10 
+cNoMateChange = 0
+
+cNotEnoughKeepersChange = -20
+cAngryTreeChange = -5
+
+;//HAPPY EFFECTS//
+cBabyBornChange = 40
+cHappyHabitatChange = 20
+
+cMaxHits  = 250
+cMinHits  = 0
+cPctHits  = 20
+
+cHungerThreshold  = 50
+cHungerIncrement  = 5
+cNeededFood = 100
+cKeeperFoodUnitsEaten = 20
+cHungryHealthChange = 10
+
+cSickChance = 5
+
+cEnergyThreshold = 100 
+cEnergyIncrement  = 10	
+cMaxEnergy = 100
+
+cCrowd = 30
+
+cKeeperFrequency = 2
+
+cSocial = 1
+cHabitatSize = 100
+cNumberAnimalsMin = 3
+cNumberAnimalsMax = 10
+cAnimalDensity = 20
+
+cPctHabitat = 10
+cHabitatPreference = 70
+
+cDirtyHabitatRating = 15
+cDirtyIncrement = 5
+cDirtyThreshold = 100
+
+cReproductionChance = 2 
+cReproductionInterval = 1800
+cBabyToAdult = 1440
+cHappyReproduceThreshold = 95
+cOffspring = 2
+cMatingType = 0
+
+cIsJumper = 1
+cIsClimber = 0
+cBashStrength = 0
+
+;Man
+cPrey = 9503
+;giant_panda		
+cPrey = 5001
+;chimpanzee			
+cPrey = 5003
+;plains_zebra		
+cPrey = 5004
+;thomsons_gazelle		
+cPrey = 5005
+;gray_wolf			
+cPrey = 5015
+;olive_baboon		
+cPrey = 5019
+;mandrill			
+cPrey = 5020
+;mountain_gorilla		
+cPrey = 5021
+;red_kangaroo		
+cPrey = 5023
+;common_wildebeest	    	
+cPrey = 5025
+;ibex			
+cPrey = 5027
+;okapi			
+cPrey = 5028
+;moose			
+cPrey = 5029
+;gemsbok			
+cPrey = 5031
+;american_bighorn		
+cPrey = 5032
+;giraffe			
+cPrey = 5033
+;hyena			
+cPrey = 5018
+;dromedary_camel		
+cPrey = 5034
+;markhor			
+cPrey = 5036
+;greater_flamingo		
+cPrey = 5037
+;ostrich			
+cPrey = 5038
+;emperor_pengiun		
+cPrey = 5039
+;california_sea_lion	
+cPrey = 5040
+;giant_anteater		
+cPrey = 5042
+;african_warthog		
+cPrey = 5043
+;Blackbuck			
+cPrey = 5076
+;Bongo				
+cPrey = 5077
+;Sable antelope				
+cPrey = 5079
+//Reserved for new prey animals
+;Prey animal 0				
+cPrey = 5300
+;Prey animal 1				
+cPrey = 5301
+;Prey animal 2				
+cPrey = 5302
+;Prey animal 3				
+cPrey = 5303
+;Prey animal 4				
+cPrey = 5304
+;Prey animal 5				
+cPrey = 5305
+;Prey animal 6				
+cPrey = 5306
+;Prey animal 7				
+cPrey = 5307
+;Prey animal 8				
+cPrey = 5308
+;Prey animal 9				
+cPrey = 5309
+;Prey animal 10				
+cPrey = 5310
+;Prey animal 11				
+cPrey = 5311
+;Prey animal 12				
+cPrey = 5312
+;Prey animal 13				
+cPrey = 5313
+;Prey animal 14				
+cPrey = 5314
+;Prey animal 15				
+cPrey = 5315
+;Prey animal 16				
+cPrey = 5316
+;Prey animal 17				
+cPrey = 5317
+;Prey animal 18				
+cPrey = 5318
+;Prey animal 19				
+cPrey = 5319
+;Prey animal 20				
+cPrey = 5320
+;Prey animal 21				
+cPrey = 5321
+;Prey animal 22				
+cPrey = 5322
+;Prey animal 23				
+cPrey = 5323
+;Prey animal 24				
+cPrey = 5324
+;Walrus
+cPrey = 5417
+;Northern Elephant Seal
+cPrey = 5404
+;Orangutan
+cPrey = 5506
+;Malaysian Tapir
+cPrey = 5507
+;Japanese Serow
+cPrey = 5508
+;Przewalski's Wild Horse
+cPrey = 5509
+;Bigfoot
+cPrey = 5514
+;Mexican Gray Wolf
+cPrey = 5516
+
+cFlies = 0
+cSwims = 0
+
+cEscapedChange = 30
+
+cSickTime = 4
+
+cMimic = 10
+cMimicHappyDiff = 50
+
+cOtherFood = 0
+cFoodTypes = 0
+
+cTreePref = 8
+cRockPref = 6
+cSpacePref = 70 
+cElevationPref = 0
+
+cTimeDeath = 8640
+cDeathChance = 10 
+
+cEatVegetationChance = 0
+cDrinkWaterChance = 10
+cChaseAnimalChance = 25
+cClimbsCliffs = 1
+
+cBuildingUseChance = 10
+
+cAttractiveness = 30
+cNeedShelter = 1
+cNeedToys = 1
+
+[y/Characteristics/Integers]
+cChaseAnimalChance = 35
+cIsJumper = 0
+cAttractiveness = 60
+
+[f/Characteristics/Mixed]
+[cCompatibleAnimals]
+;Primitive ungulates		
+v = 5200
+v = -20
+;Racoon			
+v = 5201
+v = -15
+;Bears			
+v = 5202
+v = -20
+;Primates			
+v = 5203
+v = -5
+;Odd-toed ungulates		
+v = 5204
+v = -10
+;Even-toed ungulates			
+v = 5205
+v = -10
+;Cat			
+v = 5206
+v = -20
+;Canine			
+v = 5207
+v = -20
+;Hyena			
+v = 5208
+v = -20
+;Marsupial		
+v = 5210
+v = -5
+;Bird			
+v = 5211
+v = -5
+;Seal			
+v = 5212
+v = -15
+;Crocodile		
+v = 5213
+v = -20
+;Edentate		    	
+v = 5214
+v = -5
+;Pig			
+v = 5215
+v = -5
+;Dinosaur			
+v = 5216
+v = -20
+;Monster			
+v = 5217
+v = -20
+
+;Lion			
+v = 5006
+v = 20
+
+[cSuitableObjects]
+;HABITAT
+;Savannah
+v = 9400
+v = 3
+;Non-habitat
+v = 9410
+v = -15
+;Tundra
+v = 9408
+v = -25
+;Grassland
+v = 9401
+v = -5
+;Deciduos forest
+v = 9402
+v = -10
+;Coniferous forest
+v = 9403
+v = -10
+;Boreal forest
+v = 9404
+v = -10
+;Tropical rainforest
+v = 9405
+v = -15
+;Highlands
+v = 9407
+v = -10
+;Desert
+v = 9409
+v = -10
+;Aquatic
+v = 9413
+v = -10
+;Poo
+v = 6062
+v = -10
+;Bad-habitat
+v = 9414
+v = -100
+
+;FOLIAGE AND ROCKS
+;water lilly
+v = 7061
+v = 10
+;water reed
+v = 7062
+v = 10
+;horsetail
+v = 7088
+v = 10
+;bald cypress
+v = 7083
+v = 10
+;umbacac
+v = 7058
+v = 7
+;baobab
+v = 7057
+v = 2
+;grasstr
+v = 7063
+v = -8
+;redgum
+v = 7030
+v = -8
+;hquandon
+v = 7019
+v = -8
+;eucalyp
+v = 7017
+v = -8
+;lrock1
+v = 9200
+v = 6
+;srock1
+v = 9205
+v = 3
+;srock2
+v = 9206
+v = 3
+;khejri
+v = 7076
+v = -8
+
+;SHELTERS/TOYS
+;Rock cave 1
+v = 8100
+v = 25
+;Conhous1
+v = 8107
+v = 17
+;Conhous2
+v = 8108
+v = 20
+;Conhous3
+v = 8109
+v = 22
+;Wodhous1
+v = 8110
+v = 17
+;Wodhous2
+v = 8111
+v = 20
+;Wodhous3
+v = 8112
+v = 22
+;lionrck1
+v = 6108
+v = 20
+;lionrck3
+v = 6109
+v = 25
+
+[cCompatibleTerrain]
+; grass = 0
+; savannah grass = 1
+; sand = 2
+; dirt = 3
+; rainforest floor = 4
+; brown rock = 5
+; gray rock = 6
+; gravel = 7
+; snow = 8
+; fresh water = 9
+; salt water = 10
+; deciduous floor = 11
+; waterfall = 12
+; coniferous floor = 13
+; concrete = 14
+; asphalt = 15
+; trampled = 16
+
+v = 16
+v = -5
+
+v = 1
+v = 80
+
+v = 2
+v = 5
+
+v = 3
+v = 10
+
+v = 4
+v = -5
+
+v = 5
+v = -5
+
+v = 6
+v = -5
+
+v = 8
+v = -50
+
+v = 9
+v = 5
+
+v = 10
+v = -20
+
+v = 11
+v = -5
+
+v = 13
+v = -5
+
+[m/Characteristics/Integers]
+cEnergyThreshold = 100 
+cEnergyIncrement  = 25	
+cMaxEnergy = 100
+; Umbrella Acacia
+cPrefIconID = 7058
+
+[f/Animations]
+idle = stand
+stand = stand
+walk = walk
+look_left = lookl
+look_right = lookr
+eat = eat
+head_ground = headgrnd
+walk_noise = noiswalk
+roar = roar
+bite = bite
+claw_log = clawlog
+lick_paw = lickpaw
+pant = pant
+scrape = scrape
+scratch = scratch
+scratch_ground = scrhgrnd
+shake = shake
+sniff = sniff
+stalk = stalk
+swat_paw = swatpaw
+trot = trot
+jerk_head = headjerk
+rub_pole = rubpole
+run_noise = noisrun
+run = run
+sleep = sleep
+head_down = headdown
+jump_high = highjump
+
+rk1start = rk1start
+rk1idle = rk1idle
+rk1end = rk1end
+rk3start = rk3start
+rk3idle = rk3idle
+rk3end = rk3end
+
+dustball = objects/dustcld/idle/idle.ani
+waterball = objects/watcloud/idle/idle.ani
+
+; Box animations
+box_idle = objects/box/idle/idle.ani
+box_used = objects/box/used/used.ani
+
+;Sitting
+sit = sit
+sit_idle = sitidle
+sit_roar = sitroar
+sit_scratch = sitscrh
+sit_to_lie = sittolie
+sit_paw = sitpaw
+sit_rub = sitrub
+
+;Crouch
+crouch = crouch
+crouch_idle = crchidle
+crouch_jump = crchjmp
+crouch_jump2 = crchjmp2
+crouch_walk = crchwalk
+
+;Lying down
+lie_down = liedown
+lie_idle = lieidle
+lie_lick = lielick
+lie_paw = liepaw
+lie_roar = lieroar
+lie_rub = lierub
+lie_rub_ground = grndrub 
+lie_scratch = liescrch
+lie_submissive = liesub
+lie_yawn = lieyawn
+lie_side = side
+side_idle = sideidle
+
+[m/Animations]
+idle = stand
+bite = bite
+claw_log = clawlog
+eat = eat
+head_down = headdown
+head_ground = headgrnd
+jerk_head = headjerk
+lick_paw = lickpaw
+look_left = lookl
+look_right = lookr
+walk_noise = noiswalk
+pant = pant
+scrape = scrape
+scratch = scratch
+scratch_ground = scrhgrnd
+shake = shake
+roar = roar
+run = run
+shake = shake
+sniff = sniff
+stalk = stalk
+stand = stand
+swat_paw = swatpaw
+trot = trot
+walk = walk
+jump_high = highjump
+dustball = objects/dustcld/idle/idle.ani
+waterball = objects/watcloud/idle/idle.ani
+
+rk1start = rk1start
+rk1idle = rk1idle
+rk1end = rk1end
+rk3start = rk3start
+rk3idle = rk3idle
+rk3end = rk3end
+
+; Box animations
+box_idle = objects/box/idle/idle.ani
+box_used = objects/box/used/used.ani
+
+;Crouch
+crouch = crouch
+crouch_idle = crchidle
+crouch_jump = crchjump
+crouch_walk = crchwalk
+
+;Lying down
+lie_down = liedown
+lie_idle = lieidle
+lie_lick = lielick
+lie_paw = liepaw
+lie_roar = lieroar
+lie_rub = lierub
+lie_rub_ground = grndrub 
+lie_scratch = liescrch
+lie_submissive = liesub
+lie_yawn = lieyawn
+lie_side = side
+side_idle = sideidle
+sleep = liesleep
+
+;Sitting
+sit = sit
+sit_idle = sitidle
+sit_roar = sitroar
+sit_scratch = sitscrh
+sit_to_lie = sittolie
+sit_paw = sitpaw
+sit_rub = sitrub
+
+[y/Animations]
+idle = stand
+stand = stand
+walk = walk
+look_left = lookl
+look_right = lookr
+eat = eat
+head_ground = headgrnd
+walk_noise = noiswalk
+roar = roar
+bite = bite
+claw_log = clawlog
+lick_paw = lickpaw
+pant = pant
+scrape = scrape
+scratch = scratch
+scratch_ground = scrhgrnd
+shake = shake
+sniff = sniff
+stalk = stalk
+swat_paw = swatpaw
+trot = trot
+jerk_head = headjerk
+rub_pole = rubpole
+run_noise = noisrun
+run = run
+sleep = sleep
+head_down = headdown
+jump_high = run
+
+dustball = objects/dustcld/idle/idle.ani
+waterball = objects/watcloud/idle/idle.ani
+
+rk1start = rk1start
+rk1idle = rk1idle
+rk1end = rk1end
+rk3start = rk3start
+rk3idle = rk3idle
+rk3end = rk3end
+
+; Box animations
+box_idle = objects/box/idle/idle.ani
+box_used = objects/box/used/used.ani
+
+;Sitting
+sit = sit
+sit_idle = sitidle
+sit_roar = sitroar
+sit_scratch = sitscrh
+sit_to_lie = sittolie
+sit_paw = sitpaw
+sit_rub = sitrub
+
+;Crouch
+crouch = crouch
+crouch_idle = crchidle
+crouch_jump = crchjmp
+crouch_jump2 = crchjmp2
+crouch_walk = crchwalk
+
+;Lying down
+lie_down = liedown
+lie_idle = lieidle
+lie_lick = lielick
+lie_paw = liepaw
+lie_roar = lieroar
+lie_rub = lierub
+lie_rub_ground = grndrub 
+lie_scratch = liescrch
+lie_submissive = liesub
+lie_yawn = lieyawn
+lie_side = side
+side_idle = sideidle
+
+[Sounds]
+low_growl = cat_lgr
+low_growl = 1500
+soft_growl = cat_sgr
+soft_growl = 1500
+purr = cat_pur
+purr = 1900
+roar = lion1
+roar = 1000
+cough = lion2
+cough = 1700
+baby1 = animals/leopard/lelgrowl.wav
+baby1 = 1400
+baby2 = animals/leopard/blcbcall.wav
+baby2 = 1700
+baby3 = animals/leopard/lecbcall.wav
+baby3 = 1600
+baby4 = animals/leopard/jacbcall.wav
+baby4 = 1400
+dustball = lion1
+dustball = 1000
+waterball = animals/sealion/splash1.wav
+waterball = 1000
+placesound = lion1
+placesound = 1000
+pickupsound = cat_sgr
+pickupsound = 1500
+
+[f\BehaviorSet\bHappy]
+f = fPlaySetProb(bIdle1,20,bHappy1,50,bHappy2,30)
+;f = fPlaySetProb(bHappy1,100)
+;f = fPlaySetProb(bSoundtest1,100)
+
+[f\BehaviorSet\bFriendly]
+f = fPlaySetProb(bHappy3,70,bIdle2,30)
+
+[f\BehaviorSet\bCalm]
+f = fPlaySetProb(bCalm1,50,bIdle1,30,bIdle2,20)
+
+[f\BehaviorSet\bNeutral]
+f = fPlaySetProb(bIdle1,40,bIdle2,40,bNeutral1,20)
+
+[f\BehaviorSet\bUneasy]
+f = fPlaySetProb(bUneasy1,35,bNoise1,15,bIdle2,15,bUneasy2,35)
+
+[f\BehaviorSet\bTense]
+f = fPlaySetProb(bTense1,60,bAngry3,20,bNoise1,20)
+
+[f\BehaviorSet\bAngry]
+f = fPlaySetProb(bAngry1,40,bAngry2,40,bNoise3,20)
+
+[f\BehaviorSet\bEscaped]
+f = fPlaySetProb(bEscaped1,70,bNoise3,30)
+
+[f\BehaviorSet\bBabyActions]
+f = fPlaySetProb(Baby1,40,bBaby2,40,bIdle1,20)
+
+[f\BehaviorSet\bPlayToys]
+;f = fPlaySetProb(bToy3,20,bSpray1,20,bLog1,20,bToy1,20,bToy2,20)
+
+[f\BehaviorSet\bPlayWithToyHappy]
+;f = fPlaySetProb(bPlayToys,50,bIdle1,20,bHappy2,20,bNoise1,10)
+
+[f\BehaviorSet\bPlayWithToyFriendly]
+;f = fPlaySetProb(bPlayToy,50,bIdle2,30,bNoise2,20)
+
+;[f\BehaviorSet\bSoundtest1]
+;f = fPlay(stand)
+;f = fPlayWithSound(sit_roar,soft_growl)
+;f = fPlayWithSound(lie_idle,purr)
+;f = fPlayWithSound(sit_idle,purr)
+;f = fPlayWithSound(roar,low_growl)
+;f = fPlayWithSound(roar,soft_growl)
+;f = fPlayWithSound(roar,cough)
+;f = fPlayWithSound(roar,roar)
+
+[f\BehaviorSet\bHappy1]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlayPingPong(lie_rub)
+f = fPlayTime(lie_idle,9)
+f = fPlay(lie_lick)
+f = fPlayWithSound(lie_idle,purr)
+f = fPlayTime(lie_idle,6)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[f\BehaviorSet\bHappy2]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,8)
+f = fPlay(sit_rub)
+f = fPlayWithSound(sit_roar,soft_growl)
+f = fPlayTime(sit_idle,6)
+f = fPlayWithSound(sit_idle,purr)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[f\BehaviorSet\bHappy3]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[f\BehaviorSet\bCalm1]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,9)
+f = fPlay(sit_scratch)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[f\BehaviorSet\bNeutral1]
+f = fPlay(stand)
+f = fPlay(sniff)
+f = fPlayTime(stand,6)
+f = fPlay(scratch)
+f = fPlayTime(stand,5)
+f = fPlay(scrape)
+f = fPlay(stand)
+
+[f\BehaviorSet\bUneasy1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlayTime(stand,8)
+f = fPlayPingPong(look_right)
+f = fPlay(stand)
+
+[f\BehaviorSet\bUneasy2]
+f = fPlay(stand)
+f = fPlay(crouch)
+f = fPlayTime(crouch_idle,4)
+f = fMove(0,0,crouch_walk,12)
+f = fMove(0,0,crouch_jump2,6)
+f = fPlay(stand)
+
+[f\BehaviorSet\bTense1]
+f = fPlay(stand)
+f = fPlay(swat_paw)
+f = fWalk(0,0)
+f = fPlay(jerk_head)
+f = fPlayWithSound(roar,cough)
+f = fPlay(stand)
+
+[f\BehaviorSet\bAngry1]
+f = fPlay(stand)
+f = fMove(0,0,run,76)
+f = fPlay(stand)
+f = fPlayWithSound(roar,low_growl)
+f = fPlay(stand)
+f = fPlay(swat_paw)
+f = fPlay(stand)
+
+[f\BehaviorSet\bAngry2]
+f = fPlay(stand)
+f = fMove(0,0,run,76)
+f = fPlay(stand)
+f = fPlayWithSound(roar,soft_growl)
+f = fPlay(swat_paw)
+f = fPlayWithSound(roar,low_growl)
+f = fPlay(stand)
+
+[f\BehaviorSet\bAngry3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,low_growl)
+f = fPlay(swat_paw)
+f = fMove(0,0,run,76)
+f = fPlayWithSound(roar,soft_growl)
+f = fPlay(jerk_head)
+f = fPlay(stand)
+
+[f\BehaviorSet\bNoise1]
+f = fPlay(stand)
+f = fPlayWithSound(roar,low_growl)
+f = fPlay(stand)
+
+[f\BehaviorSet\bNoise2]
+f = fPlay(stand)
+f = fPlayWithSound(roar,cough)
+f = fPlay(stand)
+
+[f\BehaviorSet\bNoise3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[f\BehaviorSet\bIdle1]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,9)
+f = fPlay(sit_scratch)
+f = fPlay(sit_idle)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[f\BehaviorSet\bIdle2]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,11)
+f = fPlayPingPong(lie_submissive)
+f = fPlayTime(lie_idle,4)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[f\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,6)
+f = fPlay(sit_to_lie)
+f = fPlayTime(lie_idle,7)
+f = fPlay(lie_lick)
+f = fPlayTime(lie_idle,5)
+f = fPlayReverse(sit_to_lie)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[f\BehaviorSet\bSleep]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(head_down)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(head_down)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[f\BehaviorSet\bDie]
+f = fPlay(lie_down)
+f = fPlay(head_down)
+f = fPlayTime(sleep,5)
+f = fPlayTime(sleep,5)
+f = fDie()
+
+[f\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[f\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+f = fPlaySet(bEat)
+
+[f\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(stand)
+f = fPlay(head_ground)
+f = fPlayTime(eat,3)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+f = fPlay(head_ground)
+f = fPlayTime(eat,6)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+
+[f\BehaviorSet\bSick]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_side)
+f = fPlayTime(side_idle,20)
+f = fPlayReverse(lie_side)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[f\BehaviorSet\bEscaped1]
+f = fPlay(stand)
+f = fMove(0,0,run,76)
+f = fPlay(stand)
+f = fPlayWithSound(roar,low_growl)
+f = fPlay(stand)
+
+[f\BehaviorSet\bChasePrey]
+f = fMove(prey,0,"run",76)
+
+[f\BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[f\BehaviorSet\bCaughtGuest]
+; the time of animation below should match bCaughtBy in guest
+f = fPlayTime(stand,6)
+
+[f\BehaviorSet\bCaughtPrey]
+f = fDustBall()
+f = fPlaySet(bAfterCaught)
+
+[f\BehaviorSet\bAfterCaught]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlay(sit_paw)
+f = fPlayWithSound(sit_roar,soft_growl)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[f\BehaviorSet\bCaught]
+f = fFollow(keeper)
+
+[f\BehaviorSet\bBaby1]
+f = fPlay(stand)
+f = fWalk(mother,0)
+
+[f\BehaviorSet\bBaby2]
+f = fPlay(stand)
+f = fWalk(mother,0)
+
+[f\BehaviorSet\bBored1]
+f = fPlayTime(stand,10)
+
+[f\BehaviorSet\bBored2]
+f = fPlayTime(stand,10)
+
+[f\BehaviorSet\bAngryKeeper]
+f = fPlay(stand)
+
+[f\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[f\BehaviorSet\bRun]
+f = fMove(0,0,run,76)
+
+[f\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[f\BehaviorSet\blionrck1animalrest0]
+f = fPlay(rk1start)
+f = fEnterBuilding()
+f = fPlay(rk1idle)
+f = fPlay(rk1idle)
+f = fPlay(rk1end)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[f\BehaviorSet\blionrck3animalrest0]
+f = fPlay(rk3start)
+f = fEnterBuilding()
+f = fPlay(rk3idle)
+f = fPlay(rk3idle)
+f = fPlay(rk3end)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[AmbientAnims]
+a = 81
+a = 100
+b = bHappy
+a = 61
+a = 80
+b = bFriendly
+a = 21
+a = 60
+b = bCalm
+a = -20
+a = 20
+b = bNeutral
+a = -60
+a = -21
+b = bUneasy
+a = -80
+a = -61
+b = bTense
+a = -100
+a = -81
+b = bAngry
+
+;[m\BehaviorSet\bSoundtest1]
+;f = fPlay(stand)
+;f = fPlayWithSound(sit_roar,soft_growl)
+;f = fPlayWithSound(lie_idle,purr)
+;f = fPlayWithSound(sit_idle,purr)
+;f = fPlayWithSound(roar,low_growl)
+;f = fPlayWithSound(roar,soft_growl)
+;f = fPlayWithSound(roar,cough)
+;f = fPlayWithSound(roar,roar)
+
+[m\BehaviorSet\bHappy1]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlayPingPong(lie_rub)
+f = fPlayTime(lie_idle,9)
+f = fPlay(lie_lick)
+f = fPlayWithSound(lie_idle,soft_growl)
+f = fPlayTime(lie_idle,6)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bHappy2]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,8)
+f = fPlay(sit_rub)
+f = fPlayTime(sit_idle,6)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[m\BehaviorSet\bHappy3]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(stand,soft_growl)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[m\BehaviorSet\bCalm1]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,9)
+f = fPlay(sit_scratch)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNeutral1]
+f = fPlay(stand)
+f = fPlay(sniff)
+f = fPlayTime(stand,6)
+f = fPlay(scratch)
+f = fPlayWithSound(jerk_head,soft_growl)
+f = fPlayTime(stand,5)
+f = fPlay(scrape)
+f = fPlay(stand)
+
+[m\BehaviorSet\bUneasy1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlayTime(stand,8)
+f = fPlayPingPong(look_right)
+f = fPlay(stand)
+
+[m\BehaviorSet\bUneasy2]
+f = fPlay(stand)
+f = fPlay(crouch)
+f = fPlayTime(crouch_idle,4)
+f = fMove(0,0,crouch_walk,12)
+f = fMove(0,0,crouch_jump,6)
+f = fPlay(stand)
+
+[m\BehaviorSet\bTense1]
+f = fPlay(stand)
+f = fPlay(swat_paw)
+f = fWalk(0,0)
+f = fPlay(jerk_head)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry1]
+f = fPlay(stand)
+f = fMove(0,0,run,76)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+f = fPlay(swat_paw)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry2]
+f = fPlay(stand)
+f = fMove(0,0,run,76)
+f = fPlay(stand)
+f = fPlayWithSound(roar,low_growl)
+f = fPlay(swat_paw)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(swat_paw)
+f = fMove(0,0,run,76)
+f = fPlayWithSound(roar,low_growl)
+f = fPlay(jerk_head)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise1]
+f = fPlay(stand)
+f = fPlayWithSound(roar,low_growl)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise2]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,soft_growl)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle1]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,9)
+f = fPlay(sit_scratch)
+f = fPlay(sit_idle)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle2]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,11)
+f = fPlayPingPong(lie_submissive)
+f = fPlayTime(lie_idle,4)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,6)
+f = fPlay(sit_to_lie)
+f = fPlayTime(lie_idle,7)
+f = fPlay(lie_lick)
+f = fPlayTime(lie_idle,5)
+f = fPlayReverse(sit_to_lie)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSleep]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(head_down)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(head_down)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bEat]
+f = fPlay(stand)
+f = fPlay(head_ground)
+f = fPlayTime(eat,3)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+f = fPlay(head_ground)
+f = fPlayTime(eat,6)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSick]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_side)
+f = fPlayTime(side_idle,20)
+f = fPlayReverse(lie_side)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[m\BehaviorSet\bChasePrey]
+f = fMove(prey,0,"run",76)
+
+[m\BehaviorSet\bCaughtPrey]
+f = fDustBall()
+f = fPlaySet(bAfterCaught)
+
+[m\BehaviorSet\bCaughtGuest]
+; the time of animation below should match bCaughtBy in guest
+f = fPlayTime(stand,6)
+
+[m\BehaviorSet\bAfterCaught]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlay(sit_paw)
+f = fPlayWithSound(sit_roar,soft_growl)
+f = fPlayReverse(sit)
+
+[m\BehaviorSet\bCaught]
+f = fFollow(keeper)
+
+[m\BehaviorSet\bBaby1]
+f = fPlay(stand)
+f = fWalk(mother,0)
+
+[m\BehaviorSet\bBaby2]
+f = fPlay(stand)
+f = fWalk(mother,0)
+
+[m\BehaviorSet\bBored1]
+f = fPlayTime(stand,10)
+
+[m\BehaviorSet\bBored2]
+f = fPlayTime(stand,10)
+
+[m\BehaviorSet\bAngryKeeper]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+;Baby specific behavior sets
+;These account for the different sounds the babies make.
+[y\BehaviorSet\bHappy1]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlayPingPong(lie_rub)
+f = fPlayTime(lie_idle,9)
+f = fPlay(lie_lick)
+f = fPlayWithSound(lie_roar,baby1)
+f = fPlayTime(lie_idle,6)
+f = fPlayReverse(lie_down)
+f = fMove(0,0,walk,16)
+f = fPlay(stand)
+
+[y\BehaviorSet\bHappy2]
+f = fPlay(stand)
+f = fMove(0,0,run,56)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,8)
+f = fPlay(sit_rub)
+f = fPlayWithSound(sit_roar,baby2)
+f = fPlayTime(sit_idle,6)
+f = fPlayWithSound(sit_roar,baby1)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[y\BehaviorSet\bHappy3]
+f = fPlay(stand)
+f = fMove(0,0,run,56)
+f = fPlay(stand)
+f = fPlayWithSound(roar,baby4)
+f = fPlay(shake)
+f = fMove(0,0,walk,16)
+f = fPlay(stand)
+
+[y\BehaviorSet\bCalm1]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,9)
+f = fPlay(sit_scratch)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[y\BehaviorSet\bNeutral1]
+f = fPlay(stand)
+f = fPlay(sniff)
+f = fMove(0,0,run,56)
+f = fPlayTime(stand,6)
+f = fPlay(scratch)
+f = fPlayTime(stand,5)
+f = fPlay(scrape)
+f = fPlay(stand)
+
+[y\BehaviorSet\bUneasy1]
+f = fPlay(stand)
+f = fMove(0,0,walk,16)
+f = fPlayTime(stand,8)
+f = fPlayPingPong(look_right)
+f = fMove(0,0,run,56)
+f = fPlay(stand)
+
+[y\BehaviorSet\bUneasy2]
+f = fPlay(stand)
+f = fPlay(crouch)
+f = fPlayTime(crouch_idle,7)
+f = fPlayReverse(crouch)
+f = fPlay(stand)
+
+[y\BehaviorSet\bTense1]
+f = fPlay(stand)
+f = fPlay(swat_paw)
+f = fMove(0,0,run,56)
+f = fPlay(jerk_head)
+f = fPlayWithSound(roar,baby3)
+f = fMove(0,0,run,56)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle1]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,9)
+f = fPlay(sit_scratch)
+f = fPlay(sit_idle)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle2]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,11)
+f = fPlayPingPong(lie_submissive)
+f = fPlayTime(lie_idle,4)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,6)
+f = fPlay(sit_to_lie)
+f = fPlayTime(lie_idle,7)
+f = fPlay(lie_lick)
+f = fPlayTime(lie_idle,5)
+f = fPlayReverse(sit_to_lie)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[y\BehaviorSet\bNoise1]
+f = fPlay(stand)
+f = fPlayWithSound(roar,baby1)
+f = fPlay(stand)
+
+[y\BehaviorSet\bNoise2]
+f = fPlay(stand)
+f = fPlayWithSound(bite,baby2)
+f = fPlay(stand)
+
+[y\BehaviorSet\bNoise3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,baby4)
+f = fPlay(stand)
+
+[y\BehaviorSet\bAngry1]
+f = fPlay(stand)
+f = fMove(0,0,run,56)
+f = fPlay(stand)
+f = fPlayWithSound(roar,baby1)
+f = fPlay(stand)
+f = fPlayWithSound(bite,baby2)
+f = fPlay(swat_paw)
+f = fPlay(stand)
+
+[y\BehaviorSet\bAngry2]
+f = fPlay(stand)
+f = fPlayWithSound(bite,baby2)
+f = fMove(0,0,run,56)
+f = fPlay(stand)
+f = fPlayWithSound(roar,baby4)
+f = fPlay(swat_paw)
+f = fPlayWithSound(roar,baby1)
+f = fPlay(stand)
+
+[y\BehaviorSet\bAngry3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,baby1)
+f = fPlay(swat_paw)
+f = fMove(0,0,run,56)
+f = fPlayWithSound(roar,baby4)
+f = fPlay(jerk_head)
+f = fPlay(stand)
+
+[y\BehaviorSet\bEscaped1]
+f = fPlay(stand)
+f = fMove(0,0,run,56)
+f = fPlay(stand)
+f = fPlayWithSound(roar,baby1)
+f = fPlay(stand)
+
+[y\BehaviorSet\bWalk]
+f = fMove(0,0,walk,16)
+

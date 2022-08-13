@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = aftmound
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -40
+y0 = -108
+x1 = 41
+y1 = 20

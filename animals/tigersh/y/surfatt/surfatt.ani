@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = tigersh
+dir2 = y
+dir3 = surfatt
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -26
+y0 = -25
+x1 = 35
+y1 = 17

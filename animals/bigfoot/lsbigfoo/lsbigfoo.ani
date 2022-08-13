@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = bigfoot
+dir2 = lsbigfoo
+animation = N
+x0 = -9
+y0 = -15
+x1 = 9
+y1 = 15

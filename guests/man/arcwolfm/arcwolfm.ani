@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = arcwolfm
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -37
+y0 = -38
+x1 = 42
+y1 = 21

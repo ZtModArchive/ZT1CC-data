@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = wrcedar
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -44
+y0 = -211
+x1 = 43
+y1 = 8

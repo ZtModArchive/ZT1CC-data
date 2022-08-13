@@ -1,0 +1,8 @@
+[animation]
+dir0 = staff
+dir1 = plkeeper
+animation = N
+x0 = -89
+y0 = -97
+x1 = 90
+y1 = 97

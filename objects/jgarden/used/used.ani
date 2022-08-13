@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = jgarden
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -217
+y0 = -202
+x1 = 217
+y1 = 109

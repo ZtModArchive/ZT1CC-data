@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = smarlin
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -38
+y0 = -37
+x1 = 75
+y1 = 37

@@ -1,0 +1,53 @@
+[Icon]
+Icon = objects/jmpfount/SE/SE
+Icon = objects/jmpfount/SW/SW
+Icon = objects/jmpfount/NW/NW
+Icon = objects/jmpfount/NE/NE
+
+
+[Member]
+scenery
+aqua
+
+
+[AmbientSound]
+name = scenery/building/jmpfoun.wav
+attenuation = 1800
+
+
+[Characteristics/Integers]
+cNameID = 6495
+cHelpID = 6495
+cPurchaseCost = 150
+cFootprintX = 2
+cFootprintY = 4
+cUsedThought=10220
+cHeight = 2
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 30
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+
+[EstheticBonus]
+; man
+v = 9503
+v = 15
+; woman
+v = 9504
+v = 15
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15
+
+
+
+
+

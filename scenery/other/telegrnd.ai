@@ -1,0 +1,25 @@
+[Icon]
+Icon = objects/telegrnd/SE/SE
+Icon = objects/telegrnd/SW/SW
+Icon = objects/telegrnd/NW/NW
+Icon = objects/telegrnd/NE/NE
+
+[Member]
+developer
+
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6143
+cHelpID = 6143
+cFootprintX = 2
+cFootprintY = 2
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

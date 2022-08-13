@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = streetlt
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -85
+y0 = -135
+x1 = 85
+y1 = 5

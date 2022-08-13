@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = swing
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -27
+y0 = -77
+x1 = 27
+y1 = 13

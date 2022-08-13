@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = tank6
+dir2 = g
+dir3 = platform
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -44
+y0 = -28
+x1 = 44
+y1 = 22

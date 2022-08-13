@@ -1,0 +1,132 @@
+RESEARCH
+
+STAFF EDUCATION
+Zookeeper training 1 - makes the animals happier when a zookeeper enters their exhibit.
+
+Maintenance worker training 1 - allows  maintenance workers to pick up trash more efficiently.
+
+Zookeeper training 2 - allows the zookeepers to feed the animals more quickly.
+
+Tour guide training 1 - makes the guests happier when listening to the tour guides.
+
+Maintenance worker training 2 - allows maintenance workers to repair exhibit fences faster.
+
+Maintenance worker training 3 - allows maintenance workers to repair tank filters faster.
+
+
+SCIENTIST TRAINING
+Scientist training 1 - makes the dinosaurs happier when a scientist enters their exhibit.
+
+Scientist training 2 - allows scientists to be able to distribute more food upon each exhibit visit.
+
+Scientist training 3 - allows scientists to be able to walk faster.
+
+
+M. SPECIALIST TRAINING
+Marine specialist training 1 - allows marine specialists to walk and swim faster.
+
+Marine specialist training 2 - allows aquatic animal tricks to be researched faster.
+
+
+ANIMAL SHELTERS
+Rock cave - allows you to purchase a rock cave, the favorite shelter of big cats and bears.
+
+Snowy rock cave - allows you to purchase a snowy rock cave, which is favored by polar bears.
+
+Large stable - allows you to purchase a large stable, the favorite shelter of large, hoofed animals.
+
+Large concrete shelter - allows you to purchase a large concrete shelter.
+
+Large lean-to - allows you to purchase a large lean-to shelter.
+
+Large Burrow - allows you to purchase a large burrow, which is favored by giant anteaters and African warthogs.
+
+Large wood shelter - allows you to purchase a large wood shelter.
+
+Large elephant shelter - allows you to purchase a large elephant shelter.
+
+Large giraffe shelter - allows you to purchase a large giraffe shelter.
+
+Panda cave - allows you to purchase a panda cave shelter, the shelter pandas enjoy most.
+
+
+PANDA CARE
+Panda enrichment - makes the pandas happier when a zookeeper enters their exhibit.
+
+Panda fertility - increases the reproduction rate of the pandas.
+
+Panda inoculations - introduces an inoculation program for the pandas, making them less likely to catch diseases.
+
+
+T. REX CARE
+Tyrannosaurus rex Enrichment - makes the tyrannosaurus rex happier when a scientist enters their exhibit.
+
+Tyrannosaurus rex Inoculations - introduces an inoculation program for Tyrannosaurus rex, making them less likely to catch diseases.
+
+Tyrannosaurus rex Temperament Adjustment - makes Tyrannosaurus rex tolerant of more T. rex in its exhibit.
+
+
+ANIMAL CARE
+Nutritional food - increases the nutritional value of the animals' food.
+
+Animal fertility - increases the reproduction rates of the animals.
+
+Reduced food costs - reduces the cost of the animals' food.
+
+Animal antibiotics - introduces an inoculation program for the animals, making them less likely to catch diseases.
+
+
+DINOSAUR CARE
+Nutritional Dinosaur Food - increases the nutritional value of the dinosaurs' food.
+
+Reduced Dinosaur Food Costs - reduces the cost of the dinosaurs' food.
+
+Dinosaur Antibiotics - introduces an inoculation program for the dinosaurs making them less likely to catch diseases.
+
+Dinosaur Longevity - introduces measures that allow dinosaurs to live longer.
+
+
+AQUATIC ANIMAL CARE
+Aquatic animal antibiotics - introduces an inoculation program for your aquatic animals, making them less likely to catch diseases.
+
+Aquatic animal longevity - introduces measures that allow aquatic animals to live longer.
+
+
+ANIMAL ENRICHMENT
+Lion Climbing rock - allows you to purchase a climbing rock.
+
+Swinging log toy - allows you to purchase a swinging log toy.
+
+Gorilla climbing bars - allows you to purchase medium gorilla bars.
+
+Cat climbing tree - allows you to purchase a cat climbing tree.
+
+Large chimpanzee bars - allows you to purchase large chimpanzee bars.
+
+
+ORCA TRICKS
+Reverse Tail Walk - allows the orca to reverse tail walk during performances.
+
+Reverse Breach - allows the orca to reverse breach during performances.
+
+
+GREAT WHITE SHARK TRICKS
+Feeding Frenzy - allows the great white shark to go into a feeding frenzy during performances.
+
+Breach Attack -  allows the great white shark to breach attack during performances.
+
+
+B. DOLPHIN TRICKS
+Bubble Jump - allows the bottlenose dolphin to jump through a bubble ring during performances.
+
+Belly Flop - allows the bottlenose dolphin to belly flop during performances.
+
+Spin - allows the bottlenose dolphin to spin at the tank surface during performances.
+
+Wave to Crowd - allows the bottlenose dolphin to wave to the crowd at the tank surface during performances.
+
+
+SEA OTTER TRICKS
+Jump - allows the southern sea otter to jump during performances.
+
+Spin - allows the southern sea otter to spin at the tank surface during performances.

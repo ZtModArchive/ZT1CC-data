@@ -1,0 +1,1 @@
+Exhibit gates allow staff to get in and out of exhibits, so don't block the gates with trees or other objects. Clicking the exhibit gate gives information about that exhibit.

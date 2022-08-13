@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lambeo
+dir2 = y
+dir3 = stand
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -80
+y0 = -73
+x1 = 42
+y1 = 40

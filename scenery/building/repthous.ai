@@ -1,0 +1,110 @@
+[Icon]
+Icon = objects/repthous/SE/SE
+Icon = objects/repthous/SW/SW
+Icon = objects/repthous/NW/NW
+Icon = objects/repthous/NE/NE
+
+[Member]
+structures
+
+[Characteristics/Integers]
+cPurchaseCost = 950
+cNameID = 8015
+cHelpID = 8015
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 14
+cFootprintY = 12
+cSelectable = 1
+cNeedsConfirm = 1
+cCommerce = 0
+cHideUser = 1
+cUserStaysOutside = 0
+cHideBuilding = 0
+cAdultChange = 5
+cChildChange = 10
+cCapacity = 6
+cTimeInside = 10
+cUsedThought=10208
+cHeight = 3
+cRubbleable = 0
+cIsColorReplaced = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cUpkeep = 50.00
+
+[Animations]
+idle = idle
+used = used
+
+[UseSound]
+loops = 1
+name = scenery/building/repthous.wav
+attenuation = 1400
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 10
+; girl
+v = 9506
+v = 0
+
+[Satisfies]
+building
+fun
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=0
+entrpos=208
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=208
+
+; 1000 = essentially infinite capacity
+capacity=6
+
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2300
+defaultpal = scenery/building/pals/brwn16.pal
+
+; cr_part2 is listed in building.ai
+replace = cr_part2
+title = 2301
+defaultpal = scenery/building/pals/red8.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/repthous/repthous.pal
+colorpal = objects/repthous/color.pal

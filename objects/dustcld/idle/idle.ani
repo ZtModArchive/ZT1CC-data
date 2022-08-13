@@ -1,0 +1,9 @@
+[animation]
+dir0 = objects
+dir1 = dustcld
+dir2 = idle
+animation = dust
+x0 = -70
+y0 = -74
+x1 = 51
+y1 = 24

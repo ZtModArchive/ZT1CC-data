@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = trash
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -6
+y0 = -7
+x1 = 6
+y1 = 3

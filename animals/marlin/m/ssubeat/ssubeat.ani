@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = marlin
+dir2 = m
+dir3 = ssubeat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -33
+y0 = -21
+x1 = 41
+y1 = 21

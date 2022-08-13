@@ -1,0 +1,18 @@
+[LayoutInfo]
+x=center
+y=center
+dx=800
+dy=600
+id=241
+transparent=0
+layer=6
+;state=1
+
+[Image Pic]
+type=UIImage
+id = 12118
+x=0
+y=0
+normal=ui/credits/page12.tga
+transparent=0
+layer=6

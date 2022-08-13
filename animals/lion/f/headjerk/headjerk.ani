@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lion
+dir2 = f
+dir3 = headjerk
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -24
+y0 = -32
+x1 = 21
+y1 = 12

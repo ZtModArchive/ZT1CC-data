@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = dromcaml
+dir2 = lsmdromc
+animation = N
+x0 = -15
+y0 = -9
+x1 = 15
+y1 = 12

@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = smchain
+dir2 = f
+dir3 = broke
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -18
+y0 = -29
+x1 = 19
+y1 = 9

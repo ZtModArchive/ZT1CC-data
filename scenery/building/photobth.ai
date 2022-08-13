@@ -1,0 +1,118 @@
+[Global]
+AvailableAtStartup=0
+
+[Icon]
+Icon = objects/photobth/SE/SE
+Icon = objects/photobth/SW/SW
+Icon = objects/photobth/NW/NW
+Icon = objects/photobth/NE/NE
+
+[Member]
+structures
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 6803
+cHelpID = 6803
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cCommerce = 1
+cSelectable = 1
+cNeedsConfirm = 1
+cAdultChange = 5
+cChildChange = 5
+cUserStaysOutside = 0
+cHideUser = 1
+cHideBuilding = 0
+cCapacity = 1
+cTimeInside = 8
+cUsedThought=10578
+cHeight = 2
+cIsColorReplaced = 1
+cMoveable = 0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 2.00
+cLowCost = 1.00
+cMedCost = 3.00
+cHighCost = 6.00
+cUpkeep = 25.00
+cPriceFactor = 2.00
+
+[Sells]
+aquaphto
+
+[Animations]
+idle = idle
+used = used
+
+[UseSound]
+loops = 0
+name = scenery/building/photo.wav
+attenuation = 1000
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 5
+; girl
+v = 9506
+v = 5
+
+[Satisfies]
+building
+gift
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=-16
+entrpos=48
+
+; spot to place guest in once they've used the building
+exitpos=-16
+exitpos=48
+
+; 1000 = essentially infinite capacity
+capacity=1
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2474
+defaultpal = scenery/building/pals/red16.pal
+
+
+
+[cr_color]
+ncolors = 232
+fullpal = objects/giftcart/giftcart.pal
+colorpal = objects/giftcart/color.pal

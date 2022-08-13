@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = gallim
+dir2 = lsgallim
+animation = N
+x0 = -19
+y0 = -16
+x1 = 20
+y1 = 16

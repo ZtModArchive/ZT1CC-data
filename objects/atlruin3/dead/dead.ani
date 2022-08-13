@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = atlruin3
+dir2 = dead
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -56
+y0 = -100
+x1 = 57
+y1 = 28

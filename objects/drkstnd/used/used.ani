@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = drkstnd
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -39
+y0 = -85
+x1 = 39
+y1 = 15

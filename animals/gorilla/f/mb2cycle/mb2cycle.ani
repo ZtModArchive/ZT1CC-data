@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = gorilla
+dir2 = f
+dir3 = mb2cycle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -26
+y0 = -75
+x1 = 26
+y1 = -25

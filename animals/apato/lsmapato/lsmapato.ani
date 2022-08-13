@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = apato
+dir2 = lsmapato
+animation = N
+x0 = -19
+y0 = -13
+x1 = 18
+y1 = 15

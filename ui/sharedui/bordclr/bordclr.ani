@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = bordclr
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -12
+y0 = -12
+x1 = 13
+y1 = 13

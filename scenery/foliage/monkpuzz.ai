@@ -1,0 +1,29 @@
+[Icon]
+Icon=objects/monkpuzz/SE/SE
+Icon=objects/monkpuzz/SW/SW
+Icon=objects/monkpuzz/NW/NW
+Icon=objects/monkpuzz/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 180
+cNameID = 7092
+cHelpID = 7092
+cHabitat = 9401
+cLocation = 9607
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cFootprintX = 2
+cFootprintY = 2
+
+cUseNumbersInName=0
+cEra=9622
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

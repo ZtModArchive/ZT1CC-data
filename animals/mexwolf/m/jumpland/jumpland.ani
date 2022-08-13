@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = mexwolf
+dir2 = m
+dir3 = jumpland
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -4
+y0 = -30
+x1 = 34
+y1 = 17

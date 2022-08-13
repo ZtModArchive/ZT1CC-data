@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = reindeer
+dir2 = m
+dir3 = lieidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -18
+y0 = -28
+x1 = 16
+y1 = 9

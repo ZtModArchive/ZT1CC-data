@@ -1,0 +1,12 @@
+[animation]
+dir0 = food
+dir1 = carnchow
+dir2 = full
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -26
+y0 = -15
+x1 = 26
+y1 = 13

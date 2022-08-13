@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = b101b026
+dir2 = y
+dir3 = throw
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -24
+y0 = -75
+x1 = 91
+y1 = 63

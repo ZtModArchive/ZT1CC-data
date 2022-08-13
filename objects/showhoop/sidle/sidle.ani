@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = showhoop
+dir2 = sidle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -28
+y0 = -15
+x1 = 30
+y1 = 14

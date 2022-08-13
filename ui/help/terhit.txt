@@ -1,0 +1,10 @@
+To alter terrain height
+1.  At the top of the Terrain Height panel, select the size of your tool. The tool can be as small as 1 square by 1 square, or as large as 5 squares by 5 squares.
+
+2.  Select the tool appropriate for the kind of change you want to make.
+
+3.  Place the cursor over the area you want to change, and then click and drag the cursor horizontally across the area to level the terrain or upward to raise the height or downward to lower it, depending on the tool you've selected. 
+
+If you're not happy with the changes you've made, click the Undo Terrain Changes button, which will erase your changes, leaving your zoo unaffected; otherwise, click the Accept Terrain Changes button. 
+
+Note that you cannot undo a terrain change after you switch to another tool or click the right mouse button.

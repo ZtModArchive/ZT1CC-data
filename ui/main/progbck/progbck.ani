@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = main
+dir2 = progbck
+animation = N
+x0 = -27
+y0 = -10
+x1 = 28
+y1 = 11

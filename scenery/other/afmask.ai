@@ -1,0 +1,39 @@
+[Icon]
+Icon = objects/afmask/SE/SE
+Icon = objects/afmask/SW/SW
+Icon = objects/afmask/NW/NW
+Icon = objects/afmask/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 45
+cNameID = 6714
+cHelpID = 6714
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10627
+cEstheticWeight = 20
+cGawkOnlyFromFront = 1
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 4
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

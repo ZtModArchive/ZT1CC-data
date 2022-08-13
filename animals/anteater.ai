@@ -1,0 +1,666 @@
+[Global]
+Class = animals
+Type = anteater
+Subtype = 
+DefaultSubtype = m
+
+[AnimPath]
+m = animals/anteater/m
+f = animals/anteater/m
+y = animals/anteater/y
+
+[m/Icon]
+Icon = animals/anteater/icanteat/icanteat
+
+[Member]
+animals
+
+[m/Characteristics/Strings]
+cKeeperFoodType = herbivore
+cGeneralInfoTextName = ANTEATER_GENERAL
+cFoodInfoTextName = ANTEATER_ANIMAL
+cHabitatInfoTextName = ANTEATER_HABITAT
+cBehaviorInfoTextName = ANTEATER_BEHAVIOR
+cKeeperInfoTextName = ANTEATER_KEEPER
+cPlaqueImageName = animals/anteater/planteat/planteat
+cListImageName = animals/anteater/lsmantea/lsmantea
+
+;Ulmo tree
+cPrefIcon = objects/ulmo/SE/SE
+
+[m/Characteristics/Integers]
+cKeeperFoodType = 0
+;Ulmo tree
+cPrefIconID = 7005
+
+; Giant Anteater
+cNameID = 5042
+cHelpID = 5042
+; Edentate
+cFamily = 5214
+; anteater
+cGenus = 5124
+; Tropical Rainforest
+cHabitat = 9405
+; South America
+cLocation = 9606
+cPurchaseCost = 600
+cInitialHappiness  = 60
+cSlowRate = 20
+cMediumRate = 46
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 2
+
+;//Angry Effects//
+cCaptivity = 5
+cNoFoodChange  = -50
+cSickChange = -12	
+cOtherAnimalSickChange = -10		
+cCrowdHappinessChange = -5
+cOtherAnimalAngryChange = 0 
+cNumberMinChange = -5
+cNumberMaxChange = -10
+cAllCrowdedChange = -10
+cAngryHabitatChange = -10
+cVeryAngryHabitatChange = -30
+cAngryTreeChange = -5
+cDeathChange = -5 
+
+;//Happy Effects//
+cBabyBornChange = 50
+cHappyHabitatChange = 20
+
+cMaxHits  = 120
+cMinHits  = 0
+cPctHits  = 20
+
+cHungerThreshold  = 50
+cHungerIncrement  = 3
+cNeededFood = 100
+cKeeperFoodUnitsEaten = 10
+cHungryHealthChange = 10
+
+cSickChance = 5
+
+cEnergyThreshold = 100 
+cEnergyIncrement  = 10	
+cMaxEnergy = 100
+
+cCrowd = 20
+
+cKeeperFrequency = 2
+
+cSocial = 0
+cHabitatSize = 100
+cNumberAnimalsMin = 1
+cNumberAnimalsMax = 3
+cAnimalDensity = 15
+
+cReproductionChance = 2 
+cReproductionInterval = 1800
+cOffspring = 1
+cBabyToAdult = 1080
+cHappyReproduceThreshold = 95
+cMatingType = 0
+cNoMateChange = 0
+
+cIsJumper = 0
+cIsClimber = 0
+cBashStrength = 0
+
+cNotEnoughKeepersChange = -20
+
+cFlies = 0
+cSwims = 0
+
+cPctHabitat = 10
+cHabitatPreference = 70
+
+cEscapedChange = 30
+
+cSickTime = 4
+
+cMimic = 10
+cMimicHappyDiff = 50
+
+cOtherFood = 0
+cFoodTypes = 0
+
+cTreePref = 12
+cRockPref = 0
+cSpacePref = 50 
+cElevationPref = 0
+
+
+cDirtyHabitatRating = 15
+cDirtyIncrement = 6
+cDirtyThreshold = 100
+
+cTimeDeath = 4320
+cDeathChance = 10 
+
+cEatVegetationChance = 0
+cDrinkWaterChance = 10
+cChaseAnimalChance = 10
+cClimbsCliffs = 0
+
+cSmallZoodoo = 1
+
+cBuildingUseChance = 10
+
+cAttractiveness = 10
+cNeedShelter = 1
+
+[y/Characteristics/Integers]
+cChaseAnimalChance = 15
+cIsJumper = 0
+cAttractiveness = 30
+
+[m/Characteristics/Mixed]
+[cCompatibleAnimals]
+;Primitive ungulates		
+v = 5200
+v = -10
+;Racoon			
+v = 5201
+v = -5
+;Bears			
+v = 5202
+v = -20
+;Primates			
+v = 5203
+v = -5
+;Odd-toed ungulates		
+v = 5204
+v = -10
+;Even-toed ungulates			
+v = 5205
+v = -10
+;Cat			
+v = 5206
+v = -20
+;Canine			
+v = 5207
+v = -20
+;Hyena			
+v = 5208
+v = -20
+;Marsupial		
+v = 5210
+v = -5
+;Bird			
+v = 5211
+v = -5
+;Seal			
+v = 5212
+v = -5
+;Crocodile		
+v = 5213
+v = -20
+;Edentate		    	
+v = 5214
+v = -5
+;Pig			
+v = 5215
+v = -5
+;Dinosaur			
+v = 5216
+v = -20
+;Monster			
+v = 5217
+v = -20
+
+;Anteater			
+v = 5042
+v = 5
+
+[cSuitableObjects]
+;GENERIC TERRAIN OBJECTS
+;Non-habitat
+v = 9410
+v = -10
+;Tropical rainforest
+v = 9405
+v = 3
+;Savannah
+v = 9400
+v = -5
+;Grassland
+v = 9401
+v = -5
+;Deciduos forest
+v = 9402
+v = -5
+;Coniferous forest
+v = 9403
+v = -10
+;Highlands
+v = 9407
+v = -5
+;Tundra
+v = 9408
+v = -25
+;Desert
+v = 9409
+v = -15
+;Aquatic
+v = 9413
+v = -10
+;Bad-habitat
+v = 9414
+v = -100
+
+;FOLIAGE AND ROCKS
+;Bush 2
+v = 7049
+v = -8
+;Orchid
+v = 7059
+v = -8
+;Eleear
+v = 7015
+v = -8
+;Bush 4
+v = 7051
+v = -8
+;Foxtail
+v = 7018
+v = -8
+;Mangrove
+v = 7014
+v = -8
+;Ulmo
+v = 7005
+v = 7
+;Shrtpalm
+v = 7042
+v = 3
+;Poo
+v = 6062
+v = -5
+
+;SHELTERS
+;Burrow 1
+v = 8120
+v = 15
+;Burrow 2
+v = 8121
+v = 20
+;Burrow 3
+v = 8122
+v = 25
+;Conhous1
+v = 8107
+v = 13
+;Conhous2
+v = 8108
+v = 16
+;Conhous2
+v = 8109
+v = 19
+;Wodhous1
+v = 8110
+v = 13
+;Wodhous2
+v = 8111
+v = 16
+;Wodhous3
+v = 8112
+v = 19
+
+[cCompatibleTerrain]
+; grass = 0
+; savannah grass = 1
+; sand = 2
+; dirt = 3
+; rainforest floor = 4
+; brown rock = 5
+; gray rock = 6
+; gravel = 7
+; snow = 8
+; fresh water = 9
+; salt water = 10
+; deciduous floor = 11
+; waterfall = 12
+; coniferous floor = 13
+; concrete = 14
+; asphalt = 15
+; trampled = 16
+
+v = 16
+v = -5
+
+v = 0
+v = 8
+
+v = 2
+v = -5
+
+v = 3
+v = 10
+
+v = 4
+v = 80
+
+v = 5
+v = -5
+
+v = 6
+v = -5
+
+v = 8
+v = -50
+
+v = 9
+v = 2
+
+v = 10
+v = -20
+
+v = 11
+v = -5
+
+v = 13
+v = -5
+
+[m/Animations]
+idle = stndidle
+dig = dig
+eat = eat
+groom = groom
+head_down = headdwn
+head_ground = headgrnd
+dig_hind = hinddig
+look_left = lookl
+look_right = lookr
+shake = shake
+sniff = sniff
+stand = stndidle
+walk = walk
+run = walk
+
+;From lying down
+lie_down = liedown
+lie_idle = lieidle
+lie_side = lieside
+side_idle = sideidle
+sleep = sleep
+
+; Box animations
+box_idle = objects/box/idle/idle.ani
+box_used = objects/box/used/used.ani
+
+[Sounds]
+sniff = anteater
+sniff = 1600
+placesound = anteater
+placesound = 1600
+pickupsound = anteater
+pickupsound = 1600
+
+[m\BehaviorSet\bHappy]
+f = fPlaySetProb(bIdle1,20,bHappy1,50,bHappy2,30)
+;f = fPlaySetProb(bSoundtest1,100)
+
+[m\BehaviorSet\bFriendly]
+f = fPlaySetProb(bHappy3,70,bIdle2,30)
+
+[m\BehaviorSet\bCalm]
+f = fPlaySetProb(bCalm1,50,bIdle1,30,bIdle2,20)
+
+[m\BehaviorSet\bNeutral]
+f = fPlaySetProb(bIdle1,50,bIdle2,50)
+
+[m\BehaviorSet\bUneasy]
+f = fPlaySetProb(bUneasy1,65,bIdle2,35)
+
+[m\BehaviorSet\bTense]
+f = fPlaySetProb(bTense1,70,bAngry3,30,)
+
+[m\BehaviorSet\bAngry]
+f = fPlaySetProb(bAngry1,40,bAngry2,40,bNoise3,20)
+
+[m\BehaviorSet\bEscaped]
+f = fPlaySetProb(bEscaped1,80,bNoise1,10,bIdle2,10)
+
+[m\BehaviorSet\bBabyActions]
+f = fPlaySetProb(Baby1,40,bBaby2,40,bIdle1,20)
+
+[m\BehaviorSet\bPlayToys]
+;f = fPlaySetProb(bToy3,20,bSpray1,20,bLog1,20,bToy1,20,bToy2,20)
+
+[m\BehaviorSet\bPlayWithToyHappy]
+;f = fPlaySetProb(bPlayToys,50,bIdle1,20,bHappy2,20,bNoise1,10)
+
+[m\BehaviorSet\bPlayWithToyFriendly]
+;f = fPlaySetProb(bPlayToy,50,bIdle2,30,bNoise2,20)
+
+;[m\BehaviorSet\bSoundtest1]
+;f = fPlayWithSound(sniff,sniff)
+;f = fPlayWithSound(dig,sniff)
+;f = fPlayWithSound(shake,sniff)
+
+[m\BehaviorSet\bHappy1]
+f = fPlay(stand)
+f = fPlay(dig)
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)  
+
+[m\BehaviorSet\bHappy2]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,8)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bHappy3]
+f = fPlay(stand)
+f = fPlay(groom)
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bCalm1]
+f = fPlay(stand)
+f = fPlay(groom)
+f = fPlayTime(stand,8)
+f = fPlayPingPong(look_right)
+f = fPlay(stand)
+
+[m\BehaviorSet\bUneasy1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlayTime(stand,6)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[m\BehaviorSet\bTense1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlayWithSound(shake,sniff)
+f = fPlayTime(stand,6)
+f = fPlay(dig)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry1]
+f = fPlay(stand)
+f = fPlayWithSound(shake,sniff)
+f = fPlay(stand)
+f = fPlay(dig)
+f = fPlay(stand)
+f = fPlayPingPong(look_right)
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry2]
+f = fPlay(stand)
+f = fPlayWithSound(shake,sniff)
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayPingPong(look_left)
+f = fPlay(stand)
+f = fPlayWithSound(shake,sniff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry3]
+f = fPlay(stand)
+f = fPlay(dig)
+f = fPlay(stand)
+f = fPlayWithSound(shake,sniff)
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle1]
+f = fPlay(stand)
+f = fPlayPingPong(look_left)
+f = fPlay(stand)
+f = fPlay(groom)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle2]
+f = fPlayTime(stand,9)
+f = fPlayPingPong(look_right)
+f = fPlayPingPong(look_left)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle3]
+f = fPlayTime(stand,7)
+f = fPlay(groom)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise1]
+f = fPlay(stand)
+f = fPlayWithSound(shake,sniff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise2]
+f = fPlayTime(stand,7)
+f = fPlayWithSound(shake,sniff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise3]
+f = fPlay(stand)
+f = fPlayWithSound(shake,sniff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSleep]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(head_down)
+f = fPlayTime(sleep,25)
+f = fPlayReverse(head_down)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bDie]
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(head_down)
+f = fPlayTime(sleep,5)
+f = fPlayTime(sleep,5)
+f = fDie()
+
+[m\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(stand)
+f = fPlay(head_ground)
+f = fPlayTime(eat,8)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+f = fPlay(head_ground)
+f = fPlayTime(eat,4)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSick]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(lie_side)
+f = fPlayTime(side_idle,24)
+f = fPlayReverse(lie_side)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bEscaped1]
+f = fPlay(stand)
+f = fPlay(shake)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bChasePrey]
+f = fMove(prey,0,walk,20)
+
+[m\BehaviorSet\bCaughtGuest]
+f = fPlay(sniff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bCaught]
+f = fFollow(keeper)
+
+[m\BehaviorSet\bRunFromPredator]
+f = fMove(0,0,walk,20)
+
+[m\BehaviorSet\bBaby1]
+f = fPlay(stand)
+f = fWalk(mother,0)
+
+[m\BehaviorSet\bBaby2]
+f = fPlay(stand)
+f = fWalk(mother,0)
+
+[m\BehaviorSet\bBored1]
+f = fPlayTime(stand,10)
+
+[m\BehaviorSet\bBored2]
+f = fPlayTime(stand,10)
+
+[m\BehaviorSet\bAngryKeeper]
+f = fPlay(stand)
+
+[m\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bRun]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[AmbientAnims]
+a = 81
+a = 100
+b = bHappy
+a = 61
+a = 80
+b = bFriendly
+a = 21
+a = 60
+b = bCalm
+a = -20
+a = 20
+b = bNeutral
+a = -60
+a = -21
+b = bUneasy
+a = -80
+a = -61
+b = bTense
+a = -100
+a = -81
+b = bAngry

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = flamingo
+dir2 = y
+dir3 = watidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -6
+y0 = -9
+x1 = 7
+y1 = 4

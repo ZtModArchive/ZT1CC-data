@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = gorilla
+dir2 = lsmgoril
+animation = N
+x0 = -9
+y0 = -15
+x1 = 16
+y1 = 16

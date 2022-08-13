@@ -1,0 +1,33 @@
+[Icon]
+Icon=fences/bricklow/bricklow/bricklow
+
+[Member]
+zoofences
+lowfence
+fence
+
+[Characteristics/Integers]
+cPurchaseCost = 80
+cNameID = 9307
+cHelpID = 9307
+cHeight = 1
+
+[Animations]
+idle = idle
+idle30p = idle30p
+idle30n = idle30n
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 10
+; girl
+v = 9506
+v = 10
+

@@ -1,0 +1,31 @@
+; $Id: fgate.ai,v 1.1 2002/04/02 19:33:22 rmh Exp $
+[Icon]
+Icon=objects/fgate/icgateSE/icgateSE
+Icon=objects/fgate/icgateSW/icgateSW
+Icon=objects/fgate/icgateNW/icgateNW
+Icon=objects/fgate/icgateNE/icgateNE
+
+[Member]
+developer
+zoogate
+
+[Characteristics/Integers]
+cFootprintX = 6
+cFootprintY = 2
+cPurchaseCost = 0
+cNameID = 6002
+cHelpID = 6002
+walkable = 1
+cSelectable = 1
+cDeletable = 0
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cRubbleable = 0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle

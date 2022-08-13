@@ -1,0 +1,54 @@
+[Icon]
+Icon=objects/geyser1/SE/SE
+Icon=objects/geyser1/SW/SW
+Icon=objects/geyser1/NW/NW
+Icon=objects/geyser1/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+
+[UseSound]
+loops = 0
+name = scenery/building/geysr1.wav
+attenuation = 1200
+
+[Characteristics/Integers]
+cPurchaseCost = 700
+cFootprintX = 4
+cFootprintY = 4
+cNameID = 6445
+cHelpID = 6445
+;Bad Habitat Type
+cHabitat = 9414
+cUsedThought=10586
+cHeight = 1
+cUseNumbersInName=0
+cRubbleable = 0
+cEstheticWeight = 50
+cGawkOnlyFromFront = 0
+cUnderwater = 0
+
+cRandomUse = 1
+cMinUsePeriod = 20
+cMaxUsePeriod = 50
+
+
+[Animations]
+idle = idle
+used = used
+
+[EstheticBonus]
+; man
+v = 9503
+v = 5
+; woman
+v = 9504
+v = 5
+; boy
+v = 9505
+v = 5
+; girl
+v = 9506
+v = 5

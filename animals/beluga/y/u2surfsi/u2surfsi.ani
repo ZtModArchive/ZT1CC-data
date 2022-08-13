@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = beluga
+dir2 = y
+dir3 = u2surfsi
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -30
+y0 = -17
+x1 = 34
+y1 = 34

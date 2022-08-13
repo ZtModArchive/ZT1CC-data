@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = kangaroo
+dir2 = lsmkang
+animation = N
+x0 = -18
+y0 = -6
+x1 = 18
+y1 = 12

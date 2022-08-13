@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = dolphin
+dir2 = m
+dir3 = uwatring
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -241
+y0 = -138
+x1 = 243
+y1 = 127

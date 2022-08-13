@@ -1,0 +1,19 @@
+[animation]
+name = idle
+dir0 = objects
+dir1 = cycad
+dir2 = idle
+palette = objects/cycad/cycad.pal
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+framerate = 8
+[NE]
+frame = NE0000.tga
+[SE]
+frame = SE0000.tga
+[SW]
+frame = SW0000.tga
+[NW]
+frame = NW0000.tga

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = heli
+dir2 = stiltspi
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -61
+y0 = -32
+x1 = 63
+y1 = 31

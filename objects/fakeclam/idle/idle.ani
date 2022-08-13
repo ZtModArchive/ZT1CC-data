@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = fakeclam
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -26
+y0 = -35
+x1 = 26
+y1 = 6

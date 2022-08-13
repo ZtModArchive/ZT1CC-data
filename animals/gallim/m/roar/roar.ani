@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = gallim
+dir2 = m
+dir3 = roar
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -39
+y0 = -60
+x1 = 30
+y1 = 20

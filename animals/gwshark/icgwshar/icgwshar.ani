@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = gwshark
+dir2 = icgwshar
+animation = N
+x0 = -22
+y0 = -16
+x1 = 22
+y1 = 16

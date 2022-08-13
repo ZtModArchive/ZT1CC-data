@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = orngutan
+dir2 = f
+dir3 = tregetdn
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -63
+y0 = -70
+x1 = 62
+y1 = 18

@@ -1,0 +1,2 @@
+The Marine Specialist cares for marine animals in the same way that Zookeepers care for your regular animals. Marine Specialists can only be assigned to tank exhibits that contain marine animals. Marine Specialists feed and clean up after marine animals. Marine Specialists also conduct shows of marine show animals, entering the tank using the tank platform. This platform must be unobstructed or the Specialist will not be able to enter the tank and care for the animals. Assigning Marine Specialists to specific tanks will make them care only for the animals in that tank.
+

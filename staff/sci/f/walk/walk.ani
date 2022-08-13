@@ -1,0 +1,14 @@
+[animation]
+dir0 = staff
+dir1 = sci
+dir2 = f
+dir3 = walk
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -10
+y0 = -26
+x1 = 12
+y1 = 5

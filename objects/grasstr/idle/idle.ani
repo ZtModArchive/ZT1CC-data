@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = grasstr
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -49
+y0 = -95
+x1 = 49
+y1 = 3

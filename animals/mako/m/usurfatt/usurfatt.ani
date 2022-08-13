@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = mako
+dir2 = m
+dir3 = usurfatt
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -31
+y0 = -36
+x1 = 57
+y1 = 38

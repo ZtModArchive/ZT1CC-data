@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = dinogift
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -160
+y0 = -248
+x1 = 160
+y1 = 73

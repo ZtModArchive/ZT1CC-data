@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = srckfrm5
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -72
+y0 = -92
+x1 = 72
+y1 = 36

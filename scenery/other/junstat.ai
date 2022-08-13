@@ -1,0 +1,39 @@
+[Icon]
+Icon = objects/junstat/SE/SE
+Icon = objects/junstat/SW/SW
+Icon = objects/junstat/NW/NW
+Icon = objects/junstat/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 80
+cNameID = 6719
+cHelpID = 6719
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10634
+cEstheticWeight = 35
+cGawkOnlyFromFront = 0
+cHeight = 3
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 4
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 3

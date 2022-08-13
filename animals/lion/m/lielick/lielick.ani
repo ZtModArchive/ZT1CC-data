@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lion
+dir2 = m
+dir3 = lielick
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -28
+y0 = -24
+x1 = 22
+y1 = 14

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = yfacacia
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -78
+y0 = -132
+x1 = 78
+y1 = 9

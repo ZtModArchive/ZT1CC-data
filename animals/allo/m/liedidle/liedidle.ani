@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = allo
+dir2 = m
+dir3 = liedidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -104
+y0 = -69
+x1 = 71
+y1 = 52

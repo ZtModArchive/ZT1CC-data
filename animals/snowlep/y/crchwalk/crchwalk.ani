@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = snowlep
+dir2 = y
+dir3 = crchwalk
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -18
+y0 = -15
+x1 = 9
+y1 = 9

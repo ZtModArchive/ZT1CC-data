@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = kapok
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -81
+y0 = -168
+x1 = 80
+y1 = 12

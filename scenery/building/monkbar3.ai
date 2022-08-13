@@ -1,0 +1,58 @@
+[Icon]
+Icon = objects/monkbar3/SE/SE
+Icon = objects/monkbar3/SW/SW
+Icon = objects/monkbar3/NW/NW
+Icon = objects/monkbar3/NE/NE
+
+[Member]
+toys
+
+[Characteristics/Integers]
+cPurchaseCost = 1500
+cNameID = 6103
+cHelpID = 6103
+cFootprintX = 6
+cFootprintY = 6
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 1
+cTimeInside = 12
+cUsedThought = 0
+cUserUsesExit = 1
+
+cHeight = 3
+cToySatisfaction = 4
+cUseNumbersInName=0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle
+used = idle
+
+[Satisfies]
+building
+animalrest
+
+[slots]
+name=slot
+
+[slot]
+id = 5003
+filter = y
+slotpos = 0
+slotpos = 0
+
+entrpos = -112
+entrpos = 0
+
+exitpos = -112
+exitpos = 0
+
+capacity = 1
+facing = 0

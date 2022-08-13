@@ -1,0 +1,1 @@
+This is a new panel in Zoo Tycoon: Dinosaur Digs. This panel allows you to sort the list of buildings that generate income in your zoo, which lets you better manage your zoo. The multibuilding list is located in the Zoo Status panel.

@@ -1,0 +1,164 @@
+[LayoutInfo]
+x=right
+y=-248
+altx=right
+alty=-578
+dx=226
+dy=213
+id=9
+helpid=9
+layer=1
+;hidden
+state=1
+
+[Background]
+type=UIImage
+id=3401
+x=0
+y=0
+animation=ui/guest/ginfopan/ginfopan
+layer=0
+
+[PanelTitle]
+type=UIText
+id=3499
+textid=3499
+x=78
+y=2
+dx=120
+dy=fitfont
+font=4736
+fontsize=4737
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+transparent=1
+layer=1
+;justify=center
+
+;[GuestPicture]
+;type=UIImage
+;id=3450
+;x=0
+;y=9
+;layer=2
+
+[GuestName]
+type=UIEditableText
+id=3402
+helpid=3402
+x=71
+y=27
+dx=141
+dy=fitfont
+font=3450
+fontsize=3451
+border=1
+forecolor=255
+forecolor=218
+forecolor=90
+backcolor=59
+backcolor=71
+backcolor=45
+transparent=1
+layer=4
+;justify=center
+state=1
+
+[Trackguest]
+type=UIButton
+id=3415
+helpid=3415
+x=0
+y=3
+animation=ui/sharedui/crossh/crossh
+updateWhilePaused=0
+layer=1
+state=2048
+
+[PickupGuest]
+type=UIButton
+id=3416
+helpid=3416
+x=180
+y=50
+animation=ui/sharedui/grab/grab
+layer=1
+
+[CloseWindow]
+type=UIButton
+id=3413
+helpid=3112
+x=197
+y=1
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=-1
+
+[GuestbuttonRadioSet]
+type = UIRadioSet
+id = 3460
+button = 3462
+button = 3464
+button = 3465
+
+[StatusTab1]
+type = UIButton
+id = 3462
+helpid = 3462
+x = 196
+y = 92
+animation=ui/guest/tbinfo/tbinfo
+layer=1
+state=8
+state=4096
+action=3
+target=100
+
+
+[InfoTimeTab3]
+type = UIButton
+id = 3464
+helpid = 3464
+x = 196
+y = 124
+animation=ui/guest/tbstat/tbstat
+layer=1
+state=4096
+action=3
+target=101
+
+
+[ThoughtsTab2]
+type = UIButton
+id = 3465
+helpid = 3465
+x = 196
+y = 156
+animation=ui/guest/tbthot/tbthot
+layer=1
+state=4096
+action=3
+target=102
+
+
+[StatusLayout]
+type=UILayout
+layout=ui/infogst1.lyt
+state=1
+
+[TimeLayout]
+type=UILayout
+layout=ui/infogst2.lyt
+state=1
+
+[ThoughtsLayout]
+type=UILayout
+layout=ui/infogst3.lyt
+state=1

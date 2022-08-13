@@ -1,0 +1,41 @@
+[Icon]
+Icon = objects/atstatue/SE/SE
+Icon = objects/atstatue/SW/SW
+Icon = objects/atstatue/NW/NW
+Icon = objects/atstatue/NE/NE
+
+[Member]
+scenery
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 85
+cNameID = 6705
+cHelpID = 6705
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10617
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 2
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 4
+; girl
+v = 9506
+v = 4
+

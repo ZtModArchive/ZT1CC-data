@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = morayeel
+dir2 = y
+dir3 = ssubeat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -18
+y0 = -10
+x1 = 19
+y1 = 9

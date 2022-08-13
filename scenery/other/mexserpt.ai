@@ -1,0 +1,39 @@
+[Icon]
+Icon = objects/mexserpt/SE/SE
+Icon = objects/mexserpt/SW/SW
+Icon = objects/mexserpt/NW/NW
+Icon = objects/mexserpt/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 75
+cNameID = 6732
+cHelpID = 6732
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10656
+cEstheticWeight = 30
+cGawkOnlyFromFront = 0
+cHeight = 3
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 4
+; girl
+v = 9506
+v = 2

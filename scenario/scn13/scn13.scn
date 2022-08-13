@@ -1,0 +1,115 @@
+; $Id: scn13.scn,v 1.1 2002/06/11 21:28:22 sds Exp $
+
+[desc]
+name=16013
+story=SCENARIO_START_STORY_SCN13
+picture=scenario/scn13/scn13/scn13
+winstory=SCENARIO_WIN_STORY_SCN13
+winpicture=ui/scenario/win/win
+losestory=SCENARIO_LOSE_STORY_SCN13
+losepicture=ui/scenario/lose/lose
+lockedstory=SCENARIO_LOCK_STORY_2
+lockedpicture=ui/scenario/lock/lock
+
+;Icons for completion, in progress, not done
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+;AFRICAN SAFARI ZOO
+
+[start]
+economy=scenario/scn13/economy.cfg
+savegame=maps/scn13.zoo
+setcash=20000
+triggers=disableUI
+addcash=0
+reset=1
+resetfences=1
+research=research.cfg
+marketing=mktg.cfg
+worldConfig=sounds/desert1.cfg
+extragoals=freeform/donation.scn
+extragoals=freeform/awards.scn
+extragoals=freeform/24months.scn
+
+[resume]
+triggers=disableUI
+
+[disableUI]
+trulea=2
+truleb=12
+targa=2000
+
+[2000]
+;Show Objects Tab
+id=2076
+
+[ambients]
+;Hawk
+id=5050
+;Parrot
+id=5054
+;Vulture
+id=5055
+
+[duration]
+nummonths=24
+display=1
+text=18000
+icon=ui/scenario/clock/clock
+
+[goals]
+goal=a
+goal=b
+goal=c
+goal=e
+goal=f
+
+;Scenario objectives
+
+[a]
+;Have 20 animals from the African Savannah
+rulea=4
+ruleb=9
+arga=9400
+argb=9600
+value=20
+text=17409
+
+[b] 
+;Have an exhibit suitability rating of 80 for 13 habitats.
+rulea=6
+ruleb=0
+arga=13
+type=0
+value=80
+text=17600
+
+[c]
+;Have an animal happiness rating of 93
+rulea=1
+ruleb=0
+type=0
+value=93
+text=17100
+
+[e]
+;Have a guest happiness rating of at least 93
+rulea=1
+ruleb=1
+type=0
+value=93
+text=17101
+
+[f]
+;Have a zoo rating of at least 75
+rulea=1
+ruleb=2
+type=0
+value=75
+text=17102
+
+
+
+

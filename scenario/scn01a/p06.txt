@@ -1,0 +1,6 @@
+Another very useful tool is the Undo Previous Action button, which is located along the left side of the screen. Pressing this button allows you to undo your last action, as if it had never happened.
+
+1. When you close this dialog, the snack machine will be attached to the cursor. Place the snack machine in an open space.
+2. Now select the Undo Last Action button (red arrow) to undo the snack machine placement.
+
+Click the OK button to proceed.

@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = dolphin
+dir2 = lsdolphi
+animation = N
+x0 = -18
+y0 = -6
+x1 = 19
+y1 = 11

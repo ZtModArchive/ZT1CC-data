@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/fdstworm/SE/SE
+Icon=objects/fdstworm/SW/SW
+Icon=objects/fdstworm/NW/NW
+Icon=objects/fdstworm/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 120
+cNameID = 7407
+cHelpID = 7407
+cHabitat = 9413
+cLocation = 9625
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 1
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

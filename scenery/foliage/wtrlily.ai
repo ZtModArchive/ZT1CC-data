@@ -1,0 +1,40 @@
+[Icon]
+Icon=objects/wtrlily/SE/SE
+Icon=objects/wtrlily/SW/SW
+Icon=objects/wtrlily/NW/NW
+Icon=objects/wtrlily/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 35
+cNameID = 7061
+cHelpID = 7061
+cHabitat = 9413
+;North America
+cLocation = 9607
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 1
+cSwims = 1
+cLand = 1
+cUnderwater = 1
+cSurface = 1
+walkable = 1
+cUseNumbersInName=0
+cUsesTreeRubble=1
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cDeadOnLand=1
+
+[Animations]
+idle = idle
+shadowidle = sidle
+underidle = uidle
+idledead = dead

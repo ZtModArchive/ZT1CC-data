@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = stiger
+dir2 = lsmstige
+animation = N
+x0 = -18
+y0 = -7
+x1 = 18
+y1 = 11

@@ -1,0 +1,12 @@
+[LayoutInfo]
+x=0
+y=0
+dx=whole
+dy=whole
+id=500
+layer = 0
+
+[tut1]
+type=UILayout
+layout=ui/tut1.lyt
+

@@ -1,0 +1,14 @@
+[animation]
+dir0 = staff
+dir1 = trainer
+dir2 = f
+dir3 = usurfswi
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -25
+y0 = -19
+x1 = 23
+y1 = 21

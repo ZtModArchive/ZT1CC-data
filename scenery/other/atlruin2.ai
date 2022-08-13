@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/atlruin2/SE/SE
+Icon=objects/atlruin2/SW/SW
+Icon=objects/atlruin2/NW/NW
+Icon=objects/atlruin2/NE/NE
+
+
+[Member]
+rocks
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 550
+cNameID = 6702
+cHelpID = 6702
+cHabitat = 9411
+cLocation = 9625
+cFootprintX = 4
+cFootprintY = 6
+cAutoRotate = 1
+cRock = 1
+cHeight = 3
+cSwims = 1
+cOnlySwims = 0
+cUnderwater = 1
+cLand = 0
+cUseNumbersInName=0
+cRubbleable = 0
+cDeadOnFlatWater = 1
+cDeadOnLand = 1
+
+[Animations]
+idle = idle
+idledead = dead

@@ -1,0 +1,242 @@
+[LayoutInfo]
+x=0
+y=0
+dx=226
+dy=213
+id=403
+layer=1
+;hidden
+state=1
+
+[UpgradeName]
+type=UIText
+id=4640
+x=26
+y=83
+dx=150
+dy=32
+font=3452
+fontsize=3453
+border=2
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+
+[BuildingUpkeepLabel]
+type=UIText
+id=4641
+textid=4641
+x=25
+y=115
+dx=90
+dy=fitfont
+font=3452
+fontsize=3453
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[BuildingUpkeep]
+type=UIText
+id=4642
+x=115
+y=115
+dx=60
+dy=fitfont
+font=3452
+fontsize=3453
+border=2
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=right
+
+[AdultBonusLabel]
+type=UIText
+id=4643
+textid=4643
+x=25
+y=132
+dx=90
+dy=fitfont
+font=3452
+fontsize=3453
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[AdultBonus]
+type=UIText
+id=4644
+x=115
+y=132
+dx=60
+dy=fitfont
+font=3452
+fontsize=3453
+border=2
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=right
+
+[AdultBonusIcon]
+type=UIImage
+id=4647
+helpid=4647
+x=178
+y=135
+animation=ui/noncom/smiley/smiley
+layer=2
+transparent=1
+
+[ChildBonusLabel]
+type=UIText
+id=4645
+textid=4645
+x=25
+y=149
+dx=90
+dy=fitfont
+font=3452
+fontsize=3453
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[ChildBonus]
+type=UIText
+id=4646
+x=115
+y=149
+dx=60
+dy=fitfont
+font=3452
+fontsize=3453
+border=2
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=right
+
+[ChildBonusIcon]
+type=UIImage
+id=4648
+helpid=4648
+x=178
+y=152
+animation=ui/noncom/smiley/smiley
+layer=2
+transparent=1
+
+[UpgradeRadioSet]
+type = UIRadioSet
+id = 4630
+button = 4631
+button = 4632
+button = 4633
+button = 4634
+button = 4635
+
+[Upgrade1]
+type = UIButton
+id = 4631
+x = 26
+y = 168
+animation=ui/noncom/bordupg/bordupg
+iconfirst=1
+transparent=0
+layer=1
+state=8
+state=4096
+
+[Upgrade2]
+type = UIButton
+id = 4632
+x = 59
+y = 168
+animation=ui/noncom/bordupg/bordupg
+iconfirst=1
+transparent=0
+layer=1
+state=8
+state=4096
+
+[Upgrade3]
+type = UIButton
+id = 4633
+x = 92
+y = 168
+animation=ui/noncom/bordupg/bordupg
+iconfirst=1
+transparent=0
+layer=1
+state=8
+state=4096
+
+[Upgrade4]
+type = UIButton
+id = 4634
+x = 125
+y = 168
+animation=ui/noncom/bordupg/bordupg
+iconfirst=1
+transparent=0
+layer=1
+state=8
+state=4096
+
+[Upgrade5]
+type = UIButton
+id = 4635
+x = 158
+y = 168
+animation=ui/noncom/bordupg/bordupg
+iconfirst=1
+transparent=0
+layer=1
+state=8
+state=4096

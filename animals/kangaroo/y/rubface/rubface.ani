@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = kangaroo
+dir2 = y
+dir3 = rubface
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -11
+y0 = -14
+x1 = 10
+y1 = 5

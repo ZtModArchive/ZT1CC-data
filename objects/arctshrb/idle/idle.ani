@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = arctshrb
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -15
+y0 = -19
+x1 = 16
+y1 = 6

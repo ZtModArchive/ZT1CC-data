@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = emppeng
+dir2 = y
+dir3 = lookl
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -3
+y0 = -10
+x1 = 3
+y1 = 2

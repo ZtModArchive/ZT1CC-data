@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/lepidod/SE/SE
+Icon=objects/lepidod/SW/SW
+Icon=objects/lepidod/NW/NW
+Icon=objects/lepidod/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 210
+cNameID = 7089
+cHelpID = 7089
+cHabitat = 9403
+cLocation = 9607
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9621
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

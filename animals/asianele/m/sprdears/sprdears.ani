@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = asianele
+dir2 = m
+dir3 = sprdears
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -20
+y0 = -56
+x1 = 40
+y1 = 20

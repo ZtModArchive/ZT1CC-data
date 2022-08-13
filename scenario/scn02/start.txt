@@ -1,0 +1,8 @@
+Tutorial 3 will teach you the basics of making the zoo animals happy.
+
+You will learn:
+How to place the correct terrain in an exhibit.
+How to determine which type of foliage an animal prefers.
+How to tell if an animal likes or dislikes an object placed in its exhibit.
+How to understand the exhibit suitability rating.
+How to follow the zookeeper's recommendations to make suitable exhibits.

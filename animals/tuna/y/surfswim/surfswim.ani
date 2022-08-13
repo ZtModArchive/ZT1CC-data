@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = tuna
+dir2 = y
+dir3 = surfswim
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = 0
+y0 = -2
+x1 = 3
+y1 = 1

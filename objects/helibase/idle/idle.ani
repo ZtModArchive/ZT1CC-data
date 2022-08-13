@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = helibase
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -126
+y0 = -119
+x1 = 125
+y1 = 61

@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = orngutan
+dir2 = m
+dir3 = rpswing
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -76
+y0 = -111
+x1 = 76
+y1 = 19

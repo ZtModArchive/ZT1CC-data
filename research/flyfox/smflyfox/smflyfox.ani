@@ -1,0 +1,9 @@
+[animation]
+dir0 = research
+dir1 = flyfox
+dir2 = smflyfox
+animation = N
+x0 = -17
+y0 = -16
+x1 = 17
+y1 = 16

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = heli
+dir2 = sfire
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -61
+y0 = -31
+x1 = 62
+y1 = 31

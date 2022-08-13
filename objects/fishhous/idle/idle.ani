@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = fishhous
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -153
+y0 = -150
+x1 = 153
+y1 = 79

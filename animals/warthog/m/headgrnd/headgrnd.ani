@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = warthog
+dir2 = m
+dir3 = headgrnd
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -13
+y0 = -18
+x1 = 12
+y1 = 6

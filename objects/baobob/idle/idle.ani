@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = baobob
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -116
+y0 = -173
+x1 = 115
+y1 = 16

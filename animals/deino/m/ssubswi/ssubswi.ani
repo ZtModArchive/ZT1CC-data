@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = deino
+dir2 = m
+dir3 = ssubswi
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -84
+y0 = -44
+x1 = 77
+y1 = 42

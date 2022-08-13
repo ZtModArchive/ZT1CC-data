@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = herrera
+dir2 = m
+dir3 = liedown
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -85
+y0 = -65
+x1 = 53
+y1 = 42

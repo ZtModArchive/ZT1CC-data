@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = main
+dir2 = gameopt
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -17
+y0 = -15
+x1 = 18
+y1 = 16

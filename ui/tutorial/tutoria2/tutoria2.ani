@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = tutorial
+dir2 = tutoria2
+animation = N
+x0 = -250
+y0 = -86
+x1 = 250
+y1 = 88

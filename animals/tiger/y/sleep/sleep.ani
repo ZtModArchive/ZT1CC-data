@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = tiger
+dir2 = y
+dir3 = sleep
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -14
+y0 = -9
+x1 = 10
+y1 = 7

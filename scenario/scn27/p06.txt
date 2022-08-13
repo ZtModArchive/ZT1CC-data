@@ -1,0 +1,7 @@
+You will need a staff member to care for marine animals in your zoo. In Marine Mania, there is a new staff member, the marine specialist. They perform all the duties of the zookeeper for the marine animals.
+
+Let's hire a marine specialist.
+
+1. With the Hire Staff panel still open, place a marine specialist in the zoo.
+
+Click the OK button to proceed.

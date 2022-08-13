@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = giraffe
+dir2 = m
+dir3 = stamp
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -37
+y0 = -89
+x1 = 53
+y1 = 27

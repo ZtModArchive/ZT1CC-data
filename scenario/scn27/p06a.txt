@@ -1,0 +1,8 @@
+Marine animals are similar to their zoo counterparts in that they like various foliage and objects in their exhibit. In the case of the dolphin, they really like kelp. 
+
+Let's add some kelp foliage to the dolphin's exhibit.
+
+1. On the left side of the game screen, click the Construction button, and then click the foliage tab.
+2. Place kelp in the dolphin tank until the exhibit suitability reaches 76.
+
+Click the OK button to proceed.

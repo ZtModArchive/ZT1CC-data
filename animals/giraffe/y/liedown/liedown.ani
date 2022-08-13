@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = giraffe
+dir2 = y
+dir3 = liedown
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -46
+x1 = 15
+y1 = 10

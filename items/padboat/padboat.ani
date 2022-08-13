@@ -1,0 +1,8 @@
+[animation]
+dir0 = items
+dir1 = padboat
+animation = N
+x0 = -17
+y0 = -10
+x1 = 15
+y1 = 11

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = hhshark
+dir2 = m
+dir3 = surftrsh
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -62
+y0 = -37
+x1 = 40
+y1 = 30

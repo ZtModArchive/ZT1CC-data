@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = magnet
+dir2 = m
+dir3 = grndrub
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -43
+y0 = -43
+x1 = 19
+y1 = 22

@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = baboon
+dir2 = icbaboon
+animation = N
+x0 = -22
+y0 = -16
+x1 = 22
+y1 = 16

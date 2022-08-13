@@ -1,0 +1,310 @@
+[Global]
+Class = scenery
+Type = building
+Subtype =
+DefaultSubtype =
+
+[Member]
+entity
+scenery
+building
+
+[Characteristics/Strings]
+
+[Characteristics/Integers]
+
+[Satisfiers]
+; DANGER!  only add to end of this list!  do not delete any from this list!
+; these map to needs, so need of 1 = drink, 2 = food, etc.
+a = bathroom
+a = building
+a = compost
+a = drink
+a = eat
+a = energy
+a = familybathroom
+a = food
+a = fun
+a = gift
+a = trash
+a = animalrest
+a = animalsex
+a = grandstand
+a = showtrick
+a = fungift
+
+[blueButton]
+forecolor = 65
+forecolor = 78
+forecolor = 158
+
+[boneButton]
+forecolor = 186
+forecolor = 183
+forecolor = 162
+
+[brwnButton]
+forecolor = 87
+forecolor = 63
+forecolor = 35
+
+[burgButton]
+forecolor = 73
+forecolor = 36
+forecolor = 51
+
+[chocButton]
+forecolor = 110
+forecolor = 61
+forecolor = 0
+
+[fuciaButton]
+forecolor = 170
+forecolor = 36
+forecolor = 175
+
+[goldButton]
+forecolor = 231
+forecolor = 167
+forecolor = 62
+
+[redButton]
+forecolor = 204
+forecolor = 19
+forecolor = 50
+
+[roseButton]
+forecolor = 166
+forecolor = 108
+forecolor = 108
+
+[orangButton]
+forecolor = 239
+forecolor = 117
+forecolor = 39
+
+[purpButton]
+forecolor = 111
+forecolor = 68
+forecolor = 165
+
+[greenButton]
+forecolor = 122
+forecolor = 188
+forecolor = 75
+
+[limeButton]
+forecolor = 65
+forecolor = 200
+forecolor = 68
+
+[tealButton]
+forecolor = 65
+forecolor = 140
+forecolor = 158
+
+[grayButton]
+forecolor = 146
+forecolor = 146
+forecolor = 146
+
+[graybButton]
+forecolor = 101
+forecolor = 104
+forecolor = 119
+
+[tanButton]
+forecolor = 170
+forecolor = 147
+forecolor = 108
+
+[steelButton]
+forecolor = 66
+forecolor = 66
+forecolor = 65
+
+[palyelButton]
+forecolor = 202
+forecolor = 196
+forecolor = 91
+
+[watmelButton]
+forecolor = 207
+forecolor = 59
+forecolor = 82
+
+[ulmarButton]
+forecolor = 55
+forecolor = 74
+forecolor = 201
+
+[pinkButton]
+forecolor = 199
+forecolor = 65
+forecolor = 112
+
+[skyButton]
+forecolor = 9
+forecolor = 156
+forecolor = 255
+
+[yelloButton]
+forecolor = 238
+forecolor = 198
+forecolor = 25
+
+[cr_part1]
+; Shared 16-color replacement palettes for buildings
+; The name of this block is contained in the colorrep block
+; of the ai files for each building
+ncolors = 16
+
+pal = scenery/building/pals/blue16.pal
+ui_info= blueButton
+
+pal = scenery/building/pals/green16.pal
+ui_info= greenButton
+
+pal = scenery/building/pals/teal16.pal
+ui_info= tealButton
+
+pal = scenery/building/pals/gold16.pal
+ui_info= goldButton
+
+pal = scenery/building/pals/gray16.pal
+ui_info= grayButton
+
+pal = scenery/building/pals/grayb16.pal
+ui_info= graybButton
+
+pal = scenery/building/pals/lime16.pal
+ui_info= limeButton
+
+pal = scenery/building/pals/orang16.pal
+ui_info= orangButton
+
+pal = scenery/building/pals/purp16.pal
+ui_info= purpButton
+
+pal = scenery/building/pals/rose16.pal
+ui_info= roseButton
+
+pal = scenery/building/pals/steel16.pal
+ui_info= steelButton
+
+pal = scenery/building/pals/tan16.pal
+ui_info= tanButton
+
+pal = scenery/building/pals/yello16.pal
+ui_info= yelloButton
+
+pal = scenery/building/pals/red16.pal
+ui_info= redButton
+
+pal = scenery/building/pals/brwn16.pal
+ui_info= brwnButton
+
+pal = scenery/building/pals/palyel16.pal
+ui_info= palyelButton
+
+pal = scenery/building/pals/fucia16.pal
+ui_info= fuciaButton
+
+pal = scenery/building/pals/watmel16.pal
+ui_info= watmelButton
+
+pal = scenery/building/pals/burg16.pal
+ui_info= burgButton
+
+pal = scenery/building/pals/choc16.pal
+ui_info= chocButton
+
+pal = scenery/building/pals/ulmar16.pal
+ui_info= ulmarButton
+
+pal = scenery/building/pals/pink16.pal
+ui_info= pinkButton
+
+pal = scenery/building/pals/sky16.pal
+ui_info= skyButton
+
+pal = scenery/building/pals/bone16.pal
+ui_info= boneButton
+
+[cr_part2]
+; Shared 8-color replacement palettes for buildings
+; The name of this block is contained in the colorrep block
+; of the ai files for each building
+ncolors = 8
+
+pal = scenery/building/pals/blue8.pal
+ui_info= blueButton
+
+pal = scenery/building/pals/green8.pal
+ui_info= greenButton
+
+pal = scenery/building/pals/teal8.pal
+ui_info= tealButton
+
+pal = scenery/building/pals/gold8.pal
+ui_info= goldButton
+
+pal = scenery/building/pals/gray8.pal
+ui_info= grayButton
+
+pal = scenery/building/pals/grayb8.pal
+ui_info= graybButton
+
+pal = scenery/building/pals/lime8.pal
+ui_info= limeButton
+
+pal = scenery/building/pals/orang8.pal
+ui_info= orangButton
+
+pal = scenery/building/pals/purp8.pal
+ui_info= purpButton
+
+pal = scenery/building/pals/rose8.pal
+ui_info= roseButton
+
+pal = scenery/building/pals/steel8.pal
+ui_info= steelButton
+
+pal = scenery/building/pals/tan8.pal
+ui_info= tanButton
+
+pal = scenery/building/pals/yello8.pal
+ui_info= yelloButton
+
+pal = scenery/building/pals/red8.pal
+ui_info= redButton
+
+pal = scenery/building/pals/brwn8.pal
+ui_info= brwnButton
+
+pal = scenery/building/pals/palyel8.pal
+ui_info= palyelButton
+
+pal = scenery/building/pals/fucia8.pal
+ui_info= fuciaButton
+
+pal = scenery/building/pals/watmel8.pal
+ui_info= watmelButton
+
+pal = scenery/building/pals/burg8.pal
+ui_info= burgButton
+
+pal = scenery/building/pals/choc8.pal
+ui_info= chocButton
+
+pal = scenery/building/pals/ulmar8.pal
+ui_info= ulmarButton
+
+pal = scenery/building/pals/pink8.pal
+ui_info= pinkButton
+
+pal = scenery/building/pals/sky8.pal
+ui_info= skyButton
+
+pal = scenery/building/pals/bone8.pal
+ui_info= boneButton

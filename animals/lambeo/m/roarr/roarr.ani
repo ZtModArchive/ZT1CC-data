@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lambeo
+dir2 = m
+dir3 = roarr
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -119
+y0 = -128
+x1 = 81
+y1 = 59

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = blckbuck
+dir2 = f
+dir3 = prance
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -10
+y0 = -25
+x1 = 12
+y1 = 6

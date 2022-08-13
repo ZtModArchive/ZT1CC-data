@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = eleseal
+dir2 = m
+dir3 = subswim
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -53
+y0 = -30
+x1 = 47
+y1 = 60

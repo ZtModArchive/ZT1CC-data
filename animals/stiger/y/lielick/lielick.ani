@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = stiger
+dir2 = y
+dir3 = lielick
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -15
+y0 = -12
+x1 = 11
+y1 = 7

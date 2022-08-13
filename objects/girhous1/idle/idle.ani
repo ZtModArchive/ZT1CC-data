@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = girhous1
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -91
+y0 = -126
+x1 = 91
+y1 = 45

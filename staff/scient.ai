@@ -1,0 +1,216 @@
+; $Id: scient.ai,v 1.19 2002/02/15 16:10:45 rmh Exp $
+; IMPLEMENTED
+[Global]
+Class = staff
+Type = scient
+Subtype =
+DefaultSubtype = m
+
+[f/Icon]
+Icon=staff/icfsci/icfsci
+
+[m/Icon]
+Icon=staff/icmsci/icmsci
+
+[Member]
+staff
+dinosaur
+
+[Characteristics/Integers]
+cExpansionID=1
+
+[m/colorrep]
+color = cr_color
+replace = cr_hair
+replace = cr_skin
+
+[f/colorrep]
+color = cr_color
+replace = cr_hair
+replace = cr_skin
+
+[cr_color]
+ncolors = 224
+fullpal = staff/sci/sci.pal
+colorpal = staff/sci/color.pal
+
+[cr_hair]
+ncolors = 16
+pal = guests/hblack.pal
+pal = guests/hbrown.pal
+pal = guests/hblond.pal
+pal = guests/hred.pal
+
+[cr_skin]
+ncolors = 16
+pal = guests/skcauc1.pal
+pal = guests/skcauc2.pal
+pal = guests/skdark1.pal
+pal = guests/skdark2.pal
+pal = guests/skolive.pal
+
+[m/Characteristics/Strings]
+cGeneralInfoTextName = SCIENT
+cPlaqueImageName = staff/plsci/plsci
+cInfoImageName = staff/inmsci/inmsci
+cListImageName = staff/lsmsci/lsmsci
+cTrainingIconName = research/smstran1/smstran1
+cTrainingIconName = research/smstran2/smstran2
+cTrainingIconName = research/smstran3/smstran3
+
+[m/Characteristics/Integers]
+cNameID = 9551
+cHelpID = 9551
+cPurchaseCost = 1000
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 1
+cWorkCheck = 5
+cChaseCheck = 2
+cFoodPerTile = 1000
+cSicklyAnimalPct = 15
+cWeaponRange = 5
+cDutiesTextID = 3679
+
+cTrainingTooltip = 24319
+cTrainingTooltip = 24320
+cTrainingTooltip = 24321
+
+; scientist cleans up dino poo only
+cDirt = 6094
+
+; SOON TO BE IMPLEMENTED
+cFoodUnitsSecond = 10
+cCleanTime = 2
+cHealUnitsSecond = 10
+
+[f/Characteristics/Integers]
+cNameID = 9551
+cHelpID = 9551
+cPurchaseCost = 1000
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 1
+cWorkCheck = 5
+cChaseCheck = 2
+cFoodPerTile = 1000
+cSicklyAnimalPct = 15
+cWeaponRange = 5
+
+; scientist cleans up dino poo only
+cDirt = 6094
+
+; SOON TO BE IMPLEMENTED
+cFoodUnitsSecond = 10
+cCleanTime = 2
+cHealUnitsSecond = 10
+
+[f/Characteristics/Strings]
+cInfoImageName = staff/infsci/infsci
+cListImageName = staff/lsfsci/lsfsci
+
+[m/Animations]
+idle = staff/sci/m/stand/stand.ani
+walk = staff/sci/m/walk/walk.ani
+stand = staff/sci/m/stand/stand.ani
+feedc = staff/sci/m/feedc/feedc.ani
+feedh = staff/sci/m/feedh/feedh.ani
+heal = staff/sci/m/heal/heal.ani
+run = staff/sci/m/run/run.ani
+clean = staff/sci/m/cleanup/cleanup.ani
+healegg = staff/sci/m/eggs/eggs.ani
+
+
+[f/Animations]
+idle = staff/sci/f/stand/stand.ani
+walk = staff/sci/f/walk/walk.ani
+stand = staff/sci/f/stand/stand.ani
+feedc = staff/sci/f/feedc/feedc.ani
+feedh = staff/sci/f/feedh/feedh.ani
+heal = staff/sci/f/heal/heal.ani
+run = staff/sci/f/run/run.ani
+clean = staff/sci/f/cleanup/cleanup.ani
+healegg = staff/sci/f/eggs/eggs.ani
+
+
+[Sounds]
+vac = staff/vac.wav
+vac = 1500
+feed_herb = staff/kfeedh.wav
+feed_herb = 1500
+feed_carn = staff/kfeedc.wav
+feed_carn = 1500
+heal_animal = staff/sheal.wav
+
+
+[BehaviorSet\bWalkRandomly]
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fPlayTime(idle,2)
+
+[BehaviorSet\bWalk]
+; test
+;f = fPlay(bag)
+;f = fPlay(clean)
+;f = fPlay(feedc)
+;f = fPlay(feedh)
+;f = fPlay(heal)
+;f = fPlay(run)
+f = fWalk(0,0)
+
+[BehaviorSet\bZooRoutine]
+;There is no fsciRoutine.  Just use fKeeperRoutine.
+;f = fsciRoutine()
+f = fKeeperRoutine()
+
+[BehaviorSet\bFeedCarn]
+f = fFaceTowardTarget()
+f = fPlayWithSound(feedc,feed_carn)
+f = fPlayWithSound(feedc,feed_carn)
+f = fPlayWithSound(feedc,feed_carn)
+
+[BehaviorSet\bFeedHerb]
+f = fFaceTowardTarget()
+f = fPlayWithSound(feedh,feed_herb)
+f = fPlayWithSound(feedh,feed_herb)
+f = fPlayWithSound(feedh,feed_herb)
+
+[BehaviorSet\bHeal]
+f = fFaceTowardTarget()
+f = fPlayWithSound(heal,heal_animal)
+f = fPlayReverse(heal)
+
+[BehaviorSet\bHealEgg]
+f = fFaceTowardTarget()
+f = fPlayWithSound(healegg,heal_animal)
+f = fPlayReverse(healegg)
+
+[BehaviorSet\bClean]
+f = fFaceTowardTarget()
+f = fPlayWithSound(clean,vac)
+f = fPlayWithSound(clean,vac)
+f = fPlay(idle)
+
+[BehaviorSet\bChaseAnimal]
+f = fRun(0,0)
+
+
+[BehaviorSet\bRetrieveAnimal]
+f = fRun(0,0)
+
+[BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[AmbientAnims]
+a = -100
+a = 100
+b = bZooRoutine
+
+

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = asibars
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -93
+y0 = -96
+x1 = 93
+y1 = 46

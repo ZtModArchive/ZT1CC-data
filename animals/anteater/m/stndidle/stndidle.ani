@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = anteater
+dir2 = m
+dir3 = stndidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -20
+y0 = -16
+x1 = 14
+y1 = 10

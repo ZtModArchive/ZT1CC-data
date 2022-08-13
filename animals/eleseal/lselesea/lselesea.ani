@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = eleseal
+dir2 = lselesea
+animation = N
+x0 = -19
+y0 = -8
+x1 = 19
+y1 = 10

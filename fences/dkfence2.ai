@@ -1,0 +1,34 @@
+[Icon]
+Icon=fences/dkfence2/SE/SE
+
+[Member]
+zoofences
+highfence
+fence
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 100
+cNameID = 9352
+cHelpID = 9352
+cHeight = 2
+
+[Animations]
+idle = idle
+idle30p = idle30p
+idle30n = idle30n
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15
+

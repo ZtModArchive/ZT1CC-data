@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = macrauch
+dir2 = y
+dir3 = 2sleep
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -10
+y0 = -19
+x1 = 19
+y1 = 9

@@ -1,0 +1,308 @@
+[LayoutInfo]
+x=23
+y=82
+dx=226
+dy=213
+id=37
+anchor=21
+layer=5
+;hidden
+state=1
+
+[Background]
+type=UIImage
+id=2400
+x=0
+y=0
+animation=ui/sharedui/colorbck/colorbck
+layer=0
+
+
+[Color_1]
+type = UIButton
+id = 2401
+helpid = 2401
+x = 5
+y = 11
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_2]
+type = UIButton
+id = 2402
+helpid = 2402
+x = 31
+y = 11
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_3]
+type = UIButton
+id = 2403
+helpid = 2403
+x = 59
+y = 11
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_4]
+type = UIButton
+id = 2404
+helpid = 2404
+x = 86
+y = 11
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_5]
+type = UIButton
+id = 2405
+helpid = 2405
+x = 113
+y = 11
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_6]
+type = UIButton
+id = 2406
+helpid = 2406
+x = 140
+y = 11
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_7]
+type = UIButton
+id = 2407
+helpid = 2407
+x = 5
+y = 38
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_8]
+type = UIButton
+id = 2408
+helpid = 2408
+x = 31
+y = 38
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_9]
+type = UIButton
+id = 2409
+helpid = 2409
+x = 59
+y = 38
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_10]
+type = UIButton
+id = 2410
+helpid = 2410
+x = 86
+y = 38
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_11]
+type = UIButton
+id = 2411
+helpid = 2411
+x = 113
+y = 38
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_12]
+type = UIButton
+id = 2412
+helpid = 2412
+x = 140
+y = 38
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_13]
+type = UIButton
+id = 2413
+helpid = 2413
+x = 5
+y = 65
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_14]
+type = UIButton
+id = 2414
+helpid = 2414
+x = 31
+y = 65
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+
+[Color_15]
+type = UIButton
+id = 2415
+helpid = 2415
+x = 59
+y = 65
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_16]
+type = UIButton
+id = 2416
+helpid = 2416
+x = 86
+y = 65
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_17]
+type = UIButton
+id = 2417
+helpid = 2417
+x = 113
+y = 65
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_18]
+type = UIButton
+id = 2418
+helpid = 2418
+x = 140
+y = 65
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_19]
+type = UIButton
+id = 2419
+helpid = 2419
+x = 5
+y = 92
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_20]
+type = UIButton
+id = 2420
+helpid = 2420
+x = 31
+y = 92
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_21]
+type = UIButton
+id = 2421
+helpid = 2421
+x = 59
+y = 92
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_22]
+type = UIButton
+id = 2422
+helpid = 2422
+x = 86
+y = 92
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_23]
+type = UIButton
+id = 2423
+helpid = 2423
+x = 113
+y = 92
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3
+
+[Color_24]
+type = UIButton
+id = 2424
+helpid = 2424
+x = 140
+y = 92
+animation=ui/sharedui/bordclr/bordclr
+layer=1
+iconfirst=1
+colorasicon=1
+border=3

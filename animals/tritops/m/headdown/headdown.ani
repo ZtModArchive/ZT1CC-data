@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = tritops
+dir2 = m
+dir3 = headdown
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -54
+y0 = -59
+x1 = 60
+y1 = 30

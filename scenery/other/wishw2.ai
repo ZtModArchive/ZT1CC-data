@@ -1,0 +1,53 @@
+[Icon]
+Icon = objects/wishw2/SE/SE
+Icon = objects/wishw2/SW/SW
+Icon = objects/wishw2/NW/NW
+Icon = objects/wishw2/NE/NE
+
+
+[Member]
+scenery
+aqua
+
+
+[AmbientSound]
+name = scenery/building/swishing.wav
+attenuation = 1800
+
+
+[Characteristics/Integers]
+cNameID = 6473
+cHelpID = 6473
+cPurchaseCost = 250
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10593
+cHeight = 2
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 50
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+
+[EstheticBonus]
+; man
+v = 9503
+v = 15
+; woman
+v = 9504
+v = 15
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15
+
+
+
+
+

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = bowhead
+dir2 = y
+dir3 = usurfblo
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -88
+y0 = -67
+x1 = 85
+y1 = 92

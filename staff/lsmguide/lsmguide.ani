@@ -1,0 +1,8 @@
+[animation]
+dir0 = staff
+dir1 = lsmguide
+animation = N
+x0 = -8
+y0 = -15
+x1 = 9
+y1 = 16

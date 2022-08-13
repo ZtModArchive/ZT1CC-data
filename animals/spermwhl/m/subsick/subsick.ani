@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = spermwhl
+dir2 = m
+dir3 = subsick
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -127
+y0 = -51
+x1 = 115
+y1 = 148

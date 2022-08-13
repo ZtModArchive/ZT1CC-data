@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/sdollar/SE/SE
+Icon=objects/sdollar/SW/SW
+Icon=objects/sdollar/NW/NW
+Icon=objects/sdollar/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 110
+cNameID = 7413
+cHelpID = 7413
+cHabitat = 9413
+cLocation = 9629
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 1
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

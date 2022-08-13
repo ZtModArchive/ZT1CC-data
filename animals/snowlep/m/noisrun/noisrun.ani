@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = snowlep
+dir2 = m
+dir3 = noisrun
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -43
+y0 = -31
+x1 = 24
+y1 = 22

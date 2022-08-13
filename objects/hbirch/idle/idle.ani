@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = hbirch
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -43
+y0 = -113
+x1 = 44
+y1 = 8

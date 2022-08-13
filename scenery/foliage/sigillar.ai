@@ -1,0 +1,32 @@
+[Icon]
+
+Icon=objects/sigillar/SE/SE
+Icon=objects/sigillar/SW/SW
+Icon=objects/sigillar/NW/NW
+Icon=objects/sigillar/NE/NE
+
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 7094
+cHelpID = 7094
+cHabitat = 9400
+cLocation = 9607
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9620
+
+cUsesTreeRubble=1
+
+
+[Animations]
+idle = idle
+
+

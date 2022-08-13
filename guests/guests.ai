@@ -1,0 +1,3093 @@
+; $Id: guests.ai,v 1.54 2002/09/10 19:47:35 sds Exp $
+; IMPLEMENTED
+[Global]
+Class = guests
+Type =
+Subtype =
+DefaultSubtype = man
+
+[Characteristics/Integers]
+; These are global too
+cSearchRadius = 40			
+; the following assumes a 0 to 100 scale
+; if scale is -100 to 100 code will adjust appropriately			
+cUIThreshold = 75
+; cRandomStatNth is the frequency of guests affected by the randomizations below
+; e.g. 3 means every 3nd guest is affected and 2 means every other guest is affected
+; ONLY ONE STAT PER GUEST WILL BE RANDOMIZED!
+cRandomStatNth = 2
+; cRandomThirstMin is the minimum of the range used to randomize beginning thirst stat for guest
+cRandomThirstMin = 41
+; cRandomThirstMax is the maximum of the range used to randomize beginning thirst stat for guest
+cRandomThirstMax = 50
+; cRandomHungerMin is the minimum of the range used to randomize beginning hunger stat for guest
+cRandomHungerMin = 41
+; cRandomHungerMax is the maximum of the range used to randomize beginning hunger stat for guest
+cRandomHungerMax = 50
+; cRandomEnergyMin is the minimum of the range used to randomize beginning energy stat for guest
+cRandomEnergyMin = 0
+; cRandomEnergyMax is the maximum of the range used to randomize beginning energy stat for guest
+cRandomEnergyMax = 0
+; cRandomBathroomMin is the minimum of the range used to randomize beginning energy stat for guest
+cRandomBathroomMin = 0
+; cRandomBathroomMax is the maximum of the range used to randomize beginning energy stat for guest
+cRandomBathroomMax = 0
+; shadows for this unit
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+
+[man/colorrep]
+color = man_cr_color
+replace = cr_shirt
+replace = cr_pants
+replace = cr_hair_adult
+replace = cr_skin
+
+[boy/colorrep]
+color = boy_cr_color
+replace = cr_shirt
+replace = cr_pants
+replace = cr_hair
+replace = cr_skin
+
+[girl/colorrep]
+color = girl_cr_color
+replace = cr_shirt
+replace = cr_skirt
+replace = cr_hair
+replace = cr_skin
+
+[woman/colorrep]
+color = woman_cr_color
+replace = cr_shirt
+replace = cr_skirt
+replace = cr_hair_adult
+replace = cr_skin
+
+[man_cr_color]
+ncolors = 192
+fullpal = guests/man/man.pal
+colorpal = guests/man/color.pal
+
+[boy_cr_color]
+ncolors = 192
+fullpal = guests/boy/boy.pal
+colorpal = guests/boy/color.pal
+
+[girl_cr_color]
+ncolors = 192
+fullpal = guests/girl/girl.pal
+colorpal = guests/girl/color.pal
+
+[woman_cr_color]
+ncolors = 192
+fullpal = guests/woman/woman.pal
+colorpal = guests/woman/color.pal
+
+[cr_shirt]
+ncolors = 16
+pal = guests/shwhite.pal
+pal = guests/shred.pal
+pal = guests/shpurple.pal
+pal = guests/shteal.pal
+pal = guests/shgreen.pal
+pal = scenery/building/pals/yello16.pal
+pal = scenery/building/pals/watmel16.pal
+pal = scenery/building/pals/teal16.pal
+pal = scenery/building/pals/pink16.pal
+pal = scenery/building/pals/palyel16.pal
+pal = scenery/building/pals/orang16.pal
+pal = scenery/building/pals/red16.pal
+pal = scenery/building/pals/purp16.pal
+pal = scenery/building/pals/ulmar16.pal
+pal = scenery/building/pals/steel16.pal
+pal = scenery/building/pals/sky16.pal
+
+[cr_pants]
+ncolors = 16
+pal = guests/pblue.pal
+pal = guests/ptan.pal
+pal = guests/pcoal.pal
+pal = scenery/building/pals/blue16.pal
+pal = scenery/building/pals/choc16.pal
+pal = scenery/building/pals/brwn16.pal
+pal = scenery/building/pals/bone16.pal
+pal = scenery/building/pals/gray16.pal
+pal = scenery/building/pals/grayb16.pal
+
+[cr_skirt]
+ncolors = 16
+pal = guests/pblue.pal
+pal = guests/sred.pal
+pal = guests/spurple.pal
+pal = guests/steal.pal
+pal = guests/sgreen.pal
+pal = scenery/building/pals/blue16.pal
+pal = scenery/building/pals/choc16.pal
+pal = scenery/building/pals/brwn16.pal
+pal = scenery/building/pals/bone16.pal
+pal = scenery/building/pals/gray16.pal
+pal = scenery/building/pals/grayb16.pal
+pal = guests/pcoal.pal
+
+[cr_hair]
+ncolors = 16
+pal = guests/hblack.pal
+pal = guests/hbrown.pal
+pal = guests/hblond.pal
+pal = guests/hred.pal
+
+[cr_hair_adult]
+ncolors = 16
+pal = guests/hblack.pal
+pal = guests/hbrown.pal
+pal = guests/hblond.pal
+pal = guests/hred.pal
+pal = guests/hblack.pal
+pal = guests/hbrown.pal
+pal = guests/hblond.pal
+pal = guests/hred.pal
+pal = guests/hblack.pal
+pal = guests/hbrown.pal
+pal = guests/hblond.pal
+pal = guests/hred.pal
+pal = guests/shwhite.pal
+
+[cr_skin]
+ncolors = 16
+pal = guests/skcauc1.pal
+pal = guests/skcauc2.pal
+pal = guests/skdark1.pal
+pal = guests/skdark2.pal
+pal = guests/skolive.pal
+
+[man/Characteristics/Integers]
+cNameID = 9503
+cHelpID = 9503
+cPurchaseCost = 0
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 56
+cFootprintX = 1
+cFootprintY = 1
+
+cViewingAreaCheck = 20
+cHungerCheck = 30
+cThirstyCheck = 30
+cBathroomCheck = 30
+cBuySouvenirCheck = 40
+cEnergyCheck = 30
+cTrashCheck = 30
+cChaseCheck = 5
+cLeaveZooCheck = 20
+cLikeAnimalsCheck = 20 
+cEnvironmentEffectCheck = 20
+cSawAnimalReset = 20
+cTestFenceChance = 20
+cTapWallChance = 20
+
+;NEGATIVE EFFECTS
+cSickAnimalChange = -20
+cCrowdedViewingChange = -3
+cAngryAnimalChange1 = -10
+cAngryAnimalChange2 = -25
+cAngryAnimalChange3 = -35
+cEscapedAnimalChange = -100
+cStandAndEatChange = -5
+cAngryEnergyChange = -15
+cAngryFoodChange = -30
+cAngryBathroomChange = -30
+cAngryThirstChange = -30
+cAngryTrashChange = -5
+cSickChange = -40
+cPriceAngry1Change = -5
+cZapHappinessHit = -35
+
+;POSITIVE EFFECTS
+cHappyAnimalChange1 = 10
+cHappyAnimalChange2 = 5
+cPreferredAnimalChange = 30
+cAnimalInRowChange = 5
+cDifferentSpeciesChange = 5
+cHappyEstheticChange = 5
+cPreferredFoodChange = 15
+cPriceHappy1Change = 5
+
+
+cLeaveChanceLow = 12
+;6
+cLeaveChanceMed = 24
+;12
+cLeaveChanceHigh = 30
+;15
+cLeaveChanceDone = 60
+
+
+cInitialHappiness = 50
+cCrowdedViewingThreshold = 75
+
+cHungerIncrement = 4
+cHungerThreshold  = 50
+
+cBathroomIncrement = 3
+cBathroomThreshold = 50
+
+cThirstIncrement = 3
+cThirstThreshold = 50
+
+cMaxEnergy = 100
+cEnergyIncrement = 3						
+cEnergyThreshold = 50
+
+cDifferentSpeciesThreshold = 4
+
+cObjectEstheticThreshold = 200
+
+cBuySouvenirChanceMed = 5
+cBuySouvenirChanceHigh = 10
+
+; minimum amount of stink to trigger sickness
+cStinkThreshold = 2
+
+; chance of getting stink-sick
+cSickChance = 20
+
+cTrashInTileThreshold = 4
+cVandalizedObjectsInTileThreshold = 4
+
+cMimicChance = 15
+
+; Can swim in flat water
+cSwims = 1
+
+; Can go into a tank
+cUnderwater = 1
+
+; Cannot submerge
+cSurface = 1
+
+; gawk time in seconds
+; for -100 <= animalHappiness <= -60
+cGawkTime = 10
+; for -61 <= animalHappiness <= 20
+cGawkTime = 15
+; for 21 <= animalHappiness <= 60
+cGawkTime = 25
+; for 61 <= animalHappiness <= 80
+cGawkTime = 35
+; for 81 <= animalHappiness <= 100
+cGawkTime = 45
+
+; exhibit attractiveness < 20
+cGawkAttrTime = 0
+; 20 <= x < 50
+cGawkAttrTime = 1
+; 50 <= x < 90
+cGawkAttrTime = 4
+; 90 <= x < 150
+cGawkAttrTime = 7
+; 150 <= x < 200
+cGawkAttrTime = 10
+; 200 <= x
+cGawkAttrTime = 20
+
+;Lion
+cPreferredAnimal = 5006
+;Giant Panda
+cPreferredAnimal = 5001
+;Black Leopard
+cPreferredAnimal = 5011
+;Grizzly Bear
+cPreferredAnimal = 5016
+;Mountain Gorilla
+cPreferredAnimal = 5021
+;Bengal Tiger
+cPreferredAnimal = 5007
+;Spotted Hyena
+cPreferredAnimal = 5018
+
+[man/Characteristics/Strings]
+cListImageName = guests/lsmguest/lsmguest
+cSickPalName = guests/skpuke.pal
+
+[woman/Characteristics/Strings]
+cListImageName = guests/lsfguest/lsfguest
+cSickPalName = guests/skpuke.pal
+
+[boy/Characteristics/Strings]
+cListImageName = guests/lsbguest/lsbguest
+cSickPalName = guests/skpuke.pal
+
+[girl/Characteristics/Strings]
+cListImageName = guests/lsgguest/lsgguest
+cSickPalName = guests/skpuke.pal
+
+[man/Animations]
+idle = stand
+stand = stand
+walk = walk
+climb = climb
+gawk1 = gawk
+camera = camera
+run_terror = runterr
+jump_terror = jumpterr
+lionm = lionm
+lionf = lionf
+cheetahm = cheetahm
+cheetahf = cheetahm
+blacklepm = blacklem
+blacklepf = blacklem
+cloulepm = cloulepm
+cloulepf = cloulepm
+tigerm = tigerm
+tigerf = tigerm
+tigerwtrm = guests/man/watcloud/watcloud.ani
+tigerwtrf = guests/man/watcloud/watcloud.ani
+stigerm = stigerm
+stigerf = stigerm
+stigerwtrm = guests/man/watcloud/watcloud.ani
+stigerwtrf = guests/man/watcloud/watcloud.ani
+wtigerm = wtigerm
+wtigerf = wtigerm
+wtigerwtrm = guests/man/watcloud/watcloud.ani
+wtigerwtrf = guests/man/watcloud/watcloud.ani
+leopardm = leopardm
+leopardf = leopardm
+jaguarm = jaguarm
+jaguarf = jaguarm
+snowlepm = snowlepm
+snowlepf = snowlepm
+blackbrm = blackbrm
+blackbrf = blackbrm
+polarbrm = polarbrm
+polarbrf = polarbrm
+polarbrwtrm = guests/man/watcloud/watcloud.ani
+polarbrwtrf = guests/man/watcloud/watcloud.ani
+grizzlym = grizzlym
+grizzlyf = grizzlym
+grizzlywtrm = guests/man/watcloud/watcloud.ani
+grizzlywtrf = guests/man/watcloud/watcloud.ani
+graywolfm = grywolfm
+graywolff = grywolfm
+swcrocm = swcrocm
+swcrocf = swcrocm
+swcrocwtrm = wswcrocm
+swcrocwtrf = wswcrocm
+shadowwswcrocm = sswcrocm
+underwswcrocm = uswcrocm
+hyenam = hyenam
+hyenaf = hyenam
+elem = elem
+elef = elem
+arcwolfm = arcwolfm
+arcwolff = arcwolfm
+mntnlionm = mntnliom
+mntnlionf = mntnliom
+trexm = trexm
+trexf = trexm
+trexy = trexy
+allom = allom
+allof = allom
+alloy = alloy
+wolrhnm = wolrhnm
+wolrhnf = wolrhnm
+smilom = smilom
+smilof = smilom
+herreram = herreram
+herreraf = herreram
+herreray = herreray
+wolmamm = wolmamm
+wolmamf = wolmamm
+ankylom = ankylom
+ankylof = ankylom
+styracom = styracom
+styracof = styracom
+gallimm = gallimm
+gallimf = gallimm
+lambeom = lambeom 
+lambeof = lambeom 
+velocm = velocm
+velocf = velocm
+kentrom = kentrom
+kentrof = kentrom
+spinom = spinom
+spinof = spinom
+spinoy = spinoy
+stegom = stegom
+stegof = stegom
+iguanom = iguanom
+iguanof = iguanom
+coelom = coelom
+coelof = coelom
+meiolanm = meiolanm
+meiolanf = meiolanm
+meiolanwtrm = guests/man/watcloud/watcloud.ani
+meiolanwtrf = guests/man/watcloud/watcloud.ani
+tritopsm = tritopsm
+tritopsf = tritopsm
+camptom = camptom
+camptof = camptom
+caudiptm = caudiptm
+caudiptf = caudiptm
+plateom = plateom
+plateof = plateom
+apatom = dustlg
+apatof = dustlg
+plesiom = dustmed
+plesiof = dustmed
+plesiowtrm = guests/man/watcloud/watcloud.ani
+plesiowtrf = guests/man/watcloud/watcloud.ani
+deinom = dustmed
+deinof = dustmed
+deinoy = dustmed
+deinowtrm = deinom
+deinowtrf = deinom
+shadowdeinom = sdeinom
+underdeinom = udeinom
+deinowtry = deinoy
+shadowdeinoy = sdeinoy
+underdeinoy = udeinoy
+
+komodom = dustmed
+komodof = dustmed
+
+dolphinm = dolphinm
+dolphinf = dolphinm
+shadowdolphinm = sdolphim
+underdolphinm = udolphim
+dolphiny = dolphiny
+shadowdolphiny = sdolphiy
+underdolphiny = udolphiy
+gwsharkm = gwsharkm
+gwsharkf = gwsharkm
+shadowgwsharkm = sgwsharm
+undergwsharkm = ugwsharm
+gwsharky = gwsharky
+shadowgwsharky = sgwshary
+undergwsharky = ugwshary
+hhsharkm = hhsharkm
+hhsharkf = hhsharkm
+shadowhhsharkm = shhsharm
+underhhsharkm = uhhsharm
+hhsharky = hhsharky
+shadowhhsharky = shhshary
+underhhsharky = uhhshary
+jellyfshm = jellym
+jellyfshf = jellym
+shadowjellym = sjellym
+underjellym = ujellym
+jellyfshy = jellyy
+shadowjellyy = sjellyy
+underjellyy = ujellyy
+makom = makom
+makof = makom
+shadowmakom = smakom
+undermakom = umakom
+orcam = orcam
+orcaf = orcam
+shadoworcam = sorcam
+underorcam = uorcam
+orcay = orcay
+shadoworcay = sorcay
+underorcay = uorcay
+porpoisem = porpm
+porpoisef = porpm
+shadowporpm = sporpm
+underporpm = uporpm
+spermwhlm = spermw
+spermwhlf = spermw
+shadowspermw = sspermw
+underspermw = uspermw
+tigershm = tigersm
+tigershf = tigersm
+shadowtigersm = stigersm
+undertigersm = utigersm
+octopusm = octopus
+octopusf = octopus
+shadowoctopus = soctopus
+underoctopus = uoctopus
+gsquidm = gsquidm
+gsquidf = gsquidm
+shadowgsquidm = sgsquidm
+undergsquidm = ugsquidm
+barram = barra
+barraf = barra
+shadowbarra = sbarra
+underbarra = ubarra
+marlinm = marlin
+marlinf = marlin
+shadowmarlin = smarlin
+undermarlin = umarlin
+
+getupall = getupall
+down = down
+;situp = situp
+;dizzy = dizzy
+;sittorun = sittorun
+benchenergy0 = bensit1
+benchenergy1 = bensit2
+bencheat0 = beneat1
+bencheat1 = beneat2
+sbenchenergy0 = bensit1
+sbenchenergy1 = bensit2
+sbencheat0 = beneat1
+sbencheat1 = beneat2
+aqbenchenergy0 = bensit1
+aqbenchenergy1 = bensit2
+aqbencheat0 = beneat1
+aqbencheat1 = beneat2
+picnicenergy0 = picsit1
+picnicenergy1 = picsit2
+picnicenergy2 = picsit3
+picnicenergy3 = picsit4
+picniceat0 = piceat1
+picniceat1 = piceat2
+picniceat2 = piceat3
+picniceat3 = piceat4
+picnic2energy0 = picsit1
+picnic2energy1 = picsit2
+picnic2energy2 = picsit3
+picnic2energy3 = picsit4
+picnic2eat0 = piceat1
+picnic2eat1 = piceat2
+picnic2eat2 = piceat3
+picnic2eat3 = piceat4
+puttentr = puttentr
+puttlose = puttlose
+puttwin = puttwin
+puttexit = puttexit
+eatstanding = eat
+puke = puke
+mimic = mimic
+mimic2 = roar
+fencezap = zapfull
+tap = tap
+peek = peek
+map = map
+
+gssit = gssit
+gsclap = gsclap
+gsovat = gsovat
+gsboo = gsboo
+
+dolride = dolride
+padboat = padboat
+kayak = kayak
+swanboat = swanboat
+
+suitswim = suitswim
+undersuitswim = usuitswi
+shadowsuitswim = ssurfswi
+
+suitidle = suitsfid
+undersuitsfid = usuitsfi
+shadowsuitsfid = ssurfidl
+
+suitdrwn = suitdrwn
+undersuitdrwn = usuitdrw
+shadowsuitdrwn = ssurfdrw
+
+surfswim = surfswim
+undersurfswim = usurfswi
+shadowsurfswim = ssurfswi
+
+surfidle = surfidle
+undersurfidle = usurfidl
+shadowsurfidle = ssurfidl
+
+surfdrwn = surfdrwn
+undersurfdrwn = usurfdrw
+shadowsurfdrwn = ssurfdrw
+
+; default animations, flat water
+water_idle = surfidle
+swim = surfswim
+
+[woman/Animations]
+idle = stand
+stand = stand
+walk = walk
+climb = climb
+gawk1 = gawk
+camera = camera
+run_terror = runterr
+jump_terror = jumpterr
+benchenergy0 = bensit1
+benchenergy1 = bensit2
+bencheat0 = beneat1
+bencheat1 = beneat2
+sbenchenergy0 = bensit1
+sbenchenergy1 = bensit2
+sbencheat0 = beneat1
+sbencheat1 = beneat2
+aqbenchenergy0 = bensit1
+aqbenchenergy1 = bensit2
+aqbencheat0 = beneat1
+aqbencheat1 = beneat2
+picnicenergy0 = picsit1
+picnicenergy1 = picsit2
+picnicenergy2 = picsit3
+picnicenergy3 = picsit4
+picniceat0 = piceat1
+picniceat1 = piceat2
+picniceat2 = piceat3
+picniceat3 = piceat4
+picnic2energy0 = picsit1
+picnic2energy1 = picsit2
+picnic2energy2 = picsit3
+picnic2energy3 = picsit4
+picnic2eat0 = piceat1
+picnic2eat1 = piceat2
+picnic2eat2 = piceat3
+picnic2eat3 = piceat4
+puttentr = puttentr
+puttlose = puttlose
+puttwin = puttwin
+puttexit = puttexit
+eatstanding = eat
+puke = puke
+mimic = mimic
+mimic2 = roar
+tap = tap
+peek = peek
+map = map
+
+gssit = gssit
+gsclap = gsclap
+gsovat = gsovat
+gsboo = gsboo
+
+dolride = dolride
+padboat = padboat
+surfidle = surfidle
+kayak = kayak
+swanboat = swanboat
+
+suitswim = suitswim
+suitidle = suitsfid
+undersuitsfid = usuitsfi
+suitdrwn = suitdrwn
+surfswim = surfswim
+shadowsurfswim = ssurfswi
+undersurfswim = usurfswi
+surfidle = surfidle
+shadowsurfidle = ssurfidl
+undersurfidle = usurfidl
+;surfdrwn = surfdrwn
+surfdrwn = suitdrwn
+
+; default animations, flat water
+water_idle = surfidle
+swim = surfswim
+
+[boy/Animations]
+idle = stand
+stand = stand
+walk = walk
+climb = climb
+gawk1 = gawk
+throw = throw
+gum = gum
+run_terror = runterr
+jump_terror = jumpterr
+benchenergy0 = bensit1
+benchenergy1 = bensit2
+bencheat0 = beneat1
+bencheat1 = beneat2
+sbenchenergy0 = bensit1
+sbenchenergy1 = bensit2
+sbencheat0 = beneat1
+sbencheat1 = beneat2
+aqbenchenergy0 = bensit1
+aqbenchenergy1 = bensit2
+aqbencheat0 = beneat1
+aqbencheat1 = beneat2
+picnicenergy0 = picsit1
+picnicenergy1 = picsit2
+picnicenergy2 = picsit3
+picnicenergy3 = picsit4
+picniceat0 = piceat1
+picniceat1 = piceat2
+picniceat2 = piceat3
+picniceat3 = piceat4
+picnic2energy0 = picsit1
+picnic2energy1 = picsit2
+picnic2energy2 = picsit3
+picnic2energy3 = picsit4
+picnic2eat0 = piceat1
+picnic2eat1 = piceat2
+picnic2eat2 = piceat3
+picnic2eat3 = piceat4
+eatstanding = eat
+puke = puke
+mimic = mimic
+mimic2 = roar
+bounce = bounce
+swing = swing
+dslide = dslide
+tap = tap
+peek = peek
+
+gssit = gssit
+gsclap = gsclap
+gsovat = gsovat
+gsboo = gsboo
+
+aqbounce = aqbounce
+
+suitswim = suitswim
+suitidle = suitsfid
+undersuitsfid = usuitsfi
+suitdrwn = suitdrwn
+surfswim = surfswim
+shadowsurfswim = ssurfswi
+undersurfswim = usurfswi
+surfidle = surfidle
+shadowsurfidle = ssurfidl
+undersurfidle = usurfidl
+;surfdrwn = surfdrwn
+surfdrwn = suitdrwn
+ringwin = ringwin
+ringtoss = ringtoss
+
+; default animations, flat water
+water_idle = surfidle
+swim = surfswim
+
+[girl/Animations]
+idle = stand
+stand = stand
+walk = walk
+climb = climb
+gawk1 = gawk
+throw = throw
+gum = gum
+run_terror = runterr
+jump_terror = jumpterr
+benchenergy0 = bensit1
+benchenergy1 = bensit2
+bencheat0 = beneat1
+bencheat1 = beneat2
+sbenchenergy0 = bensit1
+sbenchenergy1 = bensit2
+sbencheat0 = beneat1
+sbencheat1 = beneat2
+aqbenchenergy0 = bensit1
+aqbenchenergy1 = bensit2
+aqbencheat0 = beneat1
+aqbencheat1 = beneat2
+picnicenergy0 = picsit1
+picnicenergy1 = picsit2
+picnicenergy2 = picsit3
+picnicenergy3 = picsit4
+picniceat0 = piceat1
+picniceat1 = piceat2
+picniceat2 = piceat3
+picniceat3 = piceat4
+picnic2energy0 = picsit1
+picnic2energy1 = picsit2
+picnic2energy2 = picsit3
+picnic2energy3 = picsit4
+picnic2eat0 = piceat1
+picnic2eat1 = piceat2
+picnic2eat2 = piceat3
+picnic2eat3 = piceat4
+eatstanding = eat
+puke = puke
+mimic = mimic
+mimic2 = roar
+bounce = bounce
+swing = swing
+dslide = dslide
+tap = tap
+peek = peek
+
+gssit = gssit
+gsclap = gsclap
+gsovat = gsovat
+gsboo = gsboo
+
+aqbounce = aqbounce
+
+suitswim = suitswim
+suitidle = suitsfid
+undersuitsfid = usuitsfi
+suitdrwn = suitdrwn
+surfswim = surfswim
+shadowsurfswim = ssurfswi
+undersurfswim = usurfswi
+surfidle = surfidle
+shadowsurfidle = ssurfidl
+undersurfidle = usurfidl
+;surfdrwn = surfdrwn
+surfdrwn = suitdrwn
+ringwin = ringwin
+ringtoss = ringtoss
+
+; default animations, flat water
+water_idle = surfidle
+swim = surfswim
+
+[Sounds]
+man_scream = guests/man3.wav
+man_scream = 1300
+man_scream_2 = guests/man4.wav
+man_scream_2 = 1300
+woman_scream = guests/woman3.wav
+woman_scream = 1300
+girl_scream = guests/girl3.wav
+girl_scream = 1300
+soft_growl = animals/lion/cat_sgr.wav
+soft_growl = 1500
+boy_scream = guests/boy4.wav
+boy_scream = 1300
+bear_roar = animals/polarbr/bear_roa.wav
+bear_roar = 1500
+wolf_growl = animals/graywolf/wolf3.wav
+wolf_growl = 1500
+camera_snap = guests/cam1.wav
+camera_snap = 1000
+croc_roar = animals/swcroc/swcroc1.wav
+croc_roar = 1200
+hyena_growl = animals/hyena/hyena2.wav
+hyena_growl = 1600
+ele_trumpet = animals/elephant/ele1.wav
+ele_trumpet = 500
+trex_roar = animals/trex/roar.wav
+trex_roar = 1500
+wolrhn_roar = animals/wolrhn/wolrhn1.wav
+wolrhn_roar = 1500
+smilo_roar = animals/smilo/smilo1.wav
+smilo_roar = 1500
+allo_roar = animals/allo/roar.wav
+allo_roar = 1500
+herrera_roar = animals/herrera/roar.wav
+herrera_roar = 1500
+wolmam_roar = animals/wolmam/noise.wav
+wolmam_roar = 1500
+ankylo_roar = animals/ankylo/Roar.wav
+ankylo_roar = 1500
+styraco_roar = animals/styraco/roar.wav
+styraco_roar = 1500
+gallim_roar = animals/gallimm/roar.wav
+gallim_roar = 1500
+lambeo_roar = animals/lambeo/roar.wav
+lambeo_roar = 1500
+velocira_roar = animals/velocira/roar.wav
+velocira_roar = 1500
+kentro_roar = animals/kentro/roar.wav
+kentro_roar = 1500
+spino_roar = animals/spino/roar.wav
+spino_roar = 1500
+stego_roar = animals/stego/roar.wav
+stego_roar = 1500
+iguano_roar = animals/iguano/roar.wav
+iguano_roar = 1500
+coelo_roar = animals/coelo/Roar.wav
+coelo_roar = 1500
+meiolan_roar = animals/meiolan/roar.wav
+meiolan_roar = 1500
+tritops_roar = animals/tritops/tritops3.wav
+tritops_roar = 1500
+campto_roar = animals/campto/roar.wav
+campto_roar = 1500
+caudipt_roar = animals/caudipt/roar.wav
+caudipt_roar = 1500
+plateo_roar = animals/plateo/roar.wav
+plateo_roar = 1500
+apato_roar = animals/apato/roar.wav
+apato_roar = 1500
+plesio_roar = animals/plesio/roar.wav
+plesio_roar = 1500
+deino_roar = animals/deino/deino1.wav
+deino_roar = 1500
+barracuda_roar = animals/baracuda/surftrsh.wav
+barracuda_roar = 1500
+beluga_roar = animals/beluga/surfvocl.wav
+beluga_roar = 1500
+eleseal_roar = animals/eleseal/rbark.wav
+eleseal_roar = 1500
+gwshark_roar = animals/gwshark/surfrenz.wav
+gwshark_roar = 1500
+hbackwhl_roar = animals/hbackwhl/sufreat.wav
+hbackwhl_roar = 1500
+hhshark_roar = animals/hhshark/surfrenz.wav
+hhshark_roar = 1500
+jellyfsh_roar = animals/sealion/splash2.wav
+jellyfsh_roar = 1500
+mako_roar = animals/mako/surfrenz.wav
+mako_roar = 1500
+mantaray_roar = animals/gwshark/surfeat.wav
+mantaray_roar = 1500
+marlin_roar = animals/marlin/surfrenz.wav
+marlin_roar = 1500
+morayeel_roar = animals/morayeel/surftrsh.wav
+morayeel_roar = 1500
+narwhal_roar = animals/narwhal/surfvocl.wav
+narwhal_roar = 1500
+orca_roar = animals/orca/surfeat.wav
+orca_roar = 1500
+porpoise_roar = animals/porpoise/subvocal.wav
+porpoise_roar = 1500
+seacow_roar = animals/seacow/sub3voc.wav
+seacow_roar = 1500
+spermwhl_roar = animals/spermwhl/lobtail.wav
+spermwhl_roar = 1500
+tigersh_roar = animals/tigersh/surfatt.wav
+tigersh_roar = 1500
+tuna_roar = animals/baracuda/surftrsh.wav
+tuna_roar = 1500
+walrus_roar = animals/walrus/gvocal.wav
+walrus_roar = 1500
+komodo_roar = animals/komodo/hiss.wav
+komodo_roar = 1500
+
+man_puke = sounds/pukem.wav
+man_puke = 1500
+woman_puke = sounds/pukef.wav
+woman_puke = 2000
+girl_puke = sounds/pukef.wav
+girl_puke = 2000
+boy_puke = sounds/pukem.wav
+boy_puke = 2000
+zap = sounds/elecman.wav
+zap = 1500
+splash1 = animals/sealion/splash1.wav
+splash1 = 1500
+puttwin = sounds/puttwin.wav
+zap = 1500
+puttlose = sounds/puttlose.wav
+zap = 1500
+
+kayak = guests/kayak.wav
+kayak = 1500
+padboat = guests/padboat.wav
+padboat= 1500
+swanboat = guests/swanboat.wav
+swanboat = 1500
+
+surfswim = guests/surfswim.wav
+surfswim = 1300
+
+dolride = guests/dolridem.wav
+dolride = 1500
+mandrown = guests/drownm.wav
+mandrown = 1500
+mandrown2 = guests/drownm2.wav
+mandrown2 = 1500
+
+[BehaviorSet\bbenchenergy0]
+f = fPlay(benchenergy0)
+f = fEnterBuilding()
+f = fPlayTime(benchenergy0, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bbenchenergy1]
+f = fPlay(benchenergy1)
+f = fEnterBuilding()
+f = fPlayTime(benchenergy1, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bbencheat0]
+f = fPlay(bencheat0)
+f = fEnterBuilding()
+f = fPlayTime(bencheat0, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bbencheat1]
+f = fPlay(bencheat1)
+f = fEnterBuilding()
+f = fPlayTime(bencheat1, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+
+[BehaviorSet\bsbenchenergy0]
+f = fPlay(sbenchenergy0)
+f = fEnterBuilding()
+f = fPlayTime(sbenchenergy0, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bsbenchenergy1]
+f = fPlay(sbenchenergy1)
+f = fEnterBuilding()
+f = fPlayTime(sbenchenergy1, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bsbencheat0]
+f = fPlay(sbencheat0)
+f = fEnterBuilding()
+f = fPlayTime(sbencheat0, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bsbencheat1]
+f = fPlay(sbencheat1)
+f = fEnterBuilding()
+f = fPlayTime(sbencheat1, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+
+[BehaviorSet\baqbenchenergy0]
+f = fPlay(aqbenchenergy0)
+f = fEnterBuilding()
+f = fPlayTime(aqbenchenergy0, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\baqbenchenergy1]
+f = fPlay(aqbenchenergy1)
+f = fEnterBuilding()
+f = fPlayTime(aqbenchenergy1, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\baqbencheat0]
+f = fPlay(aqbencheat0)
+f = fEnterBuilding()
+f = fPlayTime(aqbencheat0, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\baqbencheat1]
+f = fPlay(aqbencheat1)
+f = fEnterBuilding()
+f = fPlayTime(aqbencheat1, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+
+[BehaviorSet\bpicnicenergy0]
+f = fPlay(picnicenergy0)
+f = fEnterBuilding()
+f = fPlayTime(picnicenergy0, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnicenergy1]
+f = fPlay(picnicenergy1)
+f = fEnterBuilding()
+f = fPlayTime(picnicenergy1, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnicenergy2]
+f = fPlay(picnicenergy2)
+f = fEnterBuilding()
+f = fPlayTime(picnicenergy2, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnicenergy3]
+f = fPlay(picnicenergy3)
+f = fEnterBuilding()
+f = fPlayTime(picnicenergy3, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicniceat0]
+f = fPlay(picniceat0)
+f = fEnterBuilding()
+f = fPlayTime(picniceat0, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicniceat1]
+f = fPlay(picniceat1)
+f = fEnterBuilding()
+f = fPlayTime(picniceat1, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicniceat2]
+f = fPlay(picniceat2)
+f = fEnterBuilding()
+f = fPlayTime(picniceat2, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicniceat3]
+f = fPlay(picniceat3)
+f = fEnterBuilding()
+f = fPlayTime(picniceat3, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnic2energy0]
+f = fPlay(picnic2energy0)
+f = fEnterBuilding()
+f = fPlayTime(picnic2energy0, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnic2energy1]
+f = fPlay(picnic2energy1)
+f = fEnterBuilding()
+f = fPlayTime(picnic2energy1, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnic2energy2]
+f = fPlay(picnic2energy2)
+f = fEnterBuilding()
+f = fPlayTime(picnic2energy2, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnic2energy3]
+f = fPlay(picnic2energy3)
+f = fEnterBuilding()
+f = fPlayTime(picnic2energy3, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnic2eat0]
+f = fPlay(picnic2eat0)
+f = fEnterBuilding()
+f = fPlayTime(picnic2eat0, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnic2eat1]
+f = fPlay(picnic2eat1)
+f = fEnterBuilding()
+f = fPlayTime(picnic2eat1, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnic2eat2]
+f = fPlay(picnic2eat2)
+f = fEnterBuilding()
+f = fPlayTime(picnic2eat2, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bpicnic2eat3]
+f = fPlay(picnic2eat3)
+f = fEnterBuilding()
+f = fPlayTime(picnic2eat3, 30)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bEatStanding]
+f = fPlay(eatstanding)
+f = fPlay(idle)
+
+[boy\BehaviorSet\bdslidefun0]
+f = fPlay(dslide)
+f = fEnterBuilding()
+f = fPlay(idle)
+f = fExitBuilding()
+
+[girl\BehaviorSet\bdslidefun0]
+f = fPlay(dslide)
+f = fEnterBuilding()
+f = fPlay(idle)
+f = fExitBuilding()
+
+[boy\BehaviorSet\bswingfun0]
+f = fPlay(swing)
+f = fEnterBuilding()
+f = fPlayReverse(swing)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[boy\BehaviorSet\bbouncefun0]
+f = fPlay(bounce)
+f = fEnterBuilding()
+f = fPlay(idle)
+f = fExitBuilding()
+
+[boy\BehaviorSet\baqbouncefun0]
+f = fPlay(aqbounce)
+f = fEnterBuilding()
+f = fPlay(idle)
+f = fExitBuilding()
+
+
+
+
+[girl\BehaviorSet\bswingfun0]
+f = fPlay(swing)
+f = fEnterBuilding()
+f = fPlayReverse(swing)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[girl\BehaviorSet\bbouncefun0]
+f = fPlay(bounce)
+f = fEnterBuilding()
+f = fPlay(idle)
+f = fExitBuilding()
+
+[girl\BehaviorSet\baqbouncefun0]
+f = fPlay(aqbounce)
+f = fEnterBuilding()
+f = fPlay(idle)
+f = fExitBuilding()
+
+
+
+
+
+[woman\BehaviorSet\bdinoputtfun0]
+f = fPlay(puttentr)
+f = fEnterBuilding()
+f = fPlayWithSound(puttlose,puttlose)
+f = fPlayWithSound(puttwin,puttwin)
+f = fPlay(puttexit)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[man\BehaviorSet\bdinoputtfun0]
+f = fPlay(puttentr)
+f = fEnterBuilding()
+f = fPlayWithSound(puttwin,puttwin)
+f = fPlayWithSound(puttlose,puttlose)
+f = fPlay(puttexit)
+f = fPlay(idle)
+f = fExitBuilding()
+
+
+
+[boy\BehaviorSet\bringtossfun0]
+f = fEnterBuilding()
+f = fPlay(ringtoss)
+f = fPlay(ringwin)
+f = fPlay(idle)
+f = fExitBuilding()
+
+[girl\BehaviorSet\bringtossfun0]
+f = fEnterBuilding()
+f = fPlay(ringwin)
+f = fPlay(ringtoss)
+f = fPlay(idle)
+f = fExitBuilding()
+
+
+
+[man\BehaviorSet\bSick]
+f = fPlayWithSound(puke,man_puke)
+
+[woman\BehaviorSet\bSick]
+f = fPlayWithSound(puke,woman_puke)
+
+[boy\BehaviorSet\bSick]
+f = fPlayWithSound(puke,boy_puke)
+
+[girl\BehaviorSet\bSick]
+f = fPlayWithSound(puke,girl_puke)
+
+[BehaviorSet\bMimic]
+f = fPlay(mimic)
+
+[BehaviorSet\bMimic2]
+f = fPlay(mimic2)
+
+[man\BehaviorSet\bGawk]
+f = fPlaySetProb(bGawk1,45,bGawk2,10,bGawk3,45)
+
+[woman\BehaviorSet\bGawk]
+f = fPlaySetProb(bGawk1,40,bGawk2,20,bGawk3,40)
+
+[boy\BehaviorSet\bGawk]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[girl\BehaviorSet\bGawk]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[man\BehaviorSet\bGawkObj1]
+f = fPlaySetProb(bGawk1,45,bGawk2,10,bGawk3,45)
+
+[man\BehaviorSet\bGawkObj2]
+f = fPlaySetProb(bGawk1,45,bGawk2,10,bGawk3,45)
+
+[man\BehaviorSet\bGawkObj3]
+f = fPlaySetProb(bGawk1,45,bGawk2,10,bGawk3,45)
+
+[man\BehaviorSet\bGawkObj4]
+f = fPlaySetProb(bGawk1,45,bGawk2,10,bGawk3,45)
+
+[man\BehaviorSet\bGawkObj5]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[man\BehaviorSet\bGawkObj6]
+f = fPlaySetProb(bGawk1,30,bGawk2,60,bGawk3,10)
+
+[woman\BehaviorSet\bGawkObj1]
+f = fPlaySetProb(bGawk1,40,bGawk2,20,bGawk3,40)
+
+[woman\BehaviorSet\bGawkObj2]
+f = fPlaySetProb(bGawk1,40,bGawk2,20,bGawk3,40)
+
+[woman\BehaviorSet\bGawkObj3]
+f = fPlaySetProb(bGawk1,40,bGawk2,20,bGawk3,40)
+
+[woman\BehaviorSet\bGawkObj4]
+f = fPlaySetProb(bGawk1,45,bGawk2,10,bGawk3,45)
+
+[woman\BehaviorSet\bGawkObj5]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[woman\BehaviorSet\bGawkObj6]
+f = fPlaySetProb(bGawk1,30,bGawk2,60,bGawk3,10)
+
+[boy\BehaviorSet\bGawkObj1]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[boy\BehaviorSet\bGawkObj2]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[boy\BehaviorSet\bGawkObj3]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[boy\BehaviorSet\bGawkObj4]
+f = fPlaySetProb(bGawk1,45,bGawk2,10,bGawk3,45)
+
+[boy\BehaviorSet\bGawkObj5]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[boy\BehaviorSet\bGawkObj6]
+f = fPlaySetProb(bGawk1,30,bGawk2,60,bGawk3,10)
+
+[girl\BehaviorSet\bGawkObj1]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[girl\BehaviorSet\bGawkObj2]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[girl\BehaviorSet\bGawkObj3]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[girl\BehaviorSet\bGawkObj4]
+f = fPlaySetProb(bGawk1,45,bGawk2,10,bGawk3,45)
+
+[girl\BehaviorSet\bGawkObj5]
+f = fPlaySetProb(bGawk1,40,bGawk2,40,bGawk3,20)
+
+[girl\BehaviorSet\bGawkObj6]
+f = fPlaySetProb(bGawk1,30,bGawk2,60,bGawk3,10)
+
+[man\BehaviorSet\bGawk1]
+f = fPlay(gawk1)
+
+[man\BehaviorSet\bGawk2]
+f = fPlayWithSound(camera,camera_snap)
+
+[man\BehaviorSet\bGawk3]
+f = fPlay(stand)
+
+[man\BehaviorSet\bTestFence]
+f = fPlayWithSound(fencezap,zap)
+
+[woman\BehaviorSet\bGawk1]
+f = fPlay(gawk1)
+
+[womman\BehaviorSet\bGawk2]
+f = fPlayWithSound(camera,camera_snap)
+
+[woman\BehaviorSet\bGawk3]
+f = fPlay(stand)
+
+[boy\BehaviorSet\bGawk1]
+f = fPlay(gawk1)
+
+[boy\BehaviorSet\bGawk2]
+f = fPlay(stand)
+
+[boy\BehaviorSet\bGawk3]
+f = fPlay(gum)
+
+[girl\BehaviorSet\bGawk1]
+f = fPlay(gawk1)
+
+[girl\BehaviorSet\bGawk2]
+f = fPlay(stand)
+
+[girl\BehaviorSet\bGawk3]
+f = fPlay(gum)
+
+[BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[BehaviorSet\bWalkRandomly]
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+
+[BehaviorSet\bZooRoutine]
+f = fGuestRoutine()
+
+[man\BehaviorSet\bRunFromPredator]
+f = fPlaySetTerrain(bRunFromPredatorLand,bRunFromPredatorWater,bRunFromPredatorSurface,bRunFromPredatorUnderwater)
+
+[man\BehaviorSet\bRunFromPredatorLand]
+f = fPlaySetProb(bRunFromPredatorNoNoise,95,bRunFromPredatorNoise,3,bRunFromPredatorNoise2,2)
+
+[man\BehaviorSet\bRunFromPredatorWater]
+f = fPlaySetProb(bRunFromPredatorWaterNoNoise,95,bRunFromPredatorWaterNoise,3,bRunFromPredatorWaterNoise2,2)
+
+[man\BehaviorSet\bRunFromPredatorSurface]
+f = fPlaySetProb(bRunFromPredatorSurfaceNoNoise,95,bRunFromPredatorSurfaceNoise,3,bRunFromPredatorSurfaceNoise2,2)
+
+; this one shouldn't happen -- use surface
+[man\BehaviorSet\bRunFromPredatorUnderwater]
+f = fPlaySetProb(bRunFromPredatorSurfaceNoNoise,95,bRunFromPredatorSurfaceNoise,3,bRunFromPredatorSurfaceNoise2,2)
+
+[man\BehaviorSet\bRunFromPredatorNoise]
+f = fMoveWithSound(0,0,run_terror,56,man_scream)
+
+[man\BehaviorSet\bRunFromPredatorNoise2]
+f = fMoveWithSound(0,0,run_terror,56,man_scream_2)
+
+[man\BehaviorSet\bRunFromPredatorNoNoise]
+f = fMove(0,0,run_terror,56)
+
+[man\BehaviorSet\bRunFromPredatorWaterNoise]
+f = fMoveWithSound(0,0,surfswim,56,man_scream)
+
+[man\BehaviorSet\bRunFromPredatorWaterNoise2]
+f = fMoveWithSound(0,0,surfswim,56,man_scream_2)
+
+[man\BehaviorSet\bRunFromPredatorWaterNoNoise]
+f = fMove(0,0,surfswim,56)
+
+[man\BehaviorSet\bRunFromPredatorSurfaceNoise]
+f = fMoveWithSound(0,0,surfswim,56,man_scream)
+
+[man\BehaviorSet\bRunFromPredatorSurfaceNoise2]
+f = fMoveWithSound(0,0,surfswim,56,man_scream_2)
+
+[man\BehaviorSet\bRunFromPredatorSurfaceNoNoise]
+f = fMove(0,0,surfswim,56)
+
+[woman\BehaviorSet\bRunFromPredator]
+f = fPlaySetTerrain(bRunFromPredatorLand,bRunFromPredatorWater,bRunFromPredatorSurface,bRunFromPredatorUnderwater)
+
+[woman\BehaviorSet\bRunFromPredatorLand]
+f = fPlaySetProb(bRunFromPredatorNoNoise,95,bRunFromPredatorNoise,5)
+
+[woman\BehaviorSet\bRunFromPredatorWater]
+f = fPlaySetProb(bRunFromPredatorWaterNoNoise,95,bRunFromPredatorWaterNoise,5)
+
+[woman\BehaviorSet\bRunFromPredatorSurface]
+f = fPlaySetProb(bRunFromPredatorSurfaceNoNoise,95,bRunFromPredatorSurfaceNoise,5)
+
+; this one shouldn't happen -- use surface
+[woman\BehaviorSet\bRunFromPredatorUnderwater]
+f = fPlaySetProb(bRunFromPredatorSurfaceNoNoise,95,bRunFromPredatorSurfaceNoise,5)
+
+[woman\BehaviorSet\bRunFromPredatorNoise]
+f = fMoveWithSound(0,0,run_terror,56,woman_scream)
+
+[woman\BehaviorSet\bRunFromPredatorNoNoise]
+f = fMove(0,0,run_terror,56)
+
+[woman\BehaviorSet\bRunFromPredatorWaterNoise]
+f = fMoveWithSound(0,0,surfswim,56,woman_scream)
+
+[woman\BehaviorSet\bRunFromPredatorWaterNoNoise]
+f = fMove(0,0,surfswim,56)
+
+[woman\BehaviorSet\bRunFromPredatorSurfaceNoise]
+f = fMoveWithSound(0,0,surfswim,56,woman_scream)
+
+[woman\BehaviorSet\bRunFromPredatorSurfaceNoNoise]
+f = fMove(0,0,surfswim,56)
+
+[boy\BehaviorSet\bRunFromPredator]
+f = fPlaySetTerrain(bRunFromPredatorLand,bRunFromPredatorWater,bRunFromPredatorSurface,bRunFromPredatorUnderwater)
+
+[boy\BehaviorSet\bRunFromPredatorLand]
+f = fPlaySetProb(bRunFromPredatorNoNoise,95,bRunFromPredatorNoise,5)
+
+[boy\BehaviorSet\bRunFromPredatorWater]
+f = fPlaySetProb(bRunFromPredatorWaterNoNoise,95,bRunFromPredatorWaterNoise,5)
+
+[boy\BehaviorSet\bRunFromPredatorSurface]
+f = fPlaySetProb(bRunFromPredatorSurfaceNoNoise,95,bRunFromPredatorSurfaceNoise,5)
+
+; this one shouldn't happen -- use surface
+[boy\BehaviorSet\bRunFromPredatorUnderwater]
+f = fPlaySetProb(bRunFromPredatorSurfaceNoNoise,95,bRunFromPredatorSurfaceNoise,5)
+
+[boy\BehaviorSet\bRunFromPredatorNoise]
+f = fMoveWithSound(0,0,run_terror,44,boy_scream)
+
+[boy\BehaviorSet\bRunFromPredatorNoNoise]
+f = fMove(0,0,run_terror,44)
+
+[boy\BehaviorSet\bRunFromPredatorWaterNoise]
+f = fMoveWithSound(0,0,surfswim,56,boy_scream)
+
+[boy\BehaviorSet\bRunFromPredatorWaterNoNoise]
+f = fMove(0,0,surfswim,56)
+
+[boy\BehaviorSet\bRunFromPredatorSurfaceNoise]
+f = fMoveWithSound(0,0,surfswim,56,boy_scream)
+
+[boy\BehaviorSet\bRunFromPredatorSurfaceNoNoise]
+f = fMove(0,0,surfswim,56)
+
+[girl\BehaviorSet\bRunFromPredator]
+f = fPlaySetTerrain(bRunFromPredatorLand,bRunFromPredatorWater,bRunFromPredatorSurface,bRunFromPredatorUnderwater)
+
+[girl\BehaviorSet\bRunFromPredatorLand]
+f = fPlaySetProb(bRunFromPredatorNoNoise,95,bRunFromPredatorNoise,5)
+
+[girl\BehaviorSet\bRunFromPredatorWater]
+f = fPlaySetProb(bRunFromPredatorWaterNoNoise,95,bRunFromPredatorWaterNoise,5)
+
+[girl\BehaviorSet\bRunFromPredatorSurface]
+f = fPlaySetProb(bRunFromPredatorSurfaceNoNoise,95,bRunFromPredatorSurfaceNoise,5)
+
+; this one shouldn't happen -- use surface
+[girl\BehaviorSet\bRunFromPredatorUnderwater]
+f = fPlaySetProb(bRunFromPredatorSurfaceNoNoise,95,bRunFromPredatorSurfaceNoise,5)
+
+[girl\BehaviorSet\bRunFromPredatorNoise]
+f = fMoveWithSound(0,0,run_terror,44,girl_scream)
+
+[girl\BehaviorSet\bRunFromPredatorNoNoise]
+f = fMove(0,0,run_terror,44)
+
+[girl\BehaviorSet\bRunFromPredatorWaterNoise]
+f = fMoveWithSound(0,0,surfswim,56,girl_scream)
+
+[girl\BehaviorSet\bRunFromPredatorWaterNoNoise]
+f = fMove(0,0,surfswim,56)
+
+[girl\BehaviorSet\bRunFromPredatorSurfaceNoise]
+f = fMoveWithSound(0,0,surfswim,56,girl_scream)
+
+[girl\BehaviorSet\bRunFromPredatorSurfaceNoNoise]
+f = fMove(0,0,surfswim,56)
+
+[BehaviorSet\bCaughtBylionm]
+; caught by male lion:
+f = fPlayWithSound(lionm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBylionf]
+; caught by female lion:
+f = fPlayWithSound(lionf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByblacklepm]
+; caught by male leopard:
+f = fPlayWithSound(blacklepm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByblacklepf]
+; caught by female black leopard:
+f = fPlayWithSound(blacklepf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBycheetahm]
+; caught by male Cheetah
+f = fPlayWithSound(cheetahm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBycheetahf]
+; caught by female Cheetah:
+f = fPlayWithSound(cheetahf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBycloulepm]
+; caught by male clouded leopard
+f = fPlayWithSound(cloulepm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBycloulepf]
+; caught by female clouded leopard:
+f = fPlayWithSound(cloulepf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBytigerm]
+; caught by male bengal tiger
+f = fPlaySetTerrain(bcbtigermland,bcbtigermwater,bcbtigermsurf,bcbtigermsub)
+
+[BehaviorSet\bcbtigermland]
+f = fPlayWithSound(tigerm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbtigermwater]
+f = fPlayWithSound(tigerwtrm, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbtigermsurf]
+f = fPlayWithSound(tigerwtrm, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbtigermsub]
+f = fPlayWithSound(tigerwtrm, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBytigerf]
+; caught by female bengal tiger
+f = fPlaySetTerrain(bcbtigerfland,bcbtigerfwater,bcbtigerfsurf,bcbtigerfsub)
+
+[BehaviorSet\bcbtigerfland]
+f = fPlayWithSound(tigerf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbtigerfwater]
+f = fPlayWithSound(tigerwtrf, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbtigerfsurf]
+f = fPlayWithSound(tigerwtrf, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbtigerfsub]
+f = fPlayWithSound(tigerwtrf, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBystigerm]
+; caught by male siberian tiger
+f = fPlaySetTerrain(bcbstigermland,bcbstigermwater,bcbstigermsurf,bcbstigermsub)
+
+[BehaviorSet\bcbstigermland]
+f = fPlayWithSound(stigerm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbstigermwater]
+f = fPlayWithSound(stigerwtrm, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbstigermsurf]
+f = fPlayWithSound(stigerwtrm, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbstigermsub]
+f = fPlayWithSound(stigerwtrm, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBystigerf]
+; caught by female siberian tiger
+f = fPlaySetTerrain(bcbstigerfland,bcbstigerfwater,bcbstigerfsurf,bcbstigerfsub)
+
+[BehaviorSet\bcbstigerfland]
+f = fPlayWithSound(stigerf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbstigerfwater]
+f = fPlayWithSound(stigerwtrf, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbstigerfsurf]
+f = fPlayWithSound(stigerwtrf, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbstigerfsub]
+f = fPlayWithSound(stigerwtrf, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBywtigerm]
+; caught by male white bengal tiger
+f = fPlaySetTerrain(bcbwtigermland,bcbwtigermwater,bcbwtigermsurf,bcbwtigermsub)
+
+[BehaviorSet\bcbwtigermland]
+f = fPlayWithSound(wtigerm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbwtigermwater]
+f = fPlayWithSound(wtigerwtrm, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbwtigermsurf]
+f = fPlayWithSound(wtigerwtrm, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbwtigermsub]
+f = fPlayWithSound(wtigerwtrm, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBywtigerf]
+; caught by female white bengal tiger
+f = fPlaySetTerrain(bcbwtigerfland,bcbwtigerfwater,bcbwtigerfsurf,bcbwtigerfsub)
+
+[BehaviorSet\bcbwtigerfland]
+f = fPlayWithSound(wtigerf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbwtigerfwater]
+f = fPlayWithSound(wtigerwtrf, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbwtigerfsurf]
+f = fPlayWithSound(wtigerwtrf, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbwtigerfsub]
+f = fPlayWithSound(wtigerwtrf, soft_growl)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByleopardm]
+; caught by male leopard
+f = fPlayWithSound(leopardm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByleopardf]
+; caught by female leopard:
+f = fPlayWithSound(leopardf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByjaguarm]
+; caught by male jaguar
+f = fPlayWithSound(jaguarm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByjaguarf]
+; caught by female jaguar:
+f = fPlayWithSound(jaguarf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBysnowlepm]
+; caught by male snow leopard
+f = fPlayWithSound(snowlepm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBysnowlepf]
+; caught by female snow leopard:
+f = fPlayWithSound(snowlepf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByblackbrm]
+; caught by male black bear
+f = fPlayWithSound(blackbrm, bear_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByblackbrf]
+; caught by female black bear:
+f = fPlayWithSound(blackbrf, bear_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBypolarbrm]
+; caught by male polar bear
+f = fPlaySetTerrain(bcbpolarbrmland,bcbpolarbrmwater,bcbpolarbrmsurf,bcbpolarbrmsub)
+
+[BehaviorSet\bcbpolarbrmland]
+f = fPlayWithSound(polarbrm, bear_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbpolarbrmwater]
+f = fPlayWithSound(polarbrwtrm, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbpolarbrmsurf]
+f = fPlayWithSound(polarbrwtrm, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbpolarbrmsub]
+f = fPlayWithSound(polarbrwtrm, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBypolarbrf]
+; caught by female polar bear
+f = fPlaySetTerrain(bcbpolarbrfland,bcbpolarbrfwater,bcbpolarbrfsurf,bcbpolarbrfsub)
+
+[BehaviorSet\bcbpolarbrfland]
+f = fPlayWithSound(polarbrf, bear_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbpolarbrfwater]
+f = fPlayWithSound(polarbrwtrf, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbpolarbrfsurf]
+f = fPlayWithSound(polarbrwtrf, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbpolarbrfsub]
+f = fPlayWithSound(polarbrwtrf, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygrizzlym]
+; caught by male grizzly bear
+f = fPlaySetTerrain(bcbgrizzlymland,bcbgrizzlymwater,bcbgrizzlymsurf,bcbgrizzlymsub)
+
+[BehaviorSet\bcbgrizzlymland]
+f = fPlayWithSound(grizzlym, bear_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbgrizzlymwater]
+f = fPlayWithSound(grizzlywtrm, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbgrizzlymsurf]
+f = fPlayWithSound(grizzlywtrm, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbgrizzlymsub]
+f = fPlayWithSound(grizzlywtrm, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygrizzlyf]
+; caught by female grizzly bear
+f = fPlaySetTerrain(bcbgrizzlyfland,bcbgrizzlyfwater,bcbgrizzlyfsurf,bcbgrizzlyfsub)
+
+[BehaviorSet\bcbgrizzlyfland]
+f = fPlayWithSound(grizzlyf, bear_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbgrizzlyfwater]
+f = fPlayWithSound(grizzlywtrf, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbgrizzlyfsurf]
+f = fPlayWithSound(grizzlywtrf, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbgrizzlyfsub]
+f = fPlayWithSound(grizzlywtrf, bear_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygraywolfm]
+; caught by male gray wolf
+f = fPlayWithSound(graywolfm, wolf_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygraywolff]
+; caught by female gray wolf
+f = fPlayWithSound(graywolff, wolf_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByswcrocm]
+; caught by male saltwater croc
+f = fPlaySetTerrain(bcbswcrocmland,bcbswcrocmwater,bcbswcrocmsurf,bcbswcrocmsub)
+
+[BehaviorSet\bcbswcrocmland]
+f = fPlayWithSound(swcrocm, croc_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbswcrocmwater]
+f = fPlayWithSound(swcrocwtrm, croc_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbswcrocmsurf]
+f = fPlayWithSound(swcrocwtrm, croc_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbswcrocmsub]
+f = fPlayWithSound(swcrocwtrm, croc_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByswcrocf]
+; caught by female saltwater croc
+f = fPlaySetTerrain(bcbswcrocfland,bcbswcrocfwater,bcbswcrocfsurf,bcbswcrocfsub)
+
+[BehaviorSet\bcbswcrocfland]
+f = fPlayWithSound(swcrocf, croc_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbswcrocfwater]
+f = fPlayWithSound(swcrocwtrf, croc_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbswcrocfsurf]
+f = fPlayWithSound(swcrocwtrf, croc_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbswcrocfsub]
+f = fPlayWithSound(swcrocwtrf, croc_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByhyenam]
+; caught by male hyena
+f = fPlayWithSound(hyenam, hyena_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByhyenaf]
+; caught by female hyena
+f = fPlayWithSound(hyenaf, hyena_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByelephantm]
+; caught by male elephant
+f = fPlayWithSound(elem, ele_trumpet)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByelephantf]
+; caught by female elephant
+f = fPlayWithSound(elef, ele_trumpet)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByarcwolfm]
+; caught by male Arctic wolf
+f = fPlayWithSound(arcwolfm, wolf_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByarcwolff]
+; caught by female Arctic wolf
+f = fPlayWithSound(arcwolff, wolf_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBymntnlionm]
+; caught by male Mountain lion
+f = fPlayWithSound(mntnlionm, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBymntnlionf]
+; caught by female Mountain lion
+f = fPlayWithSound(mntnlionf, soft_growl)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBytrexm]
+; caught by male T-Rex
+f = fPlayWithSound(trexm, trex_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBytrexf]
+; caught by female T-Rex
+f = fPlayWithSound(trexf, trex_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBytrexy]
+; caught by young T-Rex
+f = fPlayWithSound(trexy, trex_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByallom]
+; caught by male Allosaurus
+f = fPlayWithSound(allom, allo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByallof]
+; caught by female Allosaurus
+f = fPlayWithSound(allof, allo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByalloy]
+; caught by young Allosaurus
+f = fPlayWithSound(alloy, allo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBywolrhnm]
+; caught by male Wooly rhino
+f = fPlayWithSound(wolrhnm, wolrhn_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBywolrhnf]
+; caught by female Wooly rhino
+f = fPlayWithSound(wolrhnf, wolrhn_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBysmilom]
+; caught by male Smilo
+f = fPlayWithSound(smilom, smilo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBysmilof]
+; caught by female Smilo
+f = fPlayWithSound(smilof, smilo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByherreram]
+; caught by male Herrerasaurus
+f = fPlayWithSound(herreram, herrera_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByherreraf]
+; caught by female Herrerasaurus
+f = fPlayWithSound(herreraf, herrera_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByherreray]
+; caught by young Herrerasaurus
+f = fPlayWithSound(herreray, herrera_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBywolmamm]
+; caught by male Wooly Mammoth
+f = fPlayWithSound(wolmamm, wolmam_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBywolmamf]
+; caught by female Wooly Mammoth
+f = fPlayWithSound(wolmamf, wolmam_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByankylom]
+; caught by male Ankylosaurus
+f = fPlayWithSound(ankylom, ankylo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByankylof]
+; caught by female Ankylosaurus
+f = fPlayWithSound(ankylof, ankylo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBystyracom]
+; caught by male Styracosaurus
+f = fPlayWithSound(styracom, styraco_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBystyracof]
+; caught by female Styracosaurus
+f = fPlayWithSound(styracof, styraco_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygallimm]
+; caught by female Gallimmus
+f = fPlayWithSound(gallimm, gallim_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygallimf]
+; caught by female Gallimmus
+f = fPlayWithSound(gallimf, gallim_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBylambeom]
+; caught by male Lambesaurus
+f = fPlayWithSound(lambeom, lambeom_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBylambeof]
+; caught by female Lambeof
+f = fPlayWithSound(lambeof, lambeo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByvelociram]
+; caught by male Velociraptor
+f = fPlayWithSound(velocm, velocira_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByvelociraf]
+; caught by female Velociraptor
+f = fPlayWithSound(velocf, velocira_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBykentrom]
+; caught by male Kentro
+f = fPlayWithSound(kentrom, kentro_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBykentrof]
+; caught by female kentro
+f = fPlayWithSound(kentrof, kentro_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByspinom]
+; caught by male Spino
+f = fPlayWithSound(spinom, spino_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByspinof]
+; caught by female Spino
+f = fPlayWithSound(spinof, spino_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByspinoy]
+; caught by young Spino
+f = fPlayWithSound(spinoy, spino_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBystegom]
+; caught by male Stego
+f = fPlayWithSound(stegom, stego_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBystegof]
+; caught by female Stego
+f = fPlayWithSound(stegof, stego_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByiguanom]
+; caught by male Iguanodon
+f = fPlayWithSound(iguanom, iguano_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByiguanof]
+; caught by female Iguanodon
+f = fPlayWithSound(iguanof, iguano_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBycoelom]
+; caught by male Coelophysis
+f = fPlayWithSound(coelom, coelo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBycoelof]
+; caught by female Coelophysis
+f = fPlayWithSound(coelof, coelo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBymeiolanm]
+; caught by male Meiolania
+f = fPlaySetTerrain(bcbmeiolanmland,bcbmeiolanmwater,bcbmeiolanmsurf,bcbmeiolanmsub)
+
+[BehaviorSet\bcbmeiolanmland]
+f = fPlayWithSound(meiolanm, meiolan_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbmeiolanmwater]
+f = fPlayWithSound(meiolanwtrm, meiolan_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbmeiolanmsurf]
+f = fPlayWithSound(meiolanwtrm, meiolan_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbmeiolanmsub]
+f = fPlayWithSound(meiolanwtrm, meiolan_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBymeiolanf]
+; caught by female Meiolania
+f = fPlaySetTerrain(bcbmeiolanfland,bcbmeiolanfwater,bcbmeiolanfsurf,bcbmeiolanfsub)
+
+[BehaviorSet\bcbmeiolanfland]
+f = fPlayWithSound(meiolanf, meiolan_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbmeiolanfwater]
+f = fPlayWithSound(meiolanwtrf, meiolan_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbmeiolanfsurf]
+f = fPlayWithSound(meiolanwtrf, meiolan_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbmeiolanfsub]
+f = fPlayWithSound(meiolanwtrf, meiolan_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBytritopsm]
+; caught by male Triceratops
+f = fPlayWithSound(tritopsm, tritops_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBytritopsf]
+; caught by female Triceratops
+f = fPlayWithSound(tritopsf, tritops_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBycamptom]
+; caught by male Camptosaurus
+f = fPlayWithSound(camptom, campto_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBycamptof]
+; caught by female Camptosaurus
+f = fPlayWithSound(camptof, campto_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBycaudiptm]
+; caught by male Caudipteryx
+f = fPlayWithSound(caudiptm, caudipt_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBycaudiptf]
+; caught by female Caudipteryx
+f = fPlayWithSound(caudiptf, caudipt_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByplateom]
+; caught by male Plateosaurus
+f = fPlayWithSound(plateom, plateo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByplateof]
+; caught by female Plateosaurus
+f = fPlayWithSound(plateof, plateo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByapatom]
+; caught by male Apatosaurus
+f = fPlayWithSound(apatom, apato_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByapatof]
+; caught by female Apatosaurus
+f = fPlayWithSound(apatof, apato_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByplesiom]
+; caught by male Plesiosaurus
+f = fPlaySetTerrain(bcbplesiomland,bcbplesiomwater,bcbplesiomsurf,bcbplesiomsub)
+
+[BehaviorSet\bcbplesiomland]
+f = fPlayWithSound(plesiom, plesio_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbplesiomwater]
+f = fPlayWithSound(plesiowtrm, plesio_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbplesiomsurf]
+f = fPlayWithSound(plesiowtrm, plesio_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbplesiomsub]
+f = fPlayWithSound(plesiowtrm, plesio_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByplesiof]
+; caught by female Plesiosaurus
+f = fPlaySetTerrain(bcbplesiofland,bcbplesiofwater,bcbplesiofsurf,bcbplesiofsub)
+
+[BehaviorSet\bcbplesiofland]
+f = fPlayWithSound(plesiof, plesio_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbplesiofwater]
+f = fPlayWithSound(plesiowtrf, plesio_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbplesiofsurf]
+f = fPlayWithSound(plesiowtrf, plesio_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbplesiofsub]
+f = fPlayWithSound(plesiowtrf, plesio_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBydeinom]
+; caught by male Deinosuchus
+f = fPlaySetTerrain(bcbdeinomland,bcbdeinomwater,bcbdeinomsurf,bcbdeinomsub)
+
+[BehaviorSet\bcbdeinomland]
+f = fPlayWithSound(deinom, deino_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbdeinomwater]
+f = fPlayWithSound(deinowtrm, deino_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbdeinomsurf]
+f = fPlayWithSound(deinowtrm, deino_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbdeinomsub]
+f = fPlayWithSound(deinowtrm, deino_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBydeinof]
+; caught by female Deinosuchus
+f = fPlaySetTerrain(bcbdeinofland,bcbdeinofwater,bcbdeinofsurf,bcbdeinofsub)
+
+[BehaviorSet\bcbdeinofland]
+f = fPlayWithSound(deinof, deino_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbdeinofwater]
+f = fPlayWithSound(deinowtrf, deino_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbdeinofsurf]
+f = fPlayWithSound(deinowtrf, deino_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbdeinofsub]
+f = fPlayWithSound(deinowtrf, deino_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBydeinoy]
+; caught by young Deinosuchus
+f = fPlaySetTerrain(bcbdeinoyland,bcbdeinoywater,bcbdeinoysurf,bcbdeinoysub)
+
+[BehaviorSet\bcbdeinoyland]
+f = fPlayWithSound(deinoy, deino_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bcbdeinoywater]
+f = fPlayWithSound(deinowtry, deino_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbdeinoysurf]
+f = fPlayWithSound(deinowtry, deino_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bcbdeinoysub]
+f = fPlayWithSound(deinowtry, deino_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBykomodom]
+; caught by male Komodo Dragon
+f = fPlayWithSound(komodom, komodo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBykomodof]
+; caught by female Komodo Dragon
+f = fPlayWithSound(komodof, komodo_roar)
+f = fHidePredator()
+f = fPlay(getupall)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBydolphinm]
+; caught by male dolphin:
+f = fPlay(dolphinm)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBydolphinf]
+; caught by female dolphin:
+f = fPlay(dolphinf)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBydolphiny]
+; caught by young dolphin:
+f = fPlay(dolphiny)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygwsharkm]
+; caught by male great white shark:
+f = fPlayWithSound(gwsharkm,gwshark_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygwsharkf]
+; caught by female great white shark:
+f = fPlayWithSound(gwsharkf,gwshark_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygwsharky]
+; caught by young great white shark:
+f = fPlayWithSound(gwsharky,gwshark_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByhhsharkm]
+; caught by male hammerhead shark:
+f = fPlayWithSound(hhsharkm,hhshark_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByhhsharkf]
+; caught by female hammerhead shark:
+f = fPlayWithSound(hhsharkf,hhshark_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByhhsharky]
+; caught by young hammerhead shark:
+f = fPlayWithSound(hhsharky,hhshark_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByjellyfshm]
+; caught by male jellyfish:
+f = fPlayWithSound(jellyfshm,jellyfsh_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByjellyfshf]
+; caught by female jellyfish:
+f = fPlayWithSound(jellyfshf,jellyfsh_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByjellyfshy]
+; caught by young jellyfish:
+f = fPlayWithSound(jellyfshy,jellyfsh_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBymakom]
+; caught by male mako shark:
+f = fPlayWithSound(makom,mako_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBymakof]
+; caught by female mako shark:
+f = fPlayWithSound(makof,mako_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByorcam]
+; caught by male orca:
+f = fPlayWithSound(orcam,orca_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByorcaf]
+; caught by female orca:
+f = fPlayWithSound(orcaf,orca_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByorcay]
+; caught by young orca:
+f = fPlayWithSound(orcay,orca_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByporpoisem]
+; caught by male porpoise:
+f = fPlayWithSound(porpoisem,porpoise_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByporpoisef]
+; caught by female porpoise:
+f = fPlayWithSound(porpoisef,porpoise_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByspermwhlm]
+; caught by male sperm whale:
+f = fPlayWithSound(spermwhlm,spermwhl_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByspermwhlf]
+; caught by female sperm whale:
+f = fPlayWithSound(spermwhlf,spermwhl_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBytigershm]
+; caught by male tiger shark:
+f = fPlayWithSound(tigershm,tigersh_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBytigershf]
+; caught by female tiger shark:
+f = fPlayWithSound(tigershf,tigersh_roar)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByoctopusm]
+; caught by male octopus:
+f = fPlayWithSound(octopusm,splash1)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtByoctopusf]
+; caught by female octopus:
+f = fPlayWithSound(octopusf,splash1)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygsquidm]
+; caught by male giant squid:
+f = fPlayWithSound(gsquidm,splash1)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBygsquidf]
+; caught by female gsquid:
+f = fPlayWithSound(gsquidf,splash1)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBymarlinm]
+; caught by male marlin:
+f = fPlayWithSound(marlinm,splash1)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBymarlinf]
+; caught by female marlin:
+f = fPlayWithSound(marlinf,splash1)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBybaracudam]
+; caught by male barracuda:
+f = fPlayWithSound(barram,splash1)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[BehaviorSet\bCaughtBybaracudaf]
+; caught by female baracuda:
+f = fPlayWithSound(barraf,splash1)
+f = fHidePredator()
+f = fPlay(surfidle)
+f = fShowPredator()
+
+[AmbientAnims]
+a = -100
+a = 100
+b = bZooRoutine
+;b = bWalkRandomly
+
+[AmbientAnimsWater]
+a = -100
+a = 100
+b = bInWater
+
+[AmbientAnimsSurface]
+a = -100
+a = 100
+b = bInWater
+
+[woman/Characteristics/Integers]
+cNameID = 9504
+cHelpID = 9504
+cSlowRate = 26
+cInitialHappiness = 50
+cTapWallChance = 20
+
+;Giraffe
+cPreferredAnimal = 5033
+;Giant Panda
+cPreferredAnimal = 5001
+;Okapi
+cPreferredAnimal = 5028
+;Orangutan
+cPreferredAnimal = 5022
+;Plains Zebra
+cPreferredAnimal = 5004
+;Chimpanzee
+cPreferredAnimal = 5003
+
+[boy/Characteristics/Integers]
+cNameID = 9505
+cHelpID = 9505
+cSlowRate = 26
+cInitialHappiness = 50
+
+; stick-sick characteristics
+cStinkThreshold = 3
+cSickChance = 40
+cTapWallChance = 10
+
+;Cats
+cPreferredAnimal = 5206
+;Giant Panda
+cPreferredAnimal = 5001
+;Olive baboon
+cPreferredAnimal = 5019
+;Mountain Gorilla
+cPreferredAnimal = 5021
+;Hippopotumus
+cPreferredAnimal = 5035
+;Polar Bear
+cPreferredAnimal = 5002
+;Chimpanzee
+cPreferredAnimal = 5003
+;California Sea Lion
+cPreferredAnimal = 5040
+
+[girl/Characteristics/Integers]
+cNameID = 9506
+cHelpID = 9506
+cSlowRate = 22
+cInitialHappiness = 50
+
+; stick-sick characteristics
+cStinkThreshold = 2
+cSickChance = 40
+cTapWallChance = 10
+
+;Thomson's Gazelle
+cPreferredAnimal = 5005
+;Giant Panda
+cPreferredAnimal = 5001
+;Snow Leopard
+cPreferredAnimal = 5012
+;Red Kangaroo
+cPreferredAnimal = 5023
+;American Bighorn
+cPreferredAnimal = 5032
+;Chimpanzee
+cPreferredAnimal = 5003
+;Emperor Penguin
+cPreferredAnimal = 5039
+;California Sea Lion
+cPreferredAnimal = 5040
+
+
+
+[BehaviorSet\bgstandgrandstand0]
+f = fEnterBuilding()
+f = fPlayWithBase(gssit, gssit)
+f = fKeepControl()
+
+[BehaviorSet\bgstand2grandstand0]
+f = fEnterBuilding()
+f = fPlayWithBase(gssit, gssit)
+f = fKeepControl()
+
+[BehaviorSet\bGoodTrick]
+f = fPlay(gsclap)
+f = fPlayTime(gsclap, 4)
+f = fPlayWithBase(gssit, gsclap)
+f = fKeepControl()
+
+[BehaviorSet\bGreatTrick]
+f = fPlay(gsovat)
+f = fPlayTime(gsovat, 7)
+f = fPlayWithBase(gssit, gsovat)
+f = fKeepControl()
+
+[BehaviorSet\bBadTrick]
+f = fPlay(gsboo)
+f = fPlayTime(gsboo, 4)
+f = fPlayWithBase(gssit, gsboo)
+f = fKeepControl()
+
+[BehaviorSet\bExitShow]
+f = fPlayTime(gssit, 2)
+f = fPlay(gsovat)
+f = fPlayTime(gsovat, 2)
+f = fPlayTime(gssit, 1)
+f = fSetBase(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bExitShowBad]
+f = fPlayTime(gssit, 2)
+f = fPlay(gsboo)
+f = fPlayTime(gsboo, 3)
+f = fPlayTime(gssit, 1)
+f = fSetBase(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bExitShowGood]
+f = fPlayTime(gssit, 2)
+f = fPlay(gsovat)
+f = fPlayTime(gsovat, 4)
+f = fPlayTime(gssit, 1)
+f = fSetBase(idle)
+f = fExitBuilding()
+
+[BehaviorSet\bExitShowGreat]
+f = fPlayTime(gssit, 2)
+f = fPlay(gsovat)
+f = fPlayTime(gsovat, 6)
+f = fPlayTime(gssit, 1)
+f = fSetBase(idle)
+f = fExitBuilding()
+
+; Gawk object behavior sets for different esthetic bonus ranges
+; Please incorporate your gawk times into these, so we can just play one beh set or another
+- -100 to -1
+[BehaviorSet\bGawkObject1]
+f = fFaceTowardTarget()
+f = fPlaySet(bGawkObj1)
+
+; 0 to 5
+[BehaviorSet\bGawkObject2]
+f = fFaceTowardTarget()
+f = fPlaySet(bGawkObj2)
+
+; 6 to 10
+[BehaviorSet\bGawkObject3]
+f = fFaceTowardTarget()
+f = fPlaySet(bGawkObj3)
+
+; 11 to 15
+[BehaviorSet\bGawkObject4]
+f = fFaceTowardTarget()
+f = fPlaySet(bGawkObj4)
+
+; 16 to 25
+[BehaviorSet\bGawkObject5]
+f = fFaceTowardTarget()
+f = fPlaySet(bGawkObj5)
+
+; 26 to 100
+[BehaviorSet\bGawkObject6]
+f = fFaceTowardTarget()
+f = fPlaySet(bGawkObj6)
+
+[man\BehaviorSet\bSuitDrown]
+f = fPlayWithSound(suitdrwn,mandrown)
+f = fPlay(suitdrwn)
+f = fPlayWithSound(suitdrwn,mandrown)
+f = fPlay(suitdrwn)
+
+[man\BehaviorSet\bSurfDrown]
+f = fPlayWithSound(surfdrwn,mandrown2)
+f = fPlay(surfdrwn)
+f = fPlayWithSound(surfdrwn,mandrown2)
+f = fPlay(surfdrwn)
+
+[BehaviorSet\bReturndolshack0]
+f = fMoveWithSound(0,0,dolride,56,dolride)
+
+[BehaviorSet\bReturnchroom0]
+f = fMoveWithSound(0,0,suitswim,56,surfswim)
+
+[man\BehaviorSet\bReturnchroom0]
+f = fMoveWithSound(0,0,suitswim,66,surfswim)
+
+[woman\BehaviorSet\bReturnchroom0]
+f = fMoveWithSound(0,0,suitswim,56,surfswim)
+
+[BehaviorSet\bReturnboatshak0]
+f = fMoveWithSound(0,0,padboat,76,padboat)
+
+[BehaviorSet\bReturnboatshak1]
+f = fMoveWithSound(0,0,kayak,76,kayak)
+
+[BehaviorSet\bReturnboatshak2]
+f = fMoveWithSound(0,0,swanboat,76,swanboat)
+
+[BehaviorSet\bInWater]
+f = fMoveWithSound(0,0,surfswim,56,surfswim)
+
+[BehaviorSet\bClimbUp]
+f = fFly(climb, 33)
+
+[BehaviorSet\bClimbDown]
+f = fFlyReverse(climb, 33)
+
+[man\BehaviorSet\bTapTank]
+f = fPlay(tap)
+f = fPlay(peek)
+f = fPlay(map)
+
+[woman\BehaviorSet\bTapTank]
+f = fPlay(tap)
+f = fPlay(peek)
+f = fPlay(map)
+
+[boy\BehaviorSet\bTapTank]
+f = fPlay(tap)
+f = fPlay(peek)
+
+[girl\BehaviorSet\bTapTank]
+f = fPlay(tap)
+f = fPlay(peek)
+
+[BehaviorSet\bSuitIdle]
+; this BS will get interrupted in 6-12 seconds; set it to run for 30 seconds to be safe
+; otherwise it can "fall through" to the default swim animation (surfswim)
+f = fPlayTime(suitidle, 30)
+
+

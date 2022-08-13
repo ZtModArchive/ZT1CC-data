@@ -1,0 +1,9 @@
+The first thing to learn about is the Game Options tab. This tab allows you to perform such functions as changing screen resolution, saving and loading games, and exiting to the main menu. You can click this button when you want to exit this tutorial. 
+
+Click the Game Options tab (blue disk) on the left side of the game screen.
+
+Click the OK button to proceed.
+
+
+
+

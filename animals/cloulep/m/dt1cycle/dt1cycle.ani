@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = cloulep
+dir2 = m
+dir3 = dt1cycle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -42
+y0 = -65
+x1 = 42
+y1 = -5

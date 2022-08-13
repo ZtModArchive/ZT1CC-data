@@ -1,0 +1,59 @@
+[Icon]
+Icon = objects/lionrck1/SE/SE
+Icon = objects/lionrck1/SW/SW
+Icon = objects/lionrck1/NW/NW
+Icon = objects/lionrck1/NE/NE
+
+[Member]
+toys
+
+[Characteristics/Integers]
+cPurchaseCost = 600
+cNameID = 6108
+cHelpID = 6108
+cFootprintX = 2
+cFootprintY = 4
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 1
+cTimeInside = 9
+cUsedThought = 0
+cUserUsesExit = 1
+cRubbleable = 0
+
+cHeight = 3
+cToySatisfaction = 2
+cUseNumbersInName=0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle
+used = idle
+
+[Satisfies]
+building
+animalrest
+
+[slots]
+name=slot
+
+[slot]
+id = 5006
+filter = y
+slotpos = 0
+slotpos = 0
+
+entrpos = 0
+entrpos = -80
+
+exitpos = 0
+exitpos = -80
+
+capacity = 1
+facing = 0

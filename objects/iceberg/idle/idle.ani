@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = iceberg
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -96
+y0 = -102
+x1 = 95
+y1 = 39

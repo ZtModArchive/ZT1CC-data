@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = wilddog
+dir2 = m
+dir3 = sittolie
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -13
+y0 = -25
+x1 = 17
+y1 = 8

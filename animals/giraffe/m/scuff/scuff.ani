@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = giraffe
+dir2 = m
+dir3 = scuff
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -30
+y0 = -87
+x1 = 36
+y1 = 18

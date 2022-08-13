@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = dglas
+dir2 = f
+dir3 = det
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -23
+y0 = -83
+x1 = 23
+y1 = 12

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = megath
+dir2 = m
+dir3 = standbck
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -41
+y0 = -77
+x1 = 24
+y1 = 21

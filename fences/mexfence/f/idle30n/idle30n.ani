@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = mexfence
+dir2 = f
+dir3 = idle30n
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -19
+y0 = -29
+x1 = 19
+y1 = 18

@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = gamescrn
+dir2 = dotscrn
+animation = N
+x0 = -189
+y0 = -19
+x1 = 189
+y1 = 19

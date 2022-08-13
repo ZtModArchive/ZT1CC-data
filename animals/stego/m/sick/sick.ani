@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = stego
+dir2 = m
+dir3 = sick
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -90
+y0 = -72
+x1 = 64
+y1 = 45

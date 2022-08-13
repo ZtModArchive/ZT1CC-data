@@ -1,0 +1,7 @@
+Another important feature is the drain/fill tank button. You can't delete the walls of a tank until it is completely drained of water.
+
+1. On the exhibit panel, click the Drain Tank button. When the tank is empty, you can delete the walls.
+
+Note: Be sure not to delete the tank walls at this point.
+
+Click the OK button to proceed.

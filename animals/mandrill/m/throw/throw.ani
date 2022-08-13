@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = mandrill
+dir2 = m
+dir3 = throw
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -20
+y0 = -75
+x1 = 98
+y1 = 64

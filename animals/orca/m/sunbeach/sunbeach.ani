@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = m
+dir3 = sunbeach
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -204
+y0 = -103
+x1 = 206
+y1 = 103

@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = gameopts
+dir2 = textbck
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -59
+y0 = -13
+x1 = 60
+y1 = 14

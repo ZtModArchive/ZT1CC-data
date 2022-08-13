@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = animal
+dir2 = icfemale
+animation = N
+x0 = -9
+y0 = -13
+x1 = 9
+y1 = 13

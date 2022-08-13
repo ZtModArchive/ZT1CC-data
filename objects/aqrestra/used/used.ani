@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = aqrestra
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -134
+y0 = -185
+x1 = 134
+y1 = 69

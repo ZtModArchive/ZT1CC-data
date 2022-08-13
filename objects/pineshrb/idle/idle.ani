@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = pineshrb
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -29
+y0 = -35
+x1 = 28
+y1 = 12

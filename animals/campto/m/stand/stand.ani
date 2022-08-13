@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = campto
+dir2 = m
+dir3 = stand
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -66
+y0 = -50
+x1 = 26
+y1 = 33

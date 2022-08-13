@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = allo
+dir2 = m
+dir3 = eatdown
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -108
+y0 = -90
+x1 = 64
+y1 = 54

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = baracuda
+dir2 = m
+dir3 = subsick
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -21
+y0 = -6
+x1 = 15
+y1 = 16

@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = teraform
+dir2 = ncontig
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -28
+y0 = -28
+x1 = 29
+y1 = 30

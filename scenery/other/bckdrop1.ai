@@ -1,0 +1,69 @@
+[Icon]
+Icon = objects/bkdrop1/SE/SE
+Icon = objects/bkdrop1/SW/SW
+Icon = objects/bkdrop1/NW/NW
+Icon = objects/bkdrop1/NE/NE
+
+[Member]
+scenery
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 50
+cNameID = 6482
+cHelpID = 6482
+cFootprintX = 6
+cFootprintY = 2
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cHeight = 3
+cIsColorReplaced = 1
+cSelectable = 1
+cNeedsConfirm = 0
+cCommerce = 0
+cHideRegularInfo = 1
+cAlternatePanelTitle=1 
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 4
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 6474
+defaultpal = scenery/building/pals/blue16.pal
+
+; cr_part2 is listed in building.ai
+replace = cr_part2
+title = 2471
+defaultpal = scenery/building/pals/sky8.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/bckdrop1/bckdrop1.pal
+colorpal = objects/bckdrop1/color.pal
+

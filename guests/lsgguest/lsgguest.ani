@@ -1,0 +1,8 @@
+[animation]
+dir0 = guests
+dir1 = lsgguest
+animation = N
+x0 = -5
+y0 = -12
+x1 = 5
+y1 = 12

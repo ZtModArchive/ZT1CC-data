@@ -1,0 +1,63 @@
+[Icon]
+Icon = objects/compost/SE/SE
+Icon = objects/compost/SW/SW
+Icon = objects/compost/NW/NW
+Icon = objects/compost/NE/NE
+
+[Member]
+structures
+
+[Characteristics/Integers]
+cPurchaseCost = 1500
+cNameID = 8026
+cHelpID = 8026
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 6
+cFootprintY = 10
+cSelectable = 1
+cNeedsConfirm = 1
+cCommerce = 1
+cHideUser = 1
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 1000
+cTimeInside = 15
+cUsedThought=10212
+cHeight = 3
+cRubbleable = 0
+cHideCostChange = 1
+
+[Characteristics/Floats]
+cDefaultCost = 50.00
+cUpkeep = 50.00
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle
+
+;[UseSound]
+;loops = 1
+;name = scenery/building/compost.wav
+;attenuation = 800
+
+[EstheticBonus]
+; man
+v = 9503
+v = -25
+; woman
+v = 9504
+v = -25
+; boy
+v = 9505
+v = -25
+; girl
+v = 9506
+v = -25
+
+[Satisfies]
+compost
+
+

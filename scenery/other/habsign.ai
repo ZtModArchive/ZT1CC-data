@@ -1,0 +1,39 @@
+; $Id
+[Icon]
+Icon = objects/habsign/SE/SE
+Icon = objects/habsign/SW/SW
+Icon = objects/habsign/NW/NW
+Icon = objects/habsign/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 50
+cNameID = 6084
+cHelpID = 6084
+cUsedThought=10252
+cFootprintX = 1
+cFootprintY = 1
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 10
+cGawkOnlyFromFront = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 4
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

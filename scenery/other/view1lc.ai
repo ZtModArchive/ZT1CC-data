@@ -1,0 +1,40 @@
+; $Id
+[Icon]
+Icon = objects/view1lc/SE/SE
+Icon = objects/view1lc/SW/SW
+Icon = objects/view1lc/NW/NW
+Icon = objects/view1lc/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 200
+cNameID = 6087
+cHelpID = 6087
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 1
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cDrawsLate = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 2
+; woman
+v = 9504
+v = 4
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 4
+

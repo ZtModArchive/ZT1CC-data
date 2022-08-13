@@ -1,0 +1,14 @@
+[animation]
+dir0 = staff
+dir1 = tour
+dir2 = f
+dir3 = stand2
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -6
+y0 = -28
+x1 = 8
+y1 = 4

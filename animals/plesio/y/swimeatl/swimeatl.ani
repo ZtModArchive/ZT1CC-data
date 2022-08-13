@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = plesio
+dir2 = y
+dir3 = swimeatl
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -50
+y0 = -25
+x1 = 23
+y1 = 25

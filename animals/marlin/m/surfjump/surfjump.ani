@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = marlin
+dir2 = m
+dir3 = surfjump
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -35
+y0 = -56
+x1 = 36
+y1 = 16

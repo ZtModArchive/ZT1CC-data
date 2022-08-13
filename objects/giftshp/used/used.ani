@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = giftshp
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -135
+y0 = -164
+x1 = 135
+y1 = 67

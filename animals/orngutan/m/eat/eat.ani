@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = orngutan
+dir2 = m
+dir3 = eat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -10
+y0 = -23
+x1 = 22
+y1 = 11

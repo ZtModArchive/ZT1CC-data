@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = ankylo
+dir2 = y
+dir3 = lookr
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -64
+y0 = -69
+x1 = 34
+y1 = 32

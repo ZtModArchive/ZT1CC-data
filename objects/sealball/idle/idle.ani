@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = sealball
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -45
+y0 = -24
+x1 = 44
+y1 = 22

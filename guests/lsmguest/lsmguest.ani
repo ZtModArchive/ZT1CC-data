@@ -1,0 +1,8 @@
+[animation]
+dir0 = guests
+dir1 = lsmguest
+animation = N
+x0 = -8
+y0 = -15
+x1 = 8
+y1 = 15

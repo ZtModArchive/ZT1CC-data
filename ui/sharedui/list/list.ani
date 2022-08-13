@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = list
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -63
+y0 = -8
+x1 = 64
+y1 = 9

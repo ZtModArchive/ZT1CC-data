@@ -1,0 +1,13 @@
+[Global]
+Class = entity
+Type = unit
+Subtype =
+DefaultSubtype =
+
+[Member]
+entity
+unit
+
+[Characteristics/Strings]
+
+[Characteristics/Integers]

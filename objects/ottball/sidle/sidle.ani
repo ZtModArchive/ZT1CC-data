@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = ottball
+dir2 = sidle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -22
+y0 = -12
+x1 = 24
+y1 = 11

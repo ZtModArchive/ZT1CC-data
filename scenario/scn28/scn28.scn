@@ -1,0 +1,637 @@
+[desc]
+;
+;TUTORIAL 6: Marine Mania Tutorial
+;
+
+name=16028
+story=SCENARIO_START_STORY_SCN28
+picture=scenario/scn28/scn28/scn28
+winstory=SCENARIO_WIN_STORY_SCN28
+winpicture=scenario/aquawin/aquawin
+losestory=SCENARIO_LOSE_STORY_SCN28
+losepicture=scenario/aqualose/aqualose
+lockedstory=SCENARIO_LOCK_STORY_8
+lockedpicture=scenario/aqualock/aqualock
+
+;Icons for completion, in progress, not done
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+;This limits the player to just using aqua entities
+expansion=3
+expansionLocked=1
+;Defaults the selected expansion filter to All
+defaultExpansion=0
+
+[start]
+economy=scenario/scn28/economy.cfg
+savegame=maps/scn28.zoo
+setcash=150000
+reset = 0
+resetdate = 1
+resetanimals = 0
+resetguests = 1
+resethabitats = 1
+resetfences=0
+research=restut2.cfg
+marketing=mktg.cfg
+worldConfig=sounds/sea1.cfg
+triggers=hideall
+triggers=disableUI
+
+[resume]
+triggers=hideall
+triggers=disableUI
+
+[hideall]
+trulea=4
+truleb=9
+
+[disableUI]
+trulea=2
+truleb=12
+targa=2000
+
+[2000]
+;Construct
+id=1002
+;Fence tab
+id=3251
+;Path tab
+id=3056
+;Foliage tab
+id=3252
+;Rocks tab
+id=3256
+;Terrain tab
+id=3362
+;Terraform tab
+id=3361
+;Adopt
+id=1000
+;Buy
+id=1001
+;Building tab
+;id=3050
+;Scenery tab
+id=3053
+;Shelter tab
+id=3255
+;Toys tab
+id=3254
+;Trick tab
+id=2076
+;Hire
+id=1005
+;Delete
+;id=1028
+;Message
+id=1006
+;Research
+id=1019
+;Scenario
+id=4107
+;Zoo status
+id=1014
+;Animal status
+id=1010
+;Guest status
+id=1012
+;Habitat status
+id=1050
+;Staff status
+id=1051
+;Zoom In
+id=1007
+;Zoom Out
+id=1023
+;Pause
+id=1071
+;Rotate ccw
+id=1008
+;Rotate cw
+id=1009
+;Save button
+id=1502
+;Wall up
+id=4875
+;Wall down
+id=4874
+;Tank up
+id=4880
+;Tank down
+id=4879
+;Drain tank
+id=4885
+;Fill salt water
+id=4869
+;Fill fresh water
+id=4870
+
+[ambients]
+;Santa
+id=5083
+;Parrot
+id=5054
+;Seagull
+id=5053
+;Bi-Plane
+id=5082
+;Witch
+id=5084
+
+[goals]
+goal=AQUA_TUTORIAL2_CHAIN
+
+[AQUA_TUTORIAL2_CHAIN]
+rtype=2
+child=INTRO
+child=SHOW_DESC
+child=show_show_animals
+child=show_adopt
+child=ADOPT_SHOW_ANIMAL
+child=hide_other_show_animals
+child=click_animal
+child=BUILD_TANK
+child=show_construct_fence
+child=show_tank_wall
+child=click_construction
+child=BUY_3_GRANDSTANDS
+child=show_building
+child=click_buy
+child=CREATE_SHOW_SCHEDULE
+child=CHANGE_SHOW_FREQUENCY
+child=close_show_panel
+child=BUY_ORCA_BALL
+child=show_trick
+child=click_animal_2
+child=BALL_TRICK
+child=show_research
+child=research_text
+child=close_show_panel_2
+child=RESEARCH
+
+[INTRO]
+;Intro Dialog
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=1
+
+[1]
+; "Welcome to marine tutorial 2.."
+image1=scenario/scn28/01/01
+longText1=TUTORIAL_T6_PROMPT1
+
+[SHOW_DESC]
+;Intro Dialog
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=111
+
+[111]
+; "Show animals are kept in . . . "
+image1=scenario/scn28/01b/01b
+longText1=TUTORIAL_T6_PROMPT1A
+persistentShortText = 17791
+
+[show_show_animals]
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=7
+truleb=0
+targa=100
+
+[100]
+;California Sea Lion
+id=5040
+;Bottlenose Dolphin
+id=5402
+;Orca
+id=5400
+;Sea Otter
+id=5414
+;Great White Shark
+id=5401
+
+[show_adopt]
+; Make the adopt animal button available
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=101
+
+[101]
+;Adopt
+id=1000
+
+[ADOPT_SHOW_ANIMAL]
+;When the player filters by Marine Mania, display the next dialog
+rulea=11
+ruleb=1
+arga=22900
+argb=22903
+value=1
+type=0
+hidden=0
+sticky=1
+optional=0
+trulea=2
+truleb=0
+targa=3
+text=17791
+
+[3]
+; "Adopt an orca..."
+image1=scenario/scn28/03/03
+longText1=TUTORIAL_T6_PROMPT3
+persistentShortText = 17762
+
+[hide_other_show_animals]
+rulea=99
+ruleb=0
+value=0
+type=0
+sticky=1
+hidden=1
+trulea=7
+truleb=1
+targa=2105
+
+[2105]
+;California Sea Lion
+id=5040
+;Bottlenose Dolphin
+id=5402
+;Sea Otter
+id=5414
+;Great White Shark
+id=5401
+
+[click_animal]
+;When the player adopts an Orca, click tab to close animal panel
+rulea=2
+ruleb=0
+arga=5400
+value=1
+type=0
+sticky=1
+hidden=0
+trulea=2
+truleb=1
+targa=1000
+text=17762
+
+[BUILD_TANK]
+;Display next pop up message
+rulea=99
+ruleb=0
+value=0
+type=0
+sticky=1
+hidden=1
+trulea=2
+truleb=0
+targa=2
+
+[2]
+;"Create a show exhibit . . . "
+image1=scenario/scn28/02/02
+longText1=TUTORIAL_T6_PROMPT2
+persistentShortText = 17761
+
+[show_construct_fence]
+; Make the construct button and fence tab available
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=2100
+
+[2100]
+;Construct
+id=1002
+;Fence tab
+id=3251
+;Undo button
+;id=1075
+
+[show_tank_wall]
+; Make the tank wall available.
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=4
+truleb=0
+targa=9343
+
+[click_construction]
+;When the player has 4 exhibits, click tab to close construction panel
+rulea=3
+ruleb=0
+value=4
+sticky=0
+hidden=0
+trulea=2
+truleb=1
+targa=1002
+text=17761
+
+[BUY_3_GRANDSTANDS]
+; Purchase 3 grandstands
+rulea=99
+ruleb=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=4
+truleb=4
+targa=6465
+targb=6
+
+[6]
+; "Purchase 3 show grandstands..."
+image1=scenario/scn28/05/05
+longText1=TUTORIAL_T6_PROMPT6
+persistentShortText = 17765
+
+[show_building]
+; Make the buy button and building tab available
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=2103
+
+[2103]
+;buy
+id=1001
+;building tab
+id=3050
+
+[click_buy]
+;When the player places 3 more grandstands, for a grand total of 8, click the structures button to close the building panel
+rulea=2
+ruleb=0
+arga=6465
+value=8
+sticky=1
+hidden=0
+optional=0
+trulea=2
+truleb=1
+targa=1001
+text=17765
+
+[CREATE_SHOW_SCHEDULE]
+; Create an orca show schedule
+rulea=99
+ruleb=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=7
+
+[7]
+; "Create an orca show schedule..."
+image1=scenario/scn28/06/06
+longText1=TUTORIAL_T6_PROMPT7
+persistentShortText = 17774
+
+[CHANGE_SHOW_FREQUENCY]
+; Add any trick to show script, show next pop up dialog
+;rulea=14
+;ruleb=0
+;arga=5400
+;argb=6
+rulea=10
+ruleb=1
+arga=11113
+type=0
+value=1
+sticky=1
+hidden=0
+optional=0
+trulea=2
+truleb=0
+targa=8
+text=17774
+
+[8]
+; "Change the frequency of the show..."
+image1=scenario/scn28/07/07
+longText1=TUTORIAL_T6_PROMPT8
+persistentShortText = 17773
+
+[close_show_panel]
+;When the player changes the frequency of the show, click close show panel button
+rulea=11
+ruleb=0
+arga=11191
+value=1
+type=2
+hidden=0
+sticky=1
+optional=0
+trulea=2
+truleb=2
+targa=11101
+text=17773
+
+[BUY_ORCA_BALL]
+; Make the Orca Ball available and display next popup message
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=4
+truleb=4
+targa=6502
+targb=5
+
+[5]
+; "Buy orca ball..."
+image1=scenario/scn28/04/04
+longText1=TUTORIAL_T6_PROMPT5
+persistentShortText = 17764
+
+[show_trick]
+; Make the show objects tab available
+rulea=99
+ruleb=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=2102
+
+[2102]
+;Show toys tab
+id=2076
+
+[click_animal_2]
+; Click tab to close animal panel once the orca ball is placed.
+rulea=2
+ruleb=0
+arga=6502
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=1
+targa=1000
+text=17764
+
+[BALL_TRICK]
+rulea=99
+ruleb=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=11
+
+[11]
+; "Add the play with ball trick to the schedule . . . "
+image1=scenario/scn28/add01/add01
+longText1=TUTORIAL_T6_PROMPT11
+persistentShortText = 17792
+
+[show_research]
+;Click to add a trick to the schedule, makes the research and conservation button available
+rulea=10
+ruleb=1
+arga=11113
+type=0
+value=1
+sticky=1
+hidden=0
+optional=0
+trulea=2
+truleb=13
+targa=2104
+text=17792
+
+[2104]
+;Research & conservation
+id=1019
+
+[research_text]
+;Display next pop-up dialog
+rulea=99
+ruleb=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=10
+
+[10]
+; Research tricks
+image1=scenario/scn28/08/08
+longText1=TUTORIAL_T6_PROMPT10
+persistentShortText = 17767
+
+[close_show_panel_2]
+rulea=99
+ruleb=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=2
+targa=11101
+
+[RESEARCH]
+rulea=10
+ruleb=1
+arga=4004
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=2
+targa=1019
+targb=9
+text=17767
+
+[9]
+; "You have completed the tutorial..."
+image1=scenario/scn28/09/09
+longText1=TUTORIAL_T6_PROMPT9
+
+\\\\\\\\\\\\\
+;45200 medium
+
+[default]
+layout=45100
+background=ui/tutorial/tutorial/tutorial
+icon=
+image1=
+image2=
+shortText1=0
+longText1=
+shortText2=0
+longText2=
+ok=1
+yes=1
+no=1
+cancel=0
+pause=1
+
+persistentTextLayout = 45400
+persistentShortText = 0
+persistentLongText = 

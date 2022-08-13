@@ -1,0 +1,8 @@
+The dolphin seems happy now. You can purchase a tank filter to clean tanks. Filters prevent the water from getting dirty, but every time it cleans the tank you are charged a fee. While this might cost more, the tank will stay cleaner.
+
+1. Click the Construction button and click the Fence tab.
+2. Click the tank filter and place it right next to the marine exhibit.
+
+A tank filter can only be placed in a square adjacent to a tank wall.
+
+Click the OK button to proceed.

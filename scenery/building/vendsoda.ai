@@ -1,0 +1,103 @@
+; $Id: vendsoda.ai,v 1.15 2001/08/28 21:40:22 ajl Exp $
+[Icon]
+Icon=objects/vendsoda/SE/SE
+Icon=objects/vendsoda/SW/SW
+Icon=objects/vendsoda/NW/NW
+Icon=objects/vendsoda/NE/NE
+
+[Member]
+structures
+
+[Characteristics/Integers]
+cPurchaseCost = 50
+cNameID = 6051
+cHelpID = 6051
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 1
+cSelectable = 1
+cCommerce = 1
+cNeedsConfirm = 1
+cAdultChange = 0
+cChildChange = 0
+cHungerChange = 0
+cThirstChange = 0
+cBathroomChange = 0
+cEnergyChange = 0
+cHideUser = 0
+cHideBuilding = 0
+cUserStaysOutside = 1
+cCapacity = 1 
+cTimeInside = 3
+cUsedThought=10225
+cHeight = 3
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 1.25
+cLowCost = 0
+cMedCost = 1.75
+cHighCost = 2.25
+cUpkeep = 10.00
+cPriceFactor = 2.00
+
+[UseSound]
+loops = 0
+name = scenery/building/vendfood.wav
+attenuation = 1000
+
+[Sells]
+sodacan
+
+[Animations]
+idle = idle
+used = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 0
+; girl
+v = 9506
+v = 0
+
+[Satisfies]
+building
+drink
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=-16
+entrpos=48
+
+entrpos=16
+entrpos=48
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=48
+
+; 1000 = essentially infinite capacity
+capacity=1
+facing=0

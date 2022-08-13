@@ -1,0 +1,8 @@
+The dolphin should be pretty comfortable in there. Now let's discuss a few details about changing the exhibit. You can raise the height of the tank wall from the exhibit panel.
+
+1. Click the feeding platform on the dolphin exhibit you just created.
+2. Click the Adjust Wall Up button. Notice how the height of the wall is increased.
+
+This will come in handy as some marine animals prefer their exhibits to be deeper than others.
+
+Click the OK button to proceed.

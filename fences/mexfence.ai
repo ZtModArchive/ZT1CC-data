@@ -1,0 +1,32 @@
+[Icon]
+Icon = fences/mexfence/icon/mexicon/mexicon
+
+[Member]
+zoofences
+lowfence
+fence
+
+[Characteristics/Integers]
+cPurchaseCost = 45
+cNameID = 9358
+cHelpID = 9358
+cHeight = 1
+
+[Animations]
+idle = idle
+idle30p = idle30p
+idle30n = idle30n
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 3

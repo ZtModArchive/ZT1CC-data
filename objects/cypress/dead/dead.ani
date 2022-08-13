@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = cypress
+dir2 = dead
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -44
+y0 = -149
+x1 = 45
+y1 = 9

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = eleseal
+dir2 = f
+dir3 = gidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -40
+y0 = -46
+x1 = 39
+y1 = 20

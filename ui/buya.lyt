@@ -1,0 +1,451 @@
+[LayoutInfo]
+anchor=1032
+x=17
+y=6
+dx=179
+dy=440
+id=3
+helpid=3
+layer=1
+;hidden
+state=1
+
+[Background]
+type=UIImage
+id=2003
+x=0
+y=0
+animation=ui/sharedui/objpan/objpan
+layer=0
+
+[Panel_Sub_Title]
+type=UIText
+id=2023
+x=35
+y=4
+dx=110
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+[Xpac]
+type=UIButton
+animation=ui/sharedui/list/list
+id=2005
+helpid=22999
+x=34
+y=27
+font=3270
+fontsize=3271
+border=2
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent=1
+layer=1
+action=1
+target=152
+justify=center
+
+
+[SexButtonSet]
+type=UIRadioSet
+id=2040
+button=2000
+button=2001
+button=2051
+
+[Male]
+type=UIButton
+id=2000
+helpid=2000
+x=37
+y=259
+animation=ui/buya/male/male
+layer=1
+state=8
+state=4096
+stringData=m
+
+[Female]
+type=UIButton
+id=2001
+helpid=2001
+x=102
+y=259
+animation=ui/buya/female/female
+layer=1
+state=4096
+stringData=f
+
+[Young]
+type=UIButton
+id=2051
+x=50
+y=279
+animation=ui/sharedui/close/close
+layer=2
+state=16
+state=4096
+stringData=y
+
+[RotateLeftButton]
+type = UIButton
+id = 2054
+helpid = 3054
+x = 37
+y = 260
+animation=ui/buyobj/rotatl/rotatl
+layer = 1
+state = 1
+
+[RotateRightButton]
+type = UIButton
+id = 2055
+helpid = 3055
+x = 94
+y = 260
+animation=ui/buyobj/rotatr/rotatr
+layer = 1
+state = 1
+
+[Animals]
+type=UIScrollingRegion
+id=2019
+x=38
+y=51
+dx=102
+dy=204
+radioset = 2020
+template = 2021
+scrollbar = 2022
+autofit = 1
+spacing = 2
+spacing = 4
+layer=1
+
+[AnimalButtonSet]
+type=UIRadioSet
+id=2020
+
+[AnimalIconTemplate]
+type = UIButton
+id = 2021
+layer = 2
+animation = ui/sharedui/border/border
+transparent = 0
+state = 256
+state = 4096
+iconfirst = 1
+
+[ObjectScrollBar]
+type = UIScrollBar
+id = 2022
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+[NoItemText]
+type = UIText
+id = 2009
+textid = 11003
+x=40
+y=51
+dx=110
+dy=204
+font=3270
+fontsize=3271
+border=2
+justify = center
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+state = 1
+state = 16
+layer=3
+
+
+[Name]
+type=UIText
+id=2043
+x=33
+y=303
+dx=122
+dy=30
+font=2006
+fontsize=2007
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+[Cost]
+type=UIText
+id=2014
+x=33
+y=332
+dx=122
+dy=fitfont
+font=2006
+fontsize=2007
+border=0
+forecolor=83
+forecolor=219
+forecolor=83
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+[Era]
+type=UIText
+id=2082
+textid=2082
+x=33
+y=375
+dx=72
+dy=30
+font=2006
+fontsize=2007
+border=0
+forecolor=206
+forecolor=206
+forecolor=206
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=2
+justify=center
+alias=2045
+
+
+
+
+[InfoPlaque]
+type=UIButton
+id=2050
+helpid=2050
+x=75
+y=259
+animation=ui/buya/ainfo/ainfo
+layer=1
+state=2048
+
+
+[TabRadioSet]
+type = UIRadioSet
+id = 2074
+button = 2075
+button = 3255
+button = 3254
+button = 2076
+;button = 2080
+
+
+[AnimalTab]
+type = UIButton
+id = 2075
+helpid = 2025
+helpid = 2023
+helpid = 2024
+helpid = 2023
+x = 154
+y = 47
+animation=ui/habitat/tbanim/tbanim
+layer=1
+state=8
+state=4096
+stringData=animals
+
+
+[SheltersTab]
+type = UIButton
+id = 3255
+helpid = 6207
+x = 154
+y = 80
+animation=ui/habitat/tbshel/tbshel
+layer=1
+state=4096
+stringData=shelters
+
+
+[ToysTab]
+type = UIButton
+id = 3254
+helpid = 6205
+x = 154
+y = 114
+animation=ui/habitat/toystb/toystb
+layer=1
+state=4096
+stringData=toys
+
+[ShowToysTab]
+type = UIButton
+id = 2076
+helpid = 2076
+x = 154
+y = 147
+;dummy animation... PLEASE CHANGE
+animation=ui/show/showtb/showtb
+layer=1
+state=4096
+stringData=showtoys
+expansion=2
+
+
+
+[CloseWindow]
+type=UIButton
+id=2002
+helpid=3112
+x=142
+y=3
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=3
+
+
+[Location_Icon]
+type=UIImage
+id=2045
+x=34
+y=349
+layer=1
+
+[Habitat_Icon2]
+type=UIImage
+id=2047
+x=109
+y=351
+layer=1
+layer=1
+transparent=0
+
+[Habitat_Icon2 Border]
+type=UIImage
+id=2046
+x=107
+y=348
+animation = ui/sharedui/border/border
+iconfirst = 0
+layer=1
+alias=2047
+
+[Animal_Pref_Icon]
+type=UIImage
+id=2060
+helpid= 2060
+x=109
+y=390
+normal=
+layer=3
+transparent=0
+
+[Animal_Pref_Icon Border]
+type=UIImage
+id=2070
+x=107
+y=387
+animation = ui/sharedui/border/border
+iconfirst = 0
+layer=4
+alias=2060
+
+
+[Shelter_capacity_Label]
+type=UIText
+id=2090
+textid=2090
+x=33
+y=362
+dx=122
+dy=fitfont
+font=2006
+fontsize=2007
+;font=3227
+fontsize=3228
+border=0
+forecolor=253
+forecolor=218
+forecolor=88
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+[Shelter_capacity_num]
+type=UIText
+id=2091
+x=33
+y=380
+dx=122
+dy=fitfont
+font=2006
+fontsize=2007
+border=0
+forecolor=83
+forecolor=219
+forecolor=83
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

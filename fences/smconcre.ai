@@ -1,0 +1,71 @@
+[f/Icon]
+Icon=fences/smconcre/smconcre/smconcre
+
+[Member]
+habitatfences
+lowfence
+fence
+
+[f/Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 9318
+cHelpID = 9318
+cSeeThrough = 0
+cHeight = 1
+
+cIsClimbable = 1
+cIsJumpable = 1
+cStrength = 300
+cLife = 12
+cDecayedLife = 4
+cDecayDelta = 28
+
+cBreakSound=sounds/brokfenc.wav
+
+[g/Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 9314
+cHelpID = 9314
+cSelectable = 1
+cSeeThrough = 0
+cHeight = 1
+
+cIsClimbable = 1
+cIsJumpable = 1
+cStrength = 300
+cLife = 12
+cDecayedLife = 4
+cDecayDelta = 28
+
+[g/Animations]
+idle = idle
+idle30p = idle30p
+idle30n = idle30n
+
+[f/Animations]
+idle = idle
+idle30p = idle30p
+idle30n = idle30n
+det = det
+det30n = det30n
+det30p = det30p
+broke = broke
+broke30n = broke30n
+broke30p = broke30p
+
+[EstheticBonus]
+; man
+v = 9503
+v = 2
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 1
+; girl
+v = 9506
+v = 1
+
+[HabitatFence]
+

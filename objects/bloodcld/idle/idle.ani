@@ -1,0 +1,9 @@
+[animation]
+dir0 = objects
+dir1 = bloodcld
+dir2 = idle
+animation = dustb
+x0 = -96
+y0 = -82
+x1 = 73
+y1 = 24

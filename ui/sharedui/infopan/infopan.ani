@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = infopan
+animation = N
+x0 = -113
+y0 = -105
+x1 = 113
+y1 = 107

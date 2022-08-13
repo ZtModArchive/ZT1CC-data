@@ -1,0 +1,7 @@
+Now that you have added the orca ball to its show tank, the orca's Play with Ball trick is available. Each time you add a new show object to a show tank, it makes new tricks available for that animal. Now we will add the newly available Play with Ball trick to the orca's show script.
+
+1. Click the platform of the orca's show tank.
+2. Select the trick Play with Ball on the left side of the panel.
+3. Click the right arrow to add this trick to the show script.
+
+Click the OK button to continue.

@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = updatbck
+animation = N
+x0 = -192
+y0 = -300
+x1 = 192
+y1 = 300

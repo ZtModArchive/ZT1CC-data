@@ -1,0 +1,100 @@
+[LayoutInfo]
+anchor=1032
+x=17
+y=6
+dx=179
+dy=440
+id=15
+helpid=15
+layer=1
+state=1
+
+
+[PanelTitle]
+type=UIText
+id=4001
+textid=4001
+x=35
+y=5
+dx=120
+dy=fitfont
+font=4096
+fontsize=4097
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=2
+wrappable=1
+
+[CloseWindow]
+type=UIButton
+id= 4002
+helpid=3112
+x=142
+y=3
+animation=ui/sharedui/close/close
+layer=3
+action=2
+target=-1
+
+[TabRadioSet]
+type = UIRadioSet
+id = 4007
+button = 4008
+button = 4009
+button = 4010
+
+[Status]
+type = UIButton
+id = 4008
+helpid = 4001
+x = 154
+y = 80
+animation=ui/guest/tbinfo/tbinfo
+layer=3
+state=8
+state=4096
+action=3
+target=150
+stringData = status
+
+[Research]
+type = UIButton
+id = 4009
+helpid = 4040
+x = 154
+y = 114
+animation=ui/research/tbreser/tbreser
+layer=3
+state=4096
+action=3
+target=151
+stringData = research
+
+[Conservation]
+type = UIButton
+id = 4010
+helpid = 4039
+x = 154
+y = 147
+animation=ui/research/fund/fund
+layer=3
+state=4096
+action=3
+target=151
+stringData = conservation
+
+[StatusLayout]
+type = UILayout
+layout = ui/resrch1.lyt
+state = 1
+
+[CategoryLayout]
+type = UILayout
+layout = ui/resrch2.lyt
+state = 1

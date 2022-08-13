@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = blacklep
+dir2 = lsmblack
+animation = N
+x0 = -19
+y0 = -7
+x1 = 18
+y1 = 13

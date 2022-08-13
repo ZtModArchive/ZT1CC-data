@@ -1,0 +1,43 @@
+; $Id
+[Icon]
+Icon = objects/snowman/SE/SE
+Icon = objects/snowman/SW/SW
+Icon = objects/snowman/NW/NW
+Icon = objects/snowman/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 7079
+cHelpID = 7079
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10254
+cHeight = 1
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 25
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 5
+; woman
+v = 9504
+v = 5
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15
+
+
+

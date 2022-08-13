@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = seaturt
+dir2 = m
+dir3 = surfeat
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -25
+y0 = -13
+x1 = 24
+y1 = 13

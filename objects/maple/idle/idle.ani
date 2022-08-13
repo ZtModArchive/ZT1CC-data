@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = maple
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -80
+y0 = -163
+x1 = 77
+y1 = 7

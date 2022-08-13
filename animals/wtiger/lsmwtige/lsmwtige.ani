@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = wtiger
+dir2 = lsmwtige
+animation = N
+x0 = -17
+y0 = -7
+x1 = 17
+y1 = 10

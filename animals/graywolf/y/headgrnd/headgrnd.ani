@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = graywolf
+dir2 = y
+dir3 = headgrnd
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -8
+y0 = -15
+x1 = 10
+y1 = 5

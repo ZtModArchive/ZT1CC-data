@@ -1,0 +1,32 @@
+[Icon]
+Icon=objects/horstail/SE/SE
+Icon=objects/horstail/SW/SW
+Icon=objects/horstail/NW/NW
+Icon=objects/horstail/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7088
+cHelpID = 7088
+cHabitat = 9413
+cLocation = 9613
+cHeight = 2
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cSwims = 1
+cLand = 1
+cUnderwater = 1
+cSurface = 0
+cEra=9621
+cUsesTreeRubble=1
+cDeadOnLand=1
+
+[Animations]
+idle = idle
+idledead = dead

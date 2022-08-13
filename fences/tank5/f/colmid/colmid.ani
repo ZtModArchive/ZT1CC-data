@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = tank5
+dir2 = f
+dir3 = colmid
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -22
+y0 = -31
+x1 = 22
+y1 = 11

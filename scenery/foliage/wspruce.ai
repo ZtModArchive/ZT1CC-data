@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/wspruce/SE/SE
+Icon=objects/wspruce/SW/SW
+Icon=objects/wspruce/NW/NW
+Icon=objects/wspruce/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 145
+cNameID = 7023
+cHelpID = 7023
+;Coniferous forest
+cHabitat = 9403
+;North America
+cLocation = 9607
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

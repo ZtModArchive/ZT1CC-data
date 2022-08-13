@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = amphora
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -10
+y0 = -24
+x1 = 10
+y1 = 2

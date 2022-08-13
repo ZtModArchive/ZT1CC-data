@@ -1,0 +1,31 @@
+; $Id
+[Icon]
+Icon = objects/drock2/SE/SE
+Icon = objects/drock2/SW/SW
+Icon = objects/drock2/NW/NW
+Icon = objects/drock2/NE/NE
+
+[Member]
+rocks
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 135
+cNameID = 9231
+cHelpID = 9231
+cHabitat = 9407
+cLocation = 9618
+cFootprintX = 2
+cFootprintY = 2
+cAutoRotate = 1
+cRock = 1
+cHeight = 2
+cSwims = 1
+cOnlySwims = 0
+cUseNumbersInName=0
+walkableByTall = 1
+cRubbleable = 0
+
+[Animations]
+idle = idle
+

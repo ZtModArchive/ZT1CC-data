@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = coelo
+dir2 = m
+dir3 = headbob
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -50
+y0 = -60
+x1 = 50
+y1 = 25

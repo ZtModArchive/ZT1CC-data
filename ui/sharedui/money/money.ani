@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = money
+animation = N
+x0 = -32
+y0 = -9
+x1 = 35
+y1 = 10

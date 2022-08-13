@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = trex
+dir2 = y
+dir3 = huntror
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -84
+y0 = -87
+x1 = 65
+y1 = 42

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = marlin
+dir2 = y
+dir3 = ssurfren
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -26
+y0 = -14
+x1 = 24
+y1 = 13

@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = guest
+dir2 = ginfobox
+animation = N
+x0 = -86
+y0 = -68
+x1 = 86
+y1 = 69

@@ -1,0 +1,360 @@
+[LayoutInfo]
+x=0
+y=0
+dx=446
+dy=304
+id=42
+layer=5
+state=1
+anchor=41
+
+
+
+[ShowScriptLabel]
+type=UIText
+id=11170
+textid=11170
+x=38
+y=2
+dx=150
+dy=fitfont
+font=3996
+fontsize=3997
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+border=1
+transparent=1
+shadowtext=1
+layer=1
+justify=right
+
+
+
+
+
+
+[ShowTimeLabel]
+type=UIText
+id=11107
+textid=11107
+x=164
+y=33
+dx=110
+dy=fitfont
+font=3996
+fontsize=3997
+forecolor=255
+forecolor=218
+forecolor=90
+backcolor=59
+backcolor=71
+backcolor=45
+border=1
+transparent=1
+shadowtext=1
+layer=1
+
+[ShowTime]
+type=UIButton
+animation=ui/sharedui/list/list
+id=11108
+helpid=11108
+x=158
+y=51
+font=3996
+fontsize=3997
+border=2
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent=1
+layer=1
+action=1
+target=44
+justify=center
+
+
+[ShowTimeList]
+type=UILayout
+layout=ui/showtime.lyt
+state=1
+
+
+[AvailableLabel]
+type=UIText
+id=11109
+textid=11109
+x=18
+y=90
+dx=180
+dy=fitfont
+font=3996
+fontsize=3997
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+border=1
+transparent=1
+shadowtext=1
+layer=1
+
+[InShowLabel]
+type=UIText
+id=11110
+textid=11110
+x=232
+y=90
+dx=180
+dy=fitfont
+font=3996
+fontsize=3997
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+border=1
+transparent=1
+shadowtext=1
+layer=1
+
+
+[AvailableTrickList]
+type=UIListBox
+id=11111
+x=17
+y=111
+dx=165
+dy=133
+font=3996
+fontsize=3997
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 162
+highlightcolor = 229
+highlightcolor = 199
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+grayedcolor=144
+grayedcolor=144
+grayedcolor=144
+scrollbar=11112
+state=131072
+transparent = 1
+border = 2
+layer = 1
+miniconwidth=50
+
+[AvailableTrickScrollBar]
+type = UIScrollBar
+id = 11112
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+[AddButton]
+type=UIButton
+id=11113
+helpid=11113
+x=199
+y=134
+animation=ui/show/add/add
+layer=1
+
+[RemoveButton]
+type=UIButton
+id=11114
+helpid=11114
+x=199
+y=193
+animation=ui/show/remove/remove
+layer=1
+
+[TrickListInShow]
+type=UIListBox
+id=11115
+x=231
+y=111
+dx=165
+dy=133
+font=3996
+fontsize=3997
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 162
+highlightcolor = 229
+highlightcolor = 199
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+scrollbar=11116
+state=131072
+transparent = 1
+border = 2
+layer = 1
+miniconwidth=50
+
+[ShowTrickScrollBar]
+type = UIScrollBar
+id = 11116
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+[MoveUpButton]
+type=UIButton
+id=11117
+helpid=11117
+x=412
+y=120
+animation=ui/show/up/up
+layer=1
+
+[MoveDownButton]
+type=UIButton
+id=11118
+helpid=11118
+x=412
+y=203
+animation=ui/show/down/down
+layer=1
+
+;[ShowBenefitLabel]
+;This should be a tool tip for the 'ShowBenefitIcon'
+;type=UIText
+;id=11119
+;textid=11119
+;helpid=11121
+;x=236
+;y=280
+;dx=150
+;dy=fitfont
+;font=3996
+;fontsize=3997
+;forecolor=255
+;forecolor=228
+;forecolor=173
+;backcolor=100
+;backcolor=108
+;backcolor=108
+;border=1
+;transparent=1
+;shadowtext=1
+;layer=1
+;justify=center
+
+[ShowBenefit]
+type=UIText
+helpid=11121
+id=11120
+x=325
+y=90
+dx=60
+dy=fitfont
+justify = right
+font=3996
+fontsize=3997
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+;font=3996
+;fontsize=3997
+;border=2
+;forecolor=253
+;forecolor=218
+;forecolor=88
+;backcolor=68
+;backcolor=36
+;backcolor=20
+transparent=1
+layer=1
+
+
+[ShowBenefitIcon]
+type=UIImage
+id=11121
+helpid=11121
+x=390
+y=88
+animation=ui/show/pos/pos
+animation=ui/show/mid/mid
+animation=ui/show/neg/neg
+layer=2
+transparent=1
+
+
+;[ShowSpeciesLabel]
+;type=UIText
+;id=11122
+;textid=11122
+;x=20
+;y=51
+;dx=150
+;dy=fitfont
+;font=25001
+;fontsize=25002
+;forecolor=255
+;forecolor=218
+;forecolor=90
+;backcolor=59
+;backcolor=71
+;backcolor=45
+;border=1
+;transparent=1
+;shadowtext=1
+;layer=1
+

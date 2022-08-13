@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = panda
+dir2 = m
+dir3 = grndrub
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -31
+y0 = -26
+x1 = 14
+y1 = 16

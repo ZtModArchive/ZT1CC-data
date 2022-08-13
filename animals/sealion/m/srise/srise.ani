@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = sealion
+dir2 = m
+dir3 = srise
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -16
+y0 = -9
+x1 = 15
+y1 = 8

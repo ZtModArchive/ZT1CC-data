@@ -1,0 +1,39 @@
+[Icon]
+Icon = objects/japurn/SE/SE
+Icon = objects/japurn/SW/SW
+Icon = objects/japurn/NW/NW
+Icon = objects/japurn/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 100
+cNameID = 6726
+cHelpID = 6726
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10640
+cEstheticWeight = 20
+cGawkOnlyFromFront = 0
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

@@ -1,0 +1,34 @@
+[Icon]
+Icon=fences/atlfenc1/SE/SE
+
+[Member]
+zoofences
+highfence
+fence
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 60
+cNameID = 9348
+cHelpID = 9348
+cHeight = 2
+
+[Animations]
+idle = idle
+idle30p = idle30p
+idle30n = idle30n
+
+[EstheticBonus]
+; man
+v = 9503
+v = 5
+; woman
+v = 9504
+v = 5
+; boy
+v = 9505
+v = 10
+; girl
+v = 9506
+v = 10
+

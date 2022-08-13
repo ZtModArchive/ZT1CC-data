@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = porpoise
+dir2 = plporpoi
+animation = N
+x0 = -89
+y0 = -97
+x1 = 90
+y1 = 97

@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/kelp/SE/SE
+Icon=objects/kelp/SW/SW
+Icon=objects/kelp/NW/NW
+Icon=objects/kelp/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7409
+cHelpID = 7409
+cHabitat = 9413
+cLocation = 9633
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

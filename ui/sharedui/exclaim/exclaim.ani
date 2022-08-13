@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = exclaim
+animation = N
+x0 = -29
+y0 = -29
+x1 = 30
+y1 = 30

@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = sandwell
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -60
+y0 = -44
+x1 = 60
+y1 = 30

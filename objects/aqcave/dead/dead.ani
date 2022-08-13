@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = aqcave
+dir2 = dead
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -89
+y0 = -81
+x1 = 89
+y1 = 43

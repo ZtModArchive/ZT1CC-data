@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = show
+dir2 = biglist
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -76
+y0 = -8
+x1 = 77
+y1 = 9

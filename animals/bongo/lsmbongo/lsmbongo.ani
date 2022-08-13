@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = bongo
+dir2 = lsmbongo
+animation = N
+x0 = -17
+y0 = -15
+x1 = 17
+y1 = 15

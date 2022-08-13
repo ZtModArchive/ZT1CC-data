@@ -1,0 +1,209 @@
+; $Id: keeper.ai,v 1.4 2002/08/20 13:46:41 nls Exp $
+; IMPLEMENTED
+[Global]
+Class = staff
+Type = keeper
+Subtype =
+DefaultSubtype = m
+
+[f/Icon]
+Icon=staff/icfkeepr/icfkeepr
+
+[m/Icon]
+Icon=staff/icmkeepr/icmkeepr
+
+[Member]
+staff
+zoo
+aqua
+
+[m/colorrep]
+color = cr_color
+replace = cr_hair
+replace = cr_skin
+
+[f/colorrep]
+color = cr_color
+replace = cr_hair
+replace = cr_skin
+
+[cr_color]
+ncolors = 224
+fullpal = staff/keeper/keeper.pal
+colorpal = staff/keeper/color.pal
+
+[cr_hair]
+ncolors = 16
+pal = guests/hblack.pal
+pal = guests/hbrown.pal
+pal = guests/hblond.pal
+pal = guests/hred.pal
+
+[cr_skin]
+ncolors = 16
+pal = guests/skcauc1.pal
+pal = guests/skcauc2.pal
+pal = guests/skdark1.pal
+pal = guests/skdark2.pal
+pal = guests/skolive.pal
+
+[m/Characteristics/Strings]
+cGeneralInfoTextName = KEEPER
+cPlaqueImageName = staff/plkeeper/plkeeper
+cInfoImageName = staff/inmkeepr/inmkeepr
+cListImageName = staff/lsmkeepr/lsmkeepr
+cTrainingIconName = research/smktran1/smktran1
+cTrainingIconName = research/smktran2/smktran2
+
+[m/Characteristics/Integers]
+cNameID = 9500
+cHelpID = 9500
+cPurchaseCost = 800
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 1
+cWorkCheck = 5
+cChaseCheck = 2
+cFoodPerTile = 1000
+cSicklyAnimalPct = 15
+cWeaponRange = 5
+cDutiesTextID = 3614
+
+cTrainingTooltip = 24241
+cTrainingTooltip = 24243
+
+; SOON TO BE IMPLEMENTED
+cFoodUnitsSecond = 10
+cCleanTime = 2
+cHealUnitsSecond = 10
+
+; don't assume these values anymore
+cDirt = 6062
+cDirt = 6093
+
+[f/Characteristics/Integers]
+cNameID = 9500
+cHelpID = 9500
+cPurchaseCost = 800
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 1
+cWorkCheck = 5
+cChaseCheck = 2
+cFoodPerTile = 1000
+cSicklyAnimalPct = 15
+cWeaponRange = 5
+
+; SOON TO BE IMPLEMENTED
+cFoodUnitsSecond = 10
+cCleanTime = 2
+cHealUnitsSecond = 10
+
+; don't assume these values anymore
+cDirt = 6062
+cDirt = 6093
+
+[f/Characteristics/Strings]
+cInfoImageName = staff/infkeepr/infkeepr
+cListImageName = staff/lsfkeepr/lsfkeepr
+
+[m/Animations]
+idle = stand
+walk = walk
+stand = stand
+bag = bag
+clean = clean
+feedc = feedc
+feedh = feedh
+heal = heal
+run = run
+fire = gun
+
+[f/Animations]
+idle = stand
+walk = walk
+stand = stand
+bag = bag
+clean = clean
+feedc = feedc
+feedh = feedh
+heal = heal
+run = run
+fire = gun
+
+[Sounds]
+rake = staff/kclean.wav
+rake = 2000
+feed_herb = staff/kfeedh.wav
+feed_herb = 2000
+feed_carn = staff/kfeedc.wav
+feed_carn = 2000
+heal_animal = staff/kheal.wav
+fire_weapon = staff/gun.wav
+fire_weapon = 1000
+
+[BehaviorSet\bWalkRandomly]
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fPlayTime(idle,2)
+
+[BehaviorSet\bWalk]
+; test
+;f = fPlay(bag)
+;f = fPlay(clean)
+;f = fPlay(feedc)
+;f = fPlay(feedh)
+;f = fPlay(heal)
+;f = fPlay(run)
+f = fWalk(0,0)
+
+[BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[BehaviorSet\bZooRoutine]
+f = fKeeperRoutine()
+
+[BehaviorSet\bFeedCarn]
+f = fFaceTowardTarget()
+f = fPlayWithSound(feedc,feed_carn)
+f = fPlayWithSound(feedc,feed_carn)
+f = fPlayWithSound(feedc,feed_carn)
+
+[BehaviorSet\bFeedHerb]
+f = fFaceTowardTarget()
+f = fPlayWithSound(feedh,feed_herb)
+f = fPlayWithSound(feedh,feed_herb)
+f = fPlayWithSound(feedh,feed_herb)
+
+[BehaviorSet\bHeal]
+f = fFaceTowardTarget()
+f = fPlayWithSound(heal,heal_animal)
+
+[BehaviorSet\bClean]
+f = fFaceTowardTarget()
+f = fPlayWithSound(clean,rake)
+f = fPlayWithSound(clean,rake)
+f = fPlayWithSound(clean,rake)
+f = fPlayWithSound(clean,rake)
+
+[BehaviorSet\bChaseAnimal]
+f = fRun(0,0)
+
+[BehaviorSet\bFireWeapon]
+f = fPlayWithSound(fire,fire_weapon)
+
+[BehaviorSet\bRetrieveAnimal]
+f = fRun(0,0)
+
+[AmbientAnims]
+a = -100
+a = 100
+b = bZooRoutine
+

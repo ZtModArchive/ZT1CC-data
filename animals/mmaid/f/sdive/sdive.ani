@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = mmaid
+dir2 = f
+dir3 = sdive
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -10
+x1 = 19
+y1 = 10

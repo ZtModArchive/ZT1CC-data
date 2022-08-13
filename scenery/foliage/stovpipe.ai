@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/stovpipe/SE/SE
+Icon=objects/stovpipe/SW/SW
+Icon=objects/stovpipe/NW/NW
+Icon=objects/stovpipe/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 7419
+cHelpID = 7419
+cHabitat = 9413
+cLocation = 9625
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=1
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

@@ -1,0 +1,7 @@
+Just as exhibit tanks are built using exhibit tank walls, show exhibits are built using show tank walls. Show tank walls are blue and have a star on their icon. Tank walls for both the exhibit and show tank must be adjacent and of the same height in order to create a gate for the animal to pass through. If you don't see a gate, then it is not a valid show exhibit. Your next task is to create an orca show exhibit.
+
+1. On the left side of the screen, click the Construction button, and then click the show tank wall.
+2. Move the cursor to the empty area on the map, next to the new orca exhibit.
+3. Click and drag the cursor to construct a show exhibit adjacent to the empty exhibit tank.
+
+Click the OK button to proceed.

@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = habitat
+dir2 = tbanim
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -12
+y0 = -20
+x1 = 13
+y1 = 22

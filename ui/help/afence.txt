@@ -1,0 +1,151 @@
+Black Bar and Glass Exhibit Tank
+Strong, moderately priced. Great for all aquatic animals. Tank walls are not recommended for animals and dinosaurs, as they can easily jump over it if there is no other barrier.
+Fence life: Does not decay.
+
+Concrete Edge and Glass Exhibit Tank
+Strong, moderately priced. Great for all aquatic animals. Tank walls are not recommended for animals and dinosaurs, as they can easily jump over it if there is no other barrier.
+Fence life: Does not decay.
+
+Striped Scooped Edges and Glass Show Tank
+Strong, moderately priced. Good for animals Shows only. Tank walls are not recommended for animals and dinosaurs, as they can easily jump over it if there is no other barrier.
+Fence life: Does not decay.
+
+Striped Wavy Edges and Glass Show Tank
+Strong, moderately priced. Good for animals Shows only. Tank walls are not recommended for animals and dinosaurs, as they can easily jump over it if there is no other barrier.
+Fence life: Does not decay.
+
+Concrete Exhibit Tank
+Strong, moderately priced. Great for all aquatic animals. Tank walls are not recommended for animals and dinosaurs, as they can easily jump over it if there is no other barrier.
+Fence life: Does not decay.
+
+Striped Wavy Edges and Gunite Show Tank
+Strong, moderately priced. Good for animals Shows only. Tank walls are not recommended for animals and dinosaurs, as they can easily jump over it if there is no other barrier.
+Fence life: Does not decay.
+
+Angled Railing and Glass Show Tank
+Strong, moderately priced. Good for animals Shows only. Tank walls are not recommended for animals and dinosaurs, as they can easily jump over it if there is no other barrier.
+Fence life: Does not decay.
+
+Electrified Iron Bar Fence
+Strongest fence, but very expensive. Only the strongest dinosaurs can break it after the fence is no longer electrified. Primates cannot climb it and animals can't jump over it. Allows guests to see into exhibits.
+Fence life: two years and one month to five years and three months.
+
+Electrified Chain-link Fence
+Extremely strong, but very expensive. Dinosaurs can break it after the fence is no longer electrified. Primates cannot climb it and animals can't jump over it. Allows guests to see into exhibits.
+Fence life: two years and one month to five years and three months.
+
+Reinforced Concrete Fence
+Extremely strong, but very expensive. Only very strong dinosaurs can break it by repeated bashing. Primates cannot climb it and animals can't jump over it. Guests cannot see into an exhibit made only with reinforced concrete fencing.
+Fence life: one year and eleven months to four years and nine months.
+
+Reinforced Concrete & Iron Bar Fence
+Extremely strong, but very expensive. Only very strong dinosaurs can break it by repeated bashing. Primates cannot climb it and animals can't jump over it. Allows guests to see into exhibits.
+Fence life: one year and nine months to four years and five months.
+
+Reinforced Concrete & Glass Fence
+Extremely strong, but very expensive. Strong dinosaurs can break it by repeated bashing. Primates cannot climmb it and animals can't jump over it. Allows guests to see into exhibits.
+Fence life: one year and nine months to four years and five months.
+
+Concrete Exhibit Fence
+Very strong, but expensive. Only the strongest animals can break it by repeated bashing. Primates cannot climb it and animals can't jump over it. Guests cannot see into an exhibit made only with concrete fencing.
+Fence life: one year and nine months to four years and five months.
+
+Iron Bar Exhibit Fence
+Very strong, but expensive. Only the strongest animals can break it by repeated bashing. Primates cannot climb it and animals can't jump over it. Allows guests to see into exhibits.
+Fence life: one year and eight months to four years and two months.
+
+Rock Exhibit Fence
+Strong, but expensive. Only the strongest animals can break it by repeated bashing. Primates can climb it, but animals can't jump over it. Guests cannot see into exhibits made only with rock fencing.
+Fence life: one year and eight months to four years and two months.
+
+Windowed Rock Exhibit Fence 
+Strong, but expensive. Only the strongest animals can break it by repeated bashing. Primates can climb it, but animals can't jump over it. Allows guests to see into exhibits.
+Fence life: one year and eight months to four years and two months.
+
+Concrete Chain Exhibit Fence 
+Strong, but expensive. Only the strongest animals can break it by repeated bashing. Allows guests to see into exhibits.
+Fence life: one year and eight months to four years and two months.
+
+Plexiglass Exhibit Fence 
+Strong, but expensive. Only the strongest animals can break it by repeated bashing. Primates cannot climb it and animals can't jump over it. Allows guests to see into exhibits.
+Fence life: one year and seven months to three years and eleven months.
+
+Low Concrete Exhibit Fence 
+Very strong, but almost all animals may jump over it if there is no other barrier. Low fences allow guests to see into exhibits.
+Fence life: one year and five months to three years and seven months.
+
+Low Iron Bar Exhibit Fence 
+Strong, but almost all animals may jump over it if there is no other barrier. Low fences allow guests to see into exhibits.
+Fence life: one year and five months to three years and seven months.
+
+Low Rock Exhibit Fence 
+Strong, but almost all animals may jump over it if there is no other barrier. Low fences allow guests to see into exhibits.
+Fence life: one year and five months to three years and seven months.
+
+Low Concrete Chain Exhibit Fence 
+Very strong, but almost all animals may jump over it if there is no other barrier. Low fences allow guests to see into exhibits.
+Fence life: one year and five months to three years and seven months.
+
+Low Plexiglass Exhibit Fence 
+Strong, but almost all animals may jump over it if there is no other barrier. Low fences allow guests to see into exhibits.
+Fence life: one year and five months to three years and seven months.
+
+Post and Rail Exhibit Fence 
+Average strength and price. Primates may climb it, but animals can't jump over it. Stronger animals may bash through it.  Allows guests to see into exhibits.
+Fence life: one year and five months to three years and seven months.
+
+Wooden Slat Exhibit Fence 
+Average strength and price. Primates can climb it, but animals can't jump over it. Guests cannot see into an exhibit made only with wooden slat fencing.
+Fence life: one year and five months to three years and seven months.
+
+Windowed Wooden Slat Exhibit Fence 
+Weak strength but inexpensive. Primates can climb it, but animals can't jump over it. Allows guests to see into an exhibit.
+Fence life: one year and five months to three years and seven months.
+
+Stick Pole Exhibit Fence 
+Weak strength, but inexpensive. Primates may climb out and animals may jump over it. Strong animals can bash through it. Guests cannot see into an exhibit made only with stick pole fencing.
+Fence life: one year and five months to three years and seven months.
+
+Windowed Stick Pole Exhibit Fence 
+Weak strength, but inexpensive. Primates may climb out and animals may jump over it. Strong animals can bash through it. Allows guests to see into an exhibit.
+Fence life: one year and five months to three years and seven months.
+
+Low Post and Rail Exhibit Fence 
+Average strength, and almost all animals may jump over it if there is no other barrier. Low fences allow guests to see into exhibits.
+Fence life: one year and four months to three years and four months.
+
+Low Wooden Slat Exhibit Fence 
+Average strength, and almost all animals may jump over it if there is no other barrier. Low fences allow guests to see into exhibits.
+Fence life: one year and four months to three years and four months.
+
+Low Stick Pole Exhibit Fence 
+Weak strength, and almost all animals may jump over it if there is no other barrier. Low fences allow guests to see into exhibits.
+Fence life: one year and four months to three years and four months.
+
+Chain-link Exhibit Fence 
+Weak strength, but inexpensive. Primates may climb it, but animals can't jump over it. Allows guests to see into exhibits.
+Fence life: one year and three months to three years and one month.
+
+Low Chain-link Exhibit Fence 
+Weak strength, and almost all animals may jump over it if there is no other barrier. Low fences allow guests to see into exhibits.
+Fence life: one year and one month to two years and nine months.
+
+
+The following fences cannot be used to contain animals in exhibits, but guests will enjoy viewing them when they're used in landscaping:
+
+Cast-iron Decorative Fence 
+
+Brick Decorative Fence 
+
+Picket Decorative Fence 
+
+Hedge Decorative Fence 
+
+White Decorative Fence 
+
+Post and Rope Decorative Fence 
+
+
+The following fence types cannot be used to contain animals but can be used as boundaries for water attraction buildings:
+
+Bouy and Rope Fence

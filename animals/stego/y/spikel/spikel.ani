@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = stego
+dir2 = y
+dir3 = spikel
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -69
+y0 = -70
+x1 = 43
+y1 = 35

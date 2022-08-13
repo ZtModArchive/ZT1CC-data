@@ -1,0 +1,306 @@
+[LayoutInfo]
+x=17
+y=6
+dx=171
+dy=440
+id=7
+helpid=7
+layer=1
+state=1
+
+[Background]
+type=UIImage
+id=3300
+helpid=3300
+x=0
+y=0
+normal=ui/teraform/backgrnd.tga
+layer=0
+
+[Title]
+type=UIText
+id=3301
+textid=3301
+x=38
+y=7
+dx=100
+dy=-5
+font=3336
+fontsize=3337
+border=2
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+
+[CloseWindow]
+type=UIButton
+id=3302
+helpid=3302
+x=145
+y=8
+normal=ui/sharedui/closeN.tga
+selected=ui/sharedui/closeS.tga
+highlighted=ui/sharedui/closeH.tga
+grayed=ui/sharedui/closeG.tga
+layer=1
+action=2
+target=7
+
+[Cancelbutton]
+type=UIButton
+id=3303
+helpid=3303
+x=86
+y=300
+normal=ui/teraform/undoN.tga
+selected=ui/teraform/undoS.tga
+highlighted=ui/teraform/undoH.tga
+grayed=ui/teraform/undoG.tga
+layer=1
+
+[CostLabel]
+type=UIText
+id=3304
+helpid=3304
+x=59
+y=29
+dx=-1
+dy=-5
+font=3339
+fontsize=3340
+border=2
+forecolor=206
+forecolor=206
+forecolor=206
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[Cost]
+type=UIText
+id=3305
+helpid=3305
+x=90
+y=29
+dx=-1
+dy=-5
+font=3339
+fontsize=3340
+border=2
+forecolor=255
+forecolor=0
+forecolor=0
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[plusbutton]
+type=UIButton
+id=3310
+helpid=3310
+x=125
+y=50
+normal=ui/teraform/zoominN.tga
+selected=ui/teraform/zoominS.tga
+highlighted=ui/teraform/zoominH.tga
+grayed=ui/teraform/zoominG.tga
+layer=1
+state=1
+
+[minusbutton]
+type=UIButton
+id=3314
+helpid=3314
+x=39
+y=50
+normal=ui/main/zoomoutN.tga
+selected=ui/main/zoomoutS.tga
+highlighted=ui/main/zoomoutH.tga
+grayed=ui/main/zoomoutG.tga
+layer=1
+state=1
+
+[brushimage]
+type=UIStatusImage
+id=3320
+helpid=3320
+x=20
+y=67
+image=ui/teraform/brush1.tga
+image=ui/teraform/brush2.tga
+image=ui/teraform/brush3.tga
+image=ui/teraform/brush4.tga
+image=ui/teraform/brush5.tga
+layer = 1
+
+[ModeTitle]
+type=UIText
+id=3319
+x=33
+y=356
+dx=121
+dy=-5
+font=3339
+fontsize=3340
+border=0
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+justify=-5
+layer=1
+
+[terrainbuttonRadioSet]
+type = UIRadioSet
+id = 3360
+button = 3315
+button = 3316
+button = 3317
+
+[modecontig]
+type=UIButton
+id=3315
+helpid=3315
+x=61
+y=149
+normal=ui/teraform/contigN.tga
+selected=ui/teraform/contigS.tga
+layer=1
+state=4096
+
+[modenoncontig]
+type=UIButton
+id=3316
+helpid=3316
+x=61
+y=195
+normal=ui/teraform/ncontigN.tga
+selected=ui/teraform/ncontigS.tga
+;highlighted=ui/teraform/closeH.tga
+;grayed=ui/teraform/closeG.tga
+layer=1
+state=4096
+
+[modestamp]
+type=UIButton
+id=3317
+helpid=3317
+x=61
+y=241
+normal=ui/teraform/flatN.tga
+selected=ui/teraform/flatS.tga
+;highlighted=ui/teraform/closeH.tga
+;grayed=ui/teraform/closeG.tga
+layer=1
+state=4096
+
+
+// PAINT TERRAIN
+
+[Objects]
+type=UIScrollingRegion
+id=3350
+helpid=3350
+x=38
+y=148
+dx=101
+dy=138
+radioset = 3353
+template = 3354
+scrollbar = 3355
+autofit = 1
+spacing = 1
+spacing = 4
+layer=1
+
+
+[ObjectButtonSet]
+type = UIRadioSet
+id = 3353
+
+[ObjectIconTemplate]
+type = UIButton
+id = 3354
+normal = ui/buyobj/borderN.tga
+highlighted = ui/buyobj/borderH.tga
+selected = ui/buyobj/borderS.tga
+grayed = ui/buyobj/borderG.tga
+transparent = 0
+state = 256
+state = 4096
+layer = 2
+
+[ObjectScrollBar]
+type = UIScrollBar
+id = 3355
+x = 139
+y = 147
+dx = 12
+dy = 138
+normal = ui/sharedui/scrolbck2.tga
+upNormal = ui/sharedui/arowupN.tga
+upSelected = ui/sharedui/arowupS.tga
+thumbNormal =  ui/sharedui/thumb.tga
+downNormal =  ui/sharedui/arowdnN.tga
+downSelected =  ui/sharedui/arowdnS.tga
+layer = 2
+
+[TabRadioSet]
+type = UIRadioSet
+id = 3360
+button = 3361
+button = 3362
+button = 3363
+
+[PathTab]
+type = UIButton
+id = 3363
+helpid = 6204
+x = 151
+y = 114
+normal=ui/buyobj/walktbN.tga
+selected=ui/buyobj/walktbS.tga
+highlighted=ui/buyobj/walktbH.tga
+grayed=ui/buyobj/walktbG.tga
+layer=1
+state=4096
+stringData=paths
+
+[TerraformTab]
+type = UIButton
+id = 3361
+helpid = 3361
+x = 151
+y = 147
+normal=ui/buyobj/bldngtbN.tga
+selected=ui/buyobj/bldngtbS.tga
+highlighted=ui/buyobj/bldngtbH.tga
+grayed=ui/buyobj/bldngtbG.tga
+layer=1
+state=8
+state=4096
+
+[PaintTerrainTab]
+type = UIButton
+id = 3362
+helpid = 3362
+x = 151
+y = 180
+normal=ui/buyobj/fencetbN.tga
+selected=ui/buyobj/fencetbS.tga
+highlighted=ui/buyobj/fencetbH.tga
+grayed=ui/buyobj/fencetbG.tga
+layer=1
+state=4096

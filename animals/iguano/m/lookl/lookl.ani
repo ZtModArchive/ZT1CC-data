@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = iguano
+dir2 = m
+dir3 = lookl
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -99
+y0 = -96
+x1 = 48
+y1 = 50

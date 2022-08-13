@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = orca
+dir2 = m
+dir3 = bchvoc
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -125
+y0 = -81
+x1 = 122
+y1 = 61

@@ -1,0 +1,24 @@
+[Icon]
+Icon=objects/arch1/ictgteSE.tga
+Icon=objects/arch1/ictgteSW.tga
+Icon=objects/arch1/ictgteNW.tga
+Icon=objects/arch1/ictgteNE.tga
+[Characteristics/Integers]
+cPurchaseCost = 75
+cNameID = 6020
+cHelpID = 6020
+[Animations]
+idle = idle
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 5
+; girl
+v = 9506
+v = 5

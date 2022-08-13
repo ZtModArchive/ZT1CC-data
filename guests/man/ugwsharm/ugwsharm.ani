@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = ugwsharm
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -62
+y0 = -102
+x1 = 128
+y1 = 82

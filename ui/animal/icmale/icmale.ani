@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = animal
+dir2 = icmale
+animation = N
+x0 = -8
+y0 = -13
+x1 = 15
+y1 = 10

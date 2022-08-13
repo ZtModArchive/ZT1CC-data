@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lion
+dir2 = f
+dir3 = crchwalk
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -33
+y0 = -27
+x1 = 15
+y1 = 17

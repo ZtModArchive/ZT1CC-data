@@ -1,0 +1,171 @@
+[LayoutInfo]
+x=right
+y=-248
+altx=right
+alty=-578
+dx=226
+dy=213
+id=20
+helpid=20
+layer=1
+;hidden
+state=1
+
+
+[Background]
+type=UIImage
+id=4601
+helpid=4601
+x=0
+y=0
+animation=ui/sharedui/infopan/infopan
+layer=0
+
+[PanelTitle]
+type=UIText
+id=4620
+textid=4620
+textid=4621
+x=78
+y=2
+dx=120
+dy=fitfont
+font=4736
+fontsize=4737
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+
+[BuildingPicture]
+type=UIImage
+id=4650
+x=0
+y=9
+layer=1
+
+
+[Buildingname]
+type=UIEditableText
+id=4602
+helpid=4602
+x=71
+y=27
+dx=141
+dy=fitfont
+font=3150
+fontsize=3151
+border=1
+forecolor=255
+forecolor=218
+forecolor=90
+backcolor=59
+backcolor=71
+backcolor=45
+transparent=1
+layer=4
+;justify=center
+
+[CloseWindow]
+type=UIButton
+id=4615
+helpid=3112
+x=197
+y=1
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=-1
+
+[Sell building]
+type=UIButton
+id=4616
+helpid=4516
+;textid=20100
+x=182
+y=52
+animation=ui/infopan/sell/sell
+font=9850
+fontsize=9851
+justify=center
+forecolor = 83
+forecolor = 219
+forecolor = 83
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor =255
+highlightcolor = 212
+highlightcolor = 60
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent=1
+layer=1
+
+
+
+[TabbuttonRadioSet]
+type = UIRadioSet
+id = 4674
+button = 4675
+button = 4677
+button = 4678
+
+[Status_Tab1]
+type = UIButton
+id = 4675
+helpid = 4684
+x = 196
+y = 92
+animation=ui/guest/tbinfo/tbinfo
+layer=1
+state=8
+state=4096
+action=3
+target=400
+
+[Upgrade_Tab2]
+type = UIButton
+id = 4678
+helpid = 4678
+x = 196
+y = 124
+animation=ui/sharedui/clip/clip
+layer=1
+state=4096
+action=3
+target=403
+
+[Color_Tab3]
+type = UIButton
+id = 4677
+helpid = 4577
+x = 196
+y = 156
+animation=ui/sharedui/paint/paint
+layer=1
+state=4096
+action=3
+target=302
+
+
+[StatusLayout]
+type=UILayout
+layout=ui/infoncm1.lyt
+state=1
+
+[UpgradeLayout]
+type=UILayout
+layout=ui/infoncm2.lyt
+state=1

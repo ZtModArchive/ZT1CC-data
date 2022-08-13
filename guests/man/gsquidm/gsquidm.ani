@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = gsquidm
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -87
+y0 = -114
+x1 = 170
+y1 = 90

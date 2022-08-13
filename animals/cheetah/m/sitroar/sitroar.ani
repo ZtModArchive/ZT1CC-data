@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = cheetah
+dir2 = m
+dir3 = sitroar
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -29
+y0 = -28
+x1 = 18
+y1 = 15

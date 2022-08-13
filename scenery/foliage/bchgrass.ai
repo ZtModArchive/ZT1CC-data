@@ -1,0 +1,32 @@
+[Icon]
+Icon=objects/bchgrass/SE/SE
+Icon=objects/bchgrass/SW/SW
+Icon=objects/bchgrass/NW/NW
+Icon=objects/bchgrass/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 80
+cNameID = 7402
+cHelpID = 7402
+cHabitat = 9413
+cLocation = 9633
+cFootprintX = 1
+cFootprintY = 1
+walkable = 1
+cHeight = 2
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 0
+cUseNumbersInName=0
+cDeadOnLand=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

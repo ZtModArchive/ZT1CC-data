@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = brhino
+dir2 = lsmbrhin
+animation = N
+x0 = -17
+y0 = -7
+x1 = 18
+y1 = 12

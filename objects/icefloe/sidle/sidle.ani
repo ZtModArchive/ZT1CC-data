@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = icefloe
+dir2 = sidle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -68
+y0 = -35
+x1 = 71
+y1 = 35

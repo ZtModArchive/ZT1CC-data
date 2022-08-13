@@ -1,0 +1,29 @@
+; $Id
+[Icon]
+Icon = objects/srckfrm4/SE/SE
+Icon = objects/srckfrm4/SW/SW
+Icon = objects/srckfrm4/NW/NW
+Icon = objects/srckfrm4/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 310
+cNameID = 9225
+cHelpID = 9225
+cHabitat = 9403
+cLocation = 9618
+cFootprintX = 6
+cFootprintY = 4
+cAutoRotate = 1
+cRock = 1
+cHeight = 1
+cRubbleable = 0
+cSwims = 1
+cOnlySwims = 0
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+

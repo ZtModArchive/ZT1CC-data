@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = horzthm
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -4
+y0 = 2
+x1 = 5
+y1 = 13

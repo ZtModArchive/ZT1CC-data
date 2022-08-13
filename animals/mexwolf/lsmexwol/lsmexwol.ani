@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = mexwolf
+dir2 = lsmexwol
+animation = N
+x0 = -12
+y0 = -9
+x1 = 12
+y1 = 8

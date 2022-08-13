@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = tmesquit
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -84
+y0 = -103
+x1 = 84
+y1 = 14

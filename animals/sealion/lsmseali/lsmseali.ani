@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = sealion
+dir2 = lsmseali
+animation = N
+x0 = -18
+y0 = -8
+x1 = 18
+y1 = 9

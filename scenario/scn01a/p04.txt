@@ -1,0 +1,6 @@
+Rotating the game world allows you to see animals and buildings that might not be visible from the current view. Although it is hard to see, there is a trash can behind the statue of the American bighorn sheep. Rotate the game world clockwise to get a better view of this object.
+ 
+1. Click the Rotate Clockwise button (arrow pointing left), located on the lower-left side of the game screen. 
+2. Then click the Rotate Counter-clockwise button (arrow pointing right).
+
+Click the OK button to proceed.

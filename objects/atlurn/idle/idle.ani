@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = atlurn
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -18
+y0 = -53
+x1 = 18
+y1 = 3

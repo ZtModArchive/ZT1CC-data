@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = primhous
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -200
+y0 = -169
+x1 = 200
+y1 = 103

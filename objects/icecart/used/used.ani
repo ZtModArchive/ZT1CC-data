@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = icecart
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -29
+y0 = -49
+x1 = 29
+y1 = 12

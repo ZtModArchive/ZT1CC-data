@@ -1,0 +1,39 @@
+[Icon]
+Icon = objects/statue1/SE/SE
+Icon = objects/statue1/SW/SW
+Icon = objects/statue1/NW/NW
+Icon = objects/statue1/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 185
+cNameID = 6038
+cHelpID = 6038
+cFootprintX = 2
+cFootprintY = 4
+cUsedThought=10268
+cHeight = 2
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 6
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 6
+; girl
+v = 9506
+v = 2

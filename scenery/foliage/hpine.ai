@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/hpine/SE/SE
+Icon=objects/hpine/SW/SW
+Icon=objects/hpine/NW/NW
+Icon=objects/hpine/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 180
+cNameID = 7072
+cHelpID = 7072
+;Highland	
+cHabitat = 9407
+;China
+cLocation = 9605
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

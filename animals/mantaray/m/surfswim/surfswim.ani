@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = mantaray
+dir2 = m
+dir3 = surfswim
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -52
+y0 = -33
+x1 = 57
+y1 = 28

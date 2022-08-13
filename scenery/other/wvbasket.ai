@@ -1,0 +1,39 @@
+[Icon]
+Icon = objects/wvbasket/SE/SE
+Icon = objects/wvbasket/SW/SW
+Icon = objects/wvbasket/NW/NW
+Icon = objects/wvbasket/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 25
+cNameID = 6712
+cHelpID = 6712
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10624
+cEstheticWeight = 20
+cGawkOnlyFromFront = 0
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

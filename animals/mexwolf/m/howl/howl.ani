@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = mexwolf
+dir2 = m
+dir3 = howl
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -16
+y0 = -20
+x1 = 12
+y1 = 6

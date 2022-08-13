@@ -1,0 +1,14 @@
+The first thing your zoo needs is an exhibit for animals to live in. Let's build it!
+
+1.  Click the Construction button. This button opens a panel with a bunch of tabs on it. The tab with a fence on it should already be selected for you; click it if it isn't. Then click one of the fences.
+
+2.  Move the cursor to the grassy area. Click and drag the cursor to construct a section of fence, and then release the mouse button. Do it again until you’ve made a closed-in area. 
+
+   You’ve built an exhibit! Give it a name in the box that pops up.
+   Now you need to place an animal inside your exhibit.
+
+3.  Click the Adopt Animals button. This button opens a panel with four tabs on it. Select the tab with the giant panda on it. Then click one of the animals.
+
+4.  Move the cursor to the exhibit, and then click anywhere inside the exhibit to place your animal.
+
+   That’s it! You’re ready to start building a bigger and better zoo.

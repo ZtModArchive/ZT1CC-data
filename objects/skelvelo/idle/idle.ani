@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = skelvelo
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -58
+y0 = -51
+x1 = 58
+y1 = 29

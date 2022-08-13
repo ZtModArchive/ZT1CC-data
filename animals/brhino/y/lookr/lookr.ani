@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = brhino
+dir2 = y
+dir3 = lookr
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -16
+y0 = -24
+x1 = 18
+y1 = 9

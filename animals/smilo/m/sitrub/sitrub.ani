@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = smilo
+dir2 = m
+dir3 = sitrub
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -39
+y0 = -31
+x1 = 14
+y1 = 20

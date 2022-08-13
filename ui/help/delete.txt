@@ -1,0 +1,2 @@
+To clear more than one object at a time (anything but an animal or a person), click the bulldozer (Clear Objects) tab, and then draw a box with the cursor. All the zoo objects inside the box you draw will be deleted when you release the mouse button. The zoo will get back some money (usually around 80 percent of what you spent) for some objects when they're deleted.
+

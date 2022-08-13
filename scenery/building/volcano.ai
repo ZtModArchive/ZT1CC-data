@@ -1,0 +1,57 @@
+[Icon]
+Icon=objects/volcano/SE/SE
+Icon=objects/volcano/SW/SW
+Icon=objects/volcano/NW/NW
+Icon=objects/volcano/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[AmbientSound]
+name = sounds/tar.wav
+attenuation = 1700
+
+[UseSound]
+loops = 0
+name = scenery/building/volcano.wav
+attenuation = 1500
+
+
+[Characteristics/Integers]
+cPurchaseCost = 3500
+cFootprintX = 14
+cFootprintY = 14
+;Bad Habitat Type
+cHabitat = 9414
+cNameID = 6443
+cHelpID = 6443
+cUsedThought=10590
+cHeight = 4
+cUseNumbersInName=0
+cRubbleable = 0
+cEstheticWeight = 75
+cGawkOnlyFromFront = 0
+
+cRandomUse = 1
+cMinUsePeriod = 20
+cMaxUsePeriod = 60
+cUseAnimCount = 1
+
+[Animations]
+idle = idle
+used = used
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15

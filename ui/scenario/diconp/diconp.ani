@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = scenario
+dir2 = diconp
+animation = N
+x0 = -16
+y0 = -15
+x1 = 15
+y1 = 15

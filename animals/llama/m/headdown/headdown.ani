@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = llama
+dir2 = m
+dir3 = headdown
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -19
+y0 = -43
+x1 = 32
+y1 = 16

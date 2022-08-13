@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = xmastree
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -41
+y0 = -143
+x1 = 41
+y1 = 10

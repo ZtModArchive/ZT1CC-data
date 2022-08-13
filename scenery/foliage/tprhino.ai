@@ -1,0 +1,39 @@
+; $Id: tprhino.ai,v 1.1 2002/05/22 18:27:21 rmh Exp $
+[Icon]
+Icon=objects/tprhino/ictrhiSE/ictrhiSE
+Icon=objects/tprhino/ictrhiSW/ictrhiSW
+Icon=objects/tprhino/ictrhiNW/ictrhiNW
+Icon=objects/tprhino/ictrhiNE/ictrhiNE
+
+[Member]
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 200
+cNameID = 6007
+cHelpID = 6007
+cFootprintX = 2
+cFootprintY = 2
+cHeight = 2
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 4
+; girl
+v = 9506
+v = 2

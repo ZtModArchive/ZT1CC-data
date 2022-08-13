@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = blckbuck
+dir2 = lsfblckb
+animation = N
+x0 = -13
+y0 = -9
+x1 = 10
+y1 = 14

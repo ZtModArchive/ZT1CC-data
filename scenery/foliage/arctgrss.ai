@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/arctgrss/SE/SE
+Icon=objects/arctgrss/SW/SW
+Icon=objects/arctgrss/NW/NW
+Icon=objects/arctgrss/NE/NE
+
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 100
+cNameID = 7097
+cHelpID = 7097
+cHabitat = 9408
+cLocation = 9613
+cHeight = 1
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9623
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

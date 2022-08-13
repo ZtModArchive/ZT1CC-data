@@ -1,0 +1,12 @@
+[animation]
+dir0 = food
+dir1 = urchin
+dir2 = med
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -11
+y0 = -9
+x1 = 11
+y1 = 5

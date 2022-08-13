@@ -1,0 +1,25 @@
+[Icon]
+Icon = objects/streetlt/SE/SE
+Icon = objects/streetlt/SW/SW
+Icon = objects/streetlt/NW/NW
+Icon = objects/streetlt/NE/NE
+
+[Member]
+developer
+
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6141
+cHelpID = 6141
+cFootprintX = 1
+cFootprintY = 1
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

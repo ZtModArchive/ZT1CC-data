@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = leopard
+dir2 = m
+dir3 = crchwalk
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -36
+y0 = -23
+x1 = 16
+y1 = 17

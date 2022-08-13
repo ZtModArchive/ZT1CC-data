@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/sponge/SE/SE
+Icon=objects/sponge/SW/SW
+Icon=objects/sponge/NW/NW
+Icon=objects/sponge/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 100
+cNameID = 7418
+cHelpID = 7418
+cHabitat = 9413
+cLocation = 9631
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 2
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=1
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

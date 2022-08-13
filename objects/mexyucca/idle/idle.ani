@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = mexyucca
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -45
+y0 = -161
+x1 = 47
+y1 = 11

@@ -1,0 +1,170 @@
+; $Id: tour.ai,v 1.2 2002/07/17 23:02:27 sds Exp $
+; IMPLEMENTED
+[Global]
+Class = staff
+Type = tour
+Subtype =
+DefaultSubtype = m
+
+
+[f/Icon]
+Icon=staff/icfguide/icfguide
+
+[m/Icon]
+Icon=staff/icmguide/icmguide
+
+[Member]
+staff
+
+[m/colorrep]
+color = cr_color
+replace = cr_hair
+replace = cr_skin
+
+[f/colorrep]
+color = cr_color
+replace = cr_hair
+replace = cr_skin
+
+[cr_color]
+ncolors = 224
+fullpal = staff/tour/tour.pal
+colorpal = staff/tour/color.pal
+
+[cr_hair]
+ncolors = 16
+pal = guests/hblack.pal
+pal = guests/hbrown.pal
+pal = guests/hblond.pal
+pal = guests/hred.pal
+
+[cr_skin]
+ncolors = 16
+pal = guests/skcauc1.pal
+pal = guests/skcauc2.pal
+pal = guests/skdark1.pal
+pal = guests/skdark2.pal
+pal = guests/skolive.pal
+
+[m/Characteristics/Strings]
+cGeneralInfoTextName = GUIDE
+cPlaqueImageName = staff/plguide/plguide
+cInfoImageName = staff/inmguide/inmguide
+cListImageName = staff/lsmguide/lsmguide
+cTrainingIconName = research/smgtran1/smgtran1
+
+[m/Characteristics/Integers]
+cNameID = 9502
+cHelpID = 9502
+cPurchaseCost = 500
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 1
+
+cWorkCheck = 20
+cChaseCheck = 2
+cCrowdCheck = 5
+cCrowdRadius = 1
+cFollowChance = 60
+cInformGuestTime = 5
+cTourGuideBonus = 30
+cDutiesTextID = 3615
+
+cTrainingTooltip = 24244
+
+NOT IMPLEMENTED:
+cMaxGroupSize = 15
+;cReleaseChance = 100
+
+
+[f/Characteristics/Integers]
+cNameID = 9502
+cHelpID = 9502
+cPurchaseCost = 500
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 1
+
+cWorkCheck = 20
+cChaseCheck = 2
+cCrowdCheck = 5
+cCrowdRadius = 1
+cFollowChance = 60
+cInformGuestTime = 5
+cTourGuideBonus = 30
+
+NOT IMPLEMENTED:
+cMaxGroupSize = 15
+;cReleaseChance = 100
+
+[f/Characteristics/Strings]
+cInfoImageName = staff/infguide/infguide
+cListImageName = staff/lsfguide/lsfguide
+
+[m/Animations]
+idle = stand
+walk = walk
+stand = stand
+stand2 = stand2
+speak = speak
+speak2 = speak2
+run = run
+
+[f/Animations]
+idle = stand
+walk = walk
+stand = stand
+stand2 = stand2
+speak = speak
+speak2 = speak2
+run = run
+
+[BehaviorSet\bWalkRandomly]
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fPlayTime(idle,2)
+
+[BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[BehaviorSet\bRun]
+f = fRun(0,0)
+
+[BehaviorSet\bTest]
+; test
+f = fPlay(stand)
+f = fPlay(stand2)
+f = fPlay(speak)
+f = fPlay(speak2)
+f = fPlay(walk)
+f = fWalk(0,0)
+
+[BehaviorSet\bZooRoutine]
+f = fGuideRoutine()
+
+[BehaviorSet\bSpeak]
+f = fPlaySet(bSpeak1)
+f = fPlaySet(bSpeak2)
+
+[BehaviorSet\bSpeak1]
+f = fPlayTime(speak,cInformGuestTime)
+
+[BehaviorSet\bSpeak2]
+f = fPlayTime(speak2,cInformGuestTime)
+
+[BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[AmbientAnims]
+a = -100
+a = 100
+b = bZooRoutine
+;b = bTest
+

@@ -1,0 +1,26 @@
+[Icon]
+Icon = objects/watertwr/SE/SE
+Icon = objects/watertwr/SW/SW
+Icon = objects/watertwr/NW/NW
+Icon = objects/watertwr/NE/NE
+
+[Member]
+developer
+
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6146
+cHelpID = 6146
+cFootprintX = 8
+cFootprintY = 8
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cRubbleable = 0
+
+[Animations]
+idle = idle

@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = infoimg
+dir2 = natlncst
+animation = N
+x0 = -36
+y0 = -36
+x1 = 37
+y1 = 37

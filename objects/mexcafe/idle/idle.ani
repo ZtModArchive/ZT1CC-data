@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = mexcafe
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -128
+y0 = -151
+x1 = 128
+y1 = 63

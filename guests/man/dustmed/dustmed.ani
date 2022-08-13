@@ -1,0 +1,9 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = dustmed
+animation = N
+x0 = -110
+y0 = -115
+x1 = 92
+y1 = 42

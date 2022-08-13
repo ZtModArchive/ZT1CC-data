@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = chimp
+dir2 = lsmchimp
+animation = N
+x0 = -7
+y0 = -7
+x1 = 9
+y1 = 9

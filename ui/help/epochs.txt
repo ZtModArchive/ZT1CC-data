@@ -1,0 +1,1 @@
+There are four epochs for dinosaurs in Zoo Tycoon: Dinosaur Digs: Triassic, Jurassic, Cretaceous, and Pleistocene (Ice Age). This also appears on the Foliage tab of the Construction panel, so that you can easily match up the proper foliage with dinosaurs.

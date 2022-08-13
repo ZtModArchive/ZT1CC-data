@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = lion
+dir2 = lsflion
+animation = N
+x0 = -19
+y0 = -8
+x1 = 15
+y1 = 10

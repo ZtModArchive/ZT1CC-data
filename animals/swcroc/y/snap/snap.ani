@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = swcroc
+dir2 = y
+dir3 = snap
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -31
+y0 = -46
+x1 = 66
+y1 = 33

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = iguano
+dir2 = y
+dir3 = headup
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -47
+y0 = -42
+x1 = 29
+y1 = 24

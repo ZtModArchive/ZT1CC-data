@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = mntnlion
+dir2 = m
+dir3 = crouch
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -44
+y0 = -31
+x1 = 21
+y1 = 22

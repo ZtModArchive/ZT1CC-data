@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/cycad/SE/SE
+Icon=objects/cycad/SW/SW
+Icon=objects/cycad/NW/NW
+Icon=objects/cycad/NE/NE
+
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 140
+cNameID = 7082
+cHelpID = 7082
+cHabitat = 9405
+cLocation = 9607
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9620
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

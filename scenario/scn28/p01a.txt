@@ -1,0 +1,6 @@
+Show animals are unique. They need two tanks, a show tank and an exhibit tank side by side in order to stay happy. The show animal lives in the exhibit tank when it's not performing. When it is time for a show, the animal will swim to the show tank, perform, and then return to its exhibit tank. All show animals and objects that may be placed in a show tank have a star on their icons.
+
+1. Click the Adopt Animals button on the left side of the screen to view all of the show animals.
+2. When you have finished looking at these animals, click on the pull-down menu at the top of the panel and choose to sort the content by Marine Mania.
+
+Click the OK button to proceed.

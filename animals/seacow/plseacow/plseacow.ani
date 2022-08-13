@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = seacow
+dir2 = plseacow
+animation = N
+x0 = -88
+y0 = -96
+x1 = 89
+y1 = 96

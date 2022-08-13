@@ -1,0 +1,44 @@
+[Global]
+AvailableAtStartup=0
+
+[Icon]
+Icon = objects/statorca/SE/SE
+Icon = objects/statorca/SW/SW
+Icon = objects/statorca/NW/NW
+Icon = objects/statorca/NE/NE
+
+[Member]
+scenery
+aqua
+
+[Characteristics/Integers]
+cNameID = 6496
+cHelpID = 6496
+cPurchaseCost = 200
+cFootprintX = 4
+cFootprintY = 4
+;Bad Habitat Type
+cHabitat = 9414
+cUsedThought=10576
+cHeight = 1
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cUnderwater = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15

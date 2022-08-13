@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = volcano2
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -171
+y0 = -190
+x1 = 171
+y1 = 84

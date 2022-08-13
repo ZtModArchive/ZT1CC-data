@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = wtrlily
+dir2 = uidle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -12
+y0 = -6
+x1 = 12
+y1 = 6

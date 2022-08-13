@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = lion
+dir2 = m
+dir3 = pant
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -26
+y0 = -34
+x1 = 25
+y1 = 13

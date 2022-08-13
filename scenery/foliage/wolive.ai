@@ -1,0 +1,40 @@
+[Icon]
+Icon=objects/wolive/SE/SE
+Icon=objects/wolive/SW/SW
+Icon=objects/wolive/NW/NW
+Icon=objects/wolive/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 120
+cNameID = 7004
+cHelpID = 7004
+;Decidous forest
+cHabitat = 9402
+;North Africa
+cLocation = 9614
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 2
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

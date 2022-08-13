@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = statorca
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -58
+y0 = -112
+x1 = 58
+y1 = 22

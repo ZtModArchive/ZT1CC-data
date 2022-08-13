@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = smwdslat
+dir2 = g
+dir3 = idle30p
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -18
+y0 = -38
+x1 = 18
+y1 = 16

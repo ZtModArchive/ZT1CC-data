@@ -1,0 +1,14 @@
+[animation]
+dir0 = staff
+dir1 = keeper
+dir2 = m
+dir3 = feedc
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -14
+y0 = -29
+x1 = 17
+y1 = 8

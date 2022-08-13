@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = B101B026
+dir2 = m
+dir3 = sittolie
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -51
+y0 = -43
+x1 = 30
+y1 = 26

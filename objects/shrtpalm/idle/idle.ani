@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = shrtpalm
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -43
+y0 = -146
+x1 = 43
+y1 = 5

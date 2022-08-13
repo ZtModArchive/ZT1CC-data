@@ -1,0 +1,9 @@
+[animation]
+dir0 = animals
+dir1 = orngutan
+dir2 = lsorngut
+animation = N
+x0 = -10
+y0 = -11
+x1 = 12
+y1 = 13

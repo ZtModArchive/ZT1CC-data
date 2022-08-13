@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = javrhino
+dir2 = y
+dir3 = scuff
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -12
+y0 = -14
+x1 = 11
+y1 = 6

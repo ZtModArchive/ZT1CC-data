@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = elephant
+dir2 = m
+dir3 = runnois
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -28
+y0 = -75
+x1 = 68
+y1 = 34

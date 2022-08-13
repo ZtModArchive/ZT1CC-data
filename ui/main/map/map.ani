@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = main
+dir2 = map
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -7
+y0 = -47
+x1 = 7
+y1 = 49

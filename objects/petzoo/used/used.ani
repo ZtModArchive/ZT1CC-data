@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = petzoo
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -169
+y0 = -144
+x1 = 169
+y1 = 88

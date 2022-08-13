@@ -1,0 +1,13 @@
+[animation]
+dir0 = animals
+dir1 = gorilla
+dir2 = f
+dir3 = mb2end
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -88
+y0 = -75
+x1 = 88
+y1 = 42

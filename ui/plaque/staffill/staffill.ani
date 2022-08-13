@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = plaque
+dir2 = staffill
+animation = N
+x0 = -223
+y0 = -42
+x1 = 223
+y1 = 43

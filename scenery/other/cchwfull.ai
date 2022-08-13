@@ -1,0 +1,13 @@
+;Carnivore chow - full
+[Characteristics/Integers]
+cNameID = 6058
+cHelpID = 6058
+cHabitat = 9412
+cLocation = 9619
+cFootprintX = 1
+cFootprintY = 1
+cDeletable = 0
+cPurchaseCost = 249
+cFood = 1
+[Animations]
+idle = idle

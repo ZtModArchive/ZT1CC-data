@@ -1,0 +1,12 @@
+[animation]
+dir0 = ui
+dir1 = tanks
+dir2 = tankgate
+animation = N
+animation = H
+animation = S
+animation = G
+x0 = -21
+y0 = -18
+x1 = 21
+y1 = 19

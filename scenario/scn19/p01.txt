@@ -1,0 +1,5 @@
+Welcome to Dinosaur Digs! You'll begin playing soon, but first this brief tutorial will teach you some of the important game controls and new features of Dinosaur Digs.
+
+When you play this tutorial, you will see reminder text displayed in the upper section of the gameplay area. If you forget what your current instructions are, click this reminder button to revisit the current tutorial's instructions.
+
+Click OK to start.

@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = woman
+dir2 = ssurfswi
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -35
+y0 = -18
+x1 = 19
+y1 = 17

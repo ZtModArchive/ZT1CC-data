@@ -1,0 +1,9 @@
+[animation]
+dir0 = ui
+dir1 = sharedui
+dir2 = objpan
+animation = N
+x0 = -85
+y0 = -219
+x1 = 86
+y1 = 220

@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = narwhal
+dir2 = m
+dir3 = ssurfvoc
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -50
+y0 = -38
+x1 = 70
+y1 = 37

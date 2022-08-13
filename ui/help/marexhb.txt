@@ -1,0 +1,5 @@
+Exhibit tanks are the exhibits in which marine animals thrive, provided you add the appropriate aquatic foliage and adjust the tank walls to the animals' preferred depth. Exhibit tanks can be constructed of the exhibit tank wall types available from the Fences tab on the Construction panel. Marine tanks are constructed like normal land exhibits, but when constructed the bottom will automatically change to sand, the floor of the tank will be automatically leveled, and the tank will be partially lowered into the ground. You can change exhibit tank characteristics like height using the Modify Tank panel. Once constructed, only the placement of objects appropriate to a tank are allowed.
+
+Note:
+(Objects placed in tanks may not always be visible, and objects may be obscured by the ground in a recessed tank. Rotating the map will expose any objects or empty areas of the tank.)
+

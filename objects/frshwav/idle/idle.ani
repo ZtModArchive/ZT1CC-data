@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = frshwav
+dir2 = idle
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -19
+y0 = -11
+x1 = 19
+y1 = 10

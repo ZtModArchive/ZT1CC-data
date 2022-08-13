@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/khejri/SE/SE
+Icon=objects/khejri/SW/SW
+Icon=objects/khejri/NW/NW
+Icon=objects/khejri/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 165
+cNameID = 7076
+cHelpID = 7076
+;Savannah	
+cHabitat = 9400
+;India
+cLocation = 9601
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

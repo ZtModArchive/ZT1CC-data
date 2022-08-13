@@ -1,0 +1,43 @@
+[Icon]
+Icon=objects/fount3/SE/SE
+Icon=objects/fount3/SW/SW
+Icon=objects/fount3/NW/NW
+Icon=objects/fount3/NE/NE
+
+[Member]
+scenery
+
+[AmbientSound]
+name = scenery/building/fountain.wav
+attenuation = 1200
+
+[Characteristics/Integers]
+cPurchaseCost = 500
+cFootprintX = 6
+cFootprintY = 6
+cNameID = 6035
+cHelpID = 6035
+;Bad Habitat Type
+cHabitat = 9414
+cUsedThought=10220
+cHeight = 1
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 6
+; woman
+v = 9504
+v = 6
+; boy
+v = 9505
+v = 10
+; girl
+v = 9506
+v = 10

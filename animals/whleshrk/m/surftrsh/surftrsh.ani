@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = whleshrk
+dir2 = m
+dir3 = surftrsh
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -168
+y0 = -104
+x1 = 121
+y1 = 82

@@ -1,0 +1,6 @@
+Now that you have determined which terrain type makes the African lion happy, let's do the same for the jaguar in the adjacent exhibit. 
+
+1. In the Adopt Animals panel, click the jaguar icon and look at the graphic at the bottom of the panel to see the jaguar's natural habitat and location.
+2. Place the proper terrain type in the jaguar's exhibit.
+ 
+Click the OK button to proceed.

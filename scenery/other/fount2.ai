@@ -1,0 +1,42 @@
+[Icon]
+Icon=objects/fount2/SE/SE
+Icon=objects/fount2/SW/SW
+Icon=objects/fount2/NW/NW
+Icon=objects/fount2/NE/NE
+
+[Member]
+
+
+[Characteristics/Integers]
+cPurchaseCost = 800
+cFootprintX = 8
+cFootprintY = 8
+;Bad Habitat Type
+cHabitat = 9414
+cNameID = 6034
+cHelpID = 6034
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[UseSound]
+alwayson = 1
+loops = 1
+name = scenery/other/fount1.wav
+attenuation = 1000
+
+[EstheticBonus]
+; man
+v = 9503
+v = 15
+; woman
+v = 9504
+v = 15
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15

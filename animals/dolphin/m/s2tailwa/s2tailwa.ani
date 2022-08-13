@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = dolphin
+dir2 = m
+dir3 = s2tailwa
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -54
+y0 = -30
+x1 = 58
+y1 = 28

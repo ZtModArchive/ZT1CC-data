@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = hbackwhl
+dir2 = y
+dir3 = surfbrch
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -68
+y0 = -67
+x1 = 79
+y1 = 40

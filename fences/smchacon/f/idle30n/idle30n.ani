@@ -1,0 +1,13 @@
+[animation]
+dir0 = fences
+dir1 = smchacon
+dir2 = f
+dir3 = idle30n
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -20
+y0 = -38
+x1 = 20
+y1 = 17

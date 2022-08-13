@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = wolrhn
+dir2 = y
+dir3 = sideidle
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -33
+y0 = -25
+x1 = 22
+y1 = 17

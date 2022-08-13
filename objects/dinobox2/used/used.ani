@@ -1,0 +1,12 @@
+[animation]
+dir0 = objects
+dir1 = dinobox2
+dir2 = used
+animation = NE
+animation = SE
+animation = SW
+animation = NW
+x0 = -33
+y0 = -59
+x1 = 33
+y1 = 15

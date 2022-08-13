@@ -1,0 +1,13 @@
+[animation]
+dir0 = guests
+dir1 = man
+dir2 = zapfull
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -58
+y0 = -40
+x1 = 18
+y1 = 29

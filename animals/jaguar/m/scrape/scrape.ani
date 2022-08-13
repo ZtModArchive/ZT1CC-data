@@ -1,0 +1,14 @@
+[animation]
+dir0 = animals
+dir1 = jaguar
+dir2 = m
+dir3 = scrape
+animation = N
+animation = NE
+animation = E
+animation = SE
+animation = S
+x0 = -24
+y0 = -30
+x1 = 25
+y1 = 13
