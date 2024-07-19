@@ -1,0 +1,243 @@
+[LayoutInfo]
+x=10
+y=0
+dx=490
+dy=295
+id=810
+layer=1
+state=1
+
+[Layout_Title]
+type=UIText
+id=4162
+textid=4162
+x=18
+y=30
+dx=170
+dy=fitfont
+font=4136
+fontsize=4137
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+
+[Building_List]
+type=UIListBox
+id=4172
+x=7
+y=107
+dx=453
+dy=187
+font=4172
+fontsize=4173
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+scrollbar=4173
+handledoubleclicks = 1
+column = 0
+column = 0
+column = 150
+column = 185
+column = 260
+column = 360
+; trigger on selection change
+state = 131072
+layer=1
+transparent=1
+
+
+[Building_List_Scrollbar]
+type=UIScrollBar
+id=4173
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+[Name_Label]
+type=UIText
+id=4184
+textid=4184
+x=7
+y=88
+dx=130
+dy=fitfont
+font=4196
+fontsize=4197
+justify = left
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+alias=4175
+
+[Months_Label]
+type=UIText
+id=4185
+textid=4185
+x=140
+y=88
+dx=70
+dy=fitfont
+justify = center
+font=4196
+fontsize=4197
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+alias=4176
+
+[Guests_Label]
+type=UIText
+id=4186
+textid=4186
+x=212
+y=88
+dx=78
+dy=fitfont
+font=4196
+fontsize=4197
+justify = center
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+alias=4177
+
+[Profit_Label]
+type=UIText
+id=4187
+textid=4187
+x=292
+y=88
+dx=75
+dy=fitfont
+justify = right
+font=4196
+fontsize=4197
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+alias=4178
+
+[Average_Profit_Label]
+type=UIText
+id=4188
+textid=4188
+x=370
+y=88
+dx=90
+dy=fitfont
+justify = right
+font=4196
+fontsize=4197
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+alias=4179
+
+
+[Zoo_Multibuilding_RadioSet]
+type = UIRadioSet
+id = 4174
+button = 4175
+button = 4176
+button = 4177
+button = 4178
+button = 4179
+
+[SortType]
+type = UIButton
+id = 4175
+helpid = 4175
+x = 253
+y = 48
+animation=ui/finance/bld/bld
+layer=1
+state=8
+state=4096
+
+[SortMonths]
+type = UIButton
+id = 4176
+helpid = 4176
+x = 293
+y = 48
+animation=ui/finance/month/month
+layer=1
+state=4096
+
+[SortGuests]
+type = UIButton
+id = 4177
+helpid = 4177
+x = 333
+y = 48
+animation=ui/finance/tbattnd/tbattnd
+layer=1
+state=4096
+
+[SortProfit]
+type = UIButton
+id = 4178
+helpid = 4178
+x = 373
+y = 48
+animation=ui/finance/profit/profit
+layer=1
+state=4096
+
+[SortAverageProfit]
+type = UIButton
+id = 4179
+helpid = 4179
+x = 413
+y = 48
+animation=ui/finance/avprof/avprof
+layer=1
+state=4096

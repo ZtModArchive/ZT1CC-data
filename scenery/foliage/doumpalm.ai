@@ -1,0 +1,32 @@
+[Icon]
+Icon = objects/doumpalm/SE/SE
+Icon = objects/doumpalm/SW/SW
+Icon = objects/doumpalm/NW/NW
+Icon = objects/doumpalm/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 7206
+cHelpID = 7206
+;Desert
+cHabitat = 9409
+;North Africa
+cLocation = 9614
+cFootprintX = 1
+cFootprintY = 1
+cAutoRotate = 1
+cFoliage = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+
+

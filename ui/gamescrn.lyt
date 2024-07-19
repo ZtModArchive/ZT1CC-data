@@ -1,0 +1,311 @@
+[LayoutInfo]
+x=0
+y=0
+dx=whole
+dy=whole
+id=1
+layer = 0
+
+[Startup]
+type=UILayout
+layout=ui/startup.lyt
+
+[Main]
+type=UILayout
+layout=ui/main.lyt
+state = 1
+
+[BuildHabitat]
+type=UILayout
+layout=ui/buldhab.lyt
+state = 1
+
+[BuyAnimal]
+type=UILayout
+layout=ui/buya.lyt
+state = 1
+
+[BuyObj]
+type=UILayout
+layout=ui/buyobj.lyt
+state = 1
+
+[GameOpts]
+type=UILayout
+layout=ui/gameopts.lyt
+state = 1
+
+[AnimalInfo]
+type=UILayout
+layout=ui/infoanm.lyt
+state=1
+
+[GuestInfo]
+type=UILayout
+layout=ui/infogst.lyt
+state=1
+
+[StaffInfo]
+type=UILayout
+layout=ui/infostf.lyt
+state=1
+
+[Personnel]
+type=UILayout
+layout=ui/personel.lyt
+state=1
+
+[Research]
+type=UILayout
+layout=ui/research.lyt
+state=1
+
+[MultiGuest]
+type=UILayout
+layout=ui/mulanim.lyt
+state=1
+
+[MultiAnimal]
+type=UILayout
+layout=ui/mulguest.lyt
+state=1
+
+[Zooinfo]
+type=UILayout
+layout=ui/zooinfo.lyt
+state=1
+
+[ColorReplace]
+type=UILayout
+layout=ui/color.lyt
+state = 1
+
+[Colorout]
+type=UILayout
+layout=ui/infocomC.lyt
+state=1
+
+[NCBuilding]
+type=UILayout
+layout=ui/infoncm.lyt
+state=1
+
+[CBuilding]
+type=UILayout
+layout=ui/infocom.lyt
+state=1
+
+[InfoPlaque]
+type=UILayout
+layout=ui/plaque.lyt
+state=1
+
+[StaffPlaque]
+type=UILayout
+layout=ui/splaque.lyt
+state=1
+
+[KeeperInfo]
+type=UILayout
+layout=ui/keprinfo.lyt
+state=1
+
+[Message]
+type=UILayout
+layout=ui/message.lyt
+state=1
+
+[HabitatStatus]
+type=UILayout
+layout=ui/mulhab.lyt
+state=1
+
+[StaffStatus]
+type=UILayout
+layout=ui/mulstaff.lyt
+state=1
+
+[Scenario]
+type=UILayout
+layout=ui/scenario.lyt
+state=1
+
+[Developer]
+type=UILayout
+layout=ui/develop.lyt
+state=1
+
+[Update]
+type=UILayout
+layout=ui/update.lyt
+state=1
+
+[Credits]
+type=UILayout
+layout=ui/credits.lyt
+state=1
+
+[Confirm]
+type=UILayout
+layout=ui/confirm.lyt
+state=1
+
+[Confirm2]
+type=UILayout
+layout=ui/confirm2.lyt
+state=1
+
+[ConfirmMedium]
+type=UILayout
+layout=ui/confirmm.lyt
+state=1
+
+[ConfirmLarge]
+type=UILayout
+layout=ui/confirml.lyt
+state=1
+
+[EditName]
+type=UILayout
+layout=ui/newname.lyt
+state=1
+
+[Help]
+type=UILayout
+layout=ui/help.lyt
+state=1
+
+[Zoo_Scenario_Objectives_Layout]
+type=UILayout
+layout=ui/Zooinfo4.lyt
+state=1
+
+[Load_Maps_For_FreeForm]
+type=UILayout
+layout=ui/mapselec.lyt
+state=1
+
+[Persistent_Dialog_For_Tutorials]
+type=UILayout
+layout=ui/objectve.lyt
+state=1
+
+[Dino_DRT_Layout]
+type=UILayout
+layout=ui/drt.lyt
+expansion=1
+state=1
+
+[XPac_Layout]
+type=UILayout
+layout=ui/xpac.lyt
+state=1
+
+[Filter]
+type=UILayout
+layout=ui/filter.lyt
+expansion=2
+state=1
+
+[ShowLayout]
+type=UILayout
+layout=ui/show.lyt
+expansion=2
+state=1
+
+[MapView]
+type = ZTMapView
+id = 7000
+x = left
+y = top
+dx = whole
+dy = whole
+font=1017
+fontsize=1018
+forecolor=255
+forecolor=218
+forecolor=90
+highlightcolor=186
+highlightcolor=69
+highlightcolor=33
+backcolor = 16
+backcolor = 32
+backcolor = 16
+entityhighlightcolor = 225
+entityhighlightcolor = 225
+entityhighlightcolor = 0
+entityselectcolor = 0
+entityselectcolor = 0
+entityselectcolor = 225
+entityvalidcolor = 0
+entityvalidcolor = 225
+entityvalidcolor = 0
+entityinvalidcolor = 225
+entityinvalidcolor = 0
+entityinvalidcolor = 0
+entitydeletecolor = 225
+entitydeletecolor = 0
+entitydeletecolor = 0
+entityoverwritecolor = 225
+entityoverwritecolor = 112
+entityoverwritecolor = 0
+transparent = 0
+layer = 0
+state = 1
+shadowtext= 1
+
+[MessageText]
+type = ZTMessageQueue
+id = 7001
+x = center
+y = 2
+animation=ui/gamescrn/dotscrn/dotscrn
+listbox = 7201
+font = 7002
+fontsize = 7003
+yborder = 2
+xborder = 25
+justify = center
+eajustify = left
+forecolor = 255
+forecolor = 255
+forecolor = 255
+backcolor = 255
+backcolor = 0
+backcolor = 255
+;backcolor = 52
+;backcolor = 60
+;backcolor = 52
+iconXOffset = 10
+iconYOffset = 10
+transparent = 1
+timed = 1
+timerDuration = 5000
+layer = 1
+
+[HelpText]
+type = UIText
+id = 7003
+x = 0
+y = 0
+dx = 1
+dy = fitfont
+font = 7102
+fontsize = 7103
+border = 2
+justify = center
+eajustify = left
+wrappable = 0
+forecolor=255
+forecolor=255
+forecolor=255
+backcolor =121
+backcolor =104
+backcolor =50
+highlightcolor = 255
+highlightcolor = 217
+highlightcolor = 90
+showborder = 1
+timed = 1
+volatile = 0
+layer = 10

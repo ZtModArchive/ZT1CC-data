@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/grshrub/SE/SE
+Icon=objects/grshrub/SW/SW
+Icon=objects/grshrub/NW/NW
+Icon=objects/grshrub/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 65
+cNameID = 7074
+cHelpID = 7074
+;Grassland	
+cHabitat = 9401
+;North America
+cLocation = 9607
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

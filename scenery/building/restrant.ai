@@ -1,0 +1,127 @@
+[Icon]
+Icon = objects/restrant/SE/SE
+Icon = objects/restrant/SW/SW
+Icon = objects/restrant/NW/NW
+Icon = objects/restrant/NE/NE
+
+[Member]
+structures
+
+[Characteristics/Integers]
+cPurchaseCost = 2200
+cNameID = 8007
+cHelpID = 8007
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 10
+cFootprintY = 8
+cCommerce = 1
+cNeedsConfirm = 1
+cSelectable = 1
+cAdultChange = 15
+cChildChange = 0
+cHungerChange = -200
+cThirstChange = -200
+cBathroomChange = -200
+cEnergyChange = -100
+cHideUser = 1
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 12
+cTimeInside = 12
+cUsedThought=10203
+cHeight = 3
+cRubbleable = 0
+cIsColorReplaced = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 12.00
+cLowCost = 5.00
+cMedCost = 12.00
+cHighCost = 22.00
+cUpkeep = 500.00
+cPriceFactor = 2.00
+
+[Animations]
+idle = idle
+used = used
+
+[UseSound]
+loops = 1
+name = scenery/building/restrant.wav
+attenuation = 1000
+
+[Sells]
+rburger
+rsoda
+rhotdog
+rpizza
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 0
+; girl
+v = 9506
+v = 0
+
+[Satisfies]
+building
+food
+drink
+bathroom
+energy
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=-64
+entrpos=160
+
+; spot to place guest in once they've used the building
+exitpos=-64
+exitpos=160
+
+; 1000 = essentially infinite capacity
+capacity=12
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2300
+defaultpal = scenery/building/pals/brwn16.pal
+
+; cr_part2 is listed in building.ai
+replace = cr_part2
+title = 2301
+defaultpal = scenery/building/pals/gold8.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/restrant/restrant.pal
+colorpal = objects/restrant/color.pal

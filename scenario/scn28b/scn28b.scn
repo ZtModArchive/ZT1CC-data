@@ -1,0 +1,442 @@
+[desc]
+;
+;Marine Mania: Tutorial 3 - Combined exhibits and special buildings
+;
+name=16039
+story=SCENARIO_START_STORY_SCN28B
+picture=scenario/scn28b/scn28b/scn28b
+winstory=SCENARIO_WIN_STORY_SCN28B
+winpicture=scenario/aquawin/aquawin
+losestory=SCENARIO_LOSE_STORY_SCN28B
+losepicture=scenario/aqualose/aqualose
+lockedstory=SCENARIO_LOCK_STORY_8
+lockedpicture=scenario/aqualock/aqualock
+
+;Icons for completion, in progress, not done
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+;This limits the player to just using aqua entities
+expansion=3
+expansionLocked=1
+;Defaults the selected expansion filter to All
+defaultExpansion=0
+
+[start]
+economy=scenario/scn28b/economy.cfg
+savegame=maps/scn28b.zoo
+setcash=150000
+reset = 0
+resetdate = 1
+resetanimals = 0
+resetguests = 1
+resethabitats = 1
+resetfences=0
+research=research.cfg
+marketing=mktg.cfg
+worldConfig=sounds/sea1.cfg
+triggers=hideall
+triggers=disableUI
+
+[resume]
+triggers=hideall
+triggers=disableUI
+
+[hideall]
+trulea=4
+truleb=9
+
+[disableUI]
+trulea=2
+truleb=12
+targa=2000
+
+[2000]
+;Construct
+id=1002
+;Fence tab
+id=3251
+;Path tab
+id=3056
+;Foliage tab
+id=3252
+;Rocks tab
+id=3256
+;Terrain tab
+id=3362
+;Terraform tab
+id=3361
+;Adopt
+id=1000
+;Buy
+id=1001
+;Building tab
+;id=3050
+;Scenery tab
+id=3053
+;Shelter tab
+id=3255
+;Toys tab
+id=3254
+;Trick tab
+id=2076
+;Hire
+id=1005
+;Delete
+;id=1028
+;Message
+id=1006
+;Research
+id=1019
+;Scenario
+id=4107
+;Zoo status
+id=1014
+;Animal status
+id=1010
+;Guest status
+id=1012
+;Habitat status
+id=1050
+;Staff status
+id=1051
+;Zoom In
+id=1007
+;Zoom Out
+id=1023
+;Pause
+id=1071
+;Rotate ccw
+id=1008
+;Rotate cw
+id=1009
+;Wall up
+id=4875
+;Wall down
+id=4874
+;Tank up
+id=4880
+;Tank down
+id=4879
+;Drain tank
+id=4885
+;Fill salt water
+id=4869
+;Fill fresh water
+id=4870
+;Save button
+id=1502
+;Tree toggle
+id=1066
+;Building toggle
+id=1067
+;Guest toggle
+id=1068
+
+[ambients]
+;Santa
+id=5083
+;Parrot
+id=5054
+;Seagull
+id=5053
+;Bi-Plane
+id=5082
+;Witch
+id=5084
+
+[goals]
+goal=AQUA_TUTORIAL3_CHAIN
+
+[AQUA_TUTORIAL3_CHAIN]
+rtype=2
+child=INTRO
+child=COMBINED_DESC
+child=BUILD_WALRUS
+child=show_UI
+child=show_objects
+child=LOWER_WALRUS
+child=close_construction
+child=show_lower_tank_wall
+child=HIRE_KEEPER
+child=close_exhibit_info
+child=show_hire
+child=LOWER_SHOW_TANK_WALL
+child=close_hire
+child=END_TUTORIAL
+;child=close_exhibit_info_2
+
+[INTRO]
+;Intro Dialog
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=1
+
+[1]
+; "Welcome to marine tutorial 3.."
+image1=scenario/scn28b/01/01
+longText1=TUTORIAL_T7_PROMPT1
+
+[COMBINED_DESC]
+;Intro Dialog about combined exhibits
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=2
+
+[2]
+; "A combined exhibit is a regular.."
+image1=scenario/scn28b/01/01
+longText1=TUTORIAL_T7_PROMPT2
+
+[BUILD_WALRUS]
+;Build another pengiun exhibit
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=3
+
+[3]
+;"Finish the walrus' land exhibit . . . "
+image1=scenario/scn28b/02/02
+longText1=TUTORIAL_T7_PROMPT3
+persistentShortText = 17793
+
+[show_UI]
+; Make necessary UI elements abvailable
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=2100
+
+[2100]
+;Construct
+id=1002
+;Fence tab
+id=3251
+
+[show_objects]
+; Make necessary objects available.
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=7
+truleb=0
+targa=2100
+
+[2100]
+;concrete and glass fence
+id=9300
+
+[LOWER_WALRUS]
+;When 7 total exhibits, display next popup message.
+rulea=3
+ruleb=0
+type=0
+value=7
+sticky=1
+hidden=0
+optional=0
+text=17793
+trulea=2
+truleb=0
+targa=4
+
+[4]
+;"Lower the walrus tank to be flush with the land exhibit"
+image1=scenario/scn28b/03/03
+longText1=TUTORIAL_T7_PROMPT4
+persistentShortText = 17794
+
+[close_construction]
+;Click the Construction button to close the fences panel
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=1
+targa=1002
+
+[show_lower_tank_wall]
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=2101
+
+[2101]
+;Lower Tank Wall Button
+id=4874
+
+[HIRE_KEEPER]
+;When there are exactly two tank wall heights at exactly 4 units, make the zookeeper available and display the next pop up.
+rulea=16
+ruleb=2
+arga=4
+value=2
+hidden=0
+optional=0
+type=2
+text=17794
+trulea=4
+truleb=4
+targa=9500
+targb=6
+
+[6]
+; "Hire a Zookeeper"
+image1=scenario/scn28b/add01/add01
+longText1=TUTORIAL_T7_PROMPT6
+persistentShortText = 17769
+
+[close_exhibit_info]
+rulea=99
+ruleb=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=1
+targa=4334
+
+[show_hire]
+; Make the hire staff button available
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=2102
+
+[2102]
+;Hire Staff
+id=1005
+
+[LOWER_SHOW_TANK_WALL]
+;After zookeeper hired, for a grand total of 2, display next popup.
+rulea=2
+ruleb=0
+arga=9500
+value=2
+sticky=1
+hidden=0
+optional=0
+text=17769
+trulea=2
+truleb=0
+targa=7
+
+[7]
+; "Lower the show tank . . . "
+image1=scenario/scn28b/add02/add02
+longText1=TUTORIAL_T7_PROMPT7
+persistentShortText = 17795
+
+[close_hire]
+; Click to close the hire staff panel
+rulea=99
+ruleb=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=1
+targa=1005
+
+[END_TUTORIAL]
+;When the player lowers the show tank wall to a height of x, clicks close exhibit info panel and displays next message.
+rulea=16
+ruleb=2
+arga=8
+value=1
+hidden=0
+optional=0
+type=2
+text=17795
+trulea=2
+truleb=2
+targa=4334
+targb=5
+
+[5]
+; "End of tutorial 3..."
+image1=scenario/scn28b/01/01
+longText1=TUTORIAL_T7_PROMPT5
+
+;[close_exhibit_info_2]
+rulea=99
+ruleb=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=1
+targa=4334
+
+\\\\\\\\\\\\\
+;45200 medium
+
+[default]
+layout=45100
+background=ui/tutorial/tutorial/tutorial
+icon=
+image1=
+image2=
+shortText1=0
+longText1=
+shortText2=0
+longText2=
+ok=1
+yes=1
+no=1
+cancel=0
+pause=1
+
+persistentTextLayout = 45400
+persistentShortText = 0
+persistentLongText = 

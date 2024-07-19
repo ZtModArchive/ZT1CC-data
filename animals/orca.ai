@@ -1,0 +1,1373 @@
+[Global]
+Class = animals
+Type = orca
+Subtype = 
+DefaultSubtype = m
+
+[AnimPath]
+m = animals/orca/m
+f = animals/orca/m
+y = animals/orca/y
+
+[Characteristics/Integers]
+; shadows for this unit
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cExpansionID=2
+
+[m/Icon]
+Icon = animals/orca/icorca/icorca
+
+[Member]
+animals
+aqua
+
+[m/Characteristics/Strings]
+cKeeperFoodType = carnivore
+cGeneralInfoTextName = ORCA_GENERAL
+cPlaqueImageName = animals/orca/plorca/plorca
+cListImageName = animals/orca/lsorca/lsorca
+
+;Sea Weed
+cPrefIcon = objects/seaweed/SE/SE
+
+[m/Characteristics/Integers]
+cKeeperFoodType = 10
+
+;Sea Weed
+cPrefIconID = 7416
+
+; Orca
+cNameID = 5400
+cHelpID = 5400
+; Cetacea
+cFamily = 5218
+; Orca
+cGenus = 5159
+; Aquatic
+cHabitat = 9413
+; Many
+cLocation = 9633
+cPurchaseCost = 2500
+cInitialHappiness  = 70
+cSlowRate = 80
+cMediumRate = 120
+cFastRate = 240
+cSlowAnimSpeed = 100
+cMediumAnimSpeed = 150
+cFastAnimSpeed = 200
+cFootprintX = 4
+cFootprintY = 6
+cBoxedIconZoom = -2
+cIconZoom = -2
+
+;//ANGRY EFFECTS//
+cBabiesAttack = 1
+cCaptivity = 5
+cNoFoodChange  = -50
+cSickChange = -12	
+cOtherAnimalSickChange = -10		
+cCrowdHappinessChange = -5
+cOtherAnimalAngryChange = 0
+cNumberMinChange = -5
+cNumberMaxChange = -5
+cAllCrowdedChange = -5
+cAngryHabitatChange = -5
+cVeryAngryHabitatChange = -30
+cDeathChange = -5 
+
+cAngryTreeChange = -5
+cNotEnoughKeepersChange = -20
+
+;//HAPPY EFFECTS//
+cBabyBornChange = 30
+cHappyHabitatChange = 20
+
+cMaxHits  = 400
+cMinHits  = 0
+cPctHits  = 20
+
+cHungerThreshold  = 50
+cHungerIncrement  = 11
+cNeededFood = 100
+cKeeperFoodUnitsEaten = 25
+cHungryHealthChange = 10
+cSickChance = 5
+
+cEnergyThreshold = 100 
+cEnergyIncrement  = 5	
+cMaxEnergy = 100
+
+cCrowd = 100
+cKeeperFrequency = 2
+
+cSocial = 1
+cHabitatSize = 100
+cNumberAnimalsMin = 2
+cNumberAnimalsMax = 3
+cAnimalDensity = 90
+
+cReproductionChance = 2 
+cReproductionInterval = 3240
+cBabyToAdult = 1440
+cHappyReproduceThreshold = 95
+cOffspring = 1
+cMatingType = 0
+cNoMateChange = 0
+
+cIsJumper = 0
+cIsClimber = 0
+cBashStrength = 0
+
+cFlies = 0
+cSwims = 0
+
+; Underwater characteristics
+cUnderwater = 1
+cOnlyUnderwater = 1
+
+cPctHabitat = 10
+cHabitatPreference = 70
+
+cEscapedChange = 50
+
+cSickTime = 4
+
+cMimic = 10
+cMimicHappyDiff = 50
+
+cOtherFood = 0
+cFoodTypes = 0
+
+cTreePref = 8
+cRockPref = 20
+cSpacePref = 80 
+cElevationPref = 0
+cDepthMin = 8
+cDepthMax = 29
+cDepthChange = -8
+cSalinityChange = -10
+cSalinityHealthChange = -20
+cDirtyHabitatRating = 15
+cDirtyIncrement = 10
+cDirtyThreshold = 100
+cPooWaterImpact = 5 
+cMurkyWaterChange = -5
+cMurkyWaterHealthChange = -5
+cMurkyWaterThreshold = 60
+cVeryMurkyWaterChange = -10
+cVeryMurkyWaterHealthChange = -10
+cVeryMurkyWaterThreshold = 20
+cExtremelyMurkyWaterChange = -15
+cExtremelyMurkyWaterHealthChange = -15
+cExtremelyMurkyWaterThreshold= 1
+
+cTimeDeath = 12960
+cDeathChance = 10 
+
+cEatVegetationChance = 0
+cDrinkWaterChance = 0
+cChaseAnimalChance = 20
+cClimbsCliffs = 0
+cResetPreyPosition = 1
+cBuildingUseChance = 0
+
+; Prey animals
+;Emporer Penguin
+cPrey = 5039
+;California Sea Lion
+cPrey = 5040
+;Great White Shark
+cPrey = 5401
+;Bottlenose Dolphin
+cPrey = 5402
+;Jellyfish
+cPrey = 5403
+;Elephant Seal
+cPrey = 5404
+;Narwhal
+cPrey = 5407
+;Porpoise
+cPrey = 5408
+;Hammerhead Shark
+cPrey = 5409
+;Tiger Shark
+cPrey = 5410
+;Mako Shark
+cPrey = 5411
+;Moray eel
+cPrey = 5412
+;Beluga
+cPrey = 5413
+;Sea Otter
+cPrey = 5414
+;Octopus
+cPrey = 5415
+;Manatee
+cPrey = 5416
+;Walrus
+cPrey = 5417
+;Sea Turtle
+cPrey = 5419
+;Giant Squid
+cPrey = 5421
+;Bluefin Tuna
+cPrey = 5422
+;Barracuda
+cPrey = 5423
+;Manta Ray
+cPrey = 5418
+;Swordfish
+cPrey = 5420
+;Hippopotamus
+cPrey = 5035
+;Bengal Tiger
+cPrey = 5007
+;Siberian Tiger
+cPrey = 5008
+;White Bengal Tiger
+cPrey = 5045
+;Asian Elephant
+cPrey = 5081
+;Meiolania
+cPrey = 5331
+;Grizzly Bear
+cPrey = 5016
+;Polar Bear
+cPrey = 5002
+;Saltwater Crocodile
+cPrey = 5041
+
+; Man
+cPrey = 9503
+
+cAttractiveness = 120
+cNeedShelter = 0
+
+; Show characteristics
+cSkipTrickHappiness = 50
+cSkipTrickChance = 10
+
+; Breathing characteristics
+cBreathThreshold  = 50
+cBreathIncrement  = 10
+
+; Avoid tank walls
+cAvoidEdges = 1
+
+; Stay at least 3 z-level above tank floor
+cDepth = 3
+
+;Keeper is marine specialist
+cKeeper = 9552
+
+[y/Characteristics/Integers]
+cIsJumper = 0
+cAttractiveness = 130
+
+[m/Characteristics/Mixed]
+[cCompatibleAnimals]
+;Primitive ungulates
+v = 5200
+v = -20
+;Racoon
+v = 5201
+v = -10
+;Bears
+v = 5202
+v = -20
+;Primates
+v = 5203
+v = -5
+;Odd-toed ungulates
+v = 5204
+v = -10
+;Even-toed ungulates
+v = 5205
+v = -10
+;Cat
+v = 5206
+v = -20
+;Canine
+v = 5207
+v = -20
+;Hyena
+v = 5208
+v = -20
+;Marsupial
+v = 5210
+v = -5
+;Bird
+v = 5211
+v = -5
+;Seal
+v = 5212
+v = -15
+;Crocodile
+v = 5213
+v = -20
+;Edentate
+v = 5214
+v = -5
+;Pig
+v = 5215
+v = -5
+;Tyrannosaurs
+v = 5135
+v = -10
+;Smilodons
+v = 5136
+v = -10
+;Ankylosaurs
+v = 5137
+v = -10
+;Gallimimuses
+v = 5138
+v = -10
+;Iguanodons
+v = 5139
+v = -10
+;Lambeosaurs
+v = 5140
+v = -10
+;Spinosaurs
+v = 5141
+v = -25
+;Styracosaurs
+v = 5142
+v = -10
+;Velociraptors
+v = 5143
+v = -10
+;Allosaurs
+v = 5144
+v = -10
+;Camptosaurs
+v = 5145
+v = -10
+;Caudipteryxes
+v = 5146
+v = -10
+;Kentrosaurs
+v = 5147
+v = -10
+;Plesiosaurs
+v = 5148
+v = -10
+;Stegosaurs
+v = 5149
+v = -10
+;Apatosaurs
+v = 5150
+v = -10
+;Coelophysises
+v = 5151
+v = -10
+;Herrerasaurs
+v = 5152
+v = -10
+;Plateosaurs
+v = 5153
+v = -10
+;Wooly Mammoths
+v = 5154
+v = -10
+;Wooly Rhinos
+v = 5155
+v = -10
+;Meiolanias
+v = 5156
+v = -10
+;Triceratopses
+v = 5157
+v = -10
+;Deinosuchus
+v = 5158
+v = -25
+;Orcas
+v = 5159
+v = -10
+;Great White Sharks
+v = 5160
+v = -20
+;Bottlenose Dolphins
+v = 5161
+v = -10
+;Jellyfishes
+v = 5162
+v = -10
+;Northern Elephant Seals
+v = 5163
+v = -10
+;Humpback Whales
+v = 5164
+v = -10
+;Sperm Whales
+v = 5165
+v = -10
+;Narwhals
+v = 5166
+v = -10
+;Harbor Porpoises
+v = 5167
+v = -10
+;Hammerhead Sharks
+v = 5168
+v = -10
+;Tiger Sharks
+v = 5169
+v = -10
+;Mako Sharks
+v = 5170
+v = -20
+;Moray Eels
+v = 5171
+v = -10
+;Belugas
+v = 5172
+v = -10
+;Sea Otters
+v = 5173
+v = -10
+;Octopuses
+v = 5174
+v = -10
+;Manatees
+v = 5175
+v = -10
+;Walruses
+v = 5176
+v = -10
+;Manta Rays
+v = 5177
+v = -20
+;Sea Turtles
+v = 5178
+v = -10
+;Swordfishes
+v = 5179
+v = -10
+;Giant Squids
+v = 5180
+v = -20
+;Bluefin Tuna
+v = 5181
+v = -10
+;Baracudas
+v = 5182
+v = -10
+;Mermaids
+v = 5183
+v = 10
+;Whale Sharks
+v = 5185
+v = -10
+;Bowhead Whales
+v = 5187
+v = -10
+;Sawfish
+v = 5189
+v = -10
+
+;Orca			
+v = 5400
+v = 10
+
+[cSuitableObjects]
+;GENERIC TERRAIN OBJECTS
+;Non-habitat
+v = 9410
+v = -10
+;Tropical rainforest
+v = 9405
+v = -25
+;Savannah
+v = 9400
+v = -25
+;Grassland
+v = 9401
+v = -25
+;Deciduous forest
+v = 9402
+v = -25
+;Coniferous forest
+v = 9403
+v = -25
+;Highlands
+v = 9407
+v = -25
+;Tundra
+v = 9408
+v = -10
+;Desert
+v = 9409
+v = -25
+;Aquatic
+v = 9413
+v = 0
+;Bad-habitat
+v = 9414
+v = -100
+
+;FOLIAGE AND ROCKS
+;Water Reed
+v = 7061
+v = 0
+;Water Lily
+v = 7062
+v = 0
+;Bald Cypress
+v = 7083
+v = 0
+;Horse Tail
+v = 7088
+v = 0
+;Sea Anemone
+v = 7400
+v = 3
+;Barnacles
+v = 7401
+v = 6
+;Beach Grass
+v = 7402
+v = 0
+;Brittle Sea Star
+v = 7403
+v = 3
+;Clambed
+v = 7404
+v = 6
+;Orange Cup Coral
+v = 7405
+v = 3
+;Divercate Tree Coral
+v = 7406
+v = -2
+;Feather Duster Worm
+v = 7407
+v = -2
+;Fire Cup Coral
+v = 7408
+v = -2
+;Kelp
+v = 7409
+v = 6
+;Sea Lettuce
+v = 7410
+v = 6
+;Red Gorgonian
+v = 7411
+v = 0
+;Sargassum
+v = 7412
+v = 0
+;Sand Dollar
+v = 7413
+v = 0
+;Sea Cucumber
+v = 7414
+v = 0
+;Sea Star
+v = 7415
+v = 6
+;Sea Weed
+v = 7416
+v = 8
+;Sea Grass
+v = 7417
+v = -2
+;Sea Sponge
+v = 7418
+v = 3
+;Stovepipe Sponge
+v = 7419
+v = -2
+;Tubeworm
+v = 7420
+v = 3
+;Purple Sea Urchin
+v = 7421
+v = 3
+;Aquatic rock
+v = 9234
+v = 7
+;Small Oceanfloor Rock
+v = 9235
+v = 6
+;Medium Coral Formation
+v = 9236
+v = 6
+;Large Oceanfloor Rock
+v = 9237
+v = 6
+;Medium Oceanfloor Rock
+v = 9238
+v = 6
+;Large Coral Formation
+v = 9239
+v = 6
+;Iceberg
+v = 9240
+v = 6
+;Isle Rock
+v = 9241
+v = 6
+
+;Poo
+v = 6062
+v = -5
+
+;Fake Clam
+v = 6466
+v = 100
+;Treasure Chest
+v = 6468
+v = 100
+;Deep Sea Diver
+v = 6470
+v = 100
+
+;SHELTERS/TOYS
+;Advanced Trick Area
+v = 6500
+v = 14
+;Dolphin Ball
+v = 6501
+v = 10
+;Orca Ball
+v = 6502
+v = 15
+;Dolphin Hoop
+v = 6503
+v = 10
+;Orca Stage
+v = 6504
+v = 16
+;Sea Lion Beach Ball
+v = 6506
+v = 10
+;Sea Lion Squeeze Horn
+v = 6507
+v = 10
+;Sea Lion Raft
+v = 6508
+v = 10
+;Sea Otter Basketball Hoop
+v = 6510
+v = 10
+;Sea Otter Hoop
+v = 6511
+v = 10
+
+[cCompatibleTerrain]
+; grass = 0
+; savannah grass = 1
+; sand = 2
+; dirt = 3
+; rainforest floor = 4
+; brown rock = 5
+; gray rock = 6
+; gravel = 7
+; snow = 8
+; fresh water = 9
+; salt water = 10
+; deciduous floor = 11
+; waterfall = 12
+; coniferous floor = 13
+; concrete = 14
+; asphalt = 15
+; trampled = 16
+
+v = 16
+v = -5
+
+v = 2
+v = -5
+
+v = 3
+v = -5
+
+v = 4
+v = -5
+
+v = 5
+v = -5
+
+v = 6
+v = -5
+
+v = 8
+v = -50
+
+v = 10
+v = 100
+
+v = 11
+v = -5
+
+v = 13
+v = -5
+
+[m/Animations]
+; default idle animation
+idle = subrest
+shadowidle = ssubrest
+
+; surface animations
+surfidle = surfswim
+surfswim = surfswim
+surface_rest = surfrest
+surface_jump = surfjump
+surface_vocalization = surfvoc
+side_splash = sidsplsh
+surface_feed = surffed
+surface_blowhole = blowhole
+surface_2_sick = surf2sic
+surface_nod = surfnod
+surface_play = surfplay
+surface_sick = surfsick
+surface_tail_splash = talsplsh
+surface_spit = spit
+surface_sleep = sleep
+surface_ball_play = ballplay
+surface_jump_spin = jumpspin
+surface_orca_ball = orcaball
+surface_back_dive = bkdive
+surface_back_swim = bkswim
+surface_wave_swim = wavswim
+surface_2_wave_swim = 2wavswim
+surface_2_rest = 2surfres
+surface_2_back_swim = 2bkswim
+exit_tank = surfjump
+high_jump = surfjump
+
+; surface animation shadows
+shadowsurfrest = ssurfres
+shadowsurfswim = ssurfswi
+shadowsurfjump = ssurfjum
+shadowsurfvoc = ssurfvoc
+shadowsidsplsh = ssidspls
+shadowsurffed = ssurffed
+shadowblowhole = sblowhol
+shadowsurf2sic = ssurf2si
+shadowsurfnod = ssurfnod
+shadowsurfplay = ssurfpla
+shadowsurfsick = ssurfsic
+shadowtalsplsh = stalspls
+shadowspit = sspit
+shadowsleep = ssleep
+shadowballplay = sballpla
+shadowjumpspin = sjumpspi
+shadoworcaball = sorcabal
+shadowbkdive = sbackdiv
+shadowbkswim = sbkswim
+shadowwavswim = swavswim
+shadow2wavswim = s2wavswi
+shadow2surfres = s2surfre
+shadow2bkswim = s2bkswim
+
+; surface animations underwater half
+undersurfswim = usurfswi
+undersurfrest = usurfres
+undersurfswim = usurfswi
+undersurfjump = usurfjum
+undersurfvoc = usurfvoc
+undersidsplsh = usidspls
+undersurffed = usurffed
+underblowhole = ublowhol
+undersurf2sic = usurf2si
+undersurfnod = usurfnod
+undersurfplay = usurfpla
+undersurfsick = usurfsic
+undertalsplsh = utalspls
+underspit = uspit
+undersleep = usleep
+underballplay = uballpla
+underjumpspin = ujumpspi
+underorcaball = uorcabal
+underbkdive = ubackdiv
+underbkswim = ubkswim
+underwavswim = uwavswim
+under2wavswim = u2wavswi
+under2surfres = u2surfre
+under2bkswim = u2bkswim
+
+; submerged animations
+subidle = subrest
+subswim = subswim
+rise = rise
+dive = dive
+submerged_roll = subroll
+submerged_to_belly = tobelly
+submerged_belly = subbelly
+submerged_thrash = subthrsh
+submerged_bite_glass = biteglas
+submerged_feed = subvocal
+submerged_fart = subfart
+
+; submerged animation shadows
+shadowsubrest = ssubrest
+shadowsubswim = ssubswim
+shadowrise = srise
+shadowdive = sdive
+shadowsubroll = ssubroll
+shadowtobelly = stobelly
+shadowsubbelly = ssubbell
+shadowsubthrsh = ssubthrs
+shadowbiteglas = sbitegla
+shadowsubvocal = ssubvoca
+shadowsubfart = ssubfart
+
+; orca stage animations
+beach_idle = bechidle
+shadowbechidle = sbecidle
+underbechidle = ubechidl
+beach_vocalization = bchvoc
+shadowbchvoc = sbchvoc
+underbchvoc = ubchvoc
+beach_wave = bchwav
+shadowbchwav = sbchwav
+underbchwav = ubchwav
+beach_unbeach = unbeach
+shadowunbeach = sunbeach
+underunbeach = uunbeach
+beach = beach
+shadowbeach = sbeach
+underbeach = ubeach
+
+;Box and dustball animations
+box_idle = objects/aquabox2/idle/idle.ani
+box_used = objects/aquabox2/used/used.ani
+dustball = objects/dustcld/idle/idle.ani
+waterball = objects/watcloud/idle/idle.ani
+surfaceball = objects/surfcld/surfc/surfc.ani
+shadowsurfc = objects/surfcld/ssurfc/ssurfc.ani
+undersurfc = objects/surfcld/usurfc/usurfc.ani
+submergedball = objects/subcld/subc/subc.ani
+shadowsubc = objects/subcld/ssubc/ssubc.ani
+
+[Sounds]
+talsplsh = animals/orca/talsplsh.wav
+talsplsh = 1000
+2bkswim = animals/orca/2bkswim.wav
+2bkswim = 1000
+ballplay = animals/orca/ballplay.wav
+ballplay = 1000
+bchvoc = animals/orca/bchvoc.wav
+bchvoc = 1000
+bchwav = animals/orca/bchwav.wav
+bchwav = 1000
+beach = animals/orca/beach.wav
+beach = 1000
+bkdive = animals/orca/bkdive.wav
+bkdive = 1000
+bkswim = animals/orca/bkswim.wav
+bkswim = 1000
+blowhole = animals/orca/blowhole.wav
+blowhole = 1000
+fart = animals/orca/fart.wav
+fart = 1000
+grndsick = animals/orca/grndsick.wav
+grndsick = 1000
+sidsplsh = animals/orca/sidsplsh.wav
+sidsplsh = 1000
+spit = animals/orca/spit.wav
+spit = 1000
+subvocal = animals/orca/subvocal.wav
+subvocal = 1000
+surfeat = animals/orca/surfeat.wav
+surfeat = 1000
+surffed = animals/orca/surffed.wav
+surffed = 1000
+surfjump = animals/orca/surfjump.wav
+surfjump = 1000
+surflfin = animals/orca/surflfin.wav
+surflfin = 1000
+surfplay = animals/orca/surfplay.wav
+surfplay = 1000
+surfrfin = animals/orca/surfrfin.wav
+surfrfin = 1000
+surfroll = animals/orca/surfroll.wav
+surfroll = 1000
+surfswim = animals/orca/surfswim.wav
+surfswim = 1000
+surfvocal = animals/orca/surfvoca.wav
+surfvocal = 1000
+unbeach = animals/orca/unbeach.wav
+unbeach = 1000
+dustball = animals/orca/surffed.wav
+dustball = 1000
+waterball = animals/orca/surffed.wav
+waterball = 1000
+surfaceball = animals/orca/surffed.wav
+surfaceball = 1000
+submergedball = animals/orca/surffed.wav
+submergedball = 1000
+surfaceball = animals/orca/surffed.wav
+surfaceball = 800
+submergedball = animals/orca/surffed.wav
+submergedball = 800
+placesound = animals/orca/surfvoca.wav
+placesound = 1200
+pickupsound = animals/orca/surfplay.wav
+pickupsound = 1200
+
+;Orca male underwater behavior set probabilities
+[m\BehaviorSet\bHappyU]
+f = fPlaySetProb(bSubroll,2,bSubswim,65,bSubtosurf,10,bBelly,3,bDive,5,bRise,10,bFloor,5)
+
+[m\BehaviorSet\bFriendlyU]
+f = fPlaySetProb(bSubtosurf,40,bSubroll,3,bSubswim,50,bDive,7)
+
+[m\BehaviorSet\bCalmU]
+f = fPlaySetProb(bRise,40,bDive,40,bSubswim,20)
+
+[m\BehaviorSet\bNeutralU]
+f = fPlaySetProb(bSubswim,50,bRise,20,bDive,30)
+
+[m\BehaviorSet\bUneasyU]
+f = fPlaySetProb(bSubswim,40,bFloor,30,bRise,10,bDive,20)
+
+[m\BehaviorSet\bTenseU]
+f = fPlaySetProb(bSubswim,40,bFloor,40,bDive,10,bThrash,10)
+
+[m\BehaviorSet\bAngryU]
+f = fPlaySetProb(bFloor,64,bSubswim,20,bThrash,10,bBite,5,bFart,1)
+
+;Orca male underwater behavior sets
+[m\BehaviorSet\bSubswim]
+f = fWalk(level, 0)
+
+[m\BehaviorSet\bSubroll]
+f = fMove(level, 6, submerged_roll, 80)
+
+[m\BehaviorSet\bRise]
+f = fWalk(rise, 0)
+
+[m\BehaviorSet\bDive]
+f = fWalk(dive, 0)
+
+[m\BehaviorSet\bSubtosurf]
+f = fWalk(surface, 0)
+
+[m\BehaviorSet\bFloor]
+f = fWalk(floor, 0)
+
+[m\BehaviorSet\bThrash]
+f = fPlay(submerged_thrash)
+
+[m\BehaviorSet\bBelly]
+f = fPlay(submerged_to_belly)
+f = fMove(level, 4, submerged_belly, 80)
+f = fPlayReverse(submerged_to_belly)
+
+[m\BehaviorSet\bBite]
+f = fPlay(submerged_bite_glass)
+
+[m\BehaviorSet\bRest]
+f = fPlayTime(submerged_rest,3)
+
+[m\BehaviorSet\bFart]
+f = fPlayWithSound(submerged_fart,fart)
+
+;Orca male surface behavior set probabilities
+[m\BehaviorSet\bHappyS]
+f = fPlaySetProb(bSurfsplash,5,bSurftalk,5,bSurfvoc,5,bSurfswim,50,bSurfrest,10,bSurfdive,15,bSurfslowswim,9,bSurfjspin,1)
+
+[m\BehaviorSet\bFriendlyS]
+f = fPlaySetProb(bSurfvoc,5,bSurfswim,65,bSurfsplash,5,bSurfrest,10,bSurfslowswim,5,bSurfdive,10)
+
+[m\BehaviorSet\bCalmS]
+f = fPlaySetProb(bSurfrest,30,bSurfswim,50,bSurfdive,10,bSurfslowswim,10)
+
+[m\BehaviorSet\bNeutralS]
+f = fPlaySetProb(bSurfslowswim,10,bSurfdive,20,bSurfrest,20,bSurfswim,50)
+
+[m\BehaviorSet\bUneasyS]
+f = fPlaySetProb(bSurfslowswim,30,bSurfdive,20,bSurfrest,10,bSurfswim,40)
+
+[m\BehaviorSet\bTenseS]
+f = fPlaySetProb(bSurfdive,50,bSurfloor,20,bSurfsplash,10,bSurfswim,20)
+
+[m\BehaviorSet\bAngryS]
+f = fPlaySetProb(bSurfdive,45,bSurfloor,55)
+
+;Orca male surface Behavior Sets
+[m\BehaviorSet\bSurfswim]
+f = fMoveWithSound(level, 0, surfswim, 80,surfswim)
+
+[m\BehaviorSet\bSurfslowswim]
+f = fMoveWithSound(level, 0, surfswim, 50,surfswim)
+
+[m\BehaviorSet\bSurfdive]
+f = fWalk(dive, 0)
+
+[m\BehaviorSet\bSurfloor]
+f = fWalk(floor, 0)
+
+[m\BehaviorSet\bSurfvoc]
+f = fPlayWithSound(surface_vocalization,surfvocal)
+
+[m\BehaviorSet\bSurfrest]
+f = fPlay(surface_2_rest)
+f = fPlayTime(surface_rest,9)
+f = fPlayReverse(surface_2_rest)
+
+[m\BehaviorSet\bSurftalk]
+f = fPlay(surface_2_rest)
+f = fPlay(surface_rest)
+f = fPlayWithSound(surface_vocalization,surfvocal)
+f = fPlay(surface_nod)
+f = fPlay(surface_rest)
+f = fPlayWithSound(surface_spit,spit)
+f = fPlay(surface_rest)
+f = fPlayReverse(surface_2_rest)
+
+[m\BehaviorSet\bSurfsplash]
+f = fPlayWithSound(surface_play,surfplay)
+f = fPlayWithSound(surface_tail_splash,talsplsh)
+
+[m\BehaviorSet\bSurfjspin]
+f = fPlayWithSound(surface_jump_spin,surfjump)
+
+[m\BehaviorSet\bTrickFinswim]
+f = fWalk(surface, 0)
+f = fPlay(surface_2_wave_swim)
+f = fMove(surface, 0, surface_wave_swim, 80)
+f = fPlayReverse(surface_2_wave_swim)
+f = fPlay(surfidle)
+f = fEndTrick()
+
+[m\BehaviorSet\bTrickBkswim]
+f = fWalk(surface, 0)
+f = fPlayWithSound(surface_2_back_swim,2bkswim)
+f = fMoveWithSound(surface, 0, surface_back_swim, 80, bkswim)
+f = fPlayReverse(surface_2_back_swim)
+f = fEndTrick()
+
+[m\BehaviorSet\bTrickSpit]
+f = fWalk(surface, 0)
+f = fPlayWithSound(surface_spit,spit)
+f = fPlay(surfidle)
+f = fEndTrick()
+
+[m\BehaviorSet\borcaballballplay0]
+f = fPlayWithSound(surface_ball_play,ballplay)
+f = fEnterBuilding()
+f = fPlayWithSound(surfswim,surfswim)
+f = fExitBuilding()
+
+[m\BehaviorSet\bshowareasidesplash0]
+f = fPlayWithSound(side_splash,sidsplsh)
+f = fEnterBuilding()
+f = fPlay(surfidle)
+f = fExitBuilding()
+
+[m\BehaviorSet\bstagebeach0]
+f = fPlayWithSound(beach,beach)
+f = fEnterBuilding()
+f = fPlay(beach_idle)
+f = fPlayWithSound(beach_wave,bchwav)
+f = fPlayWithSound(beach_vocalization,bchvoc)
+f = fPlay(beach_idle)
+f = fPlayWithSound(beach_unbeach,unbeach)
+f = fPlay(surfidle)
+f = fExitBuilding()
+
+[m\BehaviorSet\bshowareabkdive0]
+f = fPlayWithSound(surface_back_dive,bkdive)
+f = fEnterBuilding()
+f = fPlayWithSound(surfswim,surfswim)
+f = fExitBuilding()
+
+; food trick behavior set
+[m\BehaviorSet\bfoodtrick]
+f = fFaceTowardFood()
+f = fPlay(surface_2_rest)
+f = fPlay(surface_feed)
+f = fPlayReverse(surface_2_rest)
+f = fEndTrick()
+
+[m\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(submerged_feed)
+f = fPlay(subidle)
+
+[m\BehaviorSet\bSick]
+f = fPlaySetTank(bSurfsick, bSubsick)
+
+[m\BehaviorSet\bSurfsick]
+f = fPlay(surface_2_sick)
+f = fPlayTime(surface_sick,9)
+f = fPlayReverse(surface_2_sick)
+
+[m\BehaviorSet\bSubsick]
+f = fPlay(submerged_to_belly)
+f = fPlay(submerged_belly)
+f = fPlayTime(submerged_belly, 9)
+f = fPlayReverse(submerged_to_belly)
+
+[m\BehaviorSet\bDie]
+f = fPlaySetTank(bSurfdie, bSubdie)
+
+[m\BehaviorSet\bSurfdie]
+f = fPlay(surface_2_sick)
+f = fPlay(surface_sick)
+f = fPlayTime(surface_sick,5)
+f = fDie()
+
+[m\BehaviorSet\bSubdie]
+f = fPlay(submerged_to_belly)
+f = fPlay(submerged_belly)
+f = fPlayTime(submerged_belly, 5)
+f = fDie()
+
+[m\BehaviorSet\bBreathe]
+f = fPlayWithSound(surface_blowhole,blowhole)
+f = fPlayWithSound(surface_blowhole,blowhole)
+
+[m\BehaviorSet\bSleep]
+f = fPlaySetTank(bSurfsleep, bSubsleep)
+
+[m\BehaviorSet\bSurfsleep]
+f = fPlayWithSound(surface_sleep,blowhole)
+f = fPlayTime(surface_sleep,9)
+
+[m\BehaviorSet\bSubsleep]
+f = fPlay(subidle)
+f = fPlayTime(subidle,9)
+
+[m\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bRun]
+f = fTrot(0,0)
+
+[m\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[m\BehaviorSet\bChasePrey]
+f = fTrot(prey,0)
+
+[m\BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[m\BehaviorSet\bCaughtPrey]
+f = fDustBall()
+f = fPlaySetTank(bAcsurf,bAcsub)
+
+[m\BehaviorSet\bAcsurf]
+f = fPlay(surfidle)
+
+[m\BehaviorSet\bAcsub]
+f = fPlay(subidle)
+
+[m\BehaviorSet\bCaughtGuest]
+; the time of animation below should match bCaughtBy in guest
+f = fPlaySetTerrain(bcgland,bcgwater,bcgsurf,bcgsub)
+
+[m\BehaviorSet\bcgland]
+f = fPlayTime(stand,4)
+
+[m\BehaviorSet\bcgwater]
+f = fPlayTime(surfidle,4)
+
+[m\BehaviorSet\bcgsurf]
+f = fPlayTime(surfidle,4)
+
+[m\BehaviorSet\bcgsub]
+f = fPlayTime(subidle,4)
+
+[AmbientAnimsUnderwater]
+a = 81
+a = 100
+b = bHappyU
+a = 61
+a = 80
+b = bFriendlyU
+a = 21
+a = 60
+b = bCalmU
+a = -20
+a = 20
+b = bNeutralU
+a = -60
+a = -21
+b = bUneasyU
+a = -80
+a = -61
+b = bTenseU
+a = -100
+a = -81
+b = bAngryU
+
+[AmbientAnimsSurface]
+a = 81
+a = 100
+b = bHappyS
+a = 61
+a = 80
+b = bFriendlyS
+a = 21
+a = 60
+b = bCalmS
+a = -20
+a = 20
+b = bNeutralS
+a = -60
+a = -21
+b = bUneasyS
+a = -80
+a = -61
+b = bTenseS
+a = -100
+a = -81
+b = bAngryS
+
+[m/tricks]
+trick=empty
+trick=finswim
+trick=ballplay
+trick=sidesplash
+trick=beach
+trick=bkswim
+trick=spit
+trick=bkdive
+trick=foodtrick
+
+[y/tricks]
+trick=empty
+
+[m/tricks/finswim]
+id=11200
+type=0
+name=TrickFinswim
+complexity=1
+satisfaction=2
+satisfactiondelta=1
+minimumdepth=2
+defaultavailable=1
+keeperpretrick=bTrickStart
+normalHelpID=11300
+grayedHelpID=11400
+normalIcon = animals/orca/icorca/icorca
+grayedIcon = animals/orca/icorca/icorca
+
+
+[m/tricks/ballplay]
+id=11201
+type=1
+name=ballplay
+complexity=5
+satisfaction=6
+satisfactiondelta=2
+minimumdepth=8
+building=6502
+defaultavailable=1
+keeperpretrick=bTrickStart
+normalIcon=objects/orcaball/SE/SE
+grayedIcon=objects/orcaball/SE/SE
+normalHelpID=11301
+grayedHelpID=11401
+
+
+[m/tricks/sidesplash]
+id=11202
+type=1
+name=sidesplash
+complexity=2
+satisfaction=3
+satisfactiondelta=2
+minimumdepth=8
+building=6500
+defaultavailable=1
+keeperpretrick=bTrickStart
+normalIcon=objects/showbuoy/SE/SE
+grayedIcon=objects/showbuoy/SE/SE
+normalHelpID=11302
+grayedHelpID=11402
+
+
+
+[m/tricks/beach]
+id=11203
+type=1
+name=beach
+complexity=6
+satisfaction=6
+satisfactiondelta=2
+minimumdepth=2
+building=6504
+defaultavailable=1
+keeperpretrick=bTrickStart
+normalIcon=objects/stage/SE/SE
+grayedIcon=objects/stage/SE/SE
+normalHelpID=11303
+grayedHelpID=11403
+
+
+[m/tricks/bkswim]
+id=11204
+type=0
+name=TrickBkswim
+complexity=3
+satisfaction=4
+satisfactiondelta=2
+minimumdepth=2
+defaultavailable=0
+keeperpretrick=bTrickStart
+normalHelpID=11304
+grayedHelpID=11404
+normalIcon = research/orcspyhp/orcspyhp
+grayedIcon = research/orcspyhp/orcspyhp
+
+[m/tricks/spit]
+id=11216
+type=0
+name=TrickSpit
+complexity=3
+satisfaction=4
+satisfactiondelta=2
+minimumdepth=2
+defaultavailable=1
+keeperpretrick=bTrickStart
+normalHelpID=11316
+grayedHelpID=11416
+normalIcon = animals/orca/icorca/icorca
+grayedIcon = animals/orca/icorca/icorca
+
+[m/tricks/bkdive]
+id=11205
+type=1
+name=bkdive
+complexity=3
+satisfaction=4
+satisfactiondelta=2
+minimumdepth=8
+building=6500
+defaultavailable=0
+keeperpretrick=bTrickStart
+normalIcon=objects/showbuoy/SE/SE
+grayedIcon=objects/showbuoy/SE/SE
+normalHelpID=11305
+grayedHelpID=11405
+normalIcon = research/orcbrech/orcbrech
+grayedIcon = research/orcbrech/orcbrech
+
+; return to the keeper for a treat
+[m/tricks/foodtrick]
+id=11299
+type=3
+name=foodtrick
+complexity=0
+satisfaction=0
+satisfactiondelta=0
+minimumdepth=3
+defaultavailable=1
+keeperposttrick=bTrickFeed
+visible=0

@@ -1,0 +1,29 @@
+[Icon]
+Icon = objects/japrock/SE/SE
+Icon = objects/japrock/SW/SW
+Icon = objects/japrock/NW/NW
+Icon = objects/japrock/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 75
+cNameID = 9245
+cHelpID = 9245
+cHabitat = 9407
+cLocation = 9612
+cFootprintX = 2
+cFootprintY = 2
+cAutoRotate = 1
+cRubbleable = 0
+cRock = 1
+cSwims = 1
+cOnlySwims = 0
+cUnderwater = 0
+cLand = 1
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

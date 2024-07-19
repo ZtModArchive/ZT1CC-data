@@ -1,0 +1,9 @@
+You're really getting the hang of this!  They're eating, they're drinking.  What's missing? How about restrooms?
+
+1. On the left side of the gameplay screen, click the Buy Structures button. 
+2. Click the family restroom icon. 
+3. Place the cursor anywhere near the concession stands, and then click to place the family restroom. 
+
+If guests need to use a restroom and can't find any in your zoo, they will become unhappy.
+
+Click the OK button to proceed

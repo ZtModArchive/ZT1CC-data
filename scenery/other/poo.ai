@@ -1,0 +1,31 @@
+;Clump of dirt (poo)
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6062
+cHelpID = 6062
+cHabitat = 9412
+cLocation = 9619
+cFootprintX = 1
+cFootprintY = 1
+walkable = 1
+cDeletable = 0
+cStink = 1
+cRubbleable = 0
+
+[Animations]
+idle = idle
+small = small
+[EstheticBonus]
+; man
+v = 9503
+v = -5
+; woman
+v = 9504
+v = -5
+; boy
+v = 9505
+v = -5
+; girl
+v = 9506
+v = -5
+

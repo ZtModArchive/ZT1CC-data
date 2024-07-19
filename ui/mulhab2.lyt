@@ -1,0 +1,57 @@
+[LayoutInfo]
+x=0
+y=0
+dx=213
+dy=334
+id=701
+helpid=701
+layer=1
+state=1
+
+[Animal_list]
+type = UIListBox
+id = 4326
+x=16
+y=191
+dx=154
+dy=133
+font = 3636
+fontsize = 3637
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+transparent = 1
+scrollbar = 4327
+border = 3
+layer = 1
+; trigger on selection change
+state = 131072
+miniconwidth = 39
+miniconheight = 30
+
+[scrollbar]
+type = UIScrollBar
+id = 4327
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2

@@ -1,0 +1,40 @@
+[Icon]
+Icon = objects/dkarch/SE/SE
+Icon = objects/dkarch/SW/SW
+Icon = objects/dkarch/NW/NW
+Icon = objects/dkarch/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 175
+cNameID = 6706
+cHelpID = 6706
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 10
+cFootprintY = 4
+cUsedThought=10618
+cHeight = 2
+cUseNumbersInName=0
+walkable = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 10
+; girl
+v = 9506
+v = 10
+

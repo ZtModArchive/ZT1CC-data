@@ -1,0 +1,7 @@
+You can also lower a tank wall's height in the same way.
+
+1. With the Exhibit Information panel still open, click the Adjust Wall Down button. Notice how the height of the wall is decreased.
+
+This will come in handy as some marine animals prefer their exhibits to be shallower than others.
+
+Click the OK button to proceed.

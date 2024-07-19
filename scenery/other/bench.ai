@@ -1,0 +1,95 @@
+[Icon]
+Icon = objects/bench/SE/SE
+Icon = objects/bench/SW/SW
+Icon = objects/bench/NW/NW
+Icon = objects/bench/NE/NE
+
+[Member]
+scenery
+zoo
+
+[Characteristics/Integers]
+cPurchaseCost = 40
+cNameID = 6025
+cHelpID = 6025
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 1
+cTimeInside = 6
+cCapacity = 2
+cUserStaysOutside = 0
+cHideUser = 0
+cHideBuilding = 0
+cEnergyChange = -60
+cUsedThought=10219
+cUserUsesExit = 1
+cHeight = 1
+cUseNumbersInName=0
+
+; for debugging
+;cSelectable = 1
+;cCommerce = 1
+
+[Animations]
+idle = idle
+used = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 5
+; woman
+v = 9504
+v = 5
+; boy
+v = 9505
+v = 0
+; girl
+v = 9506
+v = 0
+[Satisfies]
+building
+energy
+eat
+
+[slots]
+name=slot0
+name=slot1
+
+[slot0]
+
+; spot in the building where guest will play animation
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=-16
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=-16
+entrpos=32
+
+; spot to place guest in once they've used the building
+exitpos=-16
+exitpos=32
+
+capacity=1
+facing=0
+
+[slot1]
+
+; spot in the building where guest will play animation
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=16
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=16
+entrpos=32
+
+; spot to place guest in once they've used the building
+exitpos=16
+exitpos=32
+
+capacity=1
+facing=0
+

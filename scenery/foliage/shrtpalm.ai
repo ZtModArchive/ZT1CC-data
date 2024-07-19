@@ -1,0 +1,24 @@
+[Icon]
+Icon=objects/shrtpalm/SE/SE
+Icon=objects/shrtpalm/SW/SW
+Icon=objects/shrtpalm/NW/NW
+Icon=objects/shrtpalm/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 175
+cNameID = 7042
+cHelpID = 7042
+cHabitat = 9405
+cLocation = 9606
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 2
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

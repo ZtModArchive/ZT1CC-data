@@ -1,0 +1,5 @@
+Now it's time to build your first dinosaur exhibit. Many of the larger dinosaurs are so strong that you will need to place them in exhibits created with electrified fencing. If weaker fences are used, these dinos will smash right through the fence. Smaller dinosaurs can be contained with non-electrified reinforced fencing.
+
+Regular zoo exhibit fences are inadequate for containing any dinosaurs. Because dinosaurs are so large, their exhibits are typically much larger than a regular animal's.
+
+The electrified iron bar fence is the strongest fence in the game. Build a large exhibit with this fencing in the area encircled by the brick path. Be sure to build as large an exhibit in the space provided, as Allosaurs need a large exhibit.

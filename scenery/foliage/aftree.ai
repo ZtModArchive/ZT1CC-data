@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/aftree/SE/SE
+Icon=objects/aftree/SW/SW
+Icon=objects/aftree/NW/NW
+Icon=objects/aftree/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 120
+cNameID = 7426
+cHelpID = 7426
+cHabitat = 9400
+cLocation = 9600
+cFootprintX = 2
+cFootprintY = 2
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

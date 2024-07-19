@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/juntree/SE/SE
+Icon=objects/juntree/SW/SW
+Icon=objects/juntree/NW/NW
+Icon=objects/juntree/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 120
+cNameID = 7427
+cHelpID = 7427
+cHabitat = 9405
+cLocation = 9606
+cFootprintX = 10
+cFootprintY = 4
+cFoliage = 1
+cAutoRotate = 0
+cHeight = 1
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

@@ -1,0 +1,30 @@
+[Icon]
+Icon=objects/fgate/icgateSE/icgateSE
+Icon=objects/fgate/icgateSW/icgateSW
+Icon=objects/fgate/icgateNW/icgateNW
+Icon=objects/fgate/icgateNE/icgateNE
+
+[Member]
+developer
+zoogate
+
+[Characteristics/Integers]
+cFootprintX = 2
+cFootprintY = 4
+cPurchaseCost = 0
+cNameID = 6464
+cHelpID = 6464
+walkable = 0
+cSelectable = 0
+cDeletable = 0
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cRubbleable = 0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle

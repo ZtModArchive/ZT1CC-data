@@ -1,0 +1,265 @@
+[LayoutInfo]
+x=right
+y=-366
+dx=213
+dy=334
+id=30
+layer=1
+state=1
+
+[Background]
+type=UIImage
+id=4300
+x=0
+y=0
+animation=ui/tankmod/modpan/modpan
+layer=0
+
+;[Background2]
+;type=UIImage
+;id= 4388
+;x=0
+;y=187
+;animation=ui/sharedui/multipa2/multipa2
+;layer=0
+
+;[Background3]
+;type=UIImage
+;id= 4397
+;x=10
+;y=16
+;animation=ui/sharedui/edittext/edittext
+;layer=0
+
+
+[PanelTitle]
+type=UIText
+id=4301
+textid=4301
+x=10
+y=2
+dx=159
+dy=fitfont
+font=3736
+fontsize=3737
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+
+
+[Panel Lower_Title]
+type=UIText
+id=4324
+textid=4324
+x=10
+y=172
+dx=159
+dy=fitfont
+font=3736
+fontsize=3737
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+
+[HabitatName]
+type=UIEditableText
+id=4304
+helpid=4304
+x=12
+y=18
+dx=177
+dy=fitfont
+font=3450
+fontsize=3451
+border=1
+forecolor=254
+forecolor=219
+forecolor=89
+backcolor=59
+backcolor=71
+backcolor=45
+transparent=1
+layer=4
+;justify=center
+state=1
+
+
+[Habitat_list]
+type = UIListBox
+id = 4305
+x=16
+y=36
+dx=154
+dy=135
+font = 3636
+fontsize = 3637
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+miniconwidth = 41
+transparent = 1
+scrollbar = 4308
+border = 3
+layer = 1
+; trigger on selection change
+state = 131072
+
+[scrollbar]
+type = UIScrollBar
+id = 4308
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+
+[CloseWindow]
+type=UIButton
+id= 4334
+helpid=3112
+x=184
+y=1
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=30
+
+[milti_hab_buttonRadioSet]
+type = UIRadioSet
+id = 4309
+button = 4310
+button = 4311
+button = 4312
+button = 4313
+button = 4365
+
+
+
+
+
+[TankModTab]
+type = UIButton
+id = 4365
+helpid = 4365
+x = 183
+y = 156
+animation=ui/tankmod/tbmod/tbmod
+layer=1
+state=4096
+state=8
+action=3
+target=704
+
+
+
+[StatusTab1]
+type = UIButton
+id = 4310
+helpid = 4310
+helpid = 4321
+x = 183
+y = 190
+animation=ui/guest/tbinfo/tbinfo
+layer=1
+state=4096
+action=3
+target=700
+
+
+[StatusTab2]
+type = UIButton
+id = 4313
+helpid = 4313
+x = 183
+y = 224
+animation=ui/habitat/tbdonat/tbdonat
+layer=1
+state=4096
+action=3
+target=703
+
+[Animal List_Tab]
+type = UIButton
+id = 4311
+helpid = 4311
+x = 183
+y = 256
+animation=ui/habitat/tbanim/tbanim
+layer=1
+state=4096
+action=3
+target=701
+
+[Thoughts_Tab]
+type = UIButton
+id = 4312
+helpid = 4312
+x = 183
+y = 289
+animation=ui/guest/tbthot/tbthot
+layer=1
+state=4096
+action=3
+target=702
+
+
+
+[TankLayout]
+type=UILayout
+layout=ui/tankmod.lyt
+state=1
+
+
+[StatusLayout]
+type=UILayout
+layout=ui/mulhab1.lyt
+state=1
+
+[StatusLayout2]
+type=UILayout
+layout=ui/mulhab4.lyt
+state=1
+
+[Animal_List_Layout]
+type=UILayout
+layout=ui/mulhab2.lyt
+state=1
+
+[Thoughts_Layout]
+type=UILayout
+layout=ui/mulhab3.lyt
+state=1
+

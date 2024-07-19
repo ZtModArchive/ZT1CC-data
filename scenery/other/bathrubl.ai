@@ -1,0 +1,19 @@
+; $Id
+[Member]
+
+[Characteristics/Integers]
+cNameID = 10513
+cFootprintX = 2
+cFootprintY = 2
+cAutoRotate = 1
+cRock = 1
+cHeight = 1
+walkableByTall = 1
+cExplosionSound=sounds/brokfenc.wav
+cExplosionSoundAtten=0
+cRubbleable = 0
+
+[Animations]
+idle = objects/bathrubl/idle/idle.ani
+explode = objects/bathrubl/used/used.ani
+

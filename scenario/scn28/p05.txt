@@ -1,0 +1,10 @@
+Some show animals use certain objects in their tricks. For example, orcas will play with a ball if it is placed in their show exhibit. Placing show objects in a show animal's show tank will unlock more tricks for that animal. The name of the object indicates which animal will use it.
+
+Let's purchase an orca ball and place it in the orca show exhibit.
+
+1. On the left side of the game screen, click the Adopt Animals button.
+2. Click the Show Objects tab.
+3. Select the orca ball.
+4. Place the ball in the orca show exhibit.
+
+Click the OK button to proceed.

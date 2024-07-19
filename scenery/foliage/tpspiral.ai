@@ -1,0 +1,32 @@
+; $Id: tpspiral.ai,v 1.3 2002/07/17 23:01:25 sds Exp $
+[Icon]
+Icon=objects/tpspiral/ictsprSE/ictsprSE
+Icon=objects/tpspiral/ictsprSW/ictsprSW
+Icon=objects/tpspiral/ictsprNW/ictsprNW
+Icon=objects/tpspiral/ictsprNE/ictsprNE
+
+[Member]
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 6008
+cHelpID = 6008
+cFootprintX = 1
+cFootprintY = 1
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 5
+; woman
+v = 9504
+v = 5

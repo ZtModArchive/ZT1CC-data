@@ -1,0 +1,63 @@
+[Icon]
+Icon = objects/brnchtoy/SE/SE
+Icon = objects/brnchtoy/SW/SW
+Icon = objects/brnchtoy/NW/NW
+Icon = objects/brnchtoy/NE/NE
+
+[Member]
+toys
+
+[Characteristics/Integers]
+cPurchaseCost = 1500
+cNameID = 6106
+cHelpID = 6106
+cFootprintX = 2
+cFootprintY = 2
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 1
+cTimeInside = 12
+cUsedThought = 0
+cUserUsesExit = 1
+cHeight = 3
+cToySatisfaction = 2
+cUseNumbersInName=0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle
+used = idle
+
+[Satisfies]
+building
+animalrest
+
+[slots]
+name=slot
+
+[slot]
+;Clouded Leopard
+id = 5013
+;Black Leopard
+id = 5011
+;Leopard
+id = 5010
+filter = y
+
+slotpos = 0
+slotpos = 0
+
+entrpos = 0
+entrpos = 64
+
+exitpos = 0
+exitpos = 64
+
+capacity = 1
+facing = 0

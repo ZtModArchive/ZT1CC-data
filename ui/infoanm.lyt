@@ -1,0 +1,223 @@
+[LayoutInfo]
+x=right
+y=-248
+altx=right
+alty=-578
+dx=226
+dy=213
+id=6
+helpid=6
+layer=1
+;hidden
+state=1
+
+[Background]
+type=UIImage
+id=3101
+helpid=3101
+x=0
+y=0
+animation=ui/animal/ainfopan/ainfopan
+layer=0
+
+[PanelTitle]
+type=UIText
+id=3180
+textid=3180
+x=75
+y=3
+dx=125
+dy=fitfont
+font=4736
+fontsize=4737
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[AnimalName]
+type=UIEditableText
+id=3102
+helpid=3102
+x=71
+y=27
+dx=141
+dy=fitfont
+font=3150
+fontsize=3151
+border=1
+forecolor=255
+forecolor=218
+forecolor=90
+backcolor=59
+backcolor=71
+backcolor=45
+transparent=1
+layer=4
+;justify=center
+
+[Trackanim]
+type=UIButton
+id=3114
+helpid=3114
+x=0
+y=3
+animation=ui/sharedui/crossh/crossh
+updateWhilePaused=0
+layer=1
+state=2048
+
+[Pickup Animal]
+type=UIButton
+id=3115
+helpid=3115
+x=66
+y=46
+animation=ui/sharedui/grab/grab
+layer=1
+
+[Habitat_info_button]
+type=UIButton
+id=3197
+helpid=3197
+helpid=3199
+x=103
+y=47
+animation=ui/infopan/ainfo/ainfo
+layer=1
+
+
+[Sell Animal]
+type=UIButton
+id=3111
+helpid=3111
+x=139
+y=47
+animation=ui/infopan/sell/sell
+font=9850
+fontsize=9851
+justify=center
+forecolor = 83
+forecolor = 219
+forecolor = 83
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor =255
+highlightcolor = 212
+highlightcolor = 60
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+transparent=1
+layer=1
+
+
+[KeeperPlaque]
+type=UIButton
+id=3122
+helpid=3123
+helpid=3124
+helpid=3125
+x=173
+y=46
+animation=ui/keprinfo/keep/keep
+animation=ui/sciinfo/scinfo/scinfo
+animation=ui/trnrinfo/trninfo/trninfo
+state=2048
+layer=1
+;state=2
+
+[CloseWindow]
+type=UIButton
+id=3112
+helpid=3112
+x=197
+y=1
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=-1
+
+;[AnimalPicture]
+;type=UIImage
+;id=3150
+;x=0
+;y=9
+;layer=3
+
+[animalbuttonRadioSet]
+type = UIRadioSet
+id = 3160
+button = 3162
+button = 3164
+button = 3165
+;button = 3166
+
+[StatusTab1]
+type = UIButton
+id = 3162
+helpid = 3162
+x = 196
+y = 92
+animation=ui/guest/tbinfo/tbinfo
+layer=1
+state=8
+state=4096
+action=3
+target=200
+
+[InfoTab2]
+type = UIButton
+id = 3164
+helpid = 3164
+x = 196
+y = 124
+animation=ui/guest/tbstat/tbstat
+layer=1
+state=4096
+action=3
+target=201
+
+[Thoughts]
+type = UIButton
+id = 3165
+helpid = 3165
+x = 196
+y = 156
+animation=ui/guest/tbthot/tbthot
+layer=1
+state=4096
+action=3
+target=202
+
+[StatusLayout]
+type=UILayout
+layout=ui/infoanm1.lyt
+state=1
+
+
+[infoLayout]
+type=UILayout
+layout=ui/infoanm2.lyt
+state=1
+
+[ThoughtsLayout]
+type=UILayout
+layout=ui/infoanm3.lyt
+state=1
+
+;[habitatinfoLayout]
+;type=UILayout
+;layout=ui/infoanm4.lyt
+;state=1
+

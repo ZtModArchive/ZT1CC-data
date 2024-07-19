@@ -1,0 +1,9 @@
+Your first task is to finish building an exhibit capable of holding a Bengal tiger.
+
+1. On the left side of the game screen, click the Construction button, and then click the iron bar exhibit fence. 
+2. Move the cursor to the half-completed exhibit to the right of the camel exhibit.
+3. Click and drag the cursor to construct a section of fence that connects the existing fencing, and then release the mouse button. 
+
+To create an exhibit, you need to completely enclose an area with exhibit fencing. Once an exhibit is created, a gate is automatically placed in the fence.
+
+Click the OK button to proceed.

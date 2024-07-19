@@ -1,0 +1,184 @@
+[goals]
+goal=DEFAULT_ITEMS
+
+[DEFAULT_ITEMS]
+;Items available at the beginning of the game.
+rulea=7
+ruleb=2
+value=0
+text=17700
+trulea=7
+truleb=0
+targa=1000
+hidden=0
+sticky=0
+
+[1000]
+;ZooTy Foliage needed now there are so many grassland animals
+;Broadleaf Bush
+id=7074
+;Arctic Theme Objects
+;Campfire
+id=6709
+;Ice Arch
+id=6710
+;Woven Basket
+id=6712
+;Snowy Pine Tree
+id=7422
+;Snowy Bush
+id=7423
+;Snowy Grass
+id=7424
+;Arctic Gift Shop
+id=8071
+;Ice Path
+id=9116
+;Ice Rock
+id=9242
+;Snowy Rock Decorative Fence
+id=9353
+;African Savannah Theme Objects
+;Thatched Arch
+id=6713
+;Mask
+id=6714
+;Massai Warrior Statue
+id=6715
+;Tall Torch
+id=6716
+;Wildflowers
+id=7425
+;Senegal Date Palm
+id=7426
+;Cotton Candy Stand
+id=8072
+;Mat Path
+id=9117
+;Termite Mound
+id=9243
+;Thatched Fence
+id=9354
+;South American Rainforest Theme Objects
+;Jungle Arch
+id=6717
+;Jungle Pond
+id=6718
+;Jungle Statue
+id=6719
+;Jungle Torch
+id=6720
+;Jungle Vase
+id=6721
+;Fallen Tree
+id=7427
+;Jungle Flowers
+id=7428
+;Jungle Stump
+id=7429
+;South American Restaurant
+id=8073
+;Jungle Rock Path
+id=9118
+;Mossy Jungle Rock
+id=9244
+;Jungle Wall Fence
+id=9355
+;Japanese Theme Pack
+;Japanese Arch
+id=6722
+;Japanese Stone Lantern
+id=6724
+;Japanese Koi Pond
+id=6725
+;Japanese Urn
+id=6726
+;Japanese Rock Garden
+id=6727
+;Japanese Bonsai
+id=7430
+;Japanese Snowbell Tree
+id=7431
+;Japanese Shaved Ice Pagoda
+id=8074
+;Japanese Stepping Stone Path
+id=9119
+;Japanese Rock
+id=9245
+;Japanese Wooden Decorative Fence
+id=9356
+;Southeast Asian Rainforest Theme Pack
+;Southeast Asian Arch
+id=6728
+;Southeast Asian Statue
+id=6729
+;Southeast Asian Observation Area
+id=6730
+;Rafflesia
+id=7432
+;Giant Ficus Tree
+id=7433
+;Durian Tree
+id=7434
+;Southeast Asian Nocturnal House
+;id=8075
+;Southeast Asian Animatronic Theater
+id=8076
+;Southeast Asian Path
+id=9120
+;Southeast Asian Limestone Rock
+id=9246
+;Southeast Asian Fence
+id=9357
+;Orangutan Jungle Gym
+id=6110
+;Orangutan Rope Swing
+id=6111
+;Mexican Theme Pack
+;Prairie Dog Cafe
+id=8077
+;Nacho Stand
+id=8078
+;Yucca Tree
+id=7435
+;Agave Cactus
+id=7436
+;Mexican Archway
+id=6731
+;Mexican Statue
+id=6732
+;Mexican Observation Area
+id=6733
+;Mexican Path
+id=9121
+;Mexican Rock
+id=9247
+;Mexican Fence
+id=9358
+;Animals
+;Whale Shark
+id=5504
+;Macrauchenia
+id=5505
+;Orangutan
+id=5506
+;Malaysian Tapir
+id=5507
+;Japanese Serow
+id=5508
+;Przewalski's Wild Horse
+id=5509
+;Sawfish
+id=5510
+;Javan Rhino
+id=5511
+;Bigfoot
+id=5514
+;Loch Ness Monster
+id=5515
+;Mexican Gray Wolf
+id=5516
+;Bowhead Whale
+id=5517
+
+

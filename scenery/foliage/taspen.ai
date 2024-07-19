@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/taspen/SE/SE
+Icon=objects/taspen/SW/SW
+Icon=objects/taspen/NW/NW
+Icon=objects/taspen/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 200
+cNameID = 7026
+cHelpID = 7026
+;Deciduous forest
+cHabitat = 9402
+;North America
+cLocation = 9607
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

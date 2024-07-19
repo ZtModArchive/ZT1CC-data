@@ -1,0 +1,5 @@
+Since we want to adopt a dolphin, we'll need to fill the tank with water again. This is just as easy as draining the tank.
+
+1. On the exhibit panel, click the Fill Tank button to re-fill the tank with salt water.
+
+Click the OK button to proceed.

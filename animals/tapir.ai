@@ -1,0 +1,1048 @@
+[Global]
+Class = animals
+Type = tapir
+Subtype = 
+DefaultSubtype = m
+
+[AnimPath]
+m = animals/tapir/m
+f = animals/tapir/m
+y = animals/tapir/y
+
+[m/Icon]
+Icon = animals/tapir/ictapir/ictapir
+
+[Member]
+animals
+
+[Characteristics/Integers]
+; shadows for this unit
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+
+[m/Characteristics/Strings]
+cKeeperFoodType = herbivore
+cGeneralInfoTextName = TAPIR_GENERAL
+cPlaqueImageName = animals/tapir/pltapir/pltapir
+cListImageName = animals/tapir/lstapir/lstapir
+
+;Giant Ficus Tree
+cPrefIcon = objects/asitree/SE/SE
+
+[m/Characteristics/Integers]
+cKeeperFoodType = 2
+; Giant Ficus Tree
+cPrefIconID = 7433
+
+;Malaysian Tapir
+cNameID = 5507
+cHelpID = 5507
+; Tapirs
+cFamily = 5234
+; Tapir
+cGenus = 5188
+; Tropical rainforest
+cHabitat = 9405
+; Southeast Asia
+cLocation = 9603
+cPurchaseCost = 850
+cInitialHappiness = 50
+cSlowRate = 30
+cMediumRate = 40
+cFastRate = 60
+cFootprintX = 1
+cFootprintY = 2
+cCaptivity = 12
+cNoFoodChange  = -50
+cSickChange = -10	
+cOtherAnimalSickChange = -10
+cCrowdHappinessChange = -5
+cOtherAnimalAngryChange = 0 
+cNumberMinChange = -10
+cNumberMaxChange = -10
+cAllCrowdedChange = -10
+cAngryHabitatChange = -5
+cVeryAngryHabitatChange = -30
+cNoMateChange = -10
+cDeathChange = -10 
+cNotEnoughKeepersChange = -10
+cAngryTreeChange = -10
+cBabyBornChange = 80
+cHappyHabitatChange = 20
+cMaxHits  = 375
+cMinHits  = 0
+cPctHits  = 20
+cHungerThreshold  = 50
+cHungerIncrement  = 6
+cNeededFood = 100
+cKeeperFoodUnitsEaten = 12
+cHungryHealthChange = 10
+cSickChance = 15
+cEnergyThreshold = 100 
+cEnergyIncrement  = 10	
+cMaxEnergy = 100
+cCrowd = 15
+cKeeperFrequency = 2
+cSocial = 1
+cHabitatSize = 100
+cNumberAnimalsMin = 1
+cNumberAnimalsMax = 4
+cAnimalDensity = 25
+cReproductionChance = 1 
+cReproductionInterval = 6480
+cBabyToAdult = 2400
+cHappyReproduceThreshold = 98
+cOffspring = 1
+cMatingType = 1
+cIsJumper = 0
+cIsClimber = 0
+cBashStrength = 30
+cFlies = 0
+cSwims = 1
+cWaterNeeded = 5
+cLandNeeded = 8
+cEnterWaterChance = 25
+cEnterLandChance = 80
+cPctHabitat = 10
+cHabitatPreference = 80
+cEscapedChange = 30
+; Underwater characteristics
+cUnderwater = 1
+; Cannot submerge
+cSurface = 1
+cUnderwaterNeeded = 10
+cEnterTankChance = 20
+cEscapedChange = 30
+cSickTime = 4
+cMimic = 0
+cOtherFood = 0
+cFoodTypes = 0
+cTreePref = 15
+cRockPref = 6
+cSpacePref = 50
+cElevationPref = 0
+cDirtyHabitatRating = 40
+cDirtyIncrement = 12
+cDirtyThreshold = 100
+cPooWaterImpact = 5 
+cMurkyWaterChange = -5
+cMurkyWaterHealthChange = -5
+cMurkyWaterThreshold = 60
+cVeryMurkyWaterChange = -10
+cVeryMurkyWaterHealthChange = -10
+cVeryMurkyWaterThreshold = 20
+cExtremelyMurkyWaterChange = -15
+cExtremelyMurkyWaterHealthChange = -15
+cExtremelyMurkyWaterThreshold= 1
+cSalinityChange = -10
+cSalinityHealthChange = -20
+cTimeDeath = 17280
+cDeathChance = 10 
+cEatVegetationChance = 20
+cDrinkWaterChance = 10
+cChaseAnimalChance = 15
+cClimbsCliffs = 1
+cBuildingUseChance = 20
+cAttractiveness = 25
+cNeedShelter = 1
+cNeedToys = 0
+
+[y/Characteristics/Integers]
+cChaseAnimalChance = 20
+cAttractiveness = 35
+
+[m/Characteristics/Mixed]
+[cCompatibleAnimals]
+;Primitive ungulates
+v = 5200
+v = -10
+;Racoon
+v = 5201
+v = -5
+;Bears
+v = 5202
+v = -20
+;Primates
+v = 5203
+v = -5
+;Odd-toed ungulates
+v = 5204
+v = -10
+;Even-toed ungulates
+v = 5205
+v = -10
+;Cat
+v = 5206
+v = -20
+;Canine
+v = 5207
+v = -20
+;Hyena
+v = 5208
+v = -20
+;Marsupial
+v = 5210
+v = -5
+;Bird
+v = 5211
+v = -5
+;Seal
+v = 5212
+v = -5
+;Crocodile
+v = 5213
+v = -20
+;Edentate
+v = 5214
+v = -5
+;Pig
+v = 5215
+v = -5
+;Dinosaur
+v = 5216
+v = -20
+;Monster
+v = 5217
+v = -20
+;Whale Sharks
+v = 5185
+v = -10
+;Bowhead Whales
+v = 5187
+v = -10
+;Sawfish
+v = 5189
+v = -10
+
+[cSuitableObjects]
+;GENERIC TERRAIN OBJECTS
+;Non-habitat
+v = 9410
+v = -10
+;Tropical rainforest
+v = 9405
+v = 3
+;Savannah
+v = 9400
+v = -5
+;Grassland
+v = 9401
+v = -5
+;Deciduos forest
+v = 9402
+v = -5
+;Coniferous forest
+v = 9403
+v = -10
+;Highlands
+v = 9407
+v = -5
+;Tundra
+v = 9408
+v = -25
+;Desert
+v = 9409
+v = -15
+;Aquatic
+v = 9413
+v = -10
+;Bad-habitat
+v = 9414
+v = -100
+
+;FOLIAGE AND ROCKS
+;Eleear
+v = 7015
+v = -4
+;Bush 4
+v = 7051
+v = 7
+;Foxtail
+v = 7018
+v = 8
+;Mangrove
+v = 7014
+v = 6
+;Ulmo
+v = 7005
+v = -8
+;Shrtpalm
+v = 7042
+v = -8
+;Kapok
+v = 7065
+v = -8
+;Durian
+v = 7434
+v = 8
+;Giant Fichus Tree
+v = 7433
+v = 12
+;lrock1
+v = 9200
+v = 6
+;Srock1
+v = 9205
+v = 3
+;Srock2
+v = 9206
+v = 3
+;Srckfrm5
+v = 9226
+v = 5
+;Rstone
+v = 9215
+v = 5
+;Poo
+v = 6062
+v = -5
+
+;SHELTERS/TOYS
+Leanto1
+v = 8104
+v = 12
+Leanto2
+v = 8105
+v = 13
+Leanto3
+v = 8106
+v = 14
+;Conhous1
+v = 8107
+v = 13
+;Conhous2
+v = 8108
+v = 16
+;Conhous3
+v = 8109
+v = 19
+;Wodhous1
+v = 8110
+v = 14
+;Wodhous2
+v = 8111
+v = 15
+;Wodhous3
+v = 8112
+v = 16
+
+[cCompatibleTerrain]
+; grass = 0
+; savannah grass = 1
+; sand = 2
+; dirt = 3
+; rainforest floor = 4
+; brown rock = 5
+; gray rock = 6
+; gravel = 7
+; snow = 8
+; fresh water = 9
+; salt water = 10
+; deciduous floor = 11
+; waterfall = 12
+; coniferous floor = 13
+; concrete = 14
+; asphalt = 15
+; trampled = 16
+
+v = 16
+v = -5
+
+v = 0
+v = 10
+
+v = 2
+v = -5
+
+v = 3
+v = 10
+
+v = 9
+v = 10
+
+v = 4
+v = 70
+
+v = 5
+v = -5
+
+v = 6
+v = -5
+
+v = 8
+v = -50
+
+v = 10
+v = -20
+
+v = 11
+v = -5
+
+v = 13
+v = -5
+
+;Male Animations
+[m/Animations]
+dig = dig
+eat = eat
+groom = groom
+head_down = headdown
+head_ground = headgrnd
+lie_down = liedown
+lie_idle = lieidle
+lie_side = lieside
+look_left = lookl
+look_right = lookr
+run = run
+trot = run
+shake_head = shakhead
+shriek = shriek
+side_idle = sideidle
+sleep = sleep
+sniff = sniff
+stand = stand
+idle = stand
+walk = walk
+;Tank Surface
+surfidle = surfswim
+surfswim = surfswim
+;Tank Surface Shadows
+shadowsurfswim = ssurfswi
+;Tank Surface Undersides
+undersurfswim = usurfswi
+;Swimming
+swim = surfswim
+water_idle = surfswim
+
+; Box animations
+box_idle = objects/box/idle/idle.ani
+box_used = objects/box/used/used.ani
+dustball = objects/dustcld/idle/idle.ani
+waterball = objects/watcloud/idle/idle.ani
+surfaceball = objects/surfcld/surfc/surfc.ani
+shadowsurfc = objects/surfcld/ssurfc/ssurfc.ani
+undersurfc = objects/surfcld/usurfc/usurfc.ani
+submergedball = objects/subcld/subc/subc.ani
+shadowsubc = objects/subcld/ssubc/ssubc.ani
+
+;Young animations
+[y/Animations]
+dig = dig
+eat = eat
+groom = groom
+head_down = headdown
+head_ground = headgrnd
+lie_down = liedown
+lie_idle = lieidle
+lie_side = lieside
+look_left = lookl
+look_right = lookr
+run = run
+trot = run
+shake_head = shakhead
+shriek = shriek
+side_idle = sideidle
+sleep = sleep
+sniff = sniff
+stand = stand
+idle = stand
+walk = walk
+;Tank Surface
+surfidle = surfswim
+surfswim = surfswim
+;Tank Surface Shadows
+shadowsurfswim = ssurfswi
+;Tank Surface Undersides
+undersurfswim = usurfswi
+;Swimming
+swim = surfswim
+water_idle = surfswim
+
+; Box animations
+box_idle = objects/box/idle/idle.ani
+box_used = objects/box/used/used.ani
+dustball = objects/dustcld/idle/idle.ani
+waterball = objects/watcloud/idle/idle.ani
+surfaceball = objects/surfcld/surfc/surfc.ani
+shadowsurfc = objects/surfcld/ssurfc/ssurfc.ani
+undersurfc = objects/surfcld/usurfc/usurfc.ani
+submergedball = objects/subcld/subc/subc.ani
+shadowsubc = objects/subcld/ssubc/ssubc.ani
+
+[Sounds]
+sleep = sleep
+sleep = 1200
+sniff = sniff
+sniff = 1200
+dig = dig
+dig = 1200
+shriek = shriek
+shriek = 1200
+placesound = sniff
+placesound = 1200
+pickupsound = shriek
+pickupsound = 1200
+
+;Male Malaysian Tapir Behavior Set Probabilities
+[m\BehaviorSet\bHappy]
+f = fPlaySetProb(bHappy1,25,bHappy2,25,bHappy3,25,bIdle1,5,bIdle2,5,bIdle3,5,bNoise1,5,bNoise3,5)
+
+[m\BehaviorSet\bFriendly]
+f = fPlaySetProb(bHappy1,15,bHappy2,30,bHappy3,30,bIdle1,5,bIdle2,5,bIdle3,5,bNoise1,5,bNoise3,5)
+
+[m\BehaviorSet\bCalm]
+f = fPlaySetProb(bHappy1,10,bCalm1,30,bHappy3,10,bIdle1,15,bIdle2,15,bIdle3,10,bNoise1,5,bNoise3,5)
+
+[m\BehaviorSet\bNeutral]
+f = fPlaySetProb(bCalm1,15,bUneasy1,15,bHappy1,15,bHappy2,15,bHappy3,15,bIdle1,5,bIdle2,5,bIdle3,5,bNoise1,5,bNoise3,5)
+
+[m\BehaviorSet\bUneasy]
+f = fPlaySetProb(bCalm1,15,bUneasy1,30,bTense1,10,bHappy2,5,bHappy3,15,bIdle1,5,bIdle2,5,bIdle3,5,bNoise1,5,bNoise3,5)
+
+[m\BehaviorSet\bTense]
+f = fPlaySetProb(bCalm1,15,bUneasy1,10,bTense1,30,bHappy2,5,bHappy3,15,bIdle1,5,bIdle2,5,bIdle3,5,bNoise1,5,bNoise3,5)
+
+[m\BehaviorSet\bAngry]
+f = fPlaySetProb(bCalm1,5,bUneasy1,15,bTense1,15,bAngry1,20,bAngry2,20,bAngry3,15,bNoise1,5,bNoise3,5)
+
+[m\BehaviorSet\bEscaped]
+f = fPlaySetProb(bEscaped1,80,bNoise1,20)
+
+[m\BehaviorSet\bInWater]
+f = fPlaySetProb(bWaterActive,100)
+
+[m\BehaviorSet\bHappyS]
+f = fPlaySetProb(bSurface,80,bSurfidle,20)
+
+[m\BehaviorSet\bFriendlyS]
+f = fPlaySetProb(bSurface,80,bSurfidle,20)
+
+[m\BehaviorSet\bCalmS]
+f = fPlaySetProb(bSurface,80,bSurfidle,20)
+
+[m\BehaviorSet\bNeutralS]
+f = fPlaySetProb(bSurface,80,bSurfidle,20)
+
+[m\BehaviorSet\bUneasyS]
+f = fPlaySetProb(bSurface,80,bSurfidle,20)
+
+[m\BehaviorSet\bTenseS]
+f = fPlaySetProb(bSurface,80,bSurfidle,20)
+
+[m\BehaviorSet\bAngryS]
+f = fPlaySetProb(bSurface,80,bSurfidle,20)
+
+;Male Malaysian Tapir Behavior Sets
+[m\BehaviorSet\bHappy1]
+f = fWalk(0,0)
+f = fPlayWithSound(sniff,sniff)
+f = fPlay(shake_head)
+f = fTrot(0,0)
+
+[m\BehaviorSet\bHappy2]
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayPingPong(look_left)
+f = fPlay(stand)
+f = fWalk(0,0)
+
+[m\BehaviorSet\bHappy3]
+f = fRun(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(sniff,sniff)
+f = fPlayPingPong(look_right)
+f = fPlay(stand)
+f = fPlay(sniff)
+f = fWalk(0,0)
+
+[m\BehaviorSet\bCalm1]
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlay(groom)
+f = fPlay(stand)
+f = fPlayPingPong(look_right)
+f = fPlay(stand)
+f = fWalk(0,0)
+
+[m\BehaviorSet\bUneasy1]
+f = fPlayWithSound(shriek,shriek)
+f = fPlayPingPong(look_left)
+f = fPlay(shake_head)
+f = fPlay(stand)
+f = fPlayWithSound(sniff,sniff)
+f = fTrot(0,0)
+
+[m\BehaviorSet\bTense1]
+f = fWalk(0,0)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,8)
+f = fPlayReverse(lie_down)
+f = fPlayWithSound(sniff,sniff)
+f = fPlayWithSound(shriek,shriek)
+f = fRun(0,0)
+
+[m\BehaviorSet\bAngry1]
+f = fPlayWithSound(shriek,shriek)
+f = fRun(0,0)
+f = fPlayWithSound(shriek,shriek)
+
+[m\BehaviorSet\bAngry2]
+f = fRun(0,0)
+f = fPlay(shake_head)
+f = fPlayPingPong(look_left)
+f = fPlayWithSound(shriek,shriek)
+f = fPlayPingPong(look_right)
+f = fTrot(0,0)
+
+[m\BehaviorSet\bAngry3]
+f = fPlayPingPong(look_left)
+f = fPlayWithSound(shriek,shriek)
+f = fRun(0,0)
+f = fPlay(shake_head)
+f = fRun(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle1]
+f = fPlayPingPong(look_left)
+f = fPlay(stand)
+f = fPlay(groom)
+f = fWalk(0,0)
+f = fPlayWithSound(sniff,sniff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle2]
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(sniff,sniff)
+f = fPlay(groom)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,12)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,8)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+f = fWalk(0,0)
+
+[m\BehaviorSet\bNoise1]
+f = fPlayWithSound(shriek,shriek)
+
+[m\BehaviorSet\bNoise2]
+f = fPlayWithSound(sniff,sniff)
+
+[m\BehaviorSet\bNoise3]
+f = fPlay(groom)
+
+[m\BehaviorSet\bSleep]
+f = fPlaySetTerrain(bSleepland,bSleepwater,bSleepsurf,bSleepsub)
+
+[m\BehaviorSet\bSleepland]
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(head_ground)
+f = fPlayWithSound(sleep,sleep)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(head_ground)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSleepwater]
+f = fPlayTime(water_idle,9)
+
+[m\BehaviorSet\bSleepsurf]
+f = fWalk(surface, 0)
+
+[m\BehaviorSet\bSleepsub]
+f = fWalk(level, 0)
+
+[m\BehaviorSet\bDie]
+f = fPlaySetTerrain(bDieland,bDiewater,bDiesurf,bDiesub)
+
+[m\BehaviorSet\bDieland]
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(lie_side)
+f = fPlayTime(side_idle,10)
+f = fDie()
+
+[m\BehaviorSet\bDiewater]
+f = fPlayTime(water_idle,9)
+f = fDie()
+
+[m\BehaviorSet\bDiesurf]
+f = fWalk(surface, 0)
+f = fDie()
+
+[m\BehaviorSet\bDiesub]
+f = fWalk(level, 0)
+f = fDie()
+
+[m\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(head_down)
+f = fPlayTime(eat,9)
+f = fPlayReverse(head_down)
+
+[m\BehaviorSet\bSick]
+f = fPlaySetTerrain(bSickland,bSickwater,bSicksurf,bSicksub)
+
+[m\BehaviorSet\bSickland]
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(lie_side)
+f = fPlayTime(side_idle,10)
+f = fPlayReverse(lie_side)
+f = fPlayReverse(lie_down)
+
+[m\BehaviorSet\bSickwater]
+f = fPlayTime(water_idle,5)
+f = fPlayTime(water_idle,5)
+
+[m\BehaviorSet\bSicksurf]
+f = fWalk(surface, 0)
+
+[m\BehaviorSet\bSicksub]
+f = fWalk(level, 0)
+
+[m\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bEscaped1]
+f = fRun(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(shriek,shriek)
+
+[m\BehaviorSet\bChasePrey]
+f = fRun(prey,0)
+
+[m\BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[m\BehaviorSet\bCaught]
+f = fFollow(keeper)
+
+[m\BehaviorSet\bAngryKeeper]
+f = fPlay(stand)
+
+[m\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bRun]
+f = fRun(0,0)
+
+[m\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[m\BehaviorSet\bWaterActive]
+f = fMove(0,0,swim,26)
+
+[m\BehaviorSet\bSurface]
+f = fWalk(surface, 0)
+
+[m\BehaviorSet\bSurfidle]
+f = fPlay(surfswim)
+
+;Young Malaysian Tapir Behavior Set Probabilities
+[y\BehaviorSet\bHappy]
+f = fPlaySetProb(bHappy1,25,bHappy2,25,bHappy3,25,bIdle1,5,bIdle2,5,bIdle3,5,bNoise1,5,bNoise3,5)
+
+[y\BehaviorSet\bFriendly]
+f = fPlaySetProb(bHappy1,15,bHappy2,30,bHappy3,30,bIdle1,5,bIdle2,5,bIdle3,5,bNoise1,5,bNoise3,5)
+
+[y\BehaviorSet\bCalm]
+f = fPlaySetProb(bHappy1,10,bCalm1,30,bHappy3,10,bIdle1,15,bIdle2,15,bIdle3,10,bNoise1,5,bNoise3,5)
+
+[y\BehaviorSet\bNeutral]
+f = fPlaySetProb(bCalm1,15,bUneasy1,15,bHappy1,15,bHappy2,15,bHappy3,15,bIdle1,5,bIdle2,5,bIdle3,5,bNoise1,5,bNoise3,5)
+
+[y\BehaviorSet\bUneasy]
+f = fPlaySetProb(bCalm1,15,bUneasy1,30,bTense1,10,bHappy2,5,bHappy3,15,bIdle1,5,bIdle2,5,bIdle3,5,bNoise1,5,bNoise3,5)
+
+[y\BehaviorSet\bTense]
+f = fPlaySetProb(bCalm1,15,bUneasy1,10,bTense1,30,bHappy2,5,bHappy3,15,bIdle1,5,bIdle2,5,bIdle3,5,bNoise1,5,bNoise3,5)
+
+[y\BehaviorSet\bAngry]
+f = fPlaySetProb(bCalm1,5,bUneasy1,15,bTense1,15,bAngry1,20,bAngry2,20,bAngry3,15,bNoise1,5,bNoise3,5)
+
+[y\BehaviorSet\bEscaped]
+f = fPlaySetProb(bEscaped1,80,bNoise1,20)
+
+;Young Malaysian Tapir Behavior Sets
+[y\BehaviorSet\bHappy1]
+f = fWalk(0,0)
+f = fPlayWithSound(sniff,sniff)
+f = fPlay(shake_head)
+f = fTrot(0,0)
+
+[y\BehaviorSet\bHappy2]
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayPingPong(look_left)
+f = fPlay(stand)
+f = fWalk(0,0)
+
+[y\BehaviorSet\bHappy3]
+f = fRun(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(sniff,sniff)
+f = fPlayPingPong(look_right)
+f = fPlay(stand)
+f = fPlay(sniff)
+f = fWalk(0,0)
+
+[y\BehaviorSet\bCalm1]
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlay(groom)
+f = fPlay(stand)
+f = fPlayPingPong(look_right)
+f = fPlay(stand)
+f = fWalk(0,0)
+
+[y\BehaviorSet\bUneasy1]
+f = fPlayWithSound(shriek,shriek)
+f = fPlayPingPong(look_left)
+f = fPlay(shake_head)
+f = fPlay(stand)
+f = fPlayWithSound(sniff,sniff)
+f = fTrot(0,0)
+
+[y\BehaviorSet\bTense1]
+f = fWalk(0,0)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,8)
+f = fPlayReverse(lie_down)
+f = fPlayWithSound(sniff,sniff)
+f = fPlayWithSound(shriek,shriek)
+f = fRun(0,0)
+
+[y\BehaviorSet\bAngry1]
+f = fPlayWithSound(shriek,shriek)
+f = fRun(0,0)
+f = fPlayWithSound(shriek,shriek)
+
+[y\BehaviorSet\bAngry2]
+f = fRun(0,0)
+f = fPlay(shake_head)
+f = fPlayPingPong(look_left)
+f = fPlayWithSound(shriek,shriek)
+f = fPlayPingPong(look_right)
+f = fTrot(0,0)
+
+[y\BehaviorSet\bAngry3]
+f = fPlayPingPong(look_left)
+f = fPlayWithSound(shriek,shriek)
+f = fRun(0,0)
+f = fPlay(shake_head)
+f = fRun(0,0)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle1]
+f = fPlayPingPong(look_left)
+f = fPlay(stand)
+f = fPlay(groom)
+f = fWalk(0,0)
+f = fPlayWithSound(sniff,sniff)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle2]
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(sniff,sniff)
+f = fPlay(groom)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,12)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,8)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+f = fWalk(0,0)
+
+[y\BehaviorSet\bNoise1]
+f = fPlayWithSound(shriek,shriek)
+
+[y\BehaviorSet\bNoise2]
+f = fPlayWithSound(sniff,sniff)
+
+[y\BehaviorSet\bNoise3]
+f = fPlay(groom)
+
+[y\BehaviorSet\bSleep]
+f = fPlaySetTerrain(bSleepland,bSleepwater,bSleepsurf,bSleepsub)
+
+[y\BehaviorSet\bSleepland]
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(head_ground)
+f = fPlayWithSound(sleep,sleep)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(head_ground)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[y\BehaviorSet\bSleepwater]
+f = fPlayTime(water_idle,9)
+
+[y\BehaviorSet\bSleepsurf]
+f = fWalk(surface, 0)
+
+[y\BehaviorSet\bSleepsub]
+f = fWalk(level, 0)
+
+[y\BehaviorSet\bDie]
+f = fPlaySetTerrain(bDieland,bDiewater,bDiesurf,bDiesub)
+
+[y\BehaviorSet\bDieland]
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(lie_side)
+f = fPlayTime(side_idle,10)
+f = fDie()
+
+[y\BehaviorSet\bDiewater]
+f = fPlayTime(water_idle,9)
+f = fDie()
+
+[y\BehaviorSet\bDiesurf]
+f = fWalk(surface, 0)
+f = fDie()
+
+[y\BehaviorSet\bDiesub]
+f = fWalk(level, 0)
+f = fDie()
+
+[y\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(head_down)
+f = fPlayTime(eat,9)
+f = fPlayReverse(head_down)
+
+[y\BehaviorSet\bSick]
+f = fPlaySetTerrain(bSickland,bSickwater,bSicksurf,bSicksub)
+
+[y\BehaviorSet\bSickland]
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(lie_side)
+f = fPlayTime(side_idle,10)
+f = fPlayReverse(lie_side)
+f = fPlayReverse(lie_down)
+
+[y\BehaviorSet\bSickwater]
+f = fPlayTime(water_idle,5)
+f = fPlayTime(water_idle,5)
+
+[y\BehaviorSet\bSicksurf]
+f = fWalk(surface, 0)
+
+[y\BehaviorSet\bSicksub]
+f = fWalk(level, 0)
+
+[y\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[y\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+f = fPlaySet(bEat)
+
+[y\BehaviorSet\bEscaped1]
+f = fRun(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(shriek,shriek)
+
+[y\BehaviorSet\bChasePrey]
+f = fRun(prey,0)
+
+[y\BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[y\BehaviorSet\bCaught]
+f = fFollow(keeper)
+
+[y\BehaviorSet\bAngryKeeper]
+f = fPlay(stand)
+
+[y\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[y\BehaviorSet\bRun]
+f = fRun(0,0)
+
+[y\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[y\BehaviorSet\bWaterActive]
+f = fMove(0,0,swim,26)
+
+[y\BehaviorSet\bSurface]
+f = fWalk(surface, 0)
+
+[y\BehaviorSet\bSurfidle]
+f = fPlay(surfswim)
+
+[AmbientAnims]
+a = 81
+a = 100
+b = bHappy
+a = 61
+a = 80
+b = bFriendly
+a = 21
+a = 60
+b = bCalm
+a = -20
+a = 20
+b = bNeutral
+a = -60
+a = -21
+b = bUneasy
+a = -80
+a = -61
+b = bTense
+a = -100
+a = -81
+b = bAngry
+
+[AmbientAnimsWater]
+a = -100
+a = 100
+b = bInWater
+
+[AmbientAnimsSurface]
+a = 81
+a = 100
+b = bHappyS
+a = 61
+a = 80
+b = bFriendlyS
+a = 21
+a = 60
+b = bCalmS
+a = -20
+a = 20
+b = bNeutralS
+a = -60
+a = -21
+b = bUneasyS
+a = -80
+a = -61
+b = bTenseS
+a = -100
+a = -81
+b = bAngryS

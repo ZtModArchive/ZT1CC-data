@@ -1,0 +1,20 @@
+;Wave on top of tank water
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 0
+cHelpID = 0
+cHabitat = 0
+cLocation = 0
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cDeletable = 0
+cSwims = 1
+cSurface = 1
+cRubbleable = 0
+cIsTransient = 1
+
+[Animations]
+idle = objects/waterwv1/idle/idle.ani
+
+[EstheticBonus]

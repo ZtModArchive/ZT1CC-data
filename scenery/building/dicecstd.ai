@@ -1,0 +1,122 @@
+[Icon]
+Icon = objects/dicecstd/SE/SE
+Icon = objects/dicecstd/SW/SW
+Icon = objects/dicecstd/NW/NW
+Icon = objects/dicecstd/NE/NE
+
+[Member]
+structures
+
+[Characteristics/Integers]
+cPurchaseCost = 225
+cNameID = 8044
+cHelpID = 8044
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cCommerce = 1
+cSelectable = 1
+cNeedsConfirm = 1
+cAdultChange = 10
+cChildChange = 20
+cHungerChange = 0
+cThirstChange = 0
+cBathroomChange = 0
+cEnergyChange = 0
+cHideUser = 0
+cHideBuilding = 0
+cUserStaysOutside = 1
+cCapacity = 4
+cTimeInside = 4
+cUsedThought=10202
+cHeight = 3
+
+cIsColorReplaced = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 2.00
+cLowCost = .75
+cMedCost = 2.00
+cHighCost = 8.00
+cUpkeep = 150.00
+cPriceFactor = 3.00
+
+[Sells]
+icecream
+
+[Animations]
+idle = idle
+used = used
+
+[UseSound]
+alwayson = 0
+loops = 0
+name = scenery/building/icecstnd.wav
+attenuation = 1000
+
+[EstheticBonus]
+; man
+v = 9503
+v = 5
+; woman
+v = 9504
+v = 5
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15
+
+[Satisfies]
+building
+food
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=-16
+slotpos=48
+
+; spots outside the building where guest paths to
+entrpos=-16
+entrpos=48
+
+entrpos=16
+entrpos=48
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=48
+
+; 1000 = essentially infinite capacity
+capacity=2
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2302
+defaultpal = scenery/building/pals/gold16.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/dicecstd/dicecstd.pal
+colorpal = objects/dicecstd/color.pal
+
+

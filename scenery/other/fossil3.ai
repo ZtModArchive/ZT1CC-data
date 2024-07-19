@@ -1,0 +1,41 @@
+[Icon]
+Icon=objects/fossil3/SE/SE
+Icon=objects/fossil3/SW/SW
+Icon=objects/fossil3/NW/NW
+Icon=objects/fossil3/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 500
+cFootprintX = 10
+cFootprintY = 4
+;Bad Habitat Type
+cHabitat = 9414
+cNameID = 6424
+cHelpID = 6424
+cUsedThought=10585
+cHeight = 3
+cUseNumbersInName=0
+cRubbleable = 0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15

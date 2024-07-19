@@ -1,0 +1,9 @@
+Now you understand the basics of building a marine exhibit.
+
+Let's adopt a bottlenose dolphin and place him in the new exhibit.
+
+1. On the left side of the gameplay screen, click the Adopt Animals button.
+2. Click the bottlenose dolphin icon on the Adopt Animals panel.
+3. Place the cursor over the exhibit you just created and click to place a dolphin.
+
+Click the OK button to proceed.

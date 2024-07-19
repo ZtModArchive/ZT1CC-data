@@ -1,0 +1,6 @@
+Now let's try pausing and resuming the game. Pausing the game can be useful when lots of things happen at once, and you need some breathing room to sort things out.
+
+1. Click the Pause button, located along the bottom of the screen to the left of the Current Date bar.
+2. Click the Pause button a second time to resume the game.
+
+Click the OK button to proceed.

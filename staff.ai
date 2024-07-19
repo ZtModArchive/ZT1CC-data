@@ -1,0 +1,15 @@
+[Global]
+Class = ztunit
+Type = staff
+Subtype =
+DefaultSubtype =
+
+[Member]
+entity
+unit
+ztunit
+staff
+
+[Characteristics/Strings]
+
+[Characteristics/Integers]

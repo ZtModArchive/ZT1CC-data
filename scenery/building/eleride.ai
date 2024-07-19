@@ -1,0 +1,114 @@
+[Icon]
+Icon = objects/eleride/SE/SE
+Icon = objects/eleride/SW/SW
+Icon = objects/eleride/NW/NW
+Icon = objects/eleride/NE/NE
+
+[Member]
+structures
+
+[Characteristics/Integers]
+cPurchaseCost = 1200
+cNameID = 8000
+cHelpID = 8000
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 10
+cFootprintY = 12
+cNeedsConfirm = 1
+cCommerce = 1
+cSelectable = 1
+cAdultChange = 3
+cChildChange = 20
+cHideUser = 1
+cHideBuilding = 0
+cUserStaysOutside = 0
+cCapacity = 2
+cTimeInside = 11
+cUsedThought=10112
+cHeight = 3
+cRubbleable = 0
+cIsColorReplaced = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 4.00
+cLowCost = 1.50
+cMedCost = 4.00
+cHighCost = 12.00
+cUpkeep = 50.00
+cPriceFactor = 2.00
+
+[UseSound]
+loops = 0
+name = animals/elephant/ele1.wav
+attenuation = 1200
+
+[Animations]
+idle = idle
+used = used
+
+[EstheticBonus]
+; man
+v = 9503
+v = -5
+; woman
+v = 9504
+v = -5
+; boy
+v = 9505
+v = 10
+; girl
+v = 9506
+v = 10
+
+[Satisfies]
+building
+fun
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=-16
+entrpos=208
+
+; spot to place guest in once they've used the building
+exitpos=-16
+exitpos=208
+
+; 1000 = essentially infinite capacity
+capacity=2
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2300
+defaultpal = scenery/building/pals/sky16.pal
+
+; cr_part2 is listed in building.ai
+replace = cr_part2
+title = 2301
+defaultpal = scenery/building/pals/pink8.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/eleride/eleride.pal
+colorpal = objects/eleride/color.pal

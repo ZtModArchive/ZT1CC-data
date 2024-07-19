@@ -1,0 +1,354 @@
+[LayoutInfo]
+x=right
+y=-366
+dx=213
+dy=334
+id=16
+helpid=16
+layer=1
+state=1
+
+[Background]
+type=UIImage
+id= 3800
+x=0
+y=0
+animation=ui/sharedui/multipan/multipan
+layer=0
+
+
+[Background2]
+type=UIImage
+id= 3888
+x=0
+y=187
+animation=ui/sharedui/multipa2/multipa2
+layer=0
+
+
+[PanelTitle]
+type=UIText
+id=3801
+x=10
+y=2
+dx=159
+dy=fitfont
+font=3836
+fontsize=3837
+textid=3801
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[list]
+type = UIListBox
+id = 3805
+x=16
+y=35
+dx=154
+dy=134
+font = 3636
+fontsize = 3637
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+highlightcolor = 156
+highlightcolor = 205
+highlightcolor = 183
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+transparent = 1
+scrollbar = 3808
+miniconwidth = 39
+miniconheight = 30
+border = 3
+layer = 1
+; trigger on selection change
+state = 131072
+
+[scrollbar]
+type = UIScrollBar
+id = 3808
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+
+
+[PanelTitle2]
+type=UIText
+id=3831
+textid=3831
+x=10
+y=172
+dx=159
+dy=fitfont
+font=3836
+fontsize=3837
+textid=3801
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+
+[Filter_Name]
+type=UIText
+id=3835
+helpid=3835
+x=10
+y=17
+dx=180
+dy=fitfont
+font=3450
+fontsize=3451
+border=1
+forecolor=254
+forecolor=219
+forecolor=89
+backcolor=59
+backcolor=71
+backcolor=45
+transparent=1
+layer=1
+;justify=center
+state=1
+
+[Filters]
+type=UIRadioSet
+id=3830
+button=3815
+button=3817
+button=3819
+button=3821
+button=3823
+button=3838
+
+[Filter_All]
+type=UIButton
+id=3815
+helpid=3815
+x=25
+y=200
+animation=ui/animal/allanim/allanim
+layer=1
+state=1
+state=8
+state=4096
+
+[Filter_All_Num]
+type=UIText
+id=3816
+helpid=3816
+x=70
+y=205
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+
+[Filter_Angry]
+type=UIButton
+id=3817
+helpid=3817
+x=110
+y=200
+animation=ui/animal/angry/angry
+layer=1
+state=1
+state=4096
+
+[Filter_Angry_Num]
+type=UIText
+id=3818
+helpid=3818
+x=155
+y=205
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[Filter_Sick]
+type=UIButton
+id=3819
+helpid=3819
+helpid=3842
+x=25
+y=235
+animation=ui/animal/sick/sick
+layer=1
+state=1
+state=4096
+
+[Filter_Sick_Num]
+type=UIText
+id=3820
+helpid=3820
+x=70
+y=240
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[Filter_Hungry]
+type=UIButton
+id=3821
+helpid=3821
+helpid=3841
+x=110
+y=235
+animation=ui/animal/hungry/hungry
+layer=1
+state=1
+state=4096
+
+[Filter_Hungry_Num]
+type=UIText
+id=3822
+helpid=3822
+x=155
+y=240
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[Filter_Habitat_Angry]
+type=UIButton
+id=3823
+helpid=3823
+x=25
+y=270
+animation=ui/animal/unhab/unhab
+layer=1
+state=1
+state=4096
+
+[Filter_Habitat_Angry_Num]
+type=UIText
+id=3824
+helpid=3824
+x=70
+y=275
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+[Filter_Habitat_Escaped]
+type=UIButton
+id=3838
+helpid=3838
+x=110
+y=270
+animation=ui/animal/escape/escape
+layer=1
+state=1
+state=4096
+
+[Filter_Habitat_Escaped_Num]
+type=UIText
+id=3839
+helpid=3839
+x=155
+y=275
+dx=32
+dy=fitfont
+font=3736
+fontsize=3737
+border=2
+forecolor=155
+forecolor=204
+forecolor=182
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+
+
+[CloseWindow]
+type=UIButton
+id= 3834
+helpid=3112
+x=184
+y=1
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=16

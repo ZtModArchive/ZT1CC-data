@@ -1,0 +1,28 @@
+[Icon]
+Icon=objects/hquandon/SE/SE
+Icon=objects/hquandon/SW/SW
+Icon=objects/hquandon/NW/NW
+Icon=objects/hquandon/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 200
+cNameID = 7019
+cHelpID = 7019
+;Savannah
+cHabitat = 9400
+;Australia
+cLocation = 9611
+cFootprintX = 2
+cFootprintY = 2
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

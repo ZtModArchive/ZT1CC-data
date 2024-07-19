@@ -1,0 +1,28 @@
+[Icon]
+Icon=objects/woak/SE/SE
+Icon=objects/woak/SW/SW
+Icon=objects/woak/NW/NW
+Icon=objects/woak/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 7067
+cHelpID = 7067
+;Deciduous forest
+cHabitat = 9402
+;North America
+cLocation = 9607
+cFootprintX = 2
+cFootprintY = 2
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

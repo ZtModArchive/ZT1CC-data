@@ -1,0 +1,9 @@
+Some show tricks must be researched. Trick research is found on the Research tab in the Research & Conservation panel. There is a separate category for each animal that has tricks you can research. Funding one of these categories will allow the animal to learn more tricks. Once a trick has been researched, it may be added to any shows that animal performs.
+
+Let's look at the new trick research now.
+
+1. On the left side of the game screen, click the Research & Conservation button.
+2. Click the Research tab.
+3. Click the (+) plus button to increase funding to a trick research program.
+
+Click the OK button to proceed.

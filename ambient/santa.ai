@@ -1,0 +1,18 @@
+[Characteristics/Integers]
+cNameID = 5083
+cHelpID = 5083
+cSpeed = 100
+cFrequency = 0
+cSoundLoop = 1
+cHasShadowImages = 1
+cForceShadowBlack = 1
+
+[Characteristics/Strings]
+
+[Member]
+ambient
+
+[Animations]
+idle = animals/santa/m/idle/idle.ani
+shadowidle = animals/santa/m/idle/idle.ani
+

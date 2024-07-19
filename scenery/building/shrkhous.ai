@@ -1,0 +1,140 @@
+[Icon]
+Icon=objects/shrkhous/SE/SE
+Icon=objects/shrkhous/SW/SW
+Icon=objects/shrkhous/NW/NW
+Icon=objects/shrkhous/NE/NE
+
+[Member]
+structures
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 500
+cNameID = 8064
+cHelpID = 8064
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 8
+cFootprintY = 14
+cCommerce = 1
+cSelectable = 1
+cNeedsConfirm = 1
+cAdultChange = 12
+cChildChange = 9
+cHideUser = 1
+cHideBuilding = 0
+cUserStaysOutside = 0
+cCapacity = 24
+cTimeInside = 9
+cUsedThought=10556
+cHeight = 3
+cRubbleable = 0
+cIsColorReplaced = 1
+cUserUsesExit = 1
+cUserUsesEntranceAsEmergencyExit = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 2.50
+cLowCost = 1.00
+cMedCost = 3.00
+cHighCost = 7.00
+cUpkeep = 100.00
+cPriceFactor = 2.00
+
+[Animations]
+idle = idle
+used = used
+
+[UseSound]
+loops = 0
+name = scenery/building/stunel.wav
+attenuation = 1000
+
+[EstheticBonus]
+; man
+v = 9503
+v = 15
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 10
+
+[Satisfies]
+building
+fun
+
+[slots]
+name=slot
+name=otherslot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=-50
+entrpos=240
+
+; spot to place guest in once they've used the building
+exitpos=50
+exitpos=-240
+
+; 1000 = essentially infinite capacity
+capacity=12
+facing=0
+
+[otherslot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=50
+entrpos=-240
+
+; spot to place guest in once they've used the building
+exitpos=-50
+exitpos=240
+
+; 1000 = essentially infinite capacity
+capacity=12
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2465
+defaultpal = scenery/building/pals/watmel16.pal
+
+; cr_part2 is listed in building.ai
+replace = cr_part2
+title = 2302
+defaultpal = scenery/building/pals/burg8.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/theatre/theatre.pal
+colorpal = objects/theatre/color.pal

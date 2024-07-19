@@ -1,0 +1,44 @@
+[Global]
+AvailableAtStartup=0
+
+[Icon]
+Icon = objects/testbox/SE/SE
+Icon = objects/testbox/SW/SW
+Icon = objects/testbox/NW/NW
+Icon = objects/testbox/NE/NE
+
+
+[Member]
+scenery
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 10
+cNameID = 6499
+cHelpID = 6499
+cUsedThought=10276
+cFootprintX = 2
+cFootprintY = 2
+cHeight = 2
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 6
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 6
+; girl
+v = 9506
+v = 2

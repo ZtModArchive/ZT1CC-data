@@ -1,0 +1,44 @@
+[Global]
+AvailableAtStartup=0
+
+[Icon]
+Icon = objects/statseal/SE/SE
+Icon = objects/statseal/SW/SW
+Icon = objects/statseal/NW/NW
+Icon = objects/statseal/NE/NE
+
+[Member]
+scenery
+aqua
+
+[Characteristics/Integers]
+cNameID = 6800
+cHelpID = 6800
+cPurchaseCost = 200
+cFootprintX = 4
+cFootprintY = 4
+;Bad Habitat Type
+cHabitat = 9414
+cUsedThought=10573
+cHeight = 1
+cUseNumbersInName=0
+cEstheticWeight = 30
+cGawkOnlyFromFront = 0
+cUnderwater = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15

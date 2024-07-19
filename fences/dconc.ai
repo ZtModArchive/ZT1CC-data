@@ -1,0 +1,83 @@
+[f/Icon]
+Icon=fences/dconc/dconc
+[Member]
+habitatfences
+highfence
+fence
+dinosaur
+
+[f/Characteristics/Integers]
+cPurchaseCost = 225
+
+cNameID = 9332
+cHelpID = 9332
+cSeeThrough = 0
+cHeight = 3
+
+cIsClimbable = 0
+cIsJumpable = 0
+; electrified fences are not escapable until they deteriorate
+; guests will test electrified fences as a gawk
+; animals will test electrified fences as a behavior
+cIsElectrified = 0
+cStrength = 460
+cLife = 16
+cDecayedLife = 5
+cDecayDelta = 16
+
+cBreakSound=sounds/brokfenc.wav
+
+[g/Characteristics/Integers]
+cPurchaseCost = 225
+cNameID = 9314
+cHelpID = 9314
+cSelectable = 1
+cSeeThrough = 0
+cHeight = 3
+
+cIsClimbable = 0
+cIsJumpable = 0
+cStrength = 460
+cLife = 16
+cDecayedLife = 5
+cDecayDelta = 16
+
+cOpenSound = sounds/fence1.wav
+cCloseSound = sounds/fence2.wav
+cOpenSoundAtten = 1600
+cClosedSoundAtten = 1600
+
+
+[g/Animations]
+idle = idle
+idle30p = idle30p
+idle30n = idle30n
+
+[f/Animations]
+idle = idle
+idle30p = idle30p
+idle30n = idle30n
+det = det
+det30n = det30n
+det30p = det30p
+broke = broke
+broke30n = broke30n
+broke30p = broke30p
+
+[EstheticBonus]
+; man
+v = 9503
+v = 6
+; woman
+v = 9504
+v = 6
+; boy
+v = 9505
+v = 8
+; girl
+v = 9506
+v = 8
+
+[HabitatFence]
+
+

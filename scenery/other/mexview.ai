@@ -1,0 +1,38 @@
+[Icon]
+Icon = objects/mexview/SE/SE
+Icon = objects/mexview/SW/SW
+Icon = objects/mexview/NW/NW
+Icon = objects/mexview/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 135
+cNameID = 6733
+cHelpID = 6733
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 1
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cDrawsLate = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 2
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

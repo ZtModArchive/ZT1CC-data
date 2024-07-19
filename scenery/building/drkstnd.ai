@@ -1,0 +1,121 @@
+; $Id: drkstnd.ai,v 1.1 2002/04/02 19:33:21 rmh Exp $
+[Icon]
+Icon=objects/dnkstnd/icdrnkSE/icdrnkSE
+Icon=objects/dnkstnd/icdrnkSW/icdrnkSW
+Icon=objects/dnkstnd/icdrnkNW/icdrnkNW
+Icon=objects/dnkstnd/icdrnkNE/icdrnkNE
+
+[Member]
+structures
+
+[Characteristics/Integers]
+cPurchaseCost = 250
+cNameID = 8022
+cHelpID = 8022
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cSelectable = 1
+cNeedsConfirm = 1
+cCommerce = 1
+cAdultChange = 5
+cChildChange = 5
+cHungerChange = 0
+cThirstChange = 0
+cBathroomChange = 0
+cEnergyChange = 0
+cHideUser = 0
+cHideBuilding = 0
+cUserStaysOutside = 1
+cCapacity = 4 
+cTimeInside = 3
+cUsedThought=10118
+cHeight = 3
+
+cIsColorReplaced = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 2.00
+cLowCost = 1.00
+cMedCost = 2.00
+cHighCost = 5.00
+cUpkeep = 50.00
+cPriceFactor = 2.00
+
+[UseSound]
+loops = 0
+name = scenery/building/drnkstnd.wav
+attenuation = 1000
+
+[Sells]
+soda
+
+[Animations]
+idle = idle
+used = used
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 0
+; girl
+v = 9506
+v = 0
+
+[Satisfies]
+building
+drink
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=-16
+entrpos=48
+
+entrpos=16
+entrpos=48
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=48
+
+; 1000 = essentially infinite capacity
+capacity=4
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2302
+defaultpal = scenery/building/pals/gold16.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/drkstnd/drkstnd.pal
+colorpal = objects/drkstnd/color.pal
+

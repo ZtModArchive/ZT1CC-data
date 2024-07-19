@@ -1,0 +1,372 @@
+; $Id: trainer.ai,v 1.35 2002/09/03 17:38:16 sds Exp $
+[Global]
+Class = staff
+Type = trainer
+Subtype =
+DefaultSubtype = m
+
+[f/Icon]
+Icon=staff/icftnr/icftnr
+
+[m/Icon]
+Icon=staff/icmtnr/icmtnr
+
+[Member]
+staff
+aqua
+
+[Characteristics/Integers]
+cExpansionID=2
+; shadows for this unit
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cShow = 1
+
+[m/colorrep]
+color = cr_color
+replace = cr_hair
+replace = cr_skin
+
+[f/colorrep]
+color = cr_color
+replace = cr_hair
+replace = cr_skin
+
+[cr_color]
+ncolors = 224
+fullpal = staff/trainer/trainer.pal
+colorpal = staff/trainer/color.pal
+
+[cr_hair]
+ncolors = 16
+pal = guests/hblack.pal
+pal = guests/hbrown.pal
+pal = guests/hblond.pal
+pal = guests/hred.pal
+
+[cr_skin]
+ncolors = 16
+pal = guests/skcauc1.pal
+pal = guests/skcauc2.pal
+pal = guests/skdark1.pal
+pal = guests/skdark2.pal
+pal = guests/skolive.pal
+
+[m/Characteristics/Strings]
+cGeneralInfoTextName = TRAINER
+cPlaqueImageName = staff/pltnr/pltnr
+cInfoImageName = staff/inmtnr/inmtnr
+cListImageName = staff/lsmtnr/lsmtnr
+;The following are dummy icons. Please replace with 2 new Trainer Training icons.
+cTrainingIconName = research/smmrspc1/smmrspc1
+cTrainingIconName = research/smmrspc2/smmrspc2
+
+[f/Characteristics/Strings]
+cInfoImageName = staff/inftnr/inftnr
+cListImageName = staff/lsftnr/lsftnr
+
+[m/Characteristics/Integers]
+cNameID = 9552
+cHelpID = 9552
+cPurchaseCost = 800
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 1
+cWorkCheck = 5
+cChaseCheck = 2
+cFoodPerTile = 1000
+cSicklyAnimalPct = 15
+cWeaponRange = 5
+cDutiesTextID = 3620
+cTrainingTooltip = 24344
+cTrainingTooltip = 24345
+cFoodUnitsSecond = 10
+cCleanTime = 2
+cHealUnitsSecond = 10
+
+; percent of tank that is cleaned with each sweep
+cCleanTankPct = 30
+
+; percent of tank that must be clean before the MS will stop cleaning
+cCleanTankThreshold = 100
+
+; trainer can swim in tanks
+cUnderwater = 1
+
+; trainer can swim in flat water
+cSwims = 1
+
+[f/Characteristics/Integers]
+cNameID = 9552
+cHelpID = 9552
+cPurchaseCost = 800
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 1
+cWorkCheck = 5
+cChaseCheck = 2
+cFoodPerTile = 1000
+cSicklyAnimalPct = 15
+cWeaponRange = 5
+cFoodUnitsSecond = 10
+cCleanTime = 2
+cHealUnitsSecond = 10
+
+; percent of tank that is cleaned with each sweep
+cCleanTankPct = 30
+
+; percent of tank that must be clean before the MS will stop cleaning
+cCleanTankThreshold = 100
+
+; trainer can swim in tanks
+cUnderwater = 1
+
+; trainer can swim in flat water
+cSwims = 1
+
+[m/Animations]
+stand = staff/trainer/m/stand/stand.ani
+feed = staff/trainer/m/feed/feed.ani
+walk = staff/trainer/m/walk/walk.ani
+idle = staff/trainer/m/stand/stand.ani
+run = staff/trainer/m/run/run.ani
+clap = staff/trainer/m/clap/clap.ani
+climb = staff/trainer/m/climb/climb.ani
+point = staff/trainer/m/point/point.ani
+whistle = staff/trainer/m/whistle/whistle.ani
+throw = staff/trainer/m/throw/throw.ani
+
+; surface animations
+surfidle = staff/trainer/m/surfidle/surfidle.ani
+surfswim = staff/trainer/m/surfswim/surfswim.ani
+surfheal = staff/trainer/m/surfidle/surfidle.ani
+surfclean = staff/trainer/m/surfpoo/surfpoo.ani
+
+; surface animation shadows
+shadowsurfidle = staff/trainer/m/ssurfidl/ssurfidl.ani
+shadowsurfswim = staff/trainer/m/ssurfswi/ssurfswi.ani
+shadowsurfpoo = staff/trainer/m/ssurfpoo/ssurfpoo.ani
+
+; surface animations underwater half
+undersurfidle = staff/trainer/m/usurfidl/usurfidl.ani
+undersurfswim = staff/trainer/m/usurfswi/usurfswi.ani
+undersurfpoo = staff/trainer/m/usurfpoo/usurfpoo.ani
+
+; submerged animations
+subidle = staff/trainer/m/subswim/subswim.ani
+subswim = staff/trainer/m/subswim/subswim.ani
+rise = staff/trainer/m/subrise/subrise.ani
+dive = staff/trainer/m/subdive/subdive.ani
+subfeed = staff/trainer/m/subfeed/subfeed.ani
+subclean = staff/trainer/m/subpoo/subpoo.ani
+subheal = staff/trainer/m/subheal/subheal.ani
+
+; submerged animation shadows
+shadowsubswim = staff/trainer/m/ssubswim/ssubswim.ani
+shadowsubrise = staff/trainer/m/ssubrise/ssubrise.ani
+shadowsubdive = staff/trainer/m/ssubdive/ssubdive.ani
+shadowsubfeed = staff/trainer/m/ssubfeed/ssubfeed.ani
+shadowsubpoo = staff/trainer/m/ssubpoo/ssubpoo.ani
+shadowsubheal = staff/trainer/m/ssubheal/ssubheal.ani
+
+; default animations, flat water
+water_idle = staff/trainer/m/surfidle/surfidle.ani
+swim = staff/trainer/m/surfswim/surfswim.ani
+
+[f/Animations]
+stand = staff/trainer/f/stand/stand.ani
+feed = staff/trainer/f/feed/feed.ani
+walk = staff/trainer/f/walk/walk.ani
+idle = staff/trainer/f/stand/stand.ani
+run = staff/trainer/f/run/run.ani
+clap = staff/trainer/f/clap/clap.ani
+climb = staff/trainer/f/climb/climb.ani
+point = staff/trainer/f/point/point.ani
+whistle = staff/trainer/f/whistle/whistle.ani
+throw = staff/trainer/f/throw/throw.ani
+
+; surface animations
+surfidle = staff/trainer/f/surfidle/surfidle.ani
+surfswim = staff/trainer/f/surfswim/surfswim.ani
+surfheal = staff/trainer/f/surfidle/surfidle.ani
+surfclean = staff/trainer/f/surfpoo/surfpoo.ani
+
+; surface animation shadows
+shadowsurfidle = staff/trainer/f/ssurfidl/ssurfidl.ani
+shadowsurfswim = staff/trainer/f/ssurfswi/ssurfswi.ani
+shadowsurfpoo = staff/trainer/f/ssurfpoo/ssurfpoo.ani
+
+; surface animations underwater half
+undersurfidle = staff/trainer/f/usurfidl/usurfidl.ani
+undersurfswim = staff/trainer/f/usurfswi/usurfswi.ani
+undersurfpoo = staff/trainer/f/usurfpoo/usurfpoo.ani
+
+; submerged animations
+subidle = staff/trainer/f/subswim/subswim.ani
+subswim = staff/trainer/f/subswim/subswim.ani
+rise = staff/trainer/f/subrise/subrise.ani
+dive = staff/trainer/f/subdive/subdive.ani
+subfeed = staff/trainer/f/subfeed/subfeed.ani
+subclean = staff/trainer/f/subpoo/subpoo.ani
+subheal = staff/trainer/f/subheal/subheal.ani
+
+; submerged animation shadows
+shadowsubswim = staff/trainer/f/ssubswim/ssubswim.ani
+shadowsubrise = staff/trainer/f/ssubrise/ssubrise.ani
+shadowsubdive = staff/trainer/f/ssubdive/ssubdive.ani
+shadowsubfeed = staff/trainer/f/ssubfeed/ssubfeed.ani
+shadowsubpoo = staff/trainer/f/ssubpoo/ssubpoo.ani
+shadowsubheal = staff/trainer/f/ssubheal/ssubheal.ani
+
+; default animations, flat water
+water_idle = staff/trainer/f/surfidle/surfidle.ani
+swim = staff/trainer/f/surfswim/surfswim.ani
+
+[Sounds]
+
+surfpoo = staff/surfpoo.wav
+surfpoo = 1500
+subpoo = staff/subpoo.wav
+subpoo  = 1500
+feed_herb = staff/subfeed.wav
+feed_herb = 1500
+feed_carn = staff/subfeed.wav
+feed_carn = 1500
+heal_animal = staff/surfheal.wav
+
+throw = staff/throw.wav
+throw = 1500
+start = staff/start.wav
+start = 2000
+point = staff/point.wav
+point = 1500
+blow = staff/blow.wav
+blow = 1500
+
+subidle= staff/subidle.wav
+subidle= 1500
+surfide= staff/surfidle.wav
+surfide=1500
+surfswim= staff/surfswim.wav
+surfswim=1500
+subswim= staff/subswim.wav
+subswim= 1500
+
+[BehaviorSet\bWalkRandomly]
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fPlayTime(idle,2)
+
+[BehaviorSet\bWalk]
+f = fPlaySetTerrain(bWalkland,bWalkwater,bWalksurf,bWalksub)
+
+[BehaviorSet\bWalkland]
+f = fWalk(0,0)
+
+[BehaviorSet\bWalkwater]
+f = fWalk(0,0)
+
+[BehaviorSet\bWalksurf]
+f = fMoveWithSound(0,0,surfswim,33,surfswim)
+
+[BehaviorSet\bWalksub]
+f = fMoveWithSound(0,0,subswim,33,subswim)
+
+[BehaviorSet\bCleanTankSurf]
+f = fMoveWithSound(level, 0, surfclean, 33, surfpoo)
+
+[BehaviorSet\bCleanTankSub]
+f = fMoveWithSound(level, 0, subclean, 33, subpoo)
+
+[BehaviorSet\bZooRoutine]
+f = fKeeperRoutine()
+
+[BehaviorSet\bFeedTank]
+f = fFaceTowardTarget()
+f = fPlayWithSound(subfeed,feed_carn)
+f = fPlayWithSound(subfeed,feed_carn)
+f = fPlayWithSound(subfeed,feed_carn)
+
+[BehaviorSet\bHeal]
+f = fFaceTowardTarget()
+f = fPlaySetTank(bSurfheal,bSubheal)
+
+[BehaviorSet\bSurfheal]
+f = fPlayWithSound(surfheal,heal_animal)
+f = fPlayReverse(surfheal)
+
+[BehaviorSet\bSubheal]
+f = fPlayWithSound(subheal,heal_animal)
+f = fPlayReverse(subheal)
+
+[BehaviorSet\bClean]
+f = fFaceTowardTarget()
+f = fPlayWithSound(subpoo,subpoo)
+f = fPlayWithSound(subpoo,subpoo)
+f = fPlay(idle)
+
+[BehaviorSet\bChaseAnimal]
+f = fRun(0,0)
+
+[BehaviorSet\bRetrieveAnimal]
+f = fRun(0,0)
+
+[BehaviorSet\bRunFromPredator]
+f = fPlaySetTerrain(bRunpredland,bRunpredwater,bRunpredsurf,bRunpredsub)
+
+[BehaviorSet\bRunpredland]
+f = fRun(0,0)
+
+[BehaviorSet\bRunpredwater]
+f = fRun(0,0)
+
+[BehaviorSet\bRunpredsurf]
+f = fMoveWithSound(0,0,surfswim,66,surfswim)
+
+[BehaviorSet\bRunpredsub]
+f = fMoveWithSound(0,0,subswim,66,subswim)
+
+[BehaviorSet\bClimbUp]
+f = fFly(climb, 33)
+
+[BehaviorSet\bClimbDown]
+f = fFlyReverse(climb, 33)
+
+[BehaviorSet\bTrickStart]
+f = fPlayWithSound(point,point)
+f = fPlayWithSound(whistle,blow)
+
+[BehaviorSet\bTrickEnd]
+f = fPlayWithSound(point,point)
+f = fPlayWithSound(whistle,blow)
+
+[BehaviorSet\bTrickFeed]
+f = fPlayWithSound(throw,throw)
+
+[AmbientAnims]
+a = -100
+a = 100
+b = bZooRoutine
+
+[AmbientAnimsUnderwater]
+a = -100
+a = 100
+b = bZooRoutine
+
+[AmbientAnimsSurface]
+a = -100
+a = 100
+b = bZooRoutine
+
+[AmbientAnimsWater]
+a = -100
+a = 100
+b = bZooRoutine

@@ -1,0 +1,36 @@
+[Icon]
+Icon = objects/junarch/SE/SE
+Icon = objects/junarch/SW/SW
+Icon = objects/junarch/NW/NW
+Icon = objects/junarch/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 275
+cNameID = 6717
+cHelpID = 6717
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 6
+cFootprintY = 2
+cHeight = 3
+walkable = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 3

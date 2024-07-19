@@ -1,0 +1,7 @@
+A conservation group has purchased a small plot of land in a wooded area outside the City of Munich, Germany. Their goal is to create a small zoo that can be used as a haven for animals from zoos around the world when they are no longer wanted. 
+
+You will not be able to adopt any animals in this scenario. They will all be donated to you from other zoos. The first shipment of animals has arrived and can be found in their shipping crates near the front gate. The animals won't leave these crates until they are placed in valid exhibits. 
+
+When this first batch of animals are in suitable exhibits, another shipment will arrive. In the meantime, attract guests by purchasing buildings where guests can fulfill their needs and where they can have fun.
+
+Remember, if you need extra cash, you can always sell the trees inside the zoo by clicking the Clear Objects tab, moving the bulldozer-shaped cursor to a tree, and then clicking it. To sell multiple items, draw a box with the bulldozer-shaped cursor; all the zoo objects inside the box will be deleted when you release the mouse button.

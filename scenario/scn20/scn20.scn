@@ -1,0 +1,154 @@
+[desc]
+name=16020
+story=SCENARIO_START_STORY_SCN20
+picture=scenario/scn20/map20/map20
+winstory=SCENARIO_WIN_STORY_SCN20
+winpicture=ui/scenario/dwin/dwin
+losestory=SCENARIO_LOSE_STORY_SCN20
+losepicture=ui/scenario/dlose/dlose
+lockedstory=SCENARIO_LOCK_STORY_5
+lockedpicture=ui/scenario/dlock/dlock
+
+;Icons for completion, in progress, not done
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+;This limits the player to just using dino entities
+expansion=2
+expansionLocked=1
+
+;Ice Age Animal Zoo
+[start]
+;Start condition
+;Small map 75x75
+;Very uneven terrain with lots of tundra, rocks and gray rock
+;Set Starting Cash to $50,000
+
+economy=scenario/scn20/economy.cfg
+marketing=mktg.cfg
+research=research.cfg
+savegame=maps/scn20.zoo
+setcash=150000
+triggers=disableUI
+reset=1
+worldConfig=sounds/mount1.cfg
+extragoals=freeform/donation.scn
+extragoals=freeform/awards.scn
+
+[ambients]
+;Santa
+id=5083
+;Hawk
+id=5050
+;Bi-Plane
+id=5082
+;Witch
+id=5084
+
+[resume]
+triggers=disableUI
+
+[disableUI]
+trulea=2
+truleb=12
+targa=2000
+
+[2000]
+;Show Objects Tab
+id=2076
+
+[goals]
+goal=a
+goal=b
+goal=c
+goal=d
+goal=e
+goal=f
+goal=g
+
+;Objectives;;
+[a]
+;Exhibit at least 1 Meiolania
+rulea=4
+ruleb=2
+arga=5331
+value=1
+hidden=0
+optional=0
+sticky=0
+type=0
+text=17744
+
+[b]
+;Exhibit at least 1 Smilodon
+rulea=4
+ruleb=2
+arga=5086
+value=1
+hidden=0
+optional=0
+sticky=0
+type=0
+text=17744
+
+[c]
+;Exhibit at least 1 Wooly Rhino
+rulea=4
+ruleb=2
+arga=5330
+value=1
+hidden=0
+optional=0
+sticky=0
+type=0
+text=17744
+
+[d]
+;Exhibit at least 1 Wooly Mammoth
+rulea=4
+ruleb=2
+arga=5329
+value=1
+hidden=0
+optional=0
+sticky=0
+type=0
+text=17744
+
+[e]
+;Have a rating of at least 80 for 4 Ice Age habitats.
+rulea=6
+ruleb=5
+arga=4
+argb=9623
+value=80
+hidden=0
+optional=0
+sticky=0
+type=0
+text=17605
+
+[f]
+;Have an average animal happiness rating of 85
+rulea=1
+ruleb=0
+type=0
+value=85
+hidden=0
+optional=0
+sticky=0
+type=0
+text=17100
+
+[g]
+;Have a zoo rating of at least 70
+rulea=1
+ruleb=2
+type=0
+value=70
+hidden=0
+optional=0
+sticky=0
+type=0
+text=17102

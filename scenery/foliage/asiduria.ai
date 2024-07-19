@@ -1,0 +1,63 @@
+[Icon]
+Icon = objects/asiduria/SE/SE
+Icon = objects/asiduria/SW/SW
+Icon = objects/asiduria/NW/NW
+Icon = objects/asiduria/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7434
+cHelpID = 7434
+cHabitat = 9405
+cLocation = 9603
+cFootprintX = 2
+cFootprintY = 2
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cForcesSceneryRubble = 1
+cUsesTreeRubble=1
+
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 1
+cTimeInside = 16
+cUsedThought = 0
+cUserUsesExit = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle
+used = idle
+
+[Satisfies]
+building
+animalrest
+
+[slots]
+name=slot
+
+[slot]
+id = 5506
+slotpos = 0
+slotpos = 0
+
+entrpos = 0
+entrpos = -78
+
+exitpos = 0
+exitpos = -78
+
+capacity = 1
+facing = 7

@@ -1,0 +1,33 @@
+[Icon]
+Icon=fences/lwhedge/SE/SE
+
+[Member]
+zoofences
+lowfence
+fence
+
+[Characteristics/Integers]
+cPurchaseCost = 85
+cNameID = 9310
+cHelpID = 9310
+cHeight = 1
+
+[Animations]
+idle = idle
+idle30p = idle30p
+idle30n = idle30n
+
+[EstheticBonus]
+; man
+v = 9503
+v = 5
+; woman
+v = 9504
+v = 5
+; boy
+v = 9505
+v = 5
+; girl
+v = 9506
+v = 5
+

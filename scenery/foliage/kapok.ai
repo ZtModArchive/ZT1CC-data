@@ -1,0 +1,28 @@
+[Icon]
+Icon=objects/kapok/SE/SE
+Icon=objects/kapok/SW/SW
+Icon=objects/kapok/NW/NW
+Icon=objects/kapok/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 230
+cNameID = 7065
+cHelpID = 7065
+;Tropical rainforest
+cHabitat = 9405
+;South America
+cLocation = 9606
+cFootprintX = 2
+cFootprintY = 2
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/grasstr/SE/SE
+Icon=objects/grasstr/SW/SW
+Icon=objects/grasstr/NW/NW
+Icon=objects/grasstr/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7063
+cHelpID = 7063
+;Savannah
+cHabitat = 9400
+;Australia
+cLocation = 9611
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

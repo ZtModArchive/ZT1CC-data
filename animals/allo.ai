@@ -1,0 +1,1454 @@
+[Global]
+Class = animals
+Type = allo
+Subtype = 
+DefaultSubtype = m
+
+[AnimPath]
+m = animals/allo/m
+f = animals/allo/m
+y = animals/allo/y
+
+[m/Icon]
+Icon = animals/allo/icmallo/icmallo
+
+[Characteristics/Integers]
+cIconZoom = -2
+cExpansionID=1
+
+[Member]
+dinosaur
+animals
+
+[m/Characteristics/Strings]
+cKeeperFoodType = carnivore
+cGeneralInfoTextName = ALLO_GENERAL
+cPlaqueImageName = animals/allo/plmallo/plmallo
+cListImageName = animals/allo/lsmallo/lsmallo
+
+
+; Fern Bush
+cPrefIcon = objects/fernbush/SE/SE
+
+[m/Characteristics/Integers]
+cKeeperFoodType = 7
+;Fern Bush
+cPrefIconID = 7085
+cLaysEggs = 1
+cEatsEggs = 1
+cTimeToHatch = 80
+cEggIconZoom = 0
+cBoxedIconZoom = -2
+
+; Allosaurus
+cNameID = 5094
+cHelpID = 5094
+; Dinosaurs
+cFamily = 5216
+; Allosaurs
+cGenus = 5144
+; Tropical Rainforest
+cHabitat = 9405
+; North America
+cLocation = 9607
+; Jurassic
+cEra = 9621
+cPurchaseCost = 4500
+cInitialHappiness  = 50
+cSlowRate = 60
+cMediumRate = 80
+cFastRate = 120
+cSlowAnimSpeed = 100
+cMediumAnimSpeed = 133
+cFastAnimSpeed = 150
+cFootprintX = 2
+cFootprintY = 10
+walkable = 0
+cHeliRecovery=1
+
+;//Angry Effects//
+cBabiesAttack = 1
+cCaptivity = 10
+cNoFoodChange  = -50
+cSickChange = -10
+cOtherAnimalSickChange = -10
+cCrowdHappinessChange = -20
+cOtherAnimalAngryChange = 0 
+cNumberMinChange = -5
+cNumberMaxChange = -10
+cAllCrowdedChange = -5
+cAngryHabitatChange = -10
+cVeryAngryHabitatChange = -30
+cDeathChange = -5
+cNotEnoughKeepersChange = -20
+cAngryTreeChange = -10
+cRampageThreshold = 10
+cRampageChance = 10
+cRampageTimeMin = 15
+cRampageTimeMax = 30
+
+;//Happy Effects//
+cBabyBornChange = 50
+cHappyHabitatChange = 20
+
+cMaxHits  = 225
+cMinHits  = 0
+cPctHits  = 20
+
+cHungerThreshold  = 50
+cHungerIncrement  = 10
+cNeededFood = 100
+cKeeperFoodUnitsEaten = 10
+cHungryHealthChange = 10
+
+cSickChance = 20
+
+cEnergyThreshold = 100 
+cEnergyIncrement  = 10	
+cMaxEnergy = 100
+
+cCrowd = 30
+
+cKeeperFrequency = 2
+cKeeperArrivesChange = 1
+
+cSocial = 0
+cHabitatSize = 100
+cNumberAnimalsMin = 1
+cNumberAnimalsMax = 3
+cAnimalDensity = 200
+
+cPctHabitat = 10
+cHabitatPreference = 84
+
+cDirtyHabitatRating = 25
+cDirtyIncrement = 10
+cDirtyThreshold = 100
+
+cReproductionChance = 1
+cReproductionInterval = 1800
+cBabyToAdult = 2160
+cHappyReproduceThreshold = 97
+cOffspring = 1
+cMatingType = 0
+cNoMateChange = -5
+
+cIsJumper = 1
+cIsClimber = 0
+cIsManEater = 0
+cTall = 1
+cBashStrength = 290
+cPreattack = 1
+cResetPreyPosition = 1
+; cCrushesFences 1 will make this animal bash any fence of height 1 or less.
+; cCrushesFences 3 will make this animal bash any fence of height 3 or less.
+cCrushesFences = 3
+
+cTestFenceChance = 50
+cTestFenceChanceDrop = 5
+cMinTestFenceChance = 5
+cZapHappinessChange = -25
+
+; use a large box for the allo
+cBoxFootprintX = 4
+cBoxFootprintY = 4
+cBoxFootprintZ = 4
+
+;Keeper
+cKeeper = 9551
+
+;Prey List
+;African Elephant
+cPrey = 5000
+;Giant Panda	
+cPrey = 5001
+;Polar Bear
+cPrey = 5002
+;Chimpanzee			
+cPrey = 5003
+;Plains Zebra		
+cPrey = 5004
+;Thomsons Gazelle		
+cPrey = 5005
+;Lion
+cPrey = 5006
+;Bengal Tiger
+cPrey = 5007
+;Siberian Tiger
+cPrey = 5008
+;Cheetah
+cPrey = 5009
+;Leopard
+cPrey = 5010
+;Black Leopard
+cPrey = 5011
+;Snow Leopard
+cPrey = 5012
+;Clouded Leopard
+cPrey = 5013
+;Jaguar
+cPrey = 5014
+;Gray Wolf			
+cPrey = 5015
+;Grizzly Bear
+cPrey = 5016
+;Black Bear
+cPrey = 5017
+;Spotted Hyena
+cPrey = 5018
+;Olive Baboon		
+cPrey = 5019
+;Mandrill			
+cPrey = 5020
+;Mountain Gorilla		
+cPrey = 5021
+;Red Kangaroo		
+cPrey = 5023
+;Black Rhinoceros
+cPrey = 5024
+;Common Wildebeest	    	
+cPrey = 5025
+;American Bison
+cPrey = 5026
+;Ibex			
+cPrey = 5027
+;Okapi			
+cPrey = 5028
+;Moose			
+cPrey = 5029
+;African Buffalo
+cPrey = 5030
+;Gemsbok		
+cPrey = 5031
+;American Bighorn Sheep
+cPrey = 5032
+;Giraffe			
+cPrey = 5033
+;Dromedary Camel		
+cPrey = 5034
+;Hippopotamus
+cPrey = 5035
+;Markhor			
+cPrey = 5036
+;Greater Flamingo		
+cPrey = 5037
+;Ostrich			
+cPrey = 5038
+;Emperor Pengiun		
+cPrey = 5039
+;California Sea Lion	
+cPrey = 5040
+;Saltwater Crocodile
+cPrey = 5041
+;Giant Anteater		
+cPrey = 5042
+;African Warthog		
+cPrey = 5043
+;White Bengal Tiger
+cPrey = 5045
+;Triceratops
+cPrey = 5046
+;Yeti
+cPrey = 5047
+;Arctic Wolf
+cPrey = 5048
+;Unicorn
+cPrey = 5049
+;Blackbuck			
+cPrey = 5076
+;Bongo				
+cPrey = 5077
+;Mountain Lion
+cPrey = 5078
+;Sable Antelope				
+cPrey = 5079
+;Asian Black Bear
+cPrey = 5080
+;Asian Elephant
+cPrey = 5081
+;Smilodon
+cPrey = 5086
+;Ankylosaurus
+cPrey = 5087
+;Gallimimus
+cPrey = 5088
+;Iguanodon
+cPrey = 5089
+;Lambeosaurus
+cPrey = 5090
+;Spinosaurus
+cPrey = 5091
+;Styracosaurus
+cPrey = 5092
+;Velociraptor
+cPrey = 5093
+;Camptosaurus
+cPrey = 5095
+;Caudipteryx
+cPrey = 5096
+;Kentrosaurus
+cPrey = 5097
+;Plesiosaurus
+cPrey = 5098
+;Stegosaurus
+cPrey = 5099
+;Reindeer				
+cPrey = 5300
+//Reserved for new prey animals
+;Prey animal 1				
+cPrey = 5301
+;Prey animal 2				
+cPrey = 5302
+;Prey animal 3				
+cPrey = 5303
+;Prey animal 4				
+cPrey = 5304
+;Prey animal 5				
+cPrey = 5305
+;Prey animal 6				
+cPrey = 5306
+;Prey animal 7				
+cPrey = 5307
+;Prey animal 8				
+cPrey = 5308
+;Prey animal 9				
+cPrey = 5309
+;Prey animal 10				
+cPrey = 5310
+;Prey animal 11				
+cPrey = 5311
+;Prey animal 12				
+cPrey = 5312
+;Prey animal 13				
+cPrey = 5313
+;Prey animal 14				
+cPrey = 5314
+;Prey animal 15				
+cPrey = 5315
+;Prey animal 16				
+cPrey = 5316
+;Prey animal 17				
+cPrey = 5317
+;Prey animal 18				
+cPrey = 5318
+;Prey animal 19				
+cPrey = 5319
+;Prey animal 20				
+cPrey = 5320
+;Prey animal 21				
+cPrey = 5321
+;Prey animal 22				
+cPrey = 5322
+;Prey animal 23				
+cPrey = 5323
+;Prey animal 24				
+cPrey = 5324
+;Apatosaurus
+cPrey = 5325
+;Coelophysis
+cPrey = 5326
+;Herrerasaurus
+cPrey = 5327
+;Plateosaurus
+cPrey = 5328
+;Wooly Mammoth
+cPrey = 5329
+;Wooly Rhinoceros
+cPrey = 5330
+;Meiolania
+cPrey = 5331
+;Man
+cPrey = 9503
+;Scientist
+cPrey = 9551
+;Zookeeper
+cPrey = 9500
+;Maintenance Worker
+cPrey = 9501
+;Tour Guide
+cPrey = 9502
+;Marine Specialist
+cPrey = 9552
+;Walrus
+cPrey = 5417
+;Northern Elephant Seal
+cPrey = 5404
+;Megatherium
+cPrey = 5501
+;Komodo Dragon
+cPrey = 5503
+;African Wild Dog
+cPrey = 5500
+;Macrauchenia
+cPrey = 5505
+;Orangutan
+cPrey = 5506
+;Malaysian Tapir
+cPrey = 5507
+;Japanese Serow
+cPrey = 5508
+;Przewalski's Wild Horse
+cPrey = 5509
+;Javan Rhino
+cPrey = 5511
+;Bigfoot
+cPrey = 5514
+;Loch Ness Monster
+cPrey = 5515
+;Mexican Gray Wolf
+cPrey = 5516
+
+cFlies = 0
+cSwims = 0
+
+cEscapedChange = 30
+
+cSickTime = 4
+
+cMimic = 0
+cMimicHappyDiff = 0
+
+cOtherFood = 0
+cFoodTypes = 0
+
+cTreePref = 5
+cRockPref = 2
+cSpacePref = 40 
+cElevationPref = 0
+
+cTimeDeath = 12960
+cDeathChance = 45
+
+cEatVegetationChance = 0
+cDrinkWaterChance = 3
+cChaseAnimalChance = 30
+cClimbsCliffs = 1
+cDinoZoodoo = 1
+cGiantZoodoo = 1
+
+cBuildingUseChance = 10
+
+cAttractiveness = 80
+cNeedShelter = 1
+
+[y/Characteristics/Integers]
+cPrefIconID = 7085
+cChaseAnimalChance = 50
+cIsJumper = 0
+cAttractiveness = 180
+cFootprintX = 2
+cFootprintY = 6
+cSlowRate = 30
+cMediumRate = 39
+cFastRate = 48
+cTall = 0
+cEggFootprintX = 2
+cEggFootprintY = 2
+cEggFootprintZ = 2
+cBoxedIconZoom = -2
+
+[m/Characteristics/Mixed]
+[cCompatibleAnimals]
+;Primitive ungulates		
+v = 5200
+v = -20
+;Racoon			
+v = 5201
+v = -10
+;Bears			
+v = 5202
+v = -20
+;Primates			
+v = 5203
+v = -5
+;Odd-toed ungulates		
+v = 5204
+v = -10
+;Even-toed ungulates			
+v = 5205
+v = -10
+;Cat			
+v = 5206
+v = -20
+;Canine			
+v = 5207
+v = -20
+;Hyena			
+v = 5208
+v = -20
+;Marsupial		
+v = 5210
+v = -5
+;Bird			
+v = 5211
+v = -5
+;Seal			
+v = 5212
+v = -15
+;Crocodile		
+v = 5213
+v = -20
+;Edentate		    	
+v = 5214
+v = -5
+;Pig			
+v = 5215
+v = -5
+;Tyrannosaurs
+v = 5135
+v = -25
+;Smilodons
+v = 5136
+v = -10
+;Ankylosaurs
+v = 5137
+v = -10
+;Gallimimuses
+v = 5138
+v = -10
+;Iguanodons
+v = 5139
+v = -10
+;Lambeosaurs
+v = 5140
+v = -10
+;Spinosaurs
+v = 5141
+v = -25
+;Styracosaurs
+v = 5142
+v = -10
+;Velociraptors
+v = 5143
+v = -25
+;Allosaurs
+v = 5144
+v = -10
+;Camptosaurs
+v = 5145
+v = -10
+;Caudipteryxes
+v = 5146
+v = -10
+;Kentrosaurs
+v = 5147
+v = -10
+;Plesiosaurs
+v = 5148
+v = -15
+;Stegosaurs
+v = 5149
+v = -10
+;Apatosaurs
+v = 5150
+v = -10
+;Coelophysises
+v = 5151
+v = -10
+;Herrerasaurs
+v = 5152
+v = -15
+;Plateosaurs
+v = 5153
+v = -10
+;Wooly Mammoths
+v = 5154
+v = -10
+;Wooly Rhinos
+v = 5155
+v = -10
+;Meiolanias
+v = 5156
+v = -10
+;Triceratopses
+v = 5157
+v = -10
+;Deinosuchus
+v = 5158
+v = -25
+;Allosaurus			
+v = 5094
+v = 10
+
+[cSuitableObjects]
+;Non-habitat
+v = 9410
+v = -10
+;Tropical rainforest
+v = 9405
+v = 10
+;Savannah
+v = 9400
+v = -5
+;Grassland
+v = 9401
+v = -5
+;Deciduous forest
+v = 9402
+v = -3
+;Coniferous forest
+v = 9403
+v = -3
+;Highlands
+v = 9407
+v = -3
+;Tundra
+v = 9408
+v = -5
+;Desert
+v = 9409
+v = -25
+;Aquatic
+v = 9413
+v = -10
+;Bad-habitat
+v = 9414
+v = -100
+
+;FOLIAGE AND ROCKS
+;Large Rock 1
+v = 9200
+v = 5
+;Large Rock 2
+v = 9201
+v = 5
+;Large Rock 3
+v = 9202
+v = 5
+;Large Rock 4
+v = 9203
+v = 5
+;Large Rock 5
+v = 9204
+v = 5
+;Small Rock 1
+v = 9205
+v = 3
+;Small Rock 2
+v = 9206
+v = 3
+;Small Rock 3
+v = 9207
+v = 3
+;Small Rock 4
+v = 9208
+v = 3
+;Small Rock 5
+v = 9209
+v = 3
+;Waterfall
+v = 9213
+v = 18
+;Ruins
+v = 9215
+v = 16
+;Rainforest Rock Wall
+v = 9217
+v = 18
+;Poo
+v = 6062
+v = -10
+;Llala Palm Tree
+v = 7042
+v = -12
+;Kapok Tree
+v = 7065
+v = -12
+;Ulmo Tree
+v = 7005
+v = -12
+;Mangrove Tree
+v = 7014
+v = 12
+;Rainforest Bush
+v = 7049
+v = 14
+;Elephant Ear Tree
+v = 7015
+v = 16
+;Fernbush
+v = 7085
+v = 18
+;SHELTERS
+;Dino Cave
+v = 8128
+v = 20
+
+[cCompatibleTerrain]
+; grass = 0
+; savannah grass = 1
+; sand = 2
+; dirt = 3
+; rainforest floor = 4
+; brown rock = 5
+; gray rock = 6
+; gravel = 7
+; snow = 8
+; fresh water = 9
+; salt water = 10
+; deciduous floor = 11
+; waterfall = 12
+; coniferous floor = 13
+; concrete = 14
+; asphalt = 15
+; trampled = 16
+
+v = 16
+v = -5
+
+v = 2
+v = -5
+
+v = 4
+v = 70
+
+v = 6
+v = -10
+
+v = 9
+v = 10
+
+v = 10
+v = -20
+
+v = 15
+v = -15
+
+v = 14
+v = -15
+
+v = 0
+v = 20
+
+v = 11
+v = -15
+
+[m/Animations]
+;From stand
+idle = stand
+stand = stand
+arms = arms
+dig = dig
+eat_down = eatdown
+head_down = headdown
+head_bob = headbob
+head_ground = headgrnd
+head_raise = headrais
+lie_idle = liedidle
+lie_down = liedown
+look_left = lookl
+look_right = lookr
+roar = roar
+roar2 = roar2
+roar_left = roarl
+roar_right = roarr
+shake = shake
+sick = sick
+sleep = sleep
+snort = snort
+to_hunt = tohunt
+test_fence = fencezap
+
+;Movement
+walk = walk
+run = run
+hunt_walk = huntwalk
+
+;Hunt Animations
+hunt_idle = huntidle
+hunt = hunt
+hunt_roar = huntror
+
+;Box and Dustball animations
+box_idle = objects/dinobox/idle/idle.ani
+box_used = objects/dinobox/used/used.ani
+dustball = objects/dustcl/large/large.ani
+egg_idle = objects/e-allo/idle/idle.ani
+egg_hatch = objects/e-allo/used/used.ani
+egg_break = objects/e-allo/break/break.ani
+
+[y/Animations]
+;From stand
+idle = stand
+stand = stand
+arms = arms
+dig = dig
+eat_down = eatdown
+head_bob = headbob
+head_down = headdown
+head_ground = headgrnd
+head_raise = headrais
+lie_idle = lieidle
+lie_down = liedown
+look_left = lookl
+look_right = lookr
+roar = roar
+roar2 = roar2
+roar_left = roarl
+roar_right = roarr
+shake = shake
+sick = sick
+sleep = sleep
+snort = snort
+to_hunt = tohunt
+test_fence = fencezap
+
+;Movement
+walk = walk
+run = run
+hunt_walk = huntwalk
+
+;Hunt Animations
+hunt_idle = huntidle
+hunt = hunt
+hunt_roar = huntror
+
+;Box and Dustball animations
+box_idle = objects/dinobox/idle/idle.ani
+box_used = objects/dinobox/used/used.ani
+dustball = objects/dustcl/large/large.ani
+egg_idle = objects/e-allo/idle/idle.ani
+egg_hatch = objects/e-allo/used/used.ani
+egg_break = objects/e-allo/break/break.ani
+
+[Sounds]
+;Male sounds
+roar = animals/allo/roar.wav
+roar = 300
+roar2 = animals/allo/roar2.wav
+dig = animals/allo/dig.wav
+dig = 300
+hunt = animals/allo/hunt.wav
+hunt = 300
+huntror = animals/allo/huntror.wav
+huntror = 300
+snort = animals/allo/snort.wav
+snort = 300
+zap = sounds/electric.wav
+zap = 300
+;dustball, place and pickup
+dustball = animals/allo/huntror.wav
+dustball = 300
+placesound = animals/allo/roar.wav
+placesound = 1500
+pickupsound = animals/allo/roar2.wav
+pickupsound = 1500
+hatch = sounds/egghatch.wav
+hatch= 100
+snore = sounds/sleep03.wav
+snore=100
+
+;Allosaurus Male Behavior Set Probabilities
+[m\BehaviorSet\bHappy]
+f = fPlaySetProb(bIdle1,20,bHappy1,50,bHappy2,30)
+
+[m\BehaviorSet\bFriendly]
+f = fPlaySetProb(bHappy3,70,bIdle2,30)
+
+[m\BehaviorSet\bCalm]
+f = fPlaySetProb(bCalm1,50,bIdle1,30,bIdle2,20)
+
+[m\BehaviorSet\bNeutral]
+f = fPlaySetProb(bIdle1,40,bIdle2,40,bNeutral1,20)
+
+[m\BehaviorSet\bUneasy]
+f = fPlaySetProb(bUneasy1,35,bNoise1,15,bIdle2,15,bUneasy2,35)
+
+[m\BehaviorSet\bTense]
+f = fPlaySetProb(bTense1,60,bAngry3,20,bNoise1,20)
+
+[m\BehaviorSet\bHunt]
+f = fPlaySetProb(bHunt1,50,bHunt2,50)
+
+[m\BehaviorSet\bAngry]
+f = fPlaySetProb(bAngry1,40,bAngry2,40,bNoise3,20)
+
+[m\BehaviorSet\bEscaped]
+f = fPlaySetProb(bEscaped1,70,bNoise3,30)
+
+;[m\BehaviorSet\bTest]
+;f = fPlaySetProb(bWalk,50,bRun,50)
+
+;Allosaurus Male Behavior Sets
+[m\BehaviorSet\bHappy1]
+f = fPlay(stand)
+f = fPlayWithSound(snort,snort)
+f = fPlay(look_left)
+f = fPlayReverse(look_left)
+f = fPlayWithSound(roar_left,roar)
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bHappy2]
+f = fPlay(stand)
+f = fPlay(head_bob)
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(head_raise)
+f = fPlayReverse(head_raise)
+f = fPlay(stand)
+
+[m\BehaviorSet\bHappy3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fRun(0,0)
+f = fPlay(look_right)
+f = fPlayReverse(look_right)
+f = fPlay(stand)
+
+[m\BehaviorSet\bCalm1]
+f = fPlay(stand)
+f = fPlay(head_bob)
+f = fPlayTime(stand,5)
+f = fPlay(head_raise)
+f = fPlayReverse(head_raise)
+f = fPlayWithSound(snort,snort)
+f = fPlay(stand)
+
+[m\BehaviorSet\bUneasy1]
+f = fPlay(stand)
+f = fPlay(look_left)
+f = fPlayReverse(look_left)
+f = fPlay(look_right)
+f = fPlayReverse(look_right)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[m\BehaviorSet\bUneasy2]
+f = fPlay(stand)
+f = fRun(0,0)
+f = fPlay(shake)
+f = fPlay(arms)
+f = fPlay(stand)
+
+[m\BehaviorSet\bTense1]
+f = fPlay(stand)
+f = fPlay(arms)
+f = fPlay(snort)
+f = fPlay(head_bob)
+f = fPlayWithSound(roar_left,roar)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[m\BehaviorSet\bHunt1]
+f = fPlay(to_hunt)
+f = fPlay(hunt_idle)
+f = fPlayWithSound(hunt,hunt)
+f = fMove(0,0,hunt_walk,80)
+f = fPlay(hunt_idle)
+f = fPlayWithSound(hunt,hunt)
+f = fPlayReverse(to_hunt)
+
+[m\BehaviorSet\bHunt2]
+f = fPlay(to_hunt)
+f = fPlay(hunt_idle)
+f = fPlayWithSound(hunt,hunt)
+f = fPlayWithSound(hunt_roar,huntror)
+f = fMove(0,0,hunt_walk,80)
+f = fPlay(hunt_idle)
+f = fPlayReverse(to_hunt)
+
+[m\BehaviorSet\bAngry1]
+f = fPlay(stand)
+f = fPlay(head_raise)
+f = fPlayReverse(head_raise)
+f = fPlayWithSound(roar2,roar2)
+f = fPlay(shake)
+f = fPlayWithSound(roar_left,roar)
+f = fPlayWithSound(snort,snort)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry2]
+f = fPlay(stand)
+f = fPlay(head_raise)
+f = fPlayReverse(head_raise)
+f = fPlay(arms)
+f = fRun(0,0)
+f = fPlayWithSound(roar_right,roar2)
+f = fPlayWithSound(roar,roar)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry3]
+f = fPlay(stand)
+f = fPlay(look_left)
+f = fPlayReverse(look_left)
+f = fPlayWithSound(roar_right,roar2)
+f = fPlayWithSound(snort,snort)
+f = fPlayWithSound(roar_left,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise1]
+f = fPlay(stand)
+f = fPlayWithSound(roar_left,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise2]
+f = fPlay(stand)
+f = fPlayWithSound(roar_right,roar2)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(head_bob)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle2]
+f = fPlay(stand)
+f = fPlay(look_left)
+f = fPlayReverse(look_left)
+f = fWalk(0,0)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlayWithSound(snort,snort)
+f = fPlay(arms)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNeutral1]
+f = fPlay(stand)
+f = fPlay(head_bob)
+f = fPlay(stand)
+f = fPlayWithSound(snort,snort)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSleep]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(head_ground)
+f = fPlayWithSound(sleep,snore)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(head_ground)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bDie]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(head_ground)
+f = fPlay(sleep)
+f = fPlayTime(sick,5)
+f = fDie()
+
+[m\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(stand)
+f = fPlay(head_down)
+f = fPlayTime(eat_down,9)
+f = fPlayReverse(head_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSick]
+f = fPlay(stand)
+f = fPlay(to_sleep)
+f = fPlay(sleep)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(to_sleep)
+f = fPlay(stand)
+
+[m\BehaviorSet\bEscaped1]
+f = fRun(0,0)
+
+[m\BehaviorSet\bChasePrey]
+f = fRun(prey,0)
+
+[m\BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[m\BehaviorSet\bCaughtGuest]
+; the time of animation below should match bCaughtBy in guest
+f = fPlayTime(stand,4)
+
+[m\BehaviorSet\bCaughtPrey]
+f = fDustBall()
+f = fPlaySet(bAfterCaught)
+
+[m\BehaviorSet\bCaughtEgg]
+f = fPlayWithSound(dig,dig)
+f = fFaceTowardTarget()
+f = fPlay(head_down)
+f = fPlayTime(eat_down,9)
+f = fPlayReverse(head_down)
+f = fCaughtPrey()
+f = fPlay(stand)
+
+[m\BehaviorSet\bAfterCaught]
+f = fPlay(stand)
+f = fPlay(shake)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[m\BehaviorSet\bEscapedRampage]
+f = fPlay(arms)
+f = fRun(0,0)
+f = fPlayWithSound(roar,roar)
+f = fTargetBuilding()
+f = fRun(0,0)
+
+[m\BehaviorSet\bHabitatRampage]
+f = fRun(0,0)
+f = fPlayWithSound(roar2,roar2)
+f = fPlayWithSound(roar,roar)
+f = fRun(0,0)
+f = fTargetBuilding()
+f = fRun(0,0)
+
+[m\BehaviorSet\bCaught]
+f = fFollow(keeper)
+
+[m\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bRun]
+f = fRun(0,0)
+
+[m\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[m\BehaviorSet\bPreattack]
+f = fPlayWithSound(roar_left,roar)
+f = fPlayWithSound(roar_right,roar2)
+
+[m\BehaviorSet\bDefense]
+f = fPlayWithSound(roar2,roar2)
+f = fPlay(arms)
+
+[m\BehaviorSet\bTestFence]
+f = fPlayWithSound(test_fence,zap)
+
+;Allosaurus Young Behavior Set Probabilities
+[y\BehaviorSet\bHappy]
+f = fPlaySetProb(bIdle1,20,bHappy1,50,bHappy2,30)
+
+[y\BehaviorSet\bFriendly]
+f = fPlaySetProb(bHappy3,70,bIdle2,30)
+
+[y\BehaviorSet\bCalm]
+f = fPlaySetProb(bCalm1,50,bIdle1,30,bIdle2,20)
+
+[y\BehaviorSet\bNeutral]
+f = fPlaySetProb(bIdle1,40,bIdle2,40,bNeutral1,20)
+
+[y\BehaviorSet\bUneasy]
+f = fPlaySetProb(bUneasy1,35,bNoise1,15,bIdle2,15,bUneasy2,35)
+
+[y\BehaviorSet\bTense]
+f = fPlaySetProb(bTense1,60,bAngry3,20,bNoise1,20)
+
+[y\BehaviorSet\bHunt]
+f = fPlaySetProb(bHunt1,50,bHunt2,50)
+
+[y\BehaviorSet\bAngry]
+f = fPlaySetProb(bAngry1,40,bAngry2,40,bNoise3,20)
+
+[y\BehaviorSet\bEscaped]
+f = fPlaySetProb(bEscaped1,70,bNoise3,30)
+
+;Young Allosaurus Behavior Sets
+[y\BehaviorSet\bHappy1]
+f = fPlay(stand)
+f = fPlay(look_left)
+f = fPlayReverse(look_left)
+f = fPlayWithSound(snort,snort)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(roar_left,roar)
+f = fPlay(stand)
+
+[y\BehaviorSet\bHappy2]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlay(head_bob)
+f = fPlay(head_raise)
+f = fPlayReverse(head_raise)
+f = fPlay(stand)
+
+[y\BehaviorSet\bHappy3]
+f = fPlay(stand)
+f = fPlay(look_right)
+f = fPlayReverse(look_right)
+f = fRun(0,0)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[y\BehaviorSet\bCalm1]
+f = fPlay(stand)
+f = fPlayWithSound(snort,snort)
+f = fPlayTime(stand,5)
+f = fPlay(head_raise)
+f = fPlayReverse(head_raise)
+f = fPlay(head_bob)
+f = fPlay(stand)
+
+[y\BehaviorSet\bUneasy1]
+f = fPlay(stand)
+f = fPlay(look_right)
+f = fPlayReverse(look_right)
+f = fPlay(shake)
+f = fPlay(look_left)
+f = fPlayReverse(look_left)
+f = fPlay(stand)
+
+[y\BehaviorSet\bUneasy2]
+f = fPlay(stand)
+f = fPlay(arms)
+f = fRun(0,0)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[y\BehaviorSet\bTense1]
+f = fPlay(stand)
+f = fPlay(arms)
+f = fPlayWithSound(roar_left,roar)
+f = fPlay(snort)
+f = fPlay(shake)
+f = fPlay(head_bob)
+f = fPlay(stand)
+
+[y\BehaviorSet\bHunt1]
+f = fPlay(to_hunt)
+f = fPlay(hunt_idle)
+f = fPlayWithSound(hunt,hunt)
+f = fPlay(hunt_idle)
+f = fPlayWithSound(hunt,hunt)
+f = fMove(0,0,hunt_walk,39)
+f = fPlayReverse(to_hunt)
+
+[y\BehaviorSet\bHunt2]
+f = fPlay(to_hunt)
+f = fPlay(hunt_idle)
+f = fMove(0,0,hunt_walk,39)
+f = fPlayWithSound(hunt,hunt)
+f = fPlayWithSound(hunt_roar,huntror)
+f = fPlay(hunt_idle)
+f = fPlayReverse(to_hunt)
+
+[y\BehaviorSet\bAngry1]
+f = fPlay(stand)
+f = fPlayWithSound(roar2,roar2)
+f = fPlay(head_raise)
+f = fPlayReverse(head_raise)
+f = fPlay(shake)
+f = fPlayWithSound(snort,snort)
+f = fPlayWithSound(roar_left,roar)
+f = fPlay(stand)
+
+[y\BehaviorSet\bAngry2]
+f = fPlay(stand)
+f = fPlay(head_raise)
+f = fPlayReverse(head_raise)
+f = fPlay(arms)
+f = fPlayWithSound(roar2,roar2)
+f = fRun(0,0)
+f = fPlayWithSound(roar_right,roar2)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[y\BehaviorSet\bAngry3]
+f = fPlay(stand)
+f = fPlayWithSound(roar_right,roar)
+f = fPlay(look_left)
+f = fPlayReverse(look_left)
+f = fPlayWithSound(roar_left,roar)
+f = fPlayWithSound(snort,snort)
+f = fPlay(stand)
+
+[y\BehaviorSet\bNoise1]
+f = fPlay(stand)
+f = fPlayWithSound(roar_left,roar)
+f = fPlay(stand)
+
+[y\BehaviorSet\bNoise2]
+f = fPlay(stand)
+f = fPlayWithSound(roar_right,roar2)
+f = fPlay(stand)
+
+[y\BehaviorSet\bNoise3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle1]
+f = fPlay(stand)
+f = fPlay(head_bob)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle2]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(shake)
+f = fPlay(look_left)
+f = fPlayReverse(look_left)
+f = fPlay(stand)
+
+[y\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlay(arms)
+f = fPlayWithSound(snort,snort)
+f = fPlay(stand)
+
+[y\BehaviorSet\bNeutral1]
+f = fPlay(stand)
+f = fPlayWithSound(snort,snort)
+f = fPlay(stand)
+f = fPlay(head_bob)
+f = fPlay(stand)
+
+[y\BehaviorSet\bSleep]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(head_ground)
+f = fPlayWithSound(sleep,snore)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(head_ground)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[y\BehaviorSet\bDie]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(head_ground)
+f = fPlay(sleep)
+f = fPlayTime(sick,5)
+f = fDie()
+
+[y\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[y\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+f = fPlaySet(bEat)
+
+[y\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(stand)
+f = fPlay(head_down)
+f = fPlayTime(eat_down,9)
+f = fPlayReverse(head_down)
+f = fPlay(stand)
+
+[y\BehaviorSet\bSick]
+f = fPlay(stand)
+f = fPlay(to_sleep)
+f = fPlay(sleep)
+f = fPlayTime(sleep,20)
+f = fPlayReverse(to_sleep)
+f = fPlay(stand)
+
+[y\BehaviorSet\bEscaped1]
+f = fPlay(stand)
+f = fRun(0,0)
+f = fPlay(stand)
+
+[y\BehaviorSet\bChasePrey]
+f = fRun(prey,0)
+
+[y\BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[y\BehaviorSet\bCaughtGuest]
+; the time of animation below should match bCaughtBy in guest
+f = fPlayTime(stand,4)
+
+[y\BehaviorSet\bCaughtPrey]
+f = fDustBall()
+f = fPlaySet(bAfterCaught)
+
+[y\BehaviorSet\bAfterCaught]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[y\BehaviorSet\bCaught]
+f = fFollow(keeper)
+
+[y\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[y\BehaviorSet\bRun]
+f = fRun(0,0)
+
+[y\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[y\BehaviorSet\bPreattack]
+f = fPlayWithSound(roar_right,roar2)
+f = fPlayWithSound(roar_left,roar)
+
+[y\BehaviorSet\bDefense]
+f = fPlay(arms)
+f = fPlayWithSound(roar2,roar2)
+
+[y\BehaviorSet\bTestFence]
+f = fPlayWithSound(test_fence,zap)
+
+[y\BehaviorSet\bHatch]
+f = fPlayWithSound(egg_hatch,hatch)
+f = fPlay(idle)
+f = fHatch()
+
+[y\BehaviorSet\bCaughtEgg]
+f = fPlayWithSound(dig,dig)
+f = fFaceTowardTarget()
+f = fPlay(head_down)
+f = fPlayTime(eat_down,9)
+f = fPlayReverse(head_down)
+f = fCaughtPrey()
+f = fPlay(stand)
+
+[y\BehaviorSet\bEatenEgg]
+f = fPlayStopAtEnd(egg_break)
+
+[AmbientAnims]
+;a = -100
+;a = 100
+;b = bTest
+a = 81
+a = 100
+b = bHappy
+a = 61
+a = 80
+b = bFriendly
+a = 21
+a = 60
+b = bCalm
+a = -20
+a = 20
+b = bNeutral
+a = -40
+a = -21
+b = bUneasy
+a = -60
+a = -41
+b = bTense
+a = -80
+a = -61
+b = bHunt
+a = -100
+a = -81
+b = bAngry

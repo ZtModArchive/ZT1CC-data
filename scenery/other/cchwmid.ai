@@ -1,0 +1,10 @@
+;Carnivore chow - half gone
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 6064
+cHelpID = 6064
+cFootprintX = 1
+cFootprintY = 1
+cFood = 1
+[Animations]
+idle = idle

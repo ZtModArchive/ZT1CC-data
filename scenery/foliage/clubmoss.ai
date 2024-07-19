@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/clubmoss/SE/SE
+Icon=objects/clubmoss/SW/SW
+Icon=objects/clubmoss/NW/NW
+Icon=objects/clubmoss/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 190
+cNameID = 7080
+cHelpID = 7080
+cHabitat = 9403
+cLocation = 9600
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9621
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

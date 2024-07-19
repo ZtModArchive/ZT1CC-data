@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/redgum/SE/SE
+Icon=objects/redgum/SW/SW
+Icon=objects/redgum/NW/NW
+Icon=objects/redgum/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 175
+cNameID = 7030
+cHelpID = 7030
+;Savannah	
+cHabitat = 9400
+;Australia
+cLocation = 9611
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

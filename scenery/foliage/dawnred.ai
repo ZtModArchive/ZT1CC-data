@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/dawnred/SE/SE
+Icon=objects/dawnred/SW/SW
+Icon=objects/dawnred/NW/NW
+Icon=objects/dawnred/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 140
+cNameID = 7084
+cHelpID = 7084
+cHabitat = 9403
+cLocation = 9612
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9622
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

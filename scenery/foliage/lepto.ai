@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/lepto/SE/SE
+Icon=objects/lepto/SW/SW
+Icon=objects/lepto/NW/NW
+Icon=objects/lepto/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7090
+cHelpID = 7090
+cHabitat = 9405
+cLocation = 9606
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9620
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

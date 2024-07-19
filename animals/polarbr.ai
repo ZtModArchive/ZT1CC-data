@@ -1,0 +1,1452 @@
+[Global]
+Class = animals
+Type = polarbr
+Subtype = 
+DefaultSubtype = m
+
+[AnimPath]
+m = animals/polarbr/m
+f = animals/polarbr/m
+y = animals/polarbr/y
+
+[Characteristics/Integers]
+; shadows for this unit
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+
+[m/Icon]
+Icon = animals/polarbr/icpolar/icpolar
+
+[Member]
+animals
+
+[m/Characteristics/Strings]
+cKeeperFoodType = carnivore
+cGeneralInfoTextName = POLARBR_GENERAL
+cFoodInfoTextName = POLARBR_ANIMAL
+cHabitatInfoTextName = POLARBR_HABITAT
+cBehaviorInfoTextName = POLARBR_BEHAVIOR
+cKeeperInfoTextName = POLARBR_KEEPER
+cPlaqueImageName = animals/polarbr/plpolar/plpolar
+cListImageName = animals/polarbr/lsmpolar/lsmpolar
+
+;Snow Rock Cave
+cPrefIcon = objects/rckcave2/SE/SE
+
+[m/Characteristics/Integers]
+cKeeperFoodType = 5
+; Rock Cave 2
+cPrefIconID = 8102
+
+; Polar Bear
+cNameID = 5002
+cHelpID = 5002
+; Bear
+cFamily = 5202
+; Bears
+cGenus = 5102
+; Tundra
+cHabitat = 9408
+; Arctic
+cLocation = 9608
+cPurchaseCost = 1500
+cInitialHappiness  = 60
+cSlowRate = 25
+cMediumRate = 50
+cFastRate = 75
+cSlowAnimSpeedWater = 100
+cMediumAnimSpeedWater = 200
+cFastAnimSpeedWater = 300
+cFootprintX = 1
+cFootprintY = 2
+
+;//ANGRY EFFECTS//
+cCaptivity = 10
+cNoFoodChange  = -50
+cSickChange = -10	
+cOtherAnimalSickChange = -10		
+cCrowdHappinessChange = -5
+cOtherAnimalAngryChange = 0 
+cNumberMinChange = -5
+cNumberMaxChange = -10
+cAllCrowdedChange = -5
+cAngryHabitatChange = -5
+cVeryAngryHabitatChange = -30
+cDeathChange = -5 
+cNoMateChange = 0
+
+cNotEnoughKeepersChange = -20
+cAngryTreeChange = -10
+
+;//HAPPY EFFECTS//
+cBabyBornChange = 70
+cHappyHabitatChange = 20
+
+cMaxHits  = 300
+cMinHits  = 0
+cPctHits  = 20
+
+cHungerThreshold  = 50
+cHungerIncrement  = 10
+cNeededFood = 100
+cKeeperFoodUnitsEaten = 25
+cHungryHealthChange = 10
+
+cSickChance = 10
+
+cEnergyThreshold = 100 
+cEnergyIncrement  = 15	
+cMaxEnergy = 100
+
+cCrowd = 20
+
+cKeeperFrequency = 2
+
+cSocial = 0
+cHabitatSize = 100
+cNumberAnimalsMin = 1
+cNumberAnimalsMax = 3
+cAnimalDensity = 35
+
+cPctHabitat = 10
+cHabitatPreference = 70
+
+cDirtyHabitatRating = 25
+cDirtyIncrement = 10
+cDirtyThreshold = 100
+cPooWaterImpact = 5 
+cMurkyWaterChange = -5
+cMurkyWaterHealthChange = -5
+cMurkyWaterThreshold = 60
+cVeryMurkyWaterChange = -10
+cVeryMurkyWaterHealthChange = -10
+cVeryMurkyWaterThreshold = 20
+cExtremelyMurkyWaterChange = -15
+cExtremelyMurkyWaterHealthChange = -15
+cExtremelyMurkyWaterThreshold= 1
+
+cReproductionChance = 2 
+cReproductionInterval = 1800
+cBabyToAdult = 1800
+cHappyReproduceThreshold = 90
+cOffspring = 2
+cMatingType = 0
+
+cIsJumper = 1
+cIsClimber = 0
+cBashStrength = 45
+
+;Prey List
+; Beluga
+cPrey = 5413
+;Man
+cPrey = 9503
+;giant_panda
+cPrey = 5001
+;chimpanzee
+cPrey = 5003
+;plains_zebra
+cPrey = 5004
+;thomsons_gazelle
+cPrey = 5005
+;gray_wolf
+cPrey = 5015
+;olive_baboon
+cPrey = 5019
+;mandrill
+cPrey = 5020
+;mountain_gorilla
+cPrey = 5021
+;red_kangaroo
+cPrey = 5023
+;common_wildebeest
+cPrey = 5025
+;ibex
+cPrey = 5027
+;okapi
+cPrey = 5028
+;moose
+cPrey = 5029
+;gemsbok
+cPrey = 5031
+;american_bighorn
+cPrey = 5032
+;giraffe
+cPrey = 5033
+;dromedary_camel
+cPrey = 5034
+;markhor
+cPrey = 5036
+;greater_flamingo
+cPrey = 5037
+;ostrich
+cPrey = 5038
+;emperor_pengiun
+cPrey = 5039
+;california_sea_lion
+cPrey = 5040
+;giant_anteater
+cPrey = 5042
+;african_warthog
+cPrey = 5043
+;Blackbuck
+cPrey = 5076
+;Bongo
+cPrey = 5077
+;Sable antelope
+cPrey = 5079
+//Reserved for new prey animals
+;Prey animal 0
+cPrey = 5300
+;Prey animal 1
+cPrey = 5301
+;Prey animal 2
+cPrey = 5302
+;Prey animal 3
+cPrey = 5303
+;Prey animal 4
+cPrey = 5304
+;Prey animal 5
+cPrey = 5305
+;Prey animal 6
+cPrey = 5306
+;Prey animal 7
+cPrey = 5307
+;Prey animal 8
+cPrey = 5308
+;Prey animal 9
+cPrey = 5309
+;Prey animal 10
+cPrey = 5310
+;Prey animal 11
+cPrey = 5311
+;Prey animal 12
+cPrey = 5312
+;Prey animal 13
+cPrey = 5313
+;Prey animal 14
+cPrey = 5314
+;Prey animal 15
+cPrey = 5315
+;Prey animal 16
+cPrey = 5316
+;Prey animal 17
+cPrey = 5317
+;Prey animal 18
+cPrey = 5318
+;Prey animal 19
+cPrey = 5319
+;Prey animal 20
+cPrey = 5320
+;Prey animal 21
+cPrey = 5321
+;Prey animal 22
+cPrey = 5322
+;Prey animal 23
+cPrey = 5323
+;Prey animal 24
+cPrey = 5324
+;Sea Turtle
+cPrey = 5419
+;Blue Tuna
+cPrey = 5422
+;Swordfish
+cPrey = 5420
+;Manatee
+cPrey = 5416
+;Sea Otter
+cPrey = 5414
+;Walrus
+cPrey = 5417
+;Northern Elephant Seal
+cPrey = 5404
+;Barracuda
+cPrey = 5423
+;Octopus
+cPrey = 5415
+;Moray Eel
+cPrey = 5412
+;Arctic Lion's Mane Jellyfish
+cPrey = 5403
+;Dolphin
+cPrey = 5402
+;Narwhal
+cPrey = 5407
+;Porpoise
+cPrey = 5408
+;Orangutan
+cPrey = 5506
+;Malaysian Tapir
+cPrey = 5507
+;Japanese Serow
+cPrey = 5508
+;Przewalski's Wild Horse
+cPrey = 5509
+;Bigfoot
+cPrey = 5514
+;Mexican Gray Wolf
+cPrey = 5516
+
+cFlies = 0
+cSwims = 1
+
+; Underwater characteristics
+cUnderwater = 1
+cUnderwaterNeeded = 10
+cEnterTankChance = 75
+
+cWaterNeeded = 10
+cLandNeeded = 5
+cEnterWaterChance = 75
+cEnterLandChance = 40
+
+cEscapedChange = 30
+
+cSickTime = 4
+
+cMimic = 0
+cMimicHappyDiff = 0
+
+cOtherFood = 0
+cFoodTypes = 0
+
+cTreePref = 0
+cRockPref = 4
+cSpacePref = 80 
+cElevationPref = 0
+cSalinityChange = -10
+cSalinityHealthChange = -20
+cTimeDeath = 17280
+cDeathChance = 10 
+
+cEatVegetationChance = 0
+cDrinkWaterChance = 5
+cChaseAnimalChance = 15
+cClimbsCliffs = 1
+cBuildingUseChance = 30
+cAttractiveness = 50
+cNeedShelter = 1
+
+; Breathing characteristics
+cBreathThreshold  = 20
+cBreathIncrement  = 10
+
+[y/Characteristics/Integers]
+cChaseAnimalChance = 25
+cIsJumper = 0
+cAttractiveness = 150
+
+[m/Characteristics/Mixed]
+[cCompatibleAnimals]
+;Primitive ungulates		
+v = 5200
+v = -10
+;Racoon			
+v = 5201
+v = -5
+;Bears			
+v = 5202
+v = 5
+;Primates			
+v = 5203
+v = -5
+;Odd-toed ungulates		
+v = 5204
+v = -10
+;Even-toed ungulates			
+v = 5205
+v = -10
+;Cat			
+v = 5206
+v = -20
+;Canine			
+v = 5207
+v = -20
+;Hyena			
+v = 5208
+v = -20
+;Marsupial		
+v = 5210
+v = -5
+;Bird			
+v = 5211
+v = -5
+;Seal			
+v = 5212
+v = -5
+;Crocodile		
+v = 5213
+v = -20
+;Edentate		    	
+v = 5214
+v = -5
+;Pig			
+v = 5215
+v = -5
+;Monster			
+v = 5217
+v = -20
+;Tyrannosaurs
+v = 5135
+v = -10
+;Smilodons
+v = 5136
+v = -10
+;Ankylosaurs
+v = 5137
+v = -10
+;Gallimimuses
+v = 5138
+v = -10
+;Iguanodons
+v = 5139
+v = -10
+;Lambeosaurs
+v = 5140
+v = -10
+;Spinosaurs
+v = 5141
+v = -25
+;Styracosaurs
+v = 5142
+v = -10
+;Velociraptors
+v = 5143
+v = -10
+;Allosaurs
+v = 5144
+v = -10
+;Camptosaurs
+v = 5145
+v = -10
+;Caudipteryxes
+v = 5146
+v = -10
+;Kentrosaurs
+v = 5147
+v = -10
+;Plesiosaurs
+v = 5148
+v = -10
+;Stegosaurs
+v = 5149
+v = -10
+;Apatosaurs
+v = 5150
+v = -10
+;Coelophysises
+v = 5151
+v = -10
+;Herrerasaurs
+v = 5152
+v = -10
+;Plateosaurs
+v = 5153
+v = -10
+;Wooly Mammoths
+v = 5154
+v = -10
+;Wooly Rhinos
+v = 5155
+v = -10
+;Meiolanias
+v = 5156
+v = -10
+;Triceratopses
+v = 5157
+v = -10
+;Deinosuchus
+v = 5158
+v = -25
+;Orcas
+v = 5159
+v = -10
+;Great White Sharks
+v = 5160
+v = -20
+;Bottlenose Dolphins
+v = 5161
+v = -10
+;Jellyfishes
+v = 5162
+v = -10
+;Northern Elephant Seals
+v = 5163
+v = -10
+;Humpback Whales
+v = 5164
+v = -10
+;Sperm Whales
+v = 5165
+v = -10
+;Narwhals
+v = 5166
+v = -10
+;Harbor Porpoises
+v = 5167
+v = -10
+;Hammerhead Sharks
+v = 5168
+v = -10
+;Tiger Sharks
+v = 5169
+v = -10
+;Mako Sharks
+v = 5170
+v = -20
+;Moray Eels
+v = 5171
+v = -10
+;Belugas
+v = 5172
+v = -10
+;Sea Otters
+v = 5173
+v = -10
+;Octopuses
+v = 5174
+v = -10
+;Manatees
+v = 5175
+v = -10
+;Walruses
+v = 5176
+v = -10
+;Manta Rays
+v = 5177
+v = -20
+;Sea Turtles
+v = 5178
+v = -10
+;Swordfishes
+v = 5179
+v = -10
+;Giant Squids
+v = 5180
+v = -20
+;Bluefin Tuna
+v = 5181
+v = -10
+;Baracudas
+v = 5182
+v = -10
+;Mermaids
+v = 5183
+v = 10
+;Whale Sharks
+v = 5185
+v = -10
+;Bowhead Whales
+v = 5187
+v = -10
+;Sawfish
+v = 5189
+v = -10
+
+;Polar bear			
+v = 5002
+v = -5
+
+[cSuitableObjects]
+;GENERIC TERRAIN OBJECTS
+;Non-habitat
+v = 9410
+v = -10
+;Tropical rainforest
+v = 9405
+v = -25
+;Savannah
+v = 9400
+v = -20
+;Grassland
+v = 9401
+v = -15
+;Deciduos forest
+v = 9402
+v = -10
+;Coniferous forest
+v = 9403
+v = -5
+;Highlands
+v = 9407
+v = -5
+;Tundra
+v = 9408
+v = 3
+;Desert
+v = 9409
+v = -25
+;Aquatic
+v = 9413
+v = -10
+;Bad-habitat
+v = 9414
+v = -100
+
+;FOLIAGE AND ROCKS
+;lrocka1
+v = 9220
+v = 6
+;lrocka2
+v = 9221
+v = 6
+;Srocka1
+v = 9218
+v = 3
+;Srocka2
+v = 9219
+v = 3
+;bwallsnw
+v = 9211
+v = 7
+;tank filter
+v = 6471
+v = 100
+;Iceberg
+v = 9240
+v = 10
+;Poo
+v = 6062
+v = -2
+
+;SHELTERS
+;Rock cave 2
+v = 8102
+v = 25
+;Conhous1
+v = 8107
+v = 17
+;Conhous2
+v = 8108
+v = 19
+;Conhous3
+v = 8109
+v = 20
+;Wodhous1
+v = 8110
+v = 13
+;Wodhous2
+v = 8111
+v = 16
+;Wodhous3
+v = 8112
+v = 18
+;Ice Floe
+v = 6505
+v = 12
+;Icy Keg
+v = 6512
+v = 15
+
+[cCompatibleTerrain]
+; grass = 0
+; savannah grass = 1
+; sand = 2
+; dirt = 3
+; rainforest floor = 4
+; brown rock = 5
+; gray rock = 6
+; gravel = 7
+; snow = 8
+; fresh water = 9
+; salt water = 10
+; deciduous floor = 11
+; waterfall = 12
+; coniferous floor = 13
+; concrete = 14
+; asphalt = 15
+; trampled = 16
+
+v = 16
+v = -5
+
+v = 1
+v = -70
+
+v = 2
+v = -70
+
+v = 4
+v = -70
+
+v = 5
+v = -5
+
+v = 6
+v = -5
+
+v = 8
+v = 50
+
+v = 10
+v = 50
+
+v = 11
+v = -5
+
+[m/Animations]
+;From stand
+idle = stand
+stand = stand
+growl = growl
+roar = roar
+head_ground = headgrnd
+eat = eat
+wag_head = headwag
+jerk_head = headjerk
+look_left = lookl
+look_right = lookr
+roll = roll
+scratch = scratch
+sniff = sniff
+lick_paw = lickpaw
+swing_paw = paw
+scratch_ground = scrhgrnd
+shake = shake
+pounce = pounce
+jump_high = highjump
+
+;Swimming
+swim = swim
+water_idle = swim
+
+;Movement
+walk = walk
+walk_noise = noiswalk
+run_noise = noisrun
+run = run
+trot = walk
+stalk = stalk
+slide = slide
+divein = dive
+
+lie_down = liedown
+;Lying down (liedown)
+lie_idle = lieidle
+lie_paw = liepaw
+
+lie_roll = lieroll
+;From lie roll
+lie_rub = lierub
+lie_scratch = liescrch
+lie_submissive = liesub
+lie_rubground = grndrub
+
+sit = sit
+;Sitting (sit)
+sit_idle = sitidle
+sit_noise = sitnoise
+sit_scratch = sitscrh
+sit_back = sitback
+sit_paw = sitpaw
+sit_rub = sitrub
+
+stand_2legs = hindstnd
+;Standing on 2 legs (hindstand)
+hind_to_4legs = land
+hind_noise = hindnois
+hind_walk = hindwalk
+
+; surface animations
+2_surface_rest = 2surfres
+surfidle = surfrest
+surfswim = surfswim
+surfroar = surfroar
+surfdrift = surfdrft
+icekeg = icekeg
+
+; surface animation shadows
+shadow2surfres = s2surfre
+shadowsurfrest = ssurfres
+shadowsurfswim = ssurfswi
+shadowsurfroar = ssurfroa
+shadowsurfdrft = ssurfdrf
+shadowicekeg = sicekeg
+
+
+; surface animations underwater half
+under2surfres = u2surfre
+undersurfrest = usurfres
+undersurfswim = usurfswi
+undersurfroar = usurfroa
+undersurfdrft = usurfdrf
+undericekeg = uicekeg
+
+; submerged animations
+subidle = subswim
+subswim = subswim
+rise = subrise
+dive = subdive
+subspin = subspin
+
+; submerged animation shadows
+shadowsubswim = ssubswim
+shadowsubrise = ssubrise
+shadowsubdive = ssubdive
+shadowsubspin = ssubspin
+
+;Box and dustball animations
+box_idle = objects/box/idle/idle.ani
+box_used = objects/box/used/used.ani
+dustball = objects/dustcld/idle/idle.ani
+waterball = objects/watcloud/idle/idle.ani
+surfaceball = objects/surfcld/surfc/surfc.ani
+shadowsurfc = objects/surfcld/ssurfc/ssurfc.ani
+undersurfc = objects/surfcld/usurfc/usurfc.ani
+submergedball = objects/subcld/subc/subc.ani
+shadowsubc = objects/subcld/ssubc/ssubc.ani
+
+[y/Animations]
+;From stand
+idle = stand
+stand = stand
+growl = growl
+roar = roar
+head_ground = headgrnd
+eat = eat
+wag_head = headwag
+jerk_head = headjerk
+look_left = lookl
+look_right = lookr
+roll = roll
+scratch = scratch
+sniff = sniff
+lick_paw = lickpaw
+swing_paw = paw
+scratch_ground = scrhgrnd
+shake = shake
+pounce = pounce
+jump_high = highjump
+
+;Swimming
+swim = swim
+water_idle = swim
+
+;Movement
+walk = walk
+walk_noise = noiswalk
+run_noise = noisrun
+run = run
+trot = walk
+stalk = stalk
+slide = slide
+divein = dive
+
+lie_down = liedown
+;Lying down (liedown)
+lie_idle = lieidle
+lie_paw = liepaw
+
+lie_roll = lieroll
+;From lie roll
+lie_rub = lierub
+lie_scratch = liescrch
+lie_submissive = liesub
+lie_rubground = grndrub
+
+sit = sit
+;Sitting (sit)
+sit_idle = sitidle
+sit_noise = sitnoise
+sit_scratch = sitscrh
+sit_back = sitback
+sit_paw = sitpaw
+sit_rub = sitrub
+
+stand_2legs = hindstnd
+;Standing on 2 legs (hindstand)
+hind_to_4legs = land
+hind_noise = hindnois
+hind_walk = hindwalk
+
+; surface animations
+2_surface_rest = 2surfres
+surfidle = surfrest
+surfswim = surfswim
+surfroar = surfroar
+surfdrift = surfdrft
+
+
+; surface animation shadows
+shadow2surfres = s2surfre
+shadowsurfrest = ssurfres
+shadowsurfswim = ssurfswi
+shadowsurfroar = ssurfroa
+shadowsurfdrft = ssurfdrf
+
+
+; surface animations underwater half
+under2surfres = u2surfre
+undersurfrest = usurfres
+undersurfswim = usurfswi
+undersurfroar = usurfroa
+undersurfdrft = usurfdrf
+
+
+; submerged animations
+subidle = subswim
+subswim = subswim
+rise = subrise
+dive = subdive
+subspin = subspin
+
+; submerged animation shadows
+shadowsubswim = ssubswim
+shadowsubrise = ssubrise
+shadowsubdive = ssubdive
+shadowsubspin = ssubspin
+
+;Box and dustball animations
+box_idle = objects/box/idle/idle.ani
+box_used = objects/box/used/used.ani
+dustball = objects/dustcld/idle/idle.ani
+waterball = objects/watcloud/idle/idle.ani
+surfaceball = objects/surfcld/surfc/surfc.ani
+shadowsurfc = objects/surfcld/ssurfc/ssurfc.ani
+undersurfc = objects/surfcld/usurfc/usurfc.ani
+submergedball = objects/subcld/subc/subc.ani
+shadowsubc = objects/subcld/ssubc/ssubc.ani
+
+[Sounds]
+chuff = bear_chu
+chuff = 1500
+roar1 = bear_roa
+roar1 = 1500
+growl1 = bear_sgr
+growl1 = 1500
+dustball = bear_roa
+dustball = 1000
+waterball = animals/sealion/splash1.wav
+waterball = 1500
+surfaceball = animals/sealion/splash1.wav
+surfaceball = 1500
+submergedball = animals/sealion/splash1.wav
+submergedball = 1500
+placesound = bear_roa
+placesound = 1500
+pickupsound = bear_sgr
+pickupsound = 1500
+
+[m\BehaviorSet\bHappy]
+f = fPlaySetProb(bIdle1,20,bHappy1,50,bHappy2,30)
+
+[m\BehaviorSet\bFriendly]
+f = fPlaySetProb(bHappy3,70,bIdle2,30)
+
+[m\BehaviorSet\bCalm]
+f = fPlaySetProb(bCalm1,50,bIdle1,30,bIdle2,20)
+
+[m\BehaviorSet\bNeutral]
+f = fPlaySetProb(bIdle1,50,bIdle2,50)
+
+[m\BehaviorSet\bUneasy]
+f = fPlaySetProb(bUneasy1,50,bNoise1,15,bIdle2,35)
+
+[m\BehaviorSet\bTense]
+f = fPlaySetProb(bTense1,60,bAngry3,20,bNoise1,20)
+
+[m\BehaviorSet\bAngry]
+f = fPlaySetProb(bAngry1,40,bAngry2,40,bNoise3,20)
+
+[m\BehaviorSet\bInWater]
+f = fPlaySetProb(bWaterActive,80,bWaterIdle,20)
+
+[m\BehaviorSet\bHappyU]
+f = fPlaySetProb(bSubswim,60,bSubroll,20,bRise,10,bDive,10)
+
+[m\BehaviorSet\bFriendlyU]
+f = fPlaySetProb(bSubswim,60,bSubroll,15,bRise,10,bDive,10,bSubsurf,5)
+
+[m\BehaviorSet\bCalmU]
+f = fPlaySetProb(bSubswim,60,bSubroll,10,bRise,10,bSubsurf,10,bDive,10)
+
+[m\BehaviorSet\bNeutralU]
+f = fPlaySetProb(bSubswim,50,bSubroll,10,bRise,10,bSubsurf,10,bDive,10,bFloor,10)
+
+[m\BehaviorSet\bUneasyU]
+f = fPlaySetProb(bSubswim,65,bSubroll,5,bRise,5,bSubsurf,5,bDive,10,bFloor,10)
+
+[m\BehaviorSet\bTenseU]
+f = fPlaySetProb(bSubswim,55,bRise,5,bDive,20,bFloor,20)
+
+[m\BehaviorSet\bAngryU]
+f = fPlaySetProb(bSubswim,60,bRise,5,bDive,20,bFloor,15)
+
+[m\BehaviorSet\bHappyS]
+f = fPlaySetProb(bSurfswim,60,bSurfdrift,10,bSurfdive,5,bSurfvoc,5,bSurfrest,20)
+
+[m\BehaviorSet\bFriendlyS]
+f = fPlaySetProb(bSurfswim,55,bSurfdrift,10,bSurfdive,10,bSurfvoc,10,bSurfrest,15)
+
+[m\BehaviorSet\bCalmS]
+f = fPlaySetProb(bSurfswim,55,bSurfdrift,5,bSurfdive,15,bSurfvoc,15,bSurfrest,10)
+
+[m\BehaviorSet\bNeutralS]
+f = fPlaySetProb(bSurfswim,50,bSurfdrift,10,bSurfdive,10,bSurfvoc,20,bSurfrest,10)
+
+[m\BehaviorSet\bUneasyS]
+f = fPlaySetProb(bSurfswim,50,bSurfdrift,10,bSurfdive,10,bSurfloor,5,bSurfvoc,10,bSurfrest,15)
+
+[m\BehaviorSet\bTenseS]
+f = fPlaySetProb(bSurfswim,50,bSurfdrift,10,bSurfdive,10,bSurfloor,10,bSurfvoc,10,bSurfrest,10)
+
+[m\BehaviorSet\bAngryS]
+f = fPlaySetProb(bSurfswim,50,bSurfdrift,5,bSurfdive,10,bSurfloor,15,bSurfvoc,10,bSurfrest,10)
+
+[m\BehaviorSet\bEscaped]
+f = fPlaySetProb(bEscaped1,70,bNoise3,30)
+
+[m\BehaviorSet\bBabyActions]
+f = fPlaySetProb(Baby1,40,bBaby2,40,bIdle1,20)
+
+[m\BehaviorSet\bHappy1]
+f = fPlay(stand)
+f = fMove(0,0,stalk,18)
+f = fPlayTime(stand,4)
+f = fWalk(0,0)
+f = fPlayWithSound(growl,chuff)
+f = fPlay(sniff)
+f = fPlay(stand)  
+
+[m\BehaviorSet\bHappy2]
+f = fPlay(stand)
+f = fPlay(wag_head)
+f = fPlayTime(stand,6)
+f = fWalk(0,0)
+f = fPlay(shake)
+f = fPlay(stand)
+
+[m\BehaviorSet\bHappy3]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,4)
+f = fPlay(lie_roll)
+f = fPlay(lie_submissive)
+f = fPlay(lie_scratch)
+f = fPlayReverse(lie_roll)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bCalm1]
+f = fPlay(stand)
+f = fPlay(sniff)
+f = fPlayTime(stand,5)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(roar,chuff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bUneasy1]
+f = fPlay(stand)
+f = fPlay(jerk_head)
+f = fMove(0,0,stalk,18)
+f = fPlayTime(stand,6)
+f = fPlayWithSound(roar,chuff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bTense1]
+f = fPlay(stand)
+f = fPlay(jerk_head)
+f = fWalk(0,0)
+f = fPlayTime(stand,6)
+f = fPlay(swing_paw)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry1]
+f = fPlay(stand)
+f = fPlay(swing_paw)
+f = fPlayWithSound(growl,growl1)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar1)
+f = fPlay(stand)
+f = fPlayWithSound(growl,growl1)
+f = fWalk(0,0)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry2]
+f = fPlay(stand)
+f = fMove(0,0,run,68)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar1)
+f = fPlay(swing_paw)
+f = fPlayTime(stand,4)
+f = fPlayWithSound(roar,roar1)
+f = fPlayWithSound(growl,growl1)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar1)
+f = fMove(0,0,run,68)
+f = fPlay(stand)
+f = fPlay(stand_2legs)
+f = fPlayWithSound(hind_noise,roar1)
+f = fPlay(hind_to_4legs)
+f = fPlayWithSound(growl,growl1)
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar1)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise1]
+f = fPlay(stand)
+f = fPlayWithSound(roar,roar1)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise2]
+f = fPlay(stand)
+f = fPlayWithSound(growl,growl1)
+f = fPlayTime(stand,5)
+f = fPlayWithSound(roar,roar1)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise3]
+f = fPlay(stand)
+f = fPlayWithSound(roar,chuff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle1]
+f = fPlay(stand)
+f = fPlayPingPong(wag_head)
+f = fPlayTime(stand,6)
+f = fPlayWithSound(scratch,chuff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle2]
+f = fPlay(stand)
+f = fPlay(sit)
+f = fPlayTime(sit_idle,7)
+f = fPlay(sit_paw)
+f = fPlayTime(sit_idle,4)
+f = fPlay(sit_rub)
+f = fPlayTime(sit_idle,5)
+f = fPlayReverse(sit)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlayWithSound(scratch,polar4)
+f = fPlay(stand)
+f = fPlay(sniff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSurfswim]
+f = fTrot(surface, 0)
+
+[m\BehaviorSet\bSurfdive]
+f = fTrot(dive, 0)
+
+[m\BehaviorSet\bSurfloor]
+f = fTrot(floor, 0)
+
+[m\BehaviorSet\bSurfvoc]
+f = fPlayWithSound(surfroar,roar1)
+
+[m\BehaviorSet\bSurfrest]
+f = fPlay(2_surface_rest)
+f = fPlay(surfidle)
+f = fPlayTime(surfidle,9)
+f = fPlayReverse(2_surface_rest)
+
+[m\BehaviorSet\bSurfdrift]
+f = fMove(surface, 0, surfdrift, 24)
+
+[m\BehaviorSet\bSubswim]
+f = fTrot(level, 0)
+
+[m\BehaviorSet\bRise]
+f = fTrot(rise, 0)
+
+[m\BehaviorSet\bDive]
+f = fTrot(dive, 0)
+
+[m\BehaviorSet\bSubsurf]
+f = fTrot(surface, 0)
+
+[m\BehaviorSet\bFloor]
+f = fTrot(floor, 0)
+
+[m\BehaviorSet\bSubroll]
+f = fMove(level, 2, subspin, 34)
+
+[m\BehaviorSet\bSleep]
+f = fPlaySetTerrain(bSleepland,bSleepwater,bSleepsurf,bSleepsub)
+
+[m\BehaviorSet\bSleepland]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,20)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSleepwater]
+f = fPlayTime(water_idle,9)
+
+[m\BehaviorSet\bSleepsurf]
+f = fPlay(2_surface_rest)
+f = fPlayTime(surfidle,9)
+f = fPlayReverse(2_surface_rest)
+
+[m\BehaviorSet\bSleepsub]
+f = fPlayTime(subidle,9)
+
+[m\BehaviorSet\bDie]
+f = fPlaySetTerrain(bDieland,bDiewater,bDiesurf,bDiesub)
+
+[m\BehaviorSet\bDieland]
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,5)
+f = fPlayTime(lie_idle,5)
+f = fDie()
+
+[m\BehaviorSet\bDiewater]
+f = fWalk(0,0)
+f = fDie()
+
+[m\BehaviorSet\bDiesurf]
+f = fPlay(2_surface_rest)
+f = fPlayTime(surfidle,9)
+f = fDie()
+
+[m\BehaviorSet\bDiesub]
+f = fPlayTime(subidle,9)
+f = fDie()
+
+[m\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+f = fPlaySet(bEat)
+
+[m\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(stand)
+f = fPlayTime(eat,9)
+f = fPlay(stand)
+f = fPlay(lick_paw)
+f = fPlay(stand)
+
+[m\BehaviorSet\bBreathe]
+f = fPlayTime(surfidle,3)
+
+[m\BehaviorSet\bSick]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,20)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bEscaped1]
+f = fPlay(stand)
+f = fMove(0,0,run,72)
+f = fPlay(stand_2legs)
+f = fPlayWithSound(hind_noise,roar1)
+f = fPlay(hind_to_4legs)
+f = fPlay(stand)
+
+[m\BehaviorSet\bChasePrey]
+f = fRun(prey, 0)
+
+[m\BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[m\BehaviorSet\bCaughtGuest]
+; the time of animation below should match bCaughtBy in guest
+f = fPlaySetTerrain(bcgland,bcgwater,bcgsurf,bcgsub)
+
+[m\BehaviorSet\bcgland]
+f = fPlayTime(stand,4)
+
+[m\BehaviorSet\bcgwater]
+f = fPlayTime(surfidle,4)
+
+[m\BehaviorSet\bcgsurf]
+f = fPlayTime(surfidle,4)
+
+[m\BehaviorSet\bcgsub]
+f = fPlayTime(subidle,4)
+
+[m\BehaviorSet\bCaughtPrey]
+f = fDustBall()
+f = fPlaySetTerrain(bAcland,bAcwater,bAcsurf,bAcsub)
+
+[m\BehaviorSet\bAcland]
+f = fPlay(stand)
+f = fPlay(stand_2legs)
+f = fPlayWithSound(hind_noise,roar1)
+f = fPlay(hind_to_4legs)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAcwater]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bAcsurf]
+f = fTrot(0,0)
+
+[m\BehaviorSet\bAcsub]
+f = fTrot(0,0)
+
+[m\BehaviorSet\bCaught]
+f = fTrot(keeper)
+
+[m\BehaviorSet\bBaby1]
+f = fPlay(stand)
+f = fWalk(mother,0)
+
+[m\BehaviorSet\bBaby2]
+f = fPlay(stand)
+f = fWalk(mother,0)
+
+[m\BehaviorSet\bBored1]
+f = fPlayTime(stand,10)
+
+[m\BehaviorSet\bBored2]
+f = fPlayTime(stand,10)
+
+[m\BehaviorSet\bAngryKeeper]
+f = fPlay(stand)
+
+[m\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bRun]
+f = fRun(0,0)
+
+[m\BehaviorSet\bWaterActive]
+f = fWalk(0,0)
+f = fMove(0,0, surfdrift, 26)
+
+[m\BehaviorSet\bWaterIdle]
+f = fPlay(2_surface_rest)
+f = fPlayTime(surfidle,6)
+f = fPlayWithSound(surfroar,roar1)
+f = fPlayReverse(2_surface_rest)
+
+[m\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[m\BehaviorSet\bicefloeanimalrest0]
+f = fPlay(stand)
+f = fEnterBuilding()
+f = fPlay(stand)
+f = fPlayWithSound(roar,chuff)
+f = fPlay(stand)
+f = fPlayWithSound(scratch,chuff)
+f = fPlay(stand)
+f = fExitBuilding()
+
+[m\BehaviorSet\bicefloeanimalrest1]
+f = fPlay(stand)
+f = fEnterBuilding()
+f = fPlay(stand)
+f = fPlay(swing_paw,growl)
+f = fPlayPingPong(look_left)
+f = fPlay(stand)
+f = fExitBuilding()
+
+[m\BehaviorSet\bicefloeanimalrest2]
+f = fPlay(stand)
+f = fEnterBuilding()
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,5)
+f = fPlay(lie_paw)
+f = fPlayTime(lie_idle,8)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+f = fExitBuilding()
+
+[m\BehaviorSet\bicefloeanimalrest3]
+f = fPlay(stand)
+f = fEnterBuilding()
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlay(lie_roll)
+f = fPlay(lie_rubground)
+f = fPlayReverse(lie_roll)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+f = fExitBuilding()
+
+[m\BehaviorSet\bicekeganimalrest0]
+f = fPlay(icekeg)
+f = fEnterBuilding()
+f = fPlay(icekeg)
+f = fPlay(surfidle)
+f = fExitBuilding()
+
+[AmbientAnims]
+a = 81
+a = 100
+b = bHappy
+a = 61
+a = 80
+b = bFriendly
+a = 21
+a = 60
+b = bCalm
+a = -20
+a = 20
+b = bNeutral
+a = -60
+a = -21
+b = bUneasy
+a = -80
+a = -61
+b = bTense
+a = -100
+a = -81
+b = bAngry
+
+[AmbientAnimsWater]
+a = -100
+a = 100
+b = bInWater
+
+[AmbientAnimsUnderwater]
+a = 81
+a = 100
+b = bHappyU
+a = 61
+a = 80
+b = bFriendlyU
+a = 21
+a = 60
+b = bCalmU
+a = -20
+a = 20
+b = bNeutralU
+a = -60
+a = -21
+b = bUneasyU
+a = -80
+a = -61
+b = bTenseU
+a = -100
+a = -81
+b = bAngryU
+
+[AmbientAnimsSurface]
+a = 81
+a = 100
+b = bHappyS
+a = 61
+a = 80
+b = bFriendlyS
+a = 21
+a = 60
+b = bCalmS
+a = -20
+a = 20
+b = bNeutralS
+a = -60
+a = -21
+b = bUneasyS
+a = -80
+a = -61
+b = bTenseS
+a = -100
+a = -81
+b = bAngryS

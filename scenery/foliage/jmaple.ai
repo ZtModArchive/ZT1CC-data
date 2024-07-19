@@ -1,0 +1,40 @@
+[Icon]
+Icon=objects/jmaple/SE/SE
+Icon=objects/jmaple/SW/SW
+Icon=objects/jmaple/NW/NW
+Icon=objects/jmaple/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 135
+cNameID = 7035
+cHelpID = 7035
+;Deciduous forest
+cHabitat = 9402
+;Asia
+cLocation = 9612
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 6
+; woman
+v = 9504
+v = 6
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 3

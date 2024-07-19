@@ -1,0 +1,9 @@
+You've done excellent work so far. Now you need to make a path so that your guests can see it. 
+ 
+1. On the left side of the gameplay screen, click the Construction button. 
+2. Click the Zoo Paths tab, and then click the concrete path icon.
+3. Click and drag the cursor to the Bengal tiger's exhibit, and then release the mouse button. Make sure this new path connects to an existing zoo path.
+
+Guests can only view animals from paths that are adjacent to, or one path-width away from, exhibits.
+
+Click the OK button to proceed.

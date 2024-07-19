@@ -1,0 +1,41 @@
+[Icon]
+Icon = objects/dktrex/SE/SE
+Icon = objects/dktrex/SW/SW
+Icon = objects/dktrex/NW/NW
+Icon = objects/dktrex/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 225
+cNameID = 6708
+cHelpID = 6708
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 4
+cFootprintY = 4
+cUsedThought=10620
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cHeight = 2
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15
+

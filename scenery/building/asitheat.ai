@@ -1,0 +1,120 @@
+[Icon]
+Icon = objects/asitheat/SE/SE
+Icon = objects/asitheat/SW/SW
+Icon = objects/asitheat/NW/NW
+Icon = objects/asitheat/NE/NE
+
+[Member]
+structures
+
+[Characteristics/Integers]
+cPurchaseCost = 550
+cNameID = 8076
+cHelpID = 8076
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 10
+cFootprintY = 8
+cCommerce = 1
+cSelectable = 1
+cNeedsConfirm = 1
+cAdultChange = 4
+cChildChange = 12
+cHideUser = 1
+cHideBuilding = 0
+cUserStaysOutside = 0
+cCapacity = 24
+cTimeInside = 9
+cUsedThought=10655
+cHeight = 3
+cRubbleable = 0
+cIsColorReplaced = 0
+cUserUsesExit = 0
+cUserUsesEntranceAsEmergencyExit = 0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 5.00
+cLowCost = 1.00
+cMedCost = 3.00
+cHighCost = 7.00
+cUpkeep = 65.00
+cPriceFactor = 2.00
+
+[Animations]
+idle = idle
+used = used
+
+[UseSound]
+loops = 0
+name = scenery/building/endtheat.wav
+attenuation = 1000
+
+[EstheticBonus]
+; man
+v = 9503
+v = 6
+; woman
+v = 9504
+v = 6
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15
+
+[Satisfies]
+building
+fun
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+;boy
+id=9505
+;girl
+id=9506
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=0
+entrpos=176
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=-176
+
+; 1000 = essentially infinite capacity
+capacity=12
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2465
+defaultpal = scenery/building/pals/watmel16.pal
+
+; cr_part2 is listed in building.ai
+replace = cr_part2
+title = 2302
+defaultpal = scenery/building/pals/burg8.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/theatre/theatre.pal
+colorpal = objects/theatre/color.pal

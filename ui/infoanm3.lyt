@@ -1,0 +1,71 @@
+[LayoutInfo]
+x=0
+y=0
+dx=226
+dy=213
+id=202
+layer=2
+;hidden
+state=1
+
+[Background]
+type=UIImage
+id=3188
+helpid=3188
+x=24
+y=80
+animation=ui/animal/ainfobox/ainfobox
+layer=0
+
+
+[thoughts]
+type=UIText
+id=3126
+textid=3126
+x=36
+y=78
+dx=128
+dy=fitfont
+font=3452
+fontsize=3453
+border=0
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[thoughts-thoughts]
+type=UIListBox
+id=3125
+x=28
+y=95
+dx=155
+dy=107
+font = 3836
+fontsize = 3837
+forecolor = 255
+forecolor = 255
+forecolor = 255
+backcolor = 52
+backcolor = 68
+backcolor = 52
+transparent = 1
+scrollbar=3127
+layer=1
+;justify=center
+state = 262144
+spacing=5
+
+[scrollbar]
+type = UIScrollBar
+id = 3127
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2

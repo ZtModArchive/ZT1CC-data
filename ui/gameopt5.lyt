@@ -1,0 +1,300 @@
+[LayoutInfo]
+anchor=1032
+x=17
+y=6
+dx=171
+dy=440
+id=903
+layer=1
+
+[Panel_SUB_Title]
+type=UIText
+id=1533
+textid=1530
+x=29
+y=29
+dx=127
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=206
+forecolor=206
+forecolor=206
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+
+
+
+
+[Video_Quality_Label]
+type=UIText
+id=1547
+textid=1547
+x=33
+y=130
+dx=120
+dy=fitfont
+font=3270
+fontsize=3271
+border=1
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[Video_Quality_Radio Set]
+type=UIRadioSet
+id=1538
+button=1539
+button=1546
+
+[High_Video_Quality]
+type=UIButton
+id=1539
+textid=1539
+helpid=1557
+x=32
+y=147
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+layer=2
+state=4096
+state=8
+
+[Low_Video_Quality]
+type=UIButton
+id = 1546
+textid=1546
+helpid=1558
+x=32
+y=177
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+layer=2
+state=4096
+
+
+
+
+
+[Sound_Quality_Label]
+type=UIText
+id=1548
+textid=1548
+x=33
+y=222
+dx=120
+dy=fitfont
+font=3270
+fontsize=3271
+border=1
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[Sound_Quality_Radio Set]
+type=UIRadioSet
+id=1549
+button=1551
+button=1552
+
+[High_Sound_Quality]
+type=UIButton
+id=1551
+textid=1551
+helpid=1559
+x=32
+y=237
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+layer=2
+state=4096
+state=8
+
+[Low_Sound_Quality]
+type=UIButton
+id = 1552
+textid=1552
+helpid=1578
+x=32
+y=267
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+layer=2
+state=4096
+
+
+[Mouse_Quality_Label]
+type=UIText
+id=1553
+textid=1553
+x=33
+y=311
+dx=120
+dy=fitfont
+font=3270
+fontsize=3271
+border=1
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+justify=center
+
+
+[Mouse_Quality_Radio Set]
+type=UIRadioSet
+id=1554
+button=1555
+button=1556
+
+[High_Mouse_Quality]
+type=UIButton
+id=1555
+textid=1555
+helpid=1579
+x=32
+y=327
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+layer=2
+state=4096
+
+
+[Low_Mouse_Quality]
+type=UIButton
+id = 1556
+textid=1556
+helpid=1582
+x=32
+y=357
+justify=center
+font=3270
+fontsize=3271
+forecolor = 255
+forecolor = 186
+forecolor = 16
+backcolor = 131
+backcolor = 125
+backcolor = 53
+highlightcolor = 255
+highlightcolor = 223
+highlightcolor = 41
+selectcolor = 90
+selectcolor = 255
+selectcolor = 255
+graycolor = 132
+graycolor = 149
+graycolor = 124
+animation = ui/gameopts/textbck/textbck
+layer=2
+state=4096
+state=8

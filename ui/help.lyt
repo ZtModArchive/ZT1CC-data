@@ -1,0 +1,149 @@
+[LayoutInfo]
+x=center
+y=center
+dx=500
+dy=332
+id=38
+layer=6
+state=1
+
+[Background]
+type=UIImage
+id=28000
+x=0
+y=0
+animation=ui/help/help/help
+alias=-1
+layer=0
+
+[PanelTitle]
+type=UIText
+id=28001
+textid=28001
+x=130
+y=2
+dx=217
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+shadowtext=0
+layer=5
+justify=center
+alias=-1
+
+[TopicTitle]
+type=UIText
+id=28002
+x=178
+y=27
+dx=300
+dy=fitfont
+font=25001
+fontsize=25002
+forecolor=255
+forecolor=218
+forecolor=90
+backcolor=59
+backcolor=71
+backcolor=45
+border=1
+transparent=1
+shadowtext=1
+layer=1
+justify=center
+
+[TopicList]
+type=UIListBox
+id=28003
+x=12
+y=27
+dx=150
+dy=275
+font = 3636
+fontsize = 3637
+forecolor=0
+forecolor=0
+forecolor=0
+backcolor=244
+backcolor=228
+backcolor=204
+highlightcolor = 0
+highlightcolor = 0
+highlightcolor = 0
+highlightbordercolor = 255
+highlightbordercolor = 217
+highlightbordercolor = 90
+selectcolor = 255
+selectcolor = 255
+selectcolor = 255
+selectbackcolor = 121
+selectbackcolor = 104
+selectbackcolor = 50
+selectbordercolor = 255
+selectbordercolor = 217
+selectbordercolor = 90
+transparent = 1
+border = 3
+; trigger on selection change
+state = 131072
+scrollbar=28004
+layer=1
+
+[TopicListScrollBar]
+type=UIScrollBar
+id=28004
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer=2
+
+[MainText]
+type=UIText
+id=28005
+x=181
+y=53
+dx=292
+dy=244
+font=25003
+fontsize=25004
+forecolor=0
+forecolor=0
+forecolor=0
+backcolor=244
+backcolor=228
+backcolor=204
+border=1
+transparent=1
+shadowtext=0
+layer=1
+scrollbar=28006
+space=6
+
+[MainTextScrollBar]
+type=UIScrollBar
+id=28006
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer=2
+
+[CloseWindow]
+type=UIButton
+id=28007
+helpid=3112
+x=453
+y=1
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=-1

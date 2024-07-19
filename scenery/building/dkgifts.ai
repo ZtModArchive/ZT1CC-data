@@ -1,0 +1,126 @@
+
+[Icon]
+Icon=objects/dkgifts/SE/SE
+Icon=objects/dkgifts/SW/SW
+Icon=objects/dkgifts/NW/NW
+Icon=objects/dkgifts/NE/NE
+
+[Member]
+structures
+dinosaur
+
+[Characteristics/Integers]
+cFootprintX = 8
+cFootprintY = 8
+;Bad Habitat Type
+cHabitat = 9414
+cPurchaseCost = 250
+cNameID = 8068
+cHelpID = 8068
+cSelectable = 1
+cCommerce = 1
+cNeedsConfirm = 1
+cAdultChange = 0
+cChildChange = 15
+cHideUser = 1
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 12
+cTimeInside = 8
+cUsedThought=10651
+cUserUsesExit = 0
+cHeight = 3
+cRubbleable = 0
+cIsColorReplaced = 0
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 5.00
+cLowCost = 1.00
+cMedCost = 8.00
+cHighCost = 13.00
+cUpkeep = 100.00
+cPriceFactor = 2.00
+
+[Sells]
+plasdino
+stufdino
+
+[Animations]
+idle = idle
+used = used
+
+[UseSound]
+loops = 0
+name = scenery/building/dinogift.wav
+attenuation = 1000
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 5
+; girl
+v = 9506
+v = 5
+
+[Satisfies]
+building
+gift
+
+[slots]
+name=slot
+
+[slot]
+id=9505
+id=9506
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=32
+entrpos=144
+
+; spot to place guest in once they've used the building
+exitpos=32
+exitpos=144
+
+; 1000 = essentially infinite capacity
+capacity=12
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2469
+defaultpal = scenery/building/pals/rose16.pal
+
+; cr_part2 is listed in building.ai
+replace = cr_part2
+title = 2302
+defaultpal = scenery/building/pals/burg8.pal
+
+
+
+
+[cr_color]
+ncolors = 232
+fullpal = objects/aqgftshp/aqgftshp.pal
+colorpal = objects/aqgftshp/color.pal

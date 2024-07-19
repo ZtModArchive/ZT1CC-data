@@ -1,0 +1,18 @@
+[goals]
+goal=DEFAULT_ITEMS
+
+[DEFAULT_ITEMS]
+;Items available at the beginning of the game.
+rulea=7
+ruleb=2
+value=0
+text=17700
+trulea=7
+truleb=0
+targa=1000
+hidden=0
+sticky=0
+
+[1000]
+;MAGNET
+id=5340

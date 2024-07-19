@@ -1,0 +1,64 @@
+[Icon]
+Icon=objects/orchid/SE/SE
+Icon=objects/orchid/SW/SW
+Icon=objects/orchid/NW/NW
+Icon=objects/orchid/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7059
+cHelpID = 7059
+cHabitat = 9405
+cLocation = 9600
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 1
+cTimeInside = 12
+cUsedThought = 0
+cUserUsesExit = 1
+cHeight = 3
+cUseNumbersInName = 0
+cForcesSceneryRubble = 1
+cUsesTreeRubble=1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle
+used = idle
+
+[Satisfies]
+building
+animalrest
+
+[slots]
+name=slot
+
+[slot]
+id = 5003
+filter = y
+slotpos = 0
+slotpos = 0
+
+entrpos = 0
+entrpos = -48
+
+exitpos = 0
+exitpos = 48
+
+capacity = 1
+facing = 7
+

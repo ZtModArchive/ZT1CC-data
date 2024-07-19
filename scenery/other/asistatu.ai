@@ -1,0 +1,39 @@
+[Icon]
+Icon = objects/asistatu/SE/SE
+Icon = objects/asistatu/SW/SW
+Icon = objects/asistatu/NW/NW
+Icon = objects/asistatu/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 85
+cNameID = 6729
+cHelpID = 6729
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 4
+cUsedThought=10653
+cEstheticWeight = 30
+cGawkOnlyFromFront = 0
+cHeight = 3
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 4
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

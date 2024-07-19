@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/urchin/SE/SE
+Icon=objects/urchin/SW/SW
+Icon=objects/urchin/NW/NW
+Icon=objects/urchin/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 110
+cNameID = 7421
+cHelpID = 7421
+cHabitat = 9413
+cLocation = 9631
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 2
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

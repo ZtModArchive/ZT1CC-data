@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/snograss/SE/SE
+Icon=objects/snograss/SW/SW
+Icon=objects/snograss/NW/NW
+Icon=objects/snograss/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 35
+cNameID = 7424
+cHelpID = 7424
+cHabitat = 9408
+cLocation = 9608
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

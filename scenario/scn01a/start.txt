@@ -1,0 +1,9 @@
+Tutorial 1 will teach you the basics of controlling Zoo Tycoon.
+
+You will learn:
+How to open the Game Options tab.
+How to exit the tutorial.
+How to zoom the view in and out.
+How to rotate the game map.
+How to undo your previous action.
+How to clear items from the game map.

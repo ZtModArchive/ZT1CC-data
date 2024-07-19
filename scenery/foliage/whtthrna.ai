@@ -1,0 +1,24 @@
+[Icon]
+Icon=objects/whtthrna/SE/SE
+Icon=objects/whtthrna/SW/SW
+Icon=objects/whtthrna/NW/NW
+Icon=objects/whtthrna/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 7001
+cHelpID = 7001
+cHabitat = 9400
+cLocation = 9600
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

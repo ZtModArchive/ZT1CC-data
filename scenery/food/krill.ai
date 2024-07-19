@@ -1,0 +1,33 @@
+[Characteristics/Integers]
+cNameID = 6600
+cHelpID = 6600
+cHabitat = 9412
+cLocation = 9619
+cFootprintX = 1
+cFootprintY = 1
+cDeletable = 0
+cPurchaseCost = 250
+cFood = 1
+cFoodUnits = 1000
+cMaxFoodUnits = 1000
+cFoodCategory = 2
+cKeeperFoodType = 9
+cRubbleable = 0
+cExpansionID=2
+cDepth=1
+cUnderwater=1
+cSubmerge=1
+; draw shadow image
+cUsesRealShadows = 1
+; Very forgiving hit test.
+cHitThreshold = -1
+
+[Animations]
+full = full
+half = med
+empty = small
+
+; shadow images
+shadowfull = sfull
+shadowmed = smed
+shadowsmall = ssmall

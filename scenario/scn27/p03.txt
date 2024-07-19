@@ -1,0 +1,8 @@
+A tank can be filled with either salt water or fresh water. By default, the tank is filled with salt water. You can change the water type from the exhibit panel.
+
+1. On the still open exhibit panel, click the Change to Fresh Water button. Notice how the color of the water changes.
+2. Click the Change to Salt Water button to re-fill the tank with salt water.
+
+All marine animals require salt water in their exhibits. However, many of the zoo animals, like the hippo, prefer fresh water in their tanks.
+
+Click the OK button to proceed.

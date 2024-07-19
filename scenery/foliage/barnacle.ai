@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/barnacle/SE/SE
+Icon=objects/barnacle/SW/SW
+Icon=objects/barnacle/NW/NW
+Icon=objects/barnacle/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 75
+cNameID = 7401
+cHelpID = 7401
+cHabitat = 9413
+cLocation = 9633
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 2
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

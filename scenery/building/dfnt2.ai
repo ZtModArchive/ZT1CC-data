@@ -1,0 +1,48 @@
+[Icon]
+Icon=objects/dfnt2/SE/SE
+Icon=objects/dfnt2/SW/SW
+Icon=objects/dfnt2/NW/NW
+Icon=objects/dfnt2/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+
+[AmbientSound]
+name = scenery/building/fountain.wav
+attenuation = 1000
+
+
+[Characteristics/Integers]
+cPurchaseCost = 800
+cFootprintX = 6
+cFootprintY = 8
+;Bad Habitat Type
+cHabitat = 9414
+cNameID = 6408
+cHelpID = 6408
+cUsedThought=10583
+cHeight = 1
+cUseNumbersInName=0
+cRubbleable = 0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+
+[EstheticBonus]
+; man
+v = 9503
+v = 15
+; woman
+v = 9504
+v = 15
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15

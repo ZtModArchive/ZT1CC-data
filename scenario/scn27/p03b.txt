@@ -1,0 +1,7 @@
+You can also raise the entire marine exhibit by adjusting the base of the tank. This allows you to create different looks for your exhibits.
+
+1. On the exhibit panel, click the Expose Tank button. Notice how the whole exhibit is raised.
+
+Animals have no preference with regard to the position of the tank. This is an aesthetic adjustment.
+
+Click the OK button to proceed.

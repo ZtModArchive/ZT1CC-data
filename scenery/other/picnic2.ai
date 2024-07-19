@@ -1,0 +1,127 @@
+[Icon]
+Icon=objects/picnic2/SE/SE
+Icon=objects/picnic2/SW/SW
+Icon=objects/picnic2/NW/NW
+Icon=objects/picnic2/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 95
+cNameID = 6092
+cHelpID = 6092
+cFootprintX = 2
+cFootprintY = 2
+cTimeInside = 6
+cCapacity = 4
+cUserStaysOutside = 0
+cHideUser = 0
+cHideBuilding = 0
+cEnergyChange = -100
+cUsedThought=10217
+cUserUsesExit = 1
+cHeight = 1
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+used = idle
+
+[Satisfies]
+building
+energy
+eat
+
+[slots]
+name=slot0
+name=slot1
+name=slot2
+name=slot3
+
+[slot1]
+
+; spot in the building where guest will play animation
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=-16
+slotpos=-16
+
+; spots outside the building where guest paths to
+entrpos=-16
+entrpos=-48
+
+;entrpos=-48
+;entrpos=-16
+
+; spot to place guest in once they've used the building
+exitpos=-16
+exitpos=-48
+
+capacity=1
+facing=7
+
+[slot3]
+
+; spot in the building where guest will play animation
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=16
+slotpos=-16
+
+; spots outside the building where guest paths to
+entrpos=16
+entrpos=-48
+
+;entrpos=48
+;entrpos=-16
+
+; spot to place guest in once they've used the building
+exitpos=16
+exitpos=-48
+
+capacity=1
+facing=7
+
+[slot0]
+
+; spot in the building where guest will play animation
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=-16
+slotpos=16
+
+; spots outside the building where guest paths to
+entrpos=-16
+entrpos=48
+
+;entrpos=-48
+;entrpos=16
+
+; spot to place guest in once they've used the building
+exitpos=-16
+exitpos=48
+
+capacity=1
+facing=7
+
+[slot2]
+
+; spot in the building where guest will play animation
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=16
+slotpos=16
+
+; spots outside the building where guest paths to
+entrpos=16
+entrpos=48
+
+;entrpos=48
+;entrpos=16
+
+; spot to place guest in once they've used the building
+exitpos=16
+exitpos=48
+
+capacity=1
+facing=7
+

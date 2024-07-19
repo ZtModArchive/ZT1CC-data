@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/bush1/SE/SE
+Icon=objects/bush1/SW/SW
+Icon=objects/bush1/NW/NW
+Icon=objects/bush1/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 20
+cNameID = 7048
+cHelpID = 7048
+cHabitat = 9400
+cLocation = 9600
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 2
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

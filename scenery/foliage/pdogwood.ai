@@ -1,0 +1,37 @@
+[Icon]
+Icon=objects/pdogwood/SE/SE
+Icon=objects/pdogwood/SW/SW
+Icon=objects/pdogwood/NW/NW
+Icon=objects/pdogwood/NE/NE
+
+[Member]
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7007
+cHelpID = 7007
+cHabitat = 9402
+cLocation = 9617
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 3

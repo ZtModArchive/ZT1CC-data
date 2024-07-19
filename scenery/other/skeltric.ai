@@ -1,0 +1,40 @@
+[Icon]
+Icon = objects/skeltric/SE/SE
+Icon = objects/skeltric/SW/SW
+Icon = objects/skeltric/NW/NW
+Icon = objects/skeltric/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 300
+cNameID = 6420
+cHelpID = 6420
+cFootprintX = 6
+cFootprintY = 4
+cUsedThought=10581
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 6
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 6

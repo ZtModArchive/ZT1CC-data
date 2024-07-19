@@ -1,0 +1,43 @@
+[Icon]
+Icon = objects/statmerm/SE/SE
+Icon = objects/statmerm/SW/SW
+Icon = objects/statmerm/NW/NW
+Icon = objects/statmerm/NE/NE
+
+
+[Member]
+scenery
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 2000
+cNameID = 6467
+cHelpID = 6467
+cUsedThought=10594
+cFootprintX = 2
+cFootprintY = 2
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cUnderwater = 1
+cRubbleable = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 6
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 6
+; girl
+v = 9506
+v = 2

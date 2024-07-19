@@ -1,0 +1,7 @@
+The first step in creating a suitable exhibit is to match the exhibit's terrain to that found in the animal's natural environment. The terrain icon at the bottom of the Adopt Animals panel displays the predominant terrain type preferred by that animal. In the case of the African lion, this is savannah grass. Place savannah grass in the lion's exhibit. 
+
+1. On the left side of the game screen, click the Construction button.
+2. Click the Terrain Type tab (located along the right side of the Construction panel), and then click the savannah grass icon.
+3. Move the cursor to the lion's exhibit, and then click to place savannah grass terrain in the lion's exhibit.
+
+Click the OK button to proceed.

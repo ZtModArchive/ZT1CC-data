@@ -1,0 +1,24 @@
+[Icon]
+Icon=fences/gate01/SE/SE
+Icon=fences/gate01/SW/SW
+Icon=fences/gate01/NW/NW
+Icon=fences/gate01/NE/NE
+
+[Member]
+habitatfences
+highfence
+fence
+
+[Characteristics/Integers]
+cPurchaseCost = 120
+cNameID = 9314
+cHelpID = 9314
+cHeight = 1
+
+[Animations]
+idle = idle
+idle30p = idle30p
+idle30n = idle30n
+
+[HabitatFence]
+

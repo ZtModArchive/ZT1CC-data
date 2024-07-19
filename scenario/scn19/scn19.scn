@@ -1,0 +1,1042 @@
+[desc]
+name=16019
+story=SCENARIO_START_STORY_SCN19
+picture=scenario/scn19/map19/map19
+winstory=SCENARIO_WIN_STORY_SCN19
+winpicture=ui/scenario/dwin/dwin
+losestory=SCENARIO_LOSE_STORY_SCN19
+losepicture=ui/scenario/dlose/dlose
+
+;Icons for completion, in progress, not done
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+;This limits the player to just using dino entities
+expansion=2
+expansionLocked=1
+;Defaults the selected expansion filter to All
+defaultExpansion=0
+
+[start]
+;Start condition
+economy=scenario/scn19/economy.cfg
+marketing=mktg.cfg
+research=research.cfg
+savegame=maps/scn19.zoo
+setcash=150000
+triggers=hideall
+triggers=disableUI
+resethabitats=1
+resetdate=1
+resetfences=1
+
+[trigger0]
+trulea=4
+truleb=7
+
+[resume]
+triggers=hideall
+triggers=disableUI
+
+[hideall]
+trulea=4
+truleb=9
+
+[disableUI]
+trulea=2
+truleb=12
+targa=2000
+
+[2000]
+;Developer Panel
+;id=1098
+;Construct
+id=1002
+;Fence tab
+id=3251
+;Path tab
+id=3056
+;Foliage tab
+id=3252
+;Rocks tab
+id=3256
+;Terrain tab
+id=3362
+;Terraform tab
+id=3361
+;Adopt
+id=1000
+;Buy
+id=1001
+;Building tab
+id=3050
+;Scenery tab
+id=3053
+;Adopt Animals tab
+id=2075
+;Shelter tab
+id=3255
+;Toys tab
+id=3254
+;Hire
+id=1005
+;Undo
+;id=1075
+;Delete
+id=1028
+;Message
+id=1006
+;Research
+id=1019
+;Scenario
+id=4107
+;Game options
+;id=1004
+;Zoo status
+id=1014
+;Animal status
+id=1010
+;Guest status
+id=1012
+;Habitat status
+id=1050
+;Staff status
+id=1051
+;Zoom In
+id=1007
+;Zoom Out
+id=1023
+;Pause
+;id=1071
+;Rotate ccw
+id=1008
+;Rotate cw
+id=1009
+;Save button
+id=1502
+;Construction Panel Rotate left button
+id=3258
+;Construction Panel Rotate right button
+id=3259
+;Zoo Status Finance tab
+id=4154
+;Zoo Status Graphs tab
+id=4153
+;Zoo Status Awards tab
+id=4105
+;Zoo Status Building tab
+id=4180
+;Tree toggle
+id=1066
+;Building toggle
+id=1067
+;Guest toggle
+id=1068
+;Show Objects tab
+id=2076
+
+[goals]
+goal=INTRO
+goal=STORY
+goal=FILTER_DIALOG
+goal=SHOW_CONST
+goal=OPEN_CONST
+goal=SORT_DINO
+goal=SHOW_FENCE
+goal=OPEN_FENCE
+goal=ELEC_IRON_BARS_AVAIL
+goal=BUILD_XZIBIT
+goal=CLOSE_CONST
+goal=SHOW_ADOPT
+goal=SHOW_ANIMAL
+goal=ALLO_AVAIL
+goal=OPEN_ADOPT
+goal=PLACE_ALLO
+goal=CLOSE_ADOPT
+goal=SHOW_STAFF
+goal=SCIENT_AVAIL
+goal=OPEN_STAFF
+goal=PLACE_SCIENT
+goal=CLOSE_STAFF
+goal=HIDE_SCIENT
+goal=HIDE_STAFF
+goal=SHOW_STATUS
+goal=SHOW_BUILD
+goal=OPEN_STATUS
+goal=CLICK_BUILD
+goal=CLICK_CLOSE_STATUS
+goal=CLOSE_STATUS
+goal=SHOW_RESEARCH
+goal=OPEN_RESEARCH
+goal=CLICK_CLOSE_RESEARCH
+goal=SHOW_GUEST_TOGGLE
+goal=CLICK_GUEST_TOGGLE
+goal=SHOW_FOLIAGE_TOGGLE
+goal=CLICK_FOLIAGE_TOGGLE
+goal=SHOW_BUILDING_TOGGLE
+goal=CLICK_BUILDING_TOGGLE
+goal=SHOW_EXHIBIT
+goal=SHOW_STUFF
+goal=OPEN_EXHIBIT
+goal=CLICK_FOLIAGE
+goal=EXHIBIT_SUITABLE
+goal=CLOSE_ADOPT_2
+goal=CLOSE_CONST_2
+goal=CLOSE_RESEARCH
+goal=CLOSE_OPTIONS
+goal=CLOSE_STATUS_2
+goal=CLICK_DELETE
+goal=DELETE_FENCE
+goal=SHOW_STAFF_2
+goal=DRT_AVAIL
+goal=OPEN_STAFF_2
+goal=PLACE_DRT
+goal=CLOSE_STAFF_2
+goal=ALLO_BOXED
+goal=SCIENT_AVAIL_2
+
+[INTRO]
+;(welcome dialog)
+rulea=9
+ruleb=1
+value=1
+trulea=2
+truleb=0
+targa=1
+sticky=1
+hidden=1
+
+[1]
+;Dino Digs Tutorial Introduction pop-up
+image1=scenario/scn19/01/01
+longText1=TUTORIAL_T3_PROMPT1
+
+[STORY]
+;(Dino Digs story)
+rulea=9
+ruleb=1
+value=2
+trulea=2
+truleb=0
+targa=15
+sticky=1
+hidden=1
+
+[15]
+;Dino Digs story
+image1=scenario/scn19/story/story
+longText1=TUTORIAL_T3_PROMPT15
+
+[FILTER_DIALOG]
+;Display the "Change Expansion Pack Filter" dialog
+rulea=9
+ruleb=1
+value=3
+sticky=1
+hidden=1
+trulea=2
+truleb=0
+targa=2
+
+[2]
+;"Sort by Dino Digs only . . . "
+image1=scenario/scn19/02/02
+longText1=TUTORIAL_T3_PROMPT2
+persistentShortText = -1
+
+[SHOW_CONST]
+; Make the Construction button available
+rulea=9
+ruleb=1
+value=4
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1002
+
+[OPEN_CONST]
+; Opens the construction panel
+rulea=9
+ruleb=1
+value=4
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1002
+
+[SORT_DINO]
+; If user sorts expansion pack filter by Dino Digs only, display next pop-up.
+rulea=11
+value=2
+arga=22900
+hidden=0
+sticky=1
+trulea=2
+truleb=0
+type=2
+targa=3
+text=18049
+
+[3]
+;Build a Dino Exhibit . . . 
+image1=scenario/scn19/03/03
+longText1=TUTORIAL_T3_PROMPT3
+persistentShortText = -1
+
+[SHOW_FENCE]
+; Make the Fence tab available
+rulea=9
+ruleb=1
+value=7
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=3251
+
+[OPEN_FENCE]
+; Click the Fence tab
+rulea=9
+ruleb=1
+value=7
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=3251
+
+[ELEC_IRON_BARS_AVAIL]
+; Make the electric iron bars available
+rulea=9
+ruleb=1
+value=7
+hidden=1
+sticky=1
+trulea=4
+truleb=0
+targa=9335
+
+[BUILD_XZIBIT]
+; If user builds a dino exhibit, triggers next message
+rulea=3
+ruleb=0
+value=2
+hidden=0
+sticky=1
+trulea=2
+truleb=0
+targa=4
+text=18050
+
+[CLOSE_CONST]
+; Close the construction panel
+rulea=9
+ruleb=1
+value=11
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1002
+
+[4]
+; Place Eggs . . . 
+image1=scenario/scn19/04/04
+longText1=TUTORIAL_T3_PROMPT4
+persistentShortText = -1
+
+[SHOW_ADOPT]
+; Make the Adopt Animals panel available
+rulea=9
+ruleb=1
+value=12
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1000
+
+[SHOW_ANIMAL]
+; Make the Adopt animals tab available
+rulea=9
+ruleb=1
+value=12
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=2075
+
+[ALLO_AVAIL]
+; Make the allosaurus available
+rulea=9
+ruleb=1
+value=12
+hidden=1
+sticky=1
+trulea=4
+truleb=0
+targa=5094
+
+[OPEN_ADOPT]
+; Click to open the Adopt Animals panel
+rulea=9
+ruleb=1
+value=12
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1000
+
+[PLACE_ALLO]
+; If user places the Allosaurus in an exhibit, next message
+rulea=3
+ruleb=1
+value=2
+hidden=0
+sticky=1
+trulea=2
+truleb=0
+targa=5
+text=18051
+
+[CLOSE_ADOPT]
+; Close the adopt animal panel
+rulea=9
+ruleb=1
+value=17
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1000
+
+[5]
+; Hire a scientist
+image1=scenario/scn19/05/05
+longText1=TUTORIAL_T3_PROMPT5
+persistentShortText = -1
+
+[SHOW_STAFF]
+; Make the Hire Staff panel available
+rulea=9
+ruleb=1
+value=18
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1005
+
+[SCIENT_AVAIL]
+; Make the scientist available
+rulea=9
+ruleb=1
+value=18
+hidden=1
+sticky=1
+trulea=4
+truleb=0
+targa=9551
+
+[OPEN_STAFF]
+; Click to open the Hire Staff panel
+rulea=9
+ruleb=1
+value=18
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1005
+
+[PLACE_SCIENT]
+;Place a scientist in the game world; displays next message
+rulea=2
+ruleb=0
+arga=9551
+value=2
+hidden=0
+trulea=2
+truleb=0
+targa=7
+text=18073
+
+[6]
+;Place the D.R.T. . . .
+image1=scenario/scn19/06/06
+longText1=TUTORIAL_T3_PROMPT6
+persistentShortText = -1
+
+[CLOSE_STAFF]
+; Close the staff panel
+rulea=9
+ruleb=1
+value=22
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1005
+
+[HIDE_SCIENT]
+; Make the scientist unavailable
+rulea=9
+ruleb=1
+value=22
+hidden=1
+sticky=1
+trulea=4
+truleb=1
+targa=9551
+
+[HIDE_STAFF]
+; Make the staff panel unavailable
+rulea=9
+ruleb=1
+value=22
+hidden=1
+sticky=1
+trulea=2
+truleb=4
+targa=1005
+
+[7]
+; Close Zoo Status panel . . . .
+image1=scenario/scn19/07/07
+longText1=TUTORIAL_T3_PROMPT7
+persistentShortText = -1
+
+[SHOW_STATUS]
+; Make the Zoo Status panel/button available
+rulea=9
+ruleb=1
+value=25
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1014
+
+[SHOW_BUILD]
+; Make the Zoo Status Building list tab available
+rulea=9
+ruleb=1
+value=25
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=4180
+
+[OPEN_STATUS]
+; Open the Zoo Status panel
+rulea=9
+ruleb=1
+value=25
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1014
+
+[CLICK_BUILD]
+; Click the Zoo Status Building list tab
+rulea=9
+ruleb=1
+value=25
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=4180
+
+[CLICK_CLOSE_STATUS]
+; Click the filter by average profit button on the multibuilding list in the  Zoo Status panel; shows next dialog
+rulea=10
+ruleb=1
+arga=4179
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=8
+text=18075
+
+[CLOSE_STATUS]
+; Close the Zoo Status panel
+rulea=9
+ruleb=1
+value=30
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1014
+
+[8]
+; Close the Research and Conservation Panel . . . .
+image1=scenario/scn19/08/08
+longText1=TUTORIAL_T3_PROMPT8
+persistentShortText = -1
+
+[SHOW_RESEARCH]
+; Make the Research and Conservation panel/button available
+rulea=9
+ruleb=1
+value=31
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1019
+
+[OPEN_RESEARCH]
+;Opens the Research panel
+rulea=9
+ruleb=1
+value=31
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1019
+
+[CLICK_CLOSE_RESEARCH]
+;User clicks on close research panel button, displays next pop-up
+rulea=10
+ruleb=1
+arga=4002
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=10
+text=18076
+
+[SHOW_GUEST_TOGGLE]
+; Make guest toggle available
+rulea=9
+ruleb=1
+value=34
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1068
+
+[CLICK_GUEST_TOGGLE]
+; Toggle the guest toggle, displays next message
+rulea=10
+ruleb=1
+arga=1068
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=11
+text=18077
+
+[11]
+; Toggle foliage . . . 
+image1=scenario/scn19/11/11
+longText1=TUTORIAL_T3_PROMPT11
+persistentShortText = -1
+
+[SHOW_FOLIAGE_TOGGLE]
+; Make the foliage toggle button available
+rulea=9
+ruleb=1
+value=36
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1066
+
+[CLICK_FOLIAGE_TOGGLE]
+; Toggle the foliage toggle, displays next message
+rulea=10
+ruleb=1
+arga=1066
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=12
+text=18078
+
+[12]
+; Toggle buildings . . . 
+image1=scenario/scn19/12/12
+longText1=TUTORIAL_T3_PROMPT12
+persistentShortText = -1
+
+[SHOW_BUILDING_TOGGLE]
+; Make the building toggle button available
+rulea=9
+ruleb=1
+value=38
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1067
+
+[CLICK_BUILDING_TOGGLE]
+; Click the building toggle, displays next message
+rulea=10
+ruleb=1
+arga=1067
+value=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=9
+text=18079
+
+[9]
+; Make the exhibit suitable . . . 
+image1=scenario/scn19/09/09
+longText1=TUTORIAL_T3_PROMPT9
+persistentShortText = -1
+
+[SHOW_EXHIBIT]
+;Show exhibit building UI
+rulea=9
+ruleb=1
+value=40
+hidden=1
+sticky=1
+trulea=2
+truleb=13
+targa=3700
+
+[3700]
+;Construct
+id=1002
+;Foliage tab
+id=3252
+;Rocks tab
+id=3256
+;Terrain tab
+id=3362
+;Terraform tab
+id=3361
+;Adopt
+id=1000
+;Shelter tab
+id=3255
+;Rotate ccw
+id=1008
+;Rotate cw
+id=1009
+;Zoom In
+id=1007
+;Zoom Out
+id=1023
+;Clear Button
+id=1028
+;Construction Panel Rotate left button
+id=3258
+;Construction Panel Rotate right button
+id=3259
+
+[SHOW_STUFF]
+; Make allosaurus compatible objects available
+rulea=9
+ruleb=1
+value=40
+hidden=1
+sticky=1
+trulea=7
+truleb=0
+targa=3800
+
+[3800]
+;Large Rock 1
+id=9200
+;Large Rock 2
+id=9201
+;Large Rock 3
+id=9202
+;Large Rock 4
+id=9203
+;Large Rock 5
+id=9204
+;Small Rock 1
+id=9205
+;Small Rock 2
+id=9206
+;Small Rock 3
+id=9207
+;Small Rock 4
+id=9208
+;Small Rock 5
+id=9209
+;Waterfall
+id=9213
+;Ruins
+id=9215
+;Rainforest Rock Wall
+id=9217
+;Mangrove Tree
+id=7014
+;Rainforest Bush
+id=7049
+;Elephant Ear Tree
+id=7015
+;Fernbush
+id=7085
+;Dino Cave
+id=8128
+
+[OPEN_EXHIBIT]
+;Open the construction panel
+rulea=9
+ruleb=1
+value=40
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1002
+
+[CLICK_FOLIAGE]
+;Click on the foliage tab
+rulea=9
+ruleb=1
+value=40
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=3252
+
+[EXHIBIT_SUITABLE]
+; Make the exhibit 80 percent suitable, triggers next message
+rulea=6
+ruleb=2
+value=80
+arga=1
+argb=5144
+hidden=0
+sticky=1
+trulea=2
+truleb=0
+targa=13
+text=18081
+
+[CLOSE_ADOPT_2]
+; Close the adopt animal panel
+rulea=9
+ruleb=1
+value=45
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=2002
+
+[CLOSE_CONST_2]
+; Close the construction panel
+rulea=9
+ruleb=1
+value=45
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=3205
+
+[CLOSE_RESEARCH]
+; Close the research panel
+rulea=9
+ruleb=1
+value=45
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=4002
+
+[CLOSE_OPTIONS]
+; Close the options panel
+rulea=9
+ruleb=1
+value=45
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1550
+
+[CLOSE_STATUS_2]
+; Close the zoo status panel
+rulea=9
+ruleb=1
+value=45
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=4134
+
+[CLICK_DELETE]
+; Click bulldozer to put on cursor
+rulea=9
+ruleb=1
+value=45
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1028
+
+[10]
+; Toggle guests . . . 
+image1=scenario/scn19/10/10
+longText1=TUTORIAL_T3_PROMPT10
+persistentShortText = -1
+
+[13]
+; Delete section of fence . . . 
+image1=scenario/scn19/13/13
+longText1=TUTORIAL_T3_PROMPT13
+persistentShortText = -1
+
+[DELETE_FENCE]
+; Delete one section of exhibit; Guests should become agitated, once the zoo rating is below 18, next message appears
+rulea=1
+ruleb=2
+value=18
+arga=0
+type=1
+sticky=1
+hidden=0
+trulea=2
+truleb=0
+targa=14
+text=18080
+
+[14]
+; Allosaurus loose . . . 
+image1=scenario/scn19/14/14
+longText1=TUTORIAL_T3_PROMPT14
+persistentShortText = -1
+
+[SHOW_STAFF_2]
+; Make the Hire Staff panel available
+rulea=9
+ruleb=1
+value=52
+hidden=1
+sticky=1
+trulea=2
+truleb=6
+targa=1005
+
+[DRT_AVAIL]
+; Make the DRT copter available
+rulea=9
+ruleb=1
+value=52
+hidden=1
+sticky=1
+trulea=4
+truleb=0
+targa=8031
+
+[OPEN_STAFF_2]
+; Click to open the Hire Staff panel
+rulea=9
+ruleb=1
+value=52
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1005
+
+[PLACE_DRT]
+; Place DRT on map
+rulea=2
+ruleb=0
+arga=9550
+value=1
+hidden=0
+sticky=1
+trulea=2
+truleb=0
+targa=16
+text=18074
+
+[16]
+; DRT deals with . . . 
+image1=scenario/scn19/06/06
+longText1=TUTORIAL_T3_PROMPT16
+persistentShortText = -1
+
+[CLOSE_STAFF_2]
+; Close the staff panel
+rulea=9
+ruleb=1
+value=56
+hidden=1
+sticky=1
+trulea=2
+truleb=2
+targa=1005
+
+[ALLO_BOXED]
+; Allosaurus becomes boxed, end of tutorial.
+rulea=4
+ruleb=10
+value=1
+arga=0
+type=2
+sticky=1
+hidden=1
+
+[SCIENT_AVAIL_2]
+; Make the scientist available
+rulea=9
+ruleb=1
+value=58
+hidden=1
+sticky=1
+trulea=4
+truleb=0
+targa=9551
+
+\\\\\\\\\\\\\
+;45200 medium
+
+[default]
+layout=45100
+background=ui/tutorial/tutorial/tutorial
+icon=
+image1=
+image2=
+shortText1=0
+longText1=
+shortText2=0
+longText2=
+ok=1
+yes=1
+no=1
+cancel=0
+pause=1
+
+persistentTextLayout = 45400
+persistentShortText = 0
+persistentLongText = 

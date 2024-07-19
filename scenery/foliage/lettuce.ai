@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/lettuce/SE/SE
+Icon=objects/lettuce/SW/SW
+Icon=objects/lettuce/NW/NW
+Icon=objects/lettuce/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 110
+cNameID = 7410
+cHelpID = 7410
+cHabitat = 9413
+cLocation = 9633
+cFootprintX = 2
+cFootprintY = 2
+walkable = 1
+cHeight = 2
+cFoliage = 1
+cAutoRotate = 1
+cSwims = 0
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cDeadOnLand=1
+cDeadStateHeight=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+idledead = dead

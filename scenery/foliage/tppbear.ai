@@ -1,0 +1,39 @@
+; $Id: tppbear.ai,v 1.1 2002/05/22 18:27:21 rmh Exp $
+[Icon]
+Icon=objects/tppbear/ictpbrSE/ictpbrSE
+Icon=objects/tppbear/ictpbrSW/ictpbrSW
+Icon=objects/tppbear/ictpbrNW/ictpbrNW
+Icon=objects/tppbear/ictpbrNE/ictpbrNE
+
+[Member]
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 200
+cNameID = 6006
+cHelpID = 6006
+cFootprintX = 2
+cFootprintY = 2
+cHeight = 2
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 6
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 6
+; girl
+v = 9506
+v = 3

@@ -1,0 +1,43 @@
+[Icon]
+Icon = objects/campfire/SE/SE
+Icon = objects/campfire/SW/SW
+Icon = objects/campfire/NW/NW
+Icon = objects/campfire/NE/NE
+
+[Member]
+scenery
+
+[AmbientSound]
+name = scenery/building/campfire.wav
+attenuation = 800
+
+[Characteristics/Integers]
+cPurchaseCost = 50
+cNameID = 6709
+cHelpID = 6709
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10622
+cEstheticWeight = 20
+cGawkOnlyFromFront = 0
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 3
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

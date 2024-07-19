@@ -1,0 +1,21 @@
+; $Id: umbtable.ai,v 1.5 2001/04/13 15:27:40 mek Exp $
+[Icon]
+Icon=objects/umbtable/icumbtSE.tga
+Icon=objects/umbtable/icumbtSW.tga
+Icon=objects/umbtable/icumbtNW.tga
+Icon=objects/umbtable/icumbtNE.tga
+[Member]
+scenery
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 6010
+cHelpID = 6010
+cFootprintX = 2
+cFootprintY = 2
+cTimeInside = 1
+cEnergyChange = -100
+[Animations]
+idle = idle
+[Satisfies]
+building
+energy

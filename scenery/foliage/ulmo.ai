@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/ulmo/SE/SE
+Icon=objects/ulmo/SW/SW
+Icon=objects/ulmo/NW/NW
+Icon=objects/ulmo/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 120
+cNameID = 7005
+cHelpID = 7005
+;Tropical rainforest
+cHabitat = 9405
+;South America
+cLocation = 9606
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

@@ -1,0 +1,32 @@
+[Icon]
+Icon = objects/sandbush/SE/SE
+Icon = objects/sandbush/SW/SW
+Icon = objects/sandbush/NW/NW
+Icon = objects/sandbush/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 60
+cNameID = 7205
+cHelpID = 7205
+;Desert
+cHabitat = 9409
+;North Africa
+cLocation = 9614
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 1
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+
+

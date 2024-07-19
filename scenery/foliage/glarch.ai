@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/glarch/SE/SE
+Icon=objects/glarch/SW/SW
+Icon=objects/glarch/NW/NW
+Icon=objects/glarch/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7025
+cHelpID = 7025
+;Highland	
+cHabitat = 9407
+;North America
+cLocation = 9607
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

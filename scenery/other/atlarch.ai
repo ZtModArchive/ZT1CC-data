@@ -1,0 +1,40 @@
+[Icon]
+Icon = objects/atlarch/SE/SE
+Icon = objects/atlarch/SW/SW
+Icon = objects/atlarch/NW/NW
+Icon = objects/atlarch/NE/NE
+
+[Member]
+scenery
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 85
+cNameID = 6700
+cHelpID = 6700
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 6
+cFootprintY = 2
+cUsedThought=10615
+cHeight = 1
+cUseNumbersInName=0
+walkable = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 2
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 4
+; girl
+v = 9506
+v = 4
+

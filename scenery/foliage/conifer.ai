@@ -1,0 +1,28 @@
+[Icon]
+
+Icon=objects/conifer/SE/SE
+Icon=objects/conifer/SW/SW
+Icon=objects/conifer/NW/NW
+Icon=objects/conifer/NE/NE
+
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 200
+cNameID = 7081
+cHelpID = 7081
+cHabitat = 9403
+cLocation = 9607
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9621
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

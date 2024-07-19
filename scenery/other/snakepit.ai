@@ -1,0 +1,40 @@
+[Icon]
+Icon = objects/snakepit/SE/SE
+Icon = objects/snakepit/SW/SW
+Icon = objects/snakepit/NW/NW
+Icon = objects/snakepit/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 450
+cNameID = 6460
+cHelpID = 6460
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 4
+cFootprintY = 4
+cUsedThought=10648
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 5
+; woman
+v = 9504
+v = 5
+; boy
+v = 9505
+v = 12
+; girl
+v = 9506
+v = 12
+

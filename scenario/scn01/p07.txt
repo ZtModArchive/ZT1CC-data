@@ -1,0 +1,7 @@
+A Burger Stand is always a welcome sight to your hungry guests. Let's place one.
+
+1. On the left side of the gameplay screen, click the Buy Structures button.
+2. Click the burger stand icon. Notice the arrow buttons on the panel. These buttons allow you to rotate an object before you place it.
+3. Place the cursor near the new tiger exhibit, and then click to place the burger stand. 
+
+Click the OK button to proceed.

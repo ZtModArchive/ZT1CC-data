@@ -1,0 +1,44 @@
+[Icon]
+Icon = objects/temp/SE/SE
+Icon = objects/temp/SW/SW
+Icon = objects/temp/NW/NW
+Icon = objects/temp/NE/NE
+
+[Member]
+developer
+aqua
+
+[Characteristics/Integers]
+cNameID = 6174
+cHelpID = 6174
+cPurchaseCost = 0
+cFootprintX = 4
+cFootprintY = 10
+;Bad Habitat Type
+cHabitat = 9414
+cUsedThought=10275
+cHeight = 1
+cUseNumbersInName=0
+cEstheticWeight = 3
+cGawkOnlyFromFront = 0
+cUnderwater = 0
+cOnlySwims=1
+cSwims=1
+
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 4
+; boy
+v = 9505
+v = 2
+; girl
+v = 9506
+v = 2

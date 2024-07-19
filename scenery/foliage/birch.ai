@@ -1,0 +1,24 @@
+[Icon]
+Icon=objects/birch/SE/SE
+Icon=objects/birch/SW/SW
+Icon=objects/birch/NW/NW
+Icon=objects/birch/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 145
+cNameID = 7022
+cHelpID = 7022
+cHabitat = 9402
+cLocation = 9607
+cHeight = 3
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

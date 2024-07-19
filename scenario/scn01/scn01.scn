@@ -1,0 +1,626 @@
+; $Id: scn01.scn,v 1.1 2002/06/11 21:26:19 sds Exp $
+
+[desc]
+name=16001
+story=SCENARIO_START_STORY_SCN01
+picture=scenario/scn01/scn01/scn01
+winstory=SCENARIO_WIN_STORY_SCN01
+winpicture=ui/scenario/win/win
+losestory=SCENARIO_LOSE_STORY_SCN01
+losepicture=ui/scenario/lose/lose
+
+
+;Icons for completion, in progress, not done
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+[start]
+;Start condition
+economy=scenario/scn01/economy.cfg
+marketing=mktg.cfg
+research=research.cfg
+savegame=maps/scn01.zoo
+setcash=100000
+triggers=hideall
+triggers=disableUI
+reset=1
+
+[resume]
+triggers=hideall
+triggers=disableUI
+
+[hideall]
+trulea=4
+truleb=9
+
+[disableUI]
+trulea=2
+truleb=12
+targa=2000
+
+[2000]
+;Construct
+id=1002
+;Fence tab
+id=3251
+;Path tab
+id=3056
+;Foliage tab
+id=3252
+;Rocks tab
+id=3256
+;Terrain tab
+id=3362
+;Terraform tab
+id=3361
+;Adopt
+id=1000
+;Buy
+id=1001
+;Building tab
+id=3050
+;Scenery tab
+id=3053
+;Shelter tab
+id=3255
+;Toys tab
+id=3254
+;Hire
+id=1005
+;Message
+id=1006
+;Research
+id=1019
+;Scenario
+id=4107
+;Zoo status
+id=1014
+;Animal status
+id=1010
+;Guest status
+id=1012
+;Habitat status
+id=1050
+;Staff status
+id=1051
+;Save button
+id=1502
+;Tree toggle
+id=1066
+;Building toggle
+id=1067
+;Guest toggle
+id=1068
+;Show Objects Tab
+id=2076
+
+
+[goals]
+goal=INTRO
+goal=exit
+goal=BUILD_DIALOG
+goal=show_construct_fence
+goal=click_construction
+goal=BUILD_EXHIBIT
+goal=show_adopt
+goal=click_animal
+goal=BUY_TIGER
+goal=show_staff
+goal=click_staff
+goal=HIRE_KEEPER
+goal=show_path
+goal=click_construction2
+goal=BUILD_PATH
+goal=BURGER_DIALOG
+goal=show_building
+goal=click_buy
+goal=BUY_BURGER
+goal=click_buy2
+goal=BUY_DRINK
+goal=show_scenery
+goal=click_buy3
+goal=BUY_PICNIC
+goal=click_buy4
+goal=BUY_BATHROOM
+goal=click_buy5
+goal=BUY_TRASHCANS
+;goal=disable_UI
+
+
+[INTRO]
+; (welcome dialog)
+rulea=9
+ruleb=1
+value=1
+trulea=2
+truleb=0
+targa=1
+sticky=1
+hidden=1
+
+[1]
+; "Welcome to zoo tutorial.."
+image1=scenario/scn01/pic01/pic01
+longText1=TUTORIAL_T1_PROMPT1
+
+[exit]
+; (Exit tutorial dialog)
+rulea=9
+ruleb=1
+value=1
+trulea=2
+truleb=0
+targa=13
+sticky=1
+hidden=1
+
+[13]
+; "If you wish to exit..."
+image1=scenario/scn01/pic00/pic00
+longText1=TUTORIAL_T1_PROMPT13
+
+[BUILD_DIALOG]
+; (make wall avail + build habitat dialog)
+rulea=9
+ruleb=1
+value=2
+trulea=4
+truleb=4
+targa=6012
+targb=2
+hidden=1
+sticky=1
+
+[2]
+; "Build a habitat with fencing..."
+image1=scenario/scn01/pic02/pic02
+longText1=TUTORIAL_T1_PROMPT2
+persistentShortText = -1
+
+[show_construct_fence]
+; Make the construct button and fence tab available
+rulea=9
+ruleb=1
+value=3
+hidden=1
+sticky=1
+trulea=2
+truleb=13
+targa=2100
+
+[2100]
+;Construct
+id=1002
+;Fence tab
+id=3251
+;Undo button
+;id=1075
+
+[click_construction]
+; Click tab to close construction panel
+rulea=3
+ruleb=0
+value=3
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1002
+
+[BUILD_EXHIBIT]
+; Buy 1 Habitat (make tiger avail + buy tiger dialog)
+rulea=3
+ruleb=0
+value=3
+trulea=4
+truleb=4
+targa=5007
+targb=3
+sticky=1
+text=17711
+
+[3]
+; "Place a bengal tiger in habitat..."
+image1=scenario/scn01/pic03/pic03
+longText1=TUTORIAL_T1_PROMPT3
+persistentShortText = -1
+
+[show_adopt]
+; Make the adopt animal button available
+rulea=3
+ruleb=0
+value=3
+hidden=1
+sticky=1
+trulea=2
+truleb=13
+targa=2101
+
+[2101]
+;Adopt
+id=1000
+
+[click_animal]
+; Click tab to close construction panel
+rulea=2
+ruleb=0
+arga=5007
+value=1
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1000
+
+[BUY_TIGER]
+; Buy 1 Btiger (make keeper avail + buy keeper dialog)
+rulea=2
+ruleb=0
+arga=5007
+value=1
+trulea=4
+truleb=4
+targa=9500
+targb=4
+sticky=1
+text=17200
+
+[4]
+; "Place a zookeeper..."
+image1=scenario/scn01/pic04/pic04
+longText1=TUTORIAL_T1_PROMPT4
+persistentShortText = -1
+
+[show_staff]
+; Make the hire staff button available
+rulea=2
+ruleb=0
+arga=5007
+value=1
+hidden=1
+sticky=1
+trulea=2
+truleb=13
+targa=2102
+
+[2102]
+;Hire
+id=1005
+
+[click_staff]
+; Click tab to close staff panel
+rulea=2
+ruleb=0
+arga=9500
+value=1
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1005
+
+[HIRE_KEEPER]
+; Hire 1 zookeeper (make dirt path avail + buy path dialog)
+rulea=2
+ruleb=0
+arga=9500
+value=1
+trulea=4
+truleb=4
+targa=9101
+targb=5
+text=17205
+sticky=1
+
+[5]
+; "Build a concrete path..."
+image1=scenario/scn01/pic05/pic05
+longText1=TUTORIAL_T1_PROMPT5
+persistentShortText = -1
+
+[show_path]
+; Make the hire staff button available
+rulea=2
+ruleb=0
+arga=9500
+value=1
+hidden=1
+sticky=1
+trulea=2
+truleb=13
+targa=2103
+
+[2103]
+;Path
+id=3056
+
+[click_construction2]
+; Click tab to close construction panel
+rulea=2
+ruleb=0
+arga=9101
+value=43
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1002
+
+[BUILD_PATH]
+; build 43 (8 new paths) path pieces (guest info dialog)
+rulea=2
+ruleb=0
+arga=9101
+value=43
+trulea=2
+truleb=0
+targa=6
+sticky=1
+text=17731
+
+[6]
+; "Guests get tired, hungry, and have to pee..."
+image1=scenario/scn01/pic06/pic06
+longText1=TUTORIAL_T1_PROMPT6
+persistentShortText = -1
+
+[BURGER_DIALOG]
+; (make burger avail + Buy burger stand dialog.)
+rulea=9
+ruleb=1
+value=16
+trulea=4
+truleb=4
+targa=8021
+targb=7
+hidden=1
+sticky=1
+
+[7]
+;"Buy burger stand..."
+image1=scenario/scn01/pic07/pic07
+longText1=TUTORIAL_T1_PROMPT7
+persistentShortText = -1
+
+[show_building]
+; Make the buy button and building tab available
+rulea=9
+ruleb=1
+value=16
+hidden=1
+sticky=1
+trulea=2
+truleb=13
+targa=2104
+
+[2104]
+;buy
+id=1001
+;building tab
+id=3050
+
+[click_buy]
+; Click tab to close build panel
+rulea=2
+ruleb=0
+arga=8021
+value=1
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1001
+
+[BUY_BURGER]
+; Buy 1 burger stand (make drink stand avail + buy drink)
+rulea=2
+ruleb=0
+arga=8021
+value=1
+trulea=4
+truleb=4
+targa=8022
+targb=8
+text=17204
+sticky=1
+
+[8] 
+;"Buy drink stand..."
+image1=scenario/scn01/pic08/pic08
+longText1=TUTORIAL_T1_PROMPT8
+persistentShortText = -1
+
+[click_buy2]
+; Click tab to close build panel
+rulea=2
+ruleb=0
+arga=8022
+value=1
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1001
+
+[BUY_DRINK]
+; Buy 1 drink stand (make picnic table avail= buy picnic table)
+rulea=2
+ruleb=0
+arga=8022
+value=1
+trulea=4
+truleb=4
+targa=6085
+targb=9
+text=17204
+sticky=1
+
+[9]
+; "Buy a picnic..."
+image1=scenario/scn01/pic09/pic09
+longText1=TUTORIAL_T1_PROMPT9
+persistentShortText = -1
+
+[show_scenery]
+; Make the buy scenery tab available
+rulea=2
+ruleb=0
+arga=8022
+value=1
+hidden=1
+sticky=1
+trulea=2
+truleb=13
+targa=2105
+
+[2105]
+;scenery tab
+id=3053
+
+[click_buy3]
+; Click tab to close build panel
+rulea=2
+ruleb=0
+arga=6085
+value=4
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1001
+
+[BUY_PICNIC]
+; Buy 4 picnic tables (make bathroom avail + buy bathroom dialog)
+rulea=2
+ruleb=0
+arga=6085
+value=4
+trulea=4
+truleb=4
+targa=8009
+targb=10
+text=17204
+sticky=1
+
+[10]
+; "Buy a bathroom..."
+image1=scenario/scn01/pic10/pic10
+longText1=TUTORIAL_T1_PROMPT10
+persistentShortText = -1
+
+[click_buy4]
+; Click tab to close build panel
+rulea=2
+ruleb=0
+arga=8009
+value=1
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1001
+
+[BUY_BATHROOM]
+; Buy 1 family bathroom (make trashcan avail + buy trashcan dialog)
+rulea=2
+ruleb=0
+arga=8009
+value=1
+trulea=4
+truleb=4
+targa=6009
+targb=11
+text=17204
+sticky=1
+
+[11]
+; "Buy 3 trash cans..."
+image1=scenario/scn01/pic11/pic11
+longText1=TUTORIAL_T1_PROMPT11
+persistentShortText = -1
+
+[click_buy5]
+; Click tab to close build panel
+rulea=2
+ruleb=0
+arga=6009
+value=3
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1001
+
+[BUY_TRASHCANS]
+;Buy 3 trashcans 
+rulea=2
+ruleb=0
+arga=6009
+value=3
+sticky=1
+trulea=2
+truleb=0
+targa=12
+text=17204
+hidden=0
+
+[12]
+; "You win..."
+image1=scenario/scn01/pic01/pic01
+longText1=TUTORIAL_T1_PROMPT12
+
+[disable_UI]
+; Keep some UI elements disabled 
+rulea=2
+ruleb=0
+arga=6009
+value=3
+hidden=1
+sticky=1
+trulea=2
+truleb=12
+targa=2001
+
+[2001]
+;Foliage tab
+id=3252
+;Rocks tab
+id=3256
+;Terrain tab
+id=3362
+;Terraform tab
+id=3361
+;Shelter tab
+id=3255
+;Toys tab
+id=3254
+;Message
+id=1006
+;Research
+id=1019
+;Scenario
+id=4107
+
+\\\\\\\\\\\\\
+;45200 medium
+
+[default]
+layout=45100
+background=ui/tutorial/tutorial/tutorial
+icon=
+image1=
+image2=
+shortText1=0
+longText1=
+shortText2=0
+longText2=
+ok=1
+yes=1
+no=1
+cancel=0
+pause=1
+
+persistentTextLayout = 45400
+persistentShortText = 0
+persistentLongText = 

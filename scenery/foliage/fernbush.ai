@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/fernbush/SE/SE
+Icon=objects/fernbush/SW/SW
+Icon=objects/fernbush/NW/NW
+Icon=objects/fernbush/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 100
+cNameID = 7085
+cHelpID = 7085
+cHabitat = 9405
+cLocation = 9607
+cHeight = 1
+cFoliage = 1
+cAutoRotate = 1
+cUseNumbersInName=0
+cEra=9621
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

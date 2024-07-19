@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/weepwill/SE/SE
+Icon=objects/weepwill/SW/SW
+Icon=objects/weepwill/NW/NW
+Icon=objects/weepwill/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 130
+cNameID = 7066
+cHelpID = 7066
+;Deciduous forest
+cHabitat = 9402
+;North America
+cLocation = 9607
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

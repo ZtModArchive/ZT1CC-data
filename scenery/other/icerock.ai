@@ -1,0 +1,29 @@
+[Icon]
+Icon = objects/icerock/SE/SE
+Icon = objects/icerock/SW/SW
+Icon = objects/icerock/NW/NW
+Icon = objects/icerock/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 80
+cNameID = 9242
+cHelpID = 9242
+cHabitat = 9408
+cLocation = 9618
+cFootprintX = 4
+cFootprintY = 4
+cAutoRotate = 1
+cRubbleable = 0
+cRock = 1
+cSwims = 1
+cOnlySwims = 0
+cUnderwater = 0
+cLand = 1
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

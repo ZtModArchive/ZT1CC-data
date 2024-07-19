@@ -1,0 +1,41 @@
+[Icon]
+Icon = objects/atlurn/SE/SE
+Icon = objects/atlurn/SW/SW
+Icon = objects/atlurn/NW/NW
+Icon = objects/atlurn/NE/NE
+
+[Member]
+scenery
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 85
+cNameID = 6704
+cHelpID = 6704
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10616
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 2
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 4
+; girl
+v = 9506
+v = 4
+

@@ -1,0 +1,42 @@
+[Icon]
+Icon = objects/sflowers/SE/SE
+Icon = objects/sflowers/SW/SW
+Icon = objects/sflowers/NW/NW
+Icon = objects/sflowers/NE/NE
+
+[Member]
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 60
+cNameID = 7207
+cHelpID = 7207
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 1
+cFootprintY = 1
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cUsedThought=10650
+cHeight = 1
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 4
+; woman
+v = 9504
+v = 4
+; boy
+v = 9505
+v = 4
+; girl
+v = 9506
+v = 4
+

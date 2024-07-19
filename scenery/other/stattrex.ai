@@ -1,0 +1,40 @@
+[Icon]
+Icon = objects/stattrex/SE/SE
+Icon = objects/stattrex/SW/SW
+Icon = objects/stattrex/NW/NW
+Icon = objects/stattrex/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 210
+cNameID = 6401
+cHelpID = 6401
+cFootprintX = 4
+cFootprintY = 4
+cUsedThought=10257
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 6
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 6

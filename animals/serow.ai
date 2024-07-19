@@ -1,0 +1,588 @@
+[Global]
+Class = animals
+Type = serow
+Subtype = 
+DefaultSubtype = m
+
+[AnimPath]
+m = animals/serow/m
+f = animals/serow/m
+y = animals/serow/y
+
+[m/Icon]
+Icon = animals/serow/icserow/icserow
+
+[Member]
+animals
+
+[m/Characteristics/Strings]
+cKeeperFoodType = herbivore
+cGeneralInfoTextName = SEROW_GENERAL
+cPlaqueImageName = animals/serow/plserow/plserow
+cListImageName = animals/serow/lsserow/lsserow
+;Snowbell Tree
+cPrefIcon = objects/japtree/SE/SE
+
+[m/Characteristics/Integers]
+cKeeperFoodType = 0
+;Snowbell Tree
+cPrefIconID = 7431
+
+;Japanese Serow
+cNameID = 5508
+cHelpID = 5508
+; Even-toed Ungulate
+cFamily = 5205
+; Sheep
+cGenus = 5127
+;Deciduous
+cHabitat = 9402
+;Asia
+cLocation = 9612
+cPurchaseCost = 800
+cInitialHappiness = 80
+cSlowRate = 18
+cMediumRate = 52
+cFastRate = 72
+cFootprintX = 1
+cFootprintY = 2
+
+;//Angry Effects//
+cCaptivity = 5
+cNoFoodChange  = -50
+cSickChange = -12
+cOtherAnimalSickChange = -5
+cCrowdHappinessChange = -5
+cOtherAnimalAngryChange = 0 
+cNumberMinChange = -5
+cNumberMaxChange = -5
+cAllCrowdedChange = -5
+cAngryHabitatChange = -5
+cVeryAngryHabitatChange = -30
+cAngryTreeChange = -5
+cDeathChange = -5 
+
+;//Happy Effects//
+cBabyBornChange = 30
+cHappyHabitatChange = 20
+cMaxHits = 100
+cMinHits = 0
+cPctHits = 20
+cHungerThreshold = 50
+cHungerIncrement = 5
+cNeededFood = 60
+cKeeperFoodUnitsEaten = 5
+cHungryHealthChange = 10
+cSickChance = 10
+cEnergyThreshold = 100
+cEnergyIncrement = 5
+cMaxEnergy = 100
+cCrowd = 30
+cKeeperFrequency = 2
+cSocial = 1
+cHabitatSize = 100
+cNumberAnimalsMin = 1
+cNumberAnimalsMax = 7
+cAnimalDensity = 30
+cDirtyHabitatRating = 40
+cDirtyIncrement = 5
+cDirtyThreshold = 100
+cPctHabitat = 10
+cHabitatPreference = 50
+cReproductionChance = 2
+cReproductionInterval = 1800
+cOffspring = 1
+cBabyToAdult = 1440
+cHappyReproduceThreshold = 96
+cIsJumper = 1
+cIsClimber = 0
+cBashStrength = 0
+cMatingType = 0
+cNoMateChange = 0
+cNotEnoughKeepersChange = -10
+cFlies = 0
+cSwims = 0
+cEscapedChange = 30
+cSickTime = 4
+cMimicCheck = 10
+cMimic = 70
+cMimicHappyDiff = 50
+cOtherFood = 0
+cFoodTypes = 0
+cTreePref = 5
+cRockPref = 10
+cSpacePref = 80 
+cElevationPref = 30
+cTimeDeath = 17280
+cDeathChance = 10
+cEatVegetationChance = 20
+cDrinkWaterChance = 10
+cChaseAnimalChance = 10
+cClimbsCliffs = 1
+cBuildingUseChance = 10
+cAttractiveness = 15
+cNeedShelter = 1
+
+[y/Characteristics/Integers]
+cChaseAnimalChance = 15
+cIsJumper = 0
+cAttractiveness = 30
+
+[m/Characteristics/Mixed]
+[cCompatibleAnimals]
+;Primitive ungulates
+v = 5200
+v = -10
+;Racoon
+v = 5201
+v = -5
+;Bears
+v = 5202
+v = -20
+;Primates
+v = 5203
+v = -5
+;Odd-toed ungulates
+v = 5204
+v = -10
+;Even-toed ungulates
+v = 5205
+v = -10
+;Cat
+v = 5206
+v = -20
+;Canine
+v = 5207
+v = -20
+;Hyena
+v = 5208
+v = -20
+;Marsupial
+v = 5210
+v = -5
+;Bird
+v = 5211
+v = -5
+;Seal
+v = 5212
+v = -5
+;Crocodile
+v = 5213
+v = -20
+;Edentate
+v = 5214
+v = -5
+;Pig
+v = 5215
+v = -5
+;Dinosaur
+v = 5216
+v = -20
+;Monster
+v = 5217
+v = -20
+
+;Japanese Serow
+v = 5508
+v = 10
+
+[cSuitableObjects]
+;Non-habitat
+v = 9410
+v = -10
+;Tropical rainforest
+v = 9405
+v = -25
+;Savannah
+v = 9400
+v = -5
+;Grassland
+v = 9401
+v = -5
+;Deciduous forest
+v = 9402
+v = 5
+;Coniferous forest
+v = 9403
+v = -3
+;Highlands
+v = 9407
+v = -3
+;Tundra
+v = 9408
+v = -5
+;Desert
+v = 9409
+v = -25
+;Aquatic
+v = 9413
+v = -10
+;Bad-habitat
+v = 9414
+v = -100
+
+;FOLIAGE AND ROCKS
+;bonsai
+v = 7430
+v = 6
+;snowbell tree
+v = 7431
+v = 8
+;jmaple
+v = 7035
+v = 6
+;lrock1
+v = 9200
+v = 3
+;Srock1
+v = 9205
+v = 2
+;Srock2
+v = 9206
+v = 2
+;srckfrm2
+v = 9223
+v = 3
+;Poo
+v = 6062
+v = -5
+
+;SHELTERS
+Leanto1
+v = 8104
+v = 15
+Leanto2
+v = 8105
+v = 20
+Leanto3
+v = 8106
+v = 25
+;Conhous1
+v = 8107
+v = 13
+;Conhous2
+v = 8108
+v = 16
+;Conhous3
+v = 8109
+v = 18
+;Wodhous1
+v = 8110
+v = 13
+;Wodhous2
+v = 8111
+v = 16
+;Wodhous3
+v = 8112
+v = 18
+
+[cCompatibleTerrain]
+;grass = 0
+;savannah grass = 1
+;sand = 2
+;dirt = 3
+;rainforest floor = 4
+;brown rock = 5
+;gray rock = 6
+;gravel = 7
+;snow = 8
+;fresh water = 9
+;salt water = 10
+;deciduous floor = 11
+;waterfall = 12
+;coniferous floor = 13
+;concrete = 14
+;asphalt = 15
+;trampled = 16
+
+v = 0
+v = 15
+
+v = 2
+v = -5
+
+v = 4
+v = -5
+
+v = 5
+v = 10
+
+v = 6
+v = 25
+
+v = 9
+v = 10
+
+v = 10
+v = -20
+
+v = 11
+v = 40
+
+v = 16
+v = -5
+
+[m/Animations]
+idle = stand
+stand = stand
+head_ground = headgrnd
+eat = eat
+raise_head = headrais
+jerk_head = jerk
+look_left = lookl
+look_right = lookr
+rub = rub
+scuff_feet = scuff
+shake_head = shake
+jump_high = highjump
+
+;Lying down
+lie_down = liedown
+lie_idle = lieidle
+lie_roll = lieroll
+lie_side = lieside
+lie_side_idle = sideidle
+
+;Movement
+walk = walk
+trot = trot
+run = run
+
+; Box animations
+box_idle = objects/box/idle/idle.ani
+box_used = objects/box/used/used.ani
+
+[Sounds]
+bray = bray
+bray = 1500
+highjump = highjump
+highjump = 1500
+jerk = jerk
+jerk = 1500
+rub = rub
+rub = 1500
+scuff = scuff
+scuff = 1500
+shake = shake
+shake = 1500
+placesound = bray
+placesound = 1500
+pickupsound = shake
+pickupsound = 1500
+
+[m\BehaviorSet\bHappy]
+f = fPlaySetProb(bIdle1,20,bHappy1,50,bHappy2,30)
+
+[m\BehaviorSet\bFriendly]
+f = fPlaySetProb(bHappy3,60,bIdle2,40)
+
+[m\BehaviorSet\bCalm]
+f = fPlaySetProb(bCalm1,50,bIdle1,30,bIdle2,20)
+
+[m\BehaviorSet\bNeutral]
+f = fPlaySetProb(bIdle1,50,bIdle2,50)
+
+[m\BehaviorSet\bUneasy]
+f = fPlaySetProb(bUneasy1,60,bIdle2,40)
+
+[m\BehaviorSet\bTense]
+f = fPlaySetProb(bTense1,50,bAngry3,20,bIdle3,30)
+
+[m\BehaviorSet\bAngry]
+f = fPlaySetProb(bAngry1,50,bAngry2,30,bIdle3,20)
+
+[m\BehaviorSet\bEscaped]
+f = fPlaySetProb(bEscaped1,80,bNoise1,20)
+
+[m\BehaviorSet\bHappy1]
+f = fPlay(stand)
+f = fPlayWithSound(shake_head,shake)
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlay(head_ground)
+f = fPlayTime(eat,3)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+
+[m\BehaviorSet\bHappy2]
+f = fPlay(stand)
+f = fPlayWithSound(raise_head,bray)
+f = fTrot(0,0)
+f = fPlay(stand)
+f = fPlay(rub)
+f = fPlay(stand)
+
+[m\BehaviorSet\bHappy3]
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayPingPong(look_right)
+f = fPlayTime(stand,6)
+f = fPlay(stand)
+
+[m\BehaviorSet\bCalm1]
+f = fPlay(stand)
+f = fPlayPingPong(look_right)
+f = fPlay(stand)
+f = fPlay(head_ground)
+f = fPlayTime(eat,4)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+
+[m\BehaviorSet\bUneasy1]
+f = fPlayWithSound(shake_head,shake)
+f = fPlay(stand)
+f = fTrot(0,0)
+f = fPlayTime(stand,3)
+f = fPlayWithSound(jerk_head,jerk)
+f = fPlay(stand)
+
+[m\BehaviorSet\bTense1]
+f = fPlay(stand)
+f = fWalk(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(scuff_feet,scuff)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry1]
+f = fPlay(stand)
+f = fPlayWithSound(scuff_feet,scuff)
+f = fPlayTime(stand,7)
+f = fRun(0,0)
+f = fPlayWithSound(jerk_head,jerk)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry2]
+f = fRun(0,0)
+f = fPlay(stand)
+f = fPlayWithSound(scuff_feet,scuff)
+f = fPlayTime(stand,6)
+f = fPlayWithSound(jerk_head,jerk)
+f = fPlay(stand)
+
+[m\BehaviorSet\bAngry3]
+f = fPlay(stand)
+f = fPlayWithSound(scuff_feet,scuff)
+f = fPlayTime(stand,6)
+f = fPlayWithSound(jerk_head,jerk)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise1]
+f = fPlay(stand)
+f = fPlayWithSound(jerk_head,jerk)
+f = fPlay(stand)
+
+[m\BehaviorSet\bNoise2]
+f = fPlay(stand)
+f = fPlayWithSound(raise_head,bray)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSleep]
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,25)
+f = fPlayReverse(lie_down)
+
+[m\BehaviorSet\bDie]
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,5)
+f = fPlayTime(lie_idle,5)
+f = fDie()
+
+[m\BehaviorSet\bIdle1]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,24)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bIdle2]
+f = fPlay(stand)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,16)
+f = fPlayReverse(lie_down)
+
+[m\BehaviorSet\bIdle3]
+f = fPlay(stand)
+f = fPlay(lie_down)
+f = fPlayTime(lie_idle,14)
+f = fPlayReverse(lie_down)
+f = fPlay(stand)
+
+[m\BehaviorSet\bEat]
+f = fFaceTowardFood()
+f = fPlay(stand)
+f = fPlay(head_ground)
+f = fPlayTime(eat,2)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+f = fPlay(head_ground)
+f = fPlayTime(eat,4)
+f = fPlayReverse(head_ground)
+f = fPlay(stand)
+
+[m\BehaviorSet\bSick]
+f = fPlay(lie_down)
+f = fPlay(lie_idle)
+f = fPlay(lie_side)
+f = fPlayTime(lie_side_idle,18)
+f = fPlayReverse(lie_side)
+f = fPlay(lie_idle)
+f = fPlayReverse(lie_down)
+
+[m\BehaviorSet\bFindKeeperFood]
+f = fWalk(keeperfood,0)
+
+[m\BehaviorSet\bFindOtherFood]
+f = fWalk(otherfood,0)
+
+[m\BehaviorSet\bEscaped1]
+f = fPlay(stand)
+f = fRun(0,0)
+f = fPlayWithSound(jerk_head,jerk)
+f = fPlay(stand)
+
+[m\BehaviorSet\bChasePrey]
+f = fRun(prey,0)
+
+[m\BehaviorSet\bRunFromPredator]
+f = fRun(0,0)
+
+[m\BehaviorSet\bCaught]
+f = fFollow(keeper)
+
+[m\BehaviorSet\bAngryKeeper]
+f = fPlay(stand)
+
+[m\BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[m\BehaviorSet\bRun]
+f = fRun(0,0)
+
+[m\BehaviorSet\bRattle]
+f = fPlayWithSound(box_used,placesound)
+
+[AmbientAnims]
+a = 81
+a = 100
+b = bHappy
+a = 61
+a = 80
+b = bFriendly
+a = 21
+a = 60
+b = bCalm
+a = -20
+a = 20
+b = bNeutral
+a = -60
+a = -21
+b = bUneasy
+a = -80
+a = -61
+b = bTense
+a = -100
+a = -81
+b = bAngry

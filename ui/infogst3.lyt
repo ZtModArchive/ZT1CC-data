@@ -1,0 +1,74 @@
+[LayoutInfo]
+x=0
+y=0
+dx=214
+dy=203
+id=102
+layer=2
+;hidden
+state=1
+
+[Background]
+type=UIImage
+id=3470
+x=24
+y=70
+animation=ui/guest/ginfobox/ginfobox
+layer=0
+
+
+[ThoughtsLabel]
+type=UIText
+id=3468
+textid=3468
+x=60
+y=78
+dx=128
+dy=fitfont
+font=3452
+fontsize=3453
+border=0
+forecolor=237
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+;justify=center
+
+[Thoughts-list]
+type = UIListBox
+id = 3469
+x=28
+y=95
+dx=155
+dy=107
+font = 3636
+fontsize = 3637
+forecolor = 255
+forecolor = 255
+forecolor = 255
+backcolor = 52
+backcolor = 68
+backcolor = 52
+highlightcolor = 0
+highlightcolor = 0
+highlightcolor = 255
+transparent = 1
+scrollbar = 3471
+border = 2
+layer = 1
+; not selectable
+state = 262144
+spacing=5
+
+[scrollbar]
+type = UIScrollBar
+id = 3471
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2

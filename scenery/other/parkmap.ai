@@ -1,0 +1,39 @@
+[Icon]
+Icon=objects/parkmap/SE/SE
+Icon=objects/parkmap/SW/SW
+Icon=objects/parkmap/NW/NW
+Icon=objects/parkmap/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 250
+cFootprintX = 2
+cFootprintY = 1
+cNameID = 6043
+cHelpID = 6043
+cUsedThought=10244
+cHeight = 1
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 50
+cGawkOnlyFromFront = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 8
+; woman
+v = 9504
+v = 8
+; boy
+v = 9505
+v = 5
+; girl
+v = 9506
+v = 5

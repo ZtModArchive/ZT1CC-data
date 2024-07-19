@@ -1,0 +1,95 @@
+[Icon]
+Icon=objects/showhoop/SE/SE
+Icon=objects/showhoop/SW/SW
+Icon=objects/showhoop/NW/NW
+Icon=objects/showhoop/NE/NE
+
+[Member]
+showtoys
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 475
+cNameID = 6503
+cHelpID = 6503
+cFootprintX = 2
+cFootprintY = 4
+cPlacementFootprintX = 2
+cPlacementFootprintY = 8
+cCommerce = 0
+cSelectable = 0
+cMoveable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 1
+cCapacity = 1
+cTimeInside = 9
+cUsedThought = 0
+cUserUsesExit = 1
+cUsesPlacementCube = 1
+cHeight = 0
+cDepth = 4
+cToySatisfaction = 2
+cUseNumbersInName=0
+cDeadOnLand=1
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cLand = 0
+cBlocksLOS = 0
+cSwims = 0
+cRubbleable = 0
+
+; Is placable in show tank
+cShow = 1
+
+; Animal moves into bldg more quickly
+cDirectEntrance = 1
+
+
+; building is placed on water surface
+cUnderwater = 1
+cSurface = 1
+
+; building can't be placed next to the tank wall
+cAvoidEdges = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = objects/showhoop/idle/idle.ani
+used = objects/showhoop/idle/idle.ani
+shadowidle = objects/showhoop/sidle/sidle.ani
+underidle = objects/showhoop/uidle/uidle.ani
+idledead = objects/showhoop/dead/dead.ani
+
+
+
+[Satisfies]
+building
+showtrick
+
+[slots]
+name=slot
+
+
+[slot]
+
+;dolphin
+id = 5402
+
+filter = y
+slotpos = 0
+slotpos = 0
+
+entrpos = 0
+entrpos = -80
+
+exitpos = 0
+exitpos = 112
+
+capacity = 1
+facing = 0
+

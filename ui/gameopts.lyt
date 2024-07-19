@@ -1,0 +1,154 @@
+[LayoutInfo]
+anchor=1032
+x=17
+y=6
+dx=179
+dy=440
+layer=1
+id=5
+
+[Background]
+type=UIImage
+id=1500
+x=0
+y=0
+animation=ui/gameopts/optpanbk/optpanbk
+layer=0
+
+
+[PanelTitle]
+type=UIText
+id=1540
+textid=1540
+x=35
+y=5
+dx=100
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+
+
+[CloseWindow]
+type=UIButton
+id=1550
+helpid=3112
+x=142
+y=3
+animation=ui/sharedui/close/close
+layer=2
+action=2
+target=5
+
+
+[TabRadioSet]
+type = UIRadioSet
+id = 1505
+button = 1506
+button = 1507
+button = 1508
+button = 1530
+
+[Main_Menu_Tab]
+type = UIButton
+id = 1506
+helpid = 1541
+x = 154
+y = 80
+animation=ui/gameopts/gameopt/gameopt
+layer=1
+state=4096
+state=8
+action=3
+target=900
+
+[Graphics_Sound_Tab]
+type = UIButton
+id = 1507
+helpid = 1542
+x = 154
+y = 114
+animation=ui/gameopts/setting/setting
+layer=1
+state=4096
+action=3
+target=901
+
+
+[HelpTab]
+type = UIButton
+id = 1508
+helpid = 1543
+x = 154
+y = 147
+animation=ui/gameopts/tooltip/tooltip
+layer=1
+state=4096
+action=3
+target=902
+
+
+[AboutTab]
+type = UIButton
+id = 1509
+helpid = 1544
+x = 154
+y = 213
+animation=ui/gameopts/about/about
+layer=1
+;state=4096
+;action=3
+;target=903
+
+[Advanced Opion Tab]
+type = UIButton
+id = 1530
+helpid = 1530
+x = 154
+y = 180
+animation=ui/gameopts/advance/advance
+layer=1
+state=4096
+action=3
+target=903
+
+
+
+
+
+
+
+
+[MainMenuLayout]
+type=UILayout 
+layout=ui/gameopt1.lyt
+state=1
+
+[Sound_Graphics]
+type=UILayout
+layout=ui/gameopt2.lyt
+state=1
+
+[HelpLayout]
+type=UILayout
+layout=ui/gameopt3.lyt
+state=1
+
+;[AboutLayout]
+;type=UILayout
+;layout=ui/gameopt4.lyt
+;state=1
+
+
+[AdvancedOptionsLayout]
+type=UILayout
+layout=ui/gameopt5.lyt
+state=1

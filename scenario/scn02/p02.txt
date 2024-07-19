@@ -1,0 +1,5 @@
+If at any time you wish to end the tutorial and try another scenario or play a freeform game, click the Game Options tab (blue disk) to the left, and then select Main Menu.  
+
+The main menu screen allows you to select new scenarios, play a freeform game, or exit Zoo Tycoon.
+
+Click the OK button to proceed.

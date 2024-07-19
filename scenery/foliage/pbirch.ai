@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/pbirch/SE/SE
+Icon=objects/pbirch/SW/SW
+Icon=objects/pbirch/NW/NW
+Icon=objects/pbirch/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7064
+cHelpID = 7064
+;Highland
+cHabitat = 9407
+;North America
+cLocation = 9607
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

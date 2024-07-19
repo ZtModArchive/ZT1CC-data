@@ -1,0 +1,124 @@
+; $Id: dinogift.ai,v 1.12 2002/02/25 21:49:17 sjs Exp $
+[Icon]
+Icon=objects/dinogift/SE/SE
+Icon=objects/dinogift/SW/SW
+Icon=objects/dinogift/NW/NW
+Icon=objects/dinogift/NE/NE
+
+[Member]
+structures
+dinosaur
+
+[Characteristics/Integers]
+cFootprintX = 10
+cFootprintY = 10
+;Bad Habitat Type
+cHabitat = 9414
+cPurchaseCost = 600
+cNameID = 8027
+cHelpID = 8027
+cSelectable = 1
+cCommerce = 1
+cNeedsConfirm = 1
+cAdultChange = 9
+cChildChange = 17
+cHideUser = 1
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 10
+cTimeInside = 8
+cUsedThought=10286
+cUserUsesExit = 0
+cHeight = 3
+cRubbleable = 0
+cIsColorReplaced = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cDefaultCost = 9.00
+cLowCost = 2.00
+cMedCost = 9.00
+cHighCost = 16.00
+cUpkeep = 200.00
+cPriceFactor = 2.00
+
+[Sells]
+dinomug
+dinoshrt
+plasdino
+stufdino
+puzzle
+
+[Animations]
+idle = idle
+used = used
+
+[UseSound]
+loops = 0
+name = scenery/building/dinogift.wav
+attenuation = 1000
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 0
+; girl
+v = 9506
+v = 0
+
+[Satisfies]
+building
+gift
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where guest paths to
+entrpos=0
+entrpos=192
+
+; spot to place guest in once they've used the building
+exitpos=0
+exitpos=192
+
+; 1000 = essentially infinite capacity
+capacity=12
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2300
+defaultpal = scenery/building/pals/brwn16.pal
+
+; cr_part2 is listed in building.ai
+replace = cr_part2
+title = 2301
+defaultpal = scenery/building/pals/gold8.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/giftshp/giftshp.pal
+colorpal = objects/giftshp/color.pal

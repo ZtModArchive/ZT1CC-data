@@ -1,0 +1,44 @@
+[Icon]
+Icon=objects/duckpond/SE/SE
+Icon=objects/duckpond/SW/SW
+Icon=objects/duckpond/NW/NW
+Icon=objects/duckpond/NE/NE
+
+[Member]
+scenery
+
+[AmbientSound]
+name = scenery/building/duckpond.wav
+attenuation = 1000
+
+[Characteristics/Integers]
+cPurchaseCost = 500
+cFootprintX = 8
+cFootprintY = 8
+cNameID = 6044
+cHelpID = 6044
+;Bad Habitat Type
+cHabitat = 9414
+cUsedThought=10223
+cHeight = 1
+cUseNumbersInName=0
+cRubbleable = 0
+cEstheticWeight = 50
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 10
+; woman
+v = 9504
+v = 10
+; boy
+v = 9505
+v = 15
+; girl
+v = 9506
+v = 15

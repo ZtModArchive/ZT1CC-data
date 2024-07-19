@@ -1,0 +1,29 @@
+[Icon]
+Icon = objects/asirock/SE/SE
+Icon = objects/asirock/SW/SW
+Icon = objects/asirock/NW/NW
+Icon = objects/asirock/NE/NE
+
+[Member]
+rocks
+
+[Characteristics/Integers]
+cPurchaseCost = 80
+cNameID = 9246
+cHelpID = 9246
+cHabitat = 9405
+cLocation = 9603
+cFootprintX = 2
+cFootprintY = 2
+cAutoRotate = 1
+cRubbleable = 0
+cRock = 1
+cSwims = 1
+cOnlySwims = 0
+cUnderwater = 0
+cLand = 1
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle

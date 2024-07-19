@@ -1,0 +1,27 @@
+[Icon]
+Icon=objects/mexagave/SE/SE
+Icon=objects/mexagave/SW/SW
+Icon=objects/mexagave/NW/NW
+Icon=objects/mexagave/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 75
+cNameID = 7436
+cHelpID = 7436
+cHabitat = 9409
+cLocation = 9607
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

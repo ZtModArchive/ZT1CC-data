@@ -1,0 +1,5 @@
+While the land and tank exhibits have been placed correctly sharing a tank wall, they haven't quite combined just yet. You can tell when a combined exhibit has been successfully created when you see the tank wall change to a gray-and-white-striped one. To get the two exhibits to combine, the top edge of the tank wall should be at the same elevation as the land exhibit.
+
+Open the Exhibit Information panel for the tank exhibit and then lower the tank wall by one unit.
+
+Click the OK button to proceed.

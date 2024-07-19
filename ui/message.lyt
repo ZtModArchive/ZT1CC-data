@@ -1,0 +1,90 @@
+[LayoutInfo]
+x=center
+y=2
+dx=413
+dy=152
+id=29
+layer=2
+state=1
+
+
+[Background]
+type=UIImage
+id= 7200
+x=0
+y=0
+animation=ui/Message/messpan/messpan
+layer=0
+alias= -1
+
+[PanelTitle]
+type=UIText
+id=7204
+textid=7204
+x=100
+y=2
+dx=200
+dy=fitfont
+font=3270
+fontsize=3271
+border=2
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+alias= -1
+justify=center
+
+
+[MessageList]
+type = UIListBox
+id = 7201
+x = 34
+y = 27
+dx = 325
+dy = 113
+font = 7002
+fontsize = 7003
+justify = center
+eajustify = left
+forecolor = 255
+forecolor = 255
+forecolor = 255
+backcolor = 0
+backcolor = 0
+backcolor = 0
+highlightcolor = 192
+highlightcolor = 192
+highlightcolor = 0
+transparent = 1
+border = 2
+miniconwidth = 22
+miniconheight = 13
+layer = 1
+state = 1
+scrollbar = 7202
+
+[MessageScroll]
+type = UIScrollBar
+id = 7202
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
+state = 1
+
+[CloseWindow]
+type=UIButton
+id= 7203
+helpid=3112
+x=369
+y=3
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=-1

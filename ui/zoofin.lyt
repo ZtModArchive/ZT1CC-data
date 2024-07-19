@@ -1,0 +1,156 @@
+[LayoutInfo]
+x=center
+y=center
+dx=525
+dy=295
+id=11
+layer=1
+state=1
+
+[Background]
+type=UIImage
+id=3902
+x=0
+y=0
+animation=ui/finance/bckgrnd/bckgrnd
+alias=-1
+layer=0
+
+
+[FINANCE_PANEL_TITLE]
+type=UIText
+id=3901
+textid=3901
+x=200
+y=2
+dx=170
+dy=fitfont
+font=4736
+fontsize=4737
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+alias=-1
+layer=1
+
+[Zoo_Finance_buttonRadioSet]
+type = UIRadioSet
+id = 13980
+button = 13981
+button = 13982
+button = 13983
+button = 13984
+
+[Finance_Tab1]
+type = UIButton
+id = 13981
+helpid = 13981
+x = 485
+y = 48
+animation=ui/guest/tbinfo/tbinfo
+layer=2
+state=8
+state=4096
+action=3
+target=110
+
+[DONATIONS_Tab]
+type = UIButton
+id = 13982
+helpid = 13982
+x = 485
+y = 80
+animation=ui/finance/tbdonat/tbdonat
+layer=2
+state=4096
+action=3
+target=111
+
+[MONTHLY_ZOO PROFIT]
+type = UIButton
+id = 13983
+helpid = 13983
+x = 485
+y = 112
+animation=ui/research/fund/fund
+layer=2
+state=4096
+action=3
+target=112
+
+[ZOO_ATTENDANCE_Tab]
+type = UIButton
+id = 13984
+helpid = 13984
+x = 485
+y = 144
+animation=ui/finance/tbattnd/tbattnd
+layer=2
+state=4096
+action=3
+target=113
+
+
+[Zoo_StatusLayout]
+type=UILayout
+layout=ui/zoofin1.lyt
+state=1
+
+[Zoo_Graph_Layout1]
+type=UILayout
+layout=ui/zoofin2.lyt
+state=1
+
+[Zoo_Graph_Layout2]
+type=UILayout
+layout=ui/zoofin3.lyt
+state=1
+
+[Zoo_Graph_Layout3]
+type=UILayout
+layout=ui/Zoofin4.lyt
+state=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[CloseWindow]
+type=UIButton
+id=3903
+helpid=3112
+x=472
+y=2
+animation=ui/sharedui/close/close
+layer=1
+action=2
+target=11
+

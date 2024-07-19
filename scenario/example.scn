@@ -1,0 +1,580 @@
+; $Id: example.scn,v 1.14 2002/08/30 16:45:43 bps Exp $
+
+[desc]
+; String ID for the scenario name.
+name=16001
+
+; Story and pictures for start, win, lose.
+story=SCENARIO_EXAMPLE_START
+picture=scenario/scn01/scn01/scn01
+winstory=SCENARIO_EXAMPLE_WIN
+winpicture=ui/scenario/win/win
+losestory=SCENARIO_EXAMPLE_LOSE
+losepicture=ui/scenario/lose/lose
+lockedstory=SCENARIO_LOCK_STORY_1
+lockedpicture=ui/scenario/lock/lock
+
+; Set the default expansion pack (0 = all, 1 = zoo, 2 = dino, 3 = aqua)
+expansion=0
+; Set this to 0 to allow the user to use the expansion filter,
+; set it to 1 to lock the scenario to the default expansion
+expansionLocked=0
+
+; Goal icons - failed (iconf), completed (iconc), in progress (iconp).
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+[start]
+; Filename of the save to load when the scenario starts.
+savegame=maps/scn01.zoo
+
+; List of config files with extra goals to load.
+; extragoals=scenario/example/extra.scn
+
+; Research config for the scenario.
+research=research.cfg
+
+; Marketing config for the scenario.
+marketing=mktg.cfg
+
+; Amount of cash to start the scenario at, replaces the value in the save.
+setcash=1000000
+
+; Amount of cash to add to the current amount.
+addcash=200
+
+; Resets by killing off guests and setting counts to 0.
+; Same as having all of resetdate, resetanimals, 
+;	resetguests, resethabitats being set to 1.
+reset=0
+
+; reset the date, finance info, and guests.
+resetdate=1
+
+; reset the animal numbering
+resetanimals=1
+
+; kill off all guests and reset the guest count
+resetguests=1
+
+; reset the habitat numbering.
+resethabitats=1
+
+; reset the fence strengths.
+resetfences=0
+
+; list of triggers to fire off on scenario start
+triggers=trigger0
+
+[resume]
+; list of triggers to fire off when scenario resumes
+triggers=trigger0
+
+[completion]
+; on successful completion of the scenario unlock these entites
+;unlock=5000
+;unlock=5001
+
+[trigger0]
+; Makes all animals unavailable.
+trulea=4
+truleb=7
+
+[duration]
+; Number of months that the scenario last for.
+nummonths=1
+display=1
+text=18000
+icon=ui/scenario/clock/clock
+
+; [example]   < Any name works here, just add it to the [goals] block.
+; rtype=#     < Pick the rule type you desire, or leave blank for simple rules.
+; rulea=#     < Pick a value for one of the rules listed below.
+; ruleb=#     < Pick a value that makes sense for rulea.
+; arga=#      < Optional value that depends on rulea.
+; argb=#      < Optional value that depends on rulea.
+; type=#      < Pick the type of comparison to be applied.
+; value=#     < Pick the value to compare the rule against.
+; text=#      < Insert the string ID for the rule.
+; sticky=#    < Pick either 0 or 1.
+; hidden=#    < Pick either 0 or 1.
+; optional=#  < Pick either 0 or 1.
+; trulea=#    < Pick a value for one of the triggers.
+; truleb=#    < Pick a value that makes sense for trulea.
+; targa=#     < Optional argument for the trigger.
+; targb=#     < Optional argument for the trigger.
+
+;; Rule types - Determines the type of rule.
+; rtype = 0 Simple rule.
+; rtype = 1 Group of AND'd rules.
+;   Each cycle, all the rules in the block are updated.  If a rule in the block should
+;   trigger, then it will then.  But, the entire rule doesn't become completed until
+;   all the rules in the block are simultaneously completed.  Any failed rule in the block
+;   will cause the entire block to be marked as failed.  Rules in the block can be made
+;   sticky or optional, of course.
+; rtype = 2 Group of chained rules.
+;   In a chain of rules, we evaluate children in order until the first in progress rule.
+;   A rule is never evaluated unless all the rules preceding it are completed.
+;   The state of the parent is the state of the last rule evaluated.
+
+; For rtype other than 0, the only arguments are a list of child goals and the optional
+; flag. The names for the child goals are the same as for any goal.  Child goals
+; can themselves be AND or chain goals, creating very complicated scenarios.
+; [chain rule]
+; rtype = 2
+; optional = 0
+; child = child0
+; child = child1
+
+; rulea = 0
+;; arga (Period) - 0 monthly, 1 yearly, 2 total
+;; argb (Unused)
+; ruleb =  0 animal food cost
+; ruleb =  1 animal healing cost
+; ruleb =  2 animal purchase cost
+; ruleb =  3 construction cost
+; ruleb =  4 admissions
+; ruleb =  5 admissions income
+; ruleb =  6 people food income
+; ruleb =  7 people drink income
+; ruleb =  8 donations income
+; ruleb =  9 construction refund
+; ruleb = 10 animal refund
+; ruleb = 11 keeper wages
+; ruleb = 12 guide wages
+; ruleb = 13 maint wages
+; ruleb = 14 net income
+; ruleb = 15 zoo value
+; ruleb = 16 zoo rating
+; ruleb = 17 animal rating
+; ruleb = 18 guest rating
+; ruleb = 19 research cost
+; ruleb = 20 endowment income
+; ruleb = 21 endowment members
+; ruleb = 22 endowment gain
+; ruleb = 23 endowment loss
+; ruleb = 24 monthly total admissions
+; ruleb = 25 total guests
+; ruleb = 26 guests left
+; ruleb = 27 building upkeep cost
+; ruleb = 28 marketing cost
+
+; rulea = 1
+;; arga (Month)
+;; argb (Unused)
+; The value returned is clamped to 0 until the month is after 'arga'.
+; ruleb =  0 animal rating
+; ruleb =  1 guest rating
+; ruleb =  2 zoo rating
+; ruleb =  3 num guests
+; ruleb =  4 num animals
+; ruleb =  5 num sick animals
+; ruleb =  6 num species
+; ruleb =  7 available cash
+; ruleb =  8 num escaped animals
+; ruleb =  9 adult admission price
+; ruleb = 10 child admission price
+; ruleb = 11 num awards
+
+; rulea = 2
+;; arga (Animal Name ID)
+;; argb (Subtype) - 0 male, 1 female, 3 young (2, pregnant is obsolete)
+;; value - number
+; ruleb = 0 match type
+; ruleb = 1 match subtype
+; ruleb = 2 match type and subtype
+; ruleb = 3 match type or subtype
+
+; rulea = 3
+;; arga (Unused or Habitat Rating)
+;; argb (Unused or Animal Name ID)
+; ruleb = 0 num habitats
+; ruleb = 1 num non-empty habitats
+; ruleb = 2 num species
+; ruleb = 3 num animal families
+; ruleb = 4 average habitat attractiveness
+
+; rulea = 4
+;; arga (ID or Unused)
+;; argb (ID or Unused)
+; ruleb =  0 Family (arga)
+; ruleb =  1 Genus (arga)
+; ruleb =  2 Species (arga)
+; ruleb =  3 Location (arga)
+; ruleb =  4 Habitat Type (arga)
+; ruleb =  5 Family (arga) and Location (argb)
+; ruleb =  6 Genus (arga) and Location (argb)
+; ruleb =  7 Family (arga) and Habitat Type (argb)
+; ruleb =  8 Genus (arga) and Habitat Type (argb)
+; ruleb =  9 Habitat Type (arga) and Location (argb)
+; ruleb = 10 Number of boxed animals.
+; ruleb = 11 Family (arga) and boxed.
+; ruleb = 12 Genus (arga) and boxed.
+; ruleb = 13 Number of egg animals.
+; ruleb = 14 Family (arga) and egg.
+; ruleb = 15 Genus (arga) and egg.
+; ruleb = 16 Number of escaped animals.
+; ruleb = 17 Family (arga) and escaped.
+; ruleb = 18 Genus (arga) and escaped.
+; ruleb = 19 Expansion ID (arga) 0=zoo 1=dino 2=aqua
+
+; rulea = 5
+;; arga (ID or Unused)
+;; argb (Unused)
+; ruleb = 0 Have a rating of 'value' for all habitats.
+; ruleb = 1 Have a rating of 'value' for all family 'arga' habitats.
+; ruleb = 2 Have a rating of 'value' for all genus 'arga' habitats.
+; ruleb = 3 Have a rating of 'value' for all species 'arga' habitats.
+; ruleb = 4 Have a rating of 'value' for all location 'arga' habitats.
+; ruleb = 5 Have a rating of 'value' for all era 'arga' habitats.
+; ruleb = 6 Have a rating of 'value' for all habitat type 'arga' habitats.
+
+; rulea = 6
+;; arga (Number of Habitats)
+;; argb (ID or Unused)
+; ruleb = 0 Have a rating of 'value' for 'arga' habitats.
+; ruleb = 1 Have a rating of 'value' for 'arga' family 'argb' habitats.
+; ruleb = 2 Have a rating of 'value' for 'arga' genus 'argb' habitats.
+; ruleb = 3 Have a rating of 'value' for 'arga' species 'argb' habitats.
+; ruleb = 4 Have a rating of 'value' for 'arga' location 'argb' habitats.
+; ruleb = 5 Have a rating of 'value' for 'arga' era 'argb' habitats.
+; ruleb = 6 Have a rating of 'value' for 'arga' habitat type 'argb' habitats.
+
+; rulea = 7
+;; arga (Unused)
+;; argb (Unused)
+; ruleb = 0 Current month value (0 is beginning of the game, 1-12)
+; ruleb = 1 Current year value.
+; ruleb = 2 Number of months that have passed ((12 * year) + month)
+
+; rulea = 8
+;; arga (ID)
+;; argb (Unused)
+; ruleb = 0 Returns value if entity type arga is available.
+
+; rulea = 9
+;; arga (Unused)
+;; argb (Unused)
+; ruleb = 0 Returns number of goals in progress.
+; ruleb = 1 Returns number of goals completed.
+; ruleb = 2 Returns number of goals failed.
+
+; rulea = 10
+;; arga (ID of UI element)
+;; argb (Unused)
+; ruleb = 0 Returns value if the element is currently shown.
+; ruleb = 1 Returns value if the element is triggered.
+
+; rulea = 11
+;; arga (ID of listbox UI element)
+;; argb (Unused or ID of string value.)
+; ruleb = 0 Returns index of selected listbox element.
+; ruleb = 1 Returns 1 if the selected listbox element is the same as string id 'argb', else -2.
+
+; rulea = 12
+;; arga (Building Type)
+;; argb (0 or Entity ID)
+; ruleb =  0 Returns the number of buildings.
+; ruleb =  1 Returns the max of current users.
+; ruleb =  2 Returns the sum of current users.
+; ruleb =  3 Returns the max of total users.
+; ruleb =  4 Returns the sum of total users.
+; ruleb =  5 Returns the max of total income.
+; ruleb =  6 Returns the sum of total income.
+; ruleb =  7 Returns the max of total upkeep.
+; ruleb =  8 Returns the sum of total upkeep.
+; ruleb =  9 Returns the max of user data.
+; ruleb = 10 Returns the sum of user data.
+; arga = 0 Hunger
+; arga = 1 Thirst
+; arga = 2 Bathroom
+; arga = 3 Gift
+; arga = 4 Trash
+; arga = 5 Fun
+; arga = 6 Energy
+; arga = 7 Eat (Picnic Table)
+; arga = 8 Animal Rest
+; arga = 9 Any Building
+
+; rulea = 13
+;; arga (Research list)
+;; argb (Unused)
+; ruleb = 0 Returns the number of listed research items that are completed.
+
+; rulea = 14
+;; arga (Unit type)
+;; argb (Number of tricks)
+; ruleb = 0 Returns the number of shows for species 'arga' that have >= 'argb' tricks.
+
+; rulea = 15
+;; arga (0 for global info or unit type)
+; ruleb = 0 Gross income for last month.
+; ruleb = 1 Gross income for all time.
+; ruleb = 2 Net income (profit) for last month.
+; ruleb = 3 Net income (profit) for all time.
+; ruleb = 4 Attendance for all time.
+
+; rulea = 16
+;; arga (Wall height of tanks)
+;; argb (Unused)
+; ruleb = 0 Returns number of tanks with wall height <= arga.
+; ruleb = 1 Returns number of tanks with wall height >= arga.
+; ruleb = 2 Returns number of tanks with wall height == arga.
+
+; rulea = 99
+;; arga (Unused)
+;; argb (Unused)
+; ruleb = 0 Returns mArgA, for simple always 'true' or 'false' rules.
+
+;; Types - Determines how the rule and value are compared.
+; type = 0 Goal completed when rule >= value.
+; type = 1 Goal completed when rule <  value.
+; type = 2 Goal completed when rule == value.
+; type = 3 Goal failed when rule >= value.
+; type = 4 Goal failed when rule <  value.
+; type = 5 Goal failed when rule == value.
+; type = 6 Goal completed when rule >= value, else failed.
+; type = 7 Goal completed when rule <  value, else failed.
+; type = 8 Goal completed when rule == value, else failed.
+
+;; Sticky - Determines if the rule stays completed or failed once there.
+; sticky = 0 - Can be completed or failed at times, but can slip back to in progress.
+; sticky = 1 - Once completed or failed, is always completed or failed.
+
+;; Hidden - Determines if the goal is displayed to the player.
+; hidden = 0 - Shown to the player.
+; hidden = 1 - Not shown to the player.
+
+;; Optional - Determines if the goal must be met to complete the scenario.
+; optional = 0 - Not optional, goal must be met.
+; optional = 1 - Optional, goal can be failed or completed without affecting scenario.
+
+; trulea = 0
+;; targa (Unused)
+;; targb (Unused)
+; truleb = 0 Do nothing.
+
+; trulea = 1
+;; targa (Resource ID of message)
+;; targb (Arg passed to the message.)
+; truleb = 0 Send info message.
+; truleb = 1 Send good message.
+; truleb = 2 Send high priority message.
+
+; trulea = 2
+;; targa (Varies)
+;; targb (Varies)
+;; Rules 1,3,5,7,9 have been made obsolete but still work.
+;; To fix them, replace the old rule by adding 1 - for example, 1 becomes 2.
+; truleb =  0 Popup dialog.                  (targa layout ID,  targb unused)
+; truleb =  2 Popup and click UI element.    (targa ele ID, targb layout if > 0)
+; truleb =  4 Popup and disable UI element.  (targa ele ID, targb layout if > 0)
+; truleb =  6 Popup and enable UI element.   (targa ele ID, targb layout if > 0)
+; truleb =  8 Popup and hide UI element.     (targa ele ID, targb layout if > 0)
+; truleb = 10 Popup and show UI element.     (targa ele ID, targb layout if > 0)
+; truleb = 11 Popup any layout.              (targa layout ID,  targb pause flag)
+; truleb = 12 Disable block of UI elements.  (targa block, targb layout if > 0)
+; truleb = 13 Enable block of UI elements.   (targa block, targb layout if > 0)
+; truleb = 14 Hide block of UI elements.     (targa block, targb layout if > 0)
+; truleb = 15 Show block of UI elements.     (targa block, targb layout if > 0)
+; truleb = 16 Set block of UI elements.      (targa block, targb layout if > 0)
+;; For 16, the entries in the block are <id>=enable,disable,hide,show
+
+; trulea = 3
+;; targa (Amount of cash.)
+;; targb (Unused or resource ID for message - use %s to capture dollar amount.)
+; truleb = 0 Donate cash. (Shows up in donations column.)
+; truleb = 1 Add cash. (Doesn't show up in finance sheet.)
+; truleb = 2 Set cash. (Brute force sets the cash amount.)
+
+; trulea = 4
+;; targa (ID of entity type)
+;; targb (Unused or ID of message.)
+; truleb =  0 Make entity type available.
+; truleb =  1 Make entity type unavailable.
+; truleb =  2 Make entity type available and display UI message targb.
+; truleb =  3 Make entity type unavailable and display UI message targb.
+; truleb =  4 Make entity type available and display popup targb.
+; truleb =  5 Make entity type unavailable and display popup targb.
+; truleb =  6 Make all animals available.
+; truleb =  7 Make all animals unavailable.
+; truleb =  8 Make all things available.
+; truleb =  9 Make all things unavailable.
+; truleb = 10 Make entity type 'unlocked'.
+
+; trulea = 5
+;; targa (ID of entity type.)
+;; targb (ID of message - no message if <= 0.)
+; truleb = 0 Add boxed animal of type targa to zoo, subtype "m".
+; truleb = 1 Add boxed animal of type targa to zoo, subtype "f".
+; truleb = 2 Add boxed animal of type targa to zoo, subtype "y".
+
+; trulea = 6
+;; targa (ID of award)
+;; targb (ID of message - no message if <= 0)
+; truleb = 0 Present an award to the zoo
+
+; trulea = 7
+;; targa (ID of sub block)
+;; targb (Unused or ID of message.)
+; truleb = 0 Make entity type available.
+; truleb = 1 Make entity type unavailable.
+; truleb = 2 Make entity type available and display UI message targb.
+; truleb = 3 Make entity type unavailable and display UI message targb.
+; truleb = 4 Make entity type available and display popup targb.
+; truleb = 5 Make entity type unavailable and display popup targb.
+
+; trulea = 8
+;; targa (ID of species)
+;; targb (ID of dialog block.)
+; truleb = 0 Remove all entities of type 'targa' and display popup 'targb'.
+; truleb = 1 Remove all animals of family 'targa' and display popup 'targb'. 
+; truleb = 2 Remove all animals of genus 'targa' and display popup 'targb'.
+; truleb = 3 Remove all animals of species 'targa' and display popup 'targb'.
+
+; trulea = 9
+;; targa (Sell animal flag: 1 allows selling, 0 disallows)
+;; targb (ID of dialog block, optional.)
+; truleb = 0 Set animal selling based on 'targa', display popup 'targb'.
+
+; trulea = 10
+;; targa (0 for not setting cost, 1 for setting cost)
+;; targb (Unused)
+; truelb = 0 Research all programs, setting costs based on targa.
+
+[goals]
+goal=chain
+;goal=test
+;goal=500
+;goal=501
+;goal=602
+;goal=603
+;goal=trigger 2 example a
+;goal=trigger 2 example b
+;goal=trigger 7 example
+
+[chain]
+rtype=2
+child=500
+child=501
+child=602
+child=603
+
+[test]
+rulea=6
+ruleb=5
+arga=3
+argb=9623
+value=80
+hidden=0
+optional=0
+sticky=0
+type=0
+text=17605
+
+; Have a rating of 50 for all habitats.
+[500]
+rulea=5
+ruleb=0
+value=50
+text=17500
+
+; Have a rating of 50 for all Cat habitats.
+[501]
+rulea=5
+ruleb=1
+arga=5206
+value=50
+text=17501
+
+; Have a rating of 50 for 3 or more Tiger habitats.
+[602]
+rulea=6
+ruleb=2
+arga=3
+argb=5107
+value=50
+text=17602
+
+; Have a rating of 50 for 3 or more Bengal Tiger habitats.
+[603]
+rulea=6
+ruleb=3
+arga=3
+argb=5007
+value=50
+text=17603
+
+; Disables a block of UI elements (buy animal, habitat, object buttons)
+[trigger 2 example a]
+rulea=10
+ruleb=1
+arga=1000
+value=5
+trulea=2
+truleb=12
+targa=2000
+targb=2001
+[2000]
+id=1000
+id=1001
+id=1002
+[2001]
+longText1=SCENARIO_EXAMPLE_START
+
+; Disables a block of UI elements (buy animal, habitat, object buttons)
+[trigger 2 example b]
+rulea=10
+ruleb=1
+arga=1005
+value=5
+trulea=2
+truleb=16
+targa=2002
+targb=2003
+[2002]
+1000=enable
+1001=disable
+1002=hide
+1005=show
+[2003]
+longText1=SCENARIO_EXAMPLE_LOSE
+
+; Unlocks 3 animals if there are 1 or more habitats.
+[trigger 7 example]
+rulea=3
+ruleb=0
+value=1
+text=17300
+trulea=7
+truleb=0
+targa=1000
+[1000]
+id=5000
+id=5001
+id=5002
+
+;Large text layout block
+[default]
+layout=45100
+;confirm=45000
+;confirm2=45200
+;confirm2=45100
+background=ui/tutorial/tutorial/tutorial
+icon=
+image1=
+image2=
+shortText1=0
+longText1=
+shortText2=0
+longText2=
+ok=1
+yes=0
+no=0
+cancel=0
+pause=1
+persistentTextLayout=
+persistentShortText=
+persistentLongText=
+

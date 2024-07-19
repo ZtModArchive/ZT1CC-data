@@ -1,0 +1,59 @@
+[start]
+savegame=maps/med_kids.zoo
+reset = 0
+resetdate = 1
+resetanimals = 0
+resetguests = 1
+resethabitats = 1
+resetfences=1
+research=research.cfg
+marketing=mktg.cfg
+triggers=noscenario
+triggers=allresearch
+worldConfig=sounds/sea1.cfg
+
+[resume]
+triggers=noscenario
+triggers=allresearch
+
+[noscenario]
+trulea=2    
+truleb=3    
+targa=4107    
+
+[allresearch]
+trulea=10
+truleb=0
+targa=1
+
+[duration]
+nummonths=-1
+
+[freeform]
+description=DESCRIPTION_MAP66
+icon=freeform/med_kids/med_kids
+name=27066
+
+[ambients]
+;Bluejay
+id=5051
+;Seagull
+id=5053
+
+[goals]
+goal=lowmoney_donate
+
+[lowmoney_donate]
+;When the players money gets to $25000, they are given a donation of <targa>
+rulea=1
+ruleb=7
+arga=0
+type=1
+value=25000
+sticky=0
+hidden=1
+optional=1
+text=17107
+trulea=3    
+truleb=0    
+targa=500000    

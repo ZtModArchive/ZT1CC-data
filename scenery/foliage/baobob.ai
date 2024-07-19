@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/baobob/SE/SE
+Icon=objects/baobob/SW/SW
+Icon=objects/baobob/NW/NW
+Icon=objects/baobob/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 300
+cNameID = 7057
+cHelpID = 7057
+cHabitat = 9400
+cLocation = 9600
+cFootprintX = 2
+cFootprintY = 2
+cFoliage = 1
+cHeight = 3
+cAutoRotate = 1
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

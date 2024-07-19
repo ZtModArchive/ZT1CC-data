@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/saguaro/SE/SE
+Icon=objects/saguaro/SW/SW
+Icon=objects/saguaro/NW/NW
+Icon=objects/saguaro/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 80
+cNameID = 7040
+cHelpID = 7040
+;Desert
+cHabitat = 9409
+;North America
+cLocation = 9607
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

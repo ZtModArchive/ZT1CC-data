@@ -1,0 +1,177 @@
+[Icon]
+Icon = objects/icefloe/SE/SE
+Icon = objects/icefloe/SW/SW
+Icon = objects/icefloe/NW/NW
+Icon = objects/icefloe/NE/NE
+
+
+[Member]
+toys
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 600
+cNameID = 6505
+cHelpID = 6505
+cFootprintX = 4
+cFootprintY = 4
+cCommerce = 0
+cSelectable = 0
+cMoveable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 5
+cTimeInside = 9
+cUsedThought = 0
+cUserUsesExit = 1
+cHeight = 1
+cToySatisfaction = 2
+cUseNumbersInName=0
+cDeadOnLand=1
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cBlocksLOS = 0
+cSwims = 1
+cLand = 0
+cRubbleable = 0
+; Animal moves into bldg more quickly
+cDirectEntrance = 1
+
+; building is placed on water surface
+cUnderwater = 1
+cSurface = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = objects/icefloe/idle/idle.ani
+used = objects/icefloe/idle/idle.ani
+shadowidle = objects/icefloe/sidle/sidle.ani
+underidle = objects/icefloe/uidle/uidle.ani
+idledead = objects/icefloe/dead/dead.ani
+
+
+
+[Satisfies]
+building
+animalrest
+
+
+[slots]
+name=bigslot
+
+name=smallslot1
+name=smallslot2
+name=smallslot3
+name=smallslot4
+
+
+[bigslot]
+
+;NORTHERN_ELEPHANT_SEAL
+id = 5404
+;WALRUS
+id = 5417
+;POLAR BEAR
+id=5002
+
+
+;filter = y
+slotpos = 0
+slotpos = 0
+
+entrpos = -32
+entrpos = -96
+
+exitpos = 0
+exitpos = 96
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1
+
+[smallslot1]
+
+;EMPEROR_PENGIUN
+id = 5039
+
+slotpos = -50
+slotpos = -50
+
+entrpos = -32
+entrpos = -96
+
+exitpos = 0
+exitpos = 96
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1
+
+[smallslot2]
+
+;EMPEROR_PENGIUN
+id = 5039
+
+slotpos = -50
+slotpos = 50
+
+entrpos = -32
+entrpos = -96
+
+exitpos = 0
+exitpos = 96
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1
+
+[smallslot3]
+
+;;EMPEROR_PENGIUN
+id = 5039
+
+slotpos = 50
+slotpos = -50
+
+entrpos = -32
+entrpos = -96
+
+exitpos = 0
+exitpos = 96
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1
+
+[smallslot4]
+
+;;EMPEROR_PENGIUN
+id = 5039
+
+slotpos = 50
+slotpos = 50
+
+entrpos = -32
+entrpos = -96
+
+exitpos = 0
+exitpos = 96
+
+capacity = 1
+facing = 0
+
+entranceonwater = 1
+exitonwater = 1

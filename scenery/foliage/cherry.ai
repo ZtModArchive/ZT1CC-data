@@ -1,0 +1,40 @@
+[Icon]
+Icon=objects/cherry/SE/SE
+Icon=objects/cherry/SW/SW
+Icon=objects/cherry/NW/NW
+Icon=objects/cherry/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 175
+cNameID = 7008
+cHelpID = 7008
+;Deciduous forest
+cHabitat = 9402
+;North America
+cLocation = 9607
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 8
+; woman
+v = 9504
+v = 8
+; boy
+v = 9505
+v = 4
+; girl
+v = 9506
+v = 4

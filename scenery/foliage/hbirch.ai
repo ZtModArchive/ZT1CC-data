@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/hbirch/SE/SE
+Icon=objects/hbirch/SW/SW
+Icon=objects/hbirch/NW/NW
+Icon=objects/hbirch/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 125
+cNameID = 7070
+cHelpID = 7070
+;Highland	
+cHabitat = 9407
+;China
+cLocation = 9605
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

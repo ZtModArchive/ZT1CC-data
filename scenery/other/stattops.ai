@@ -1,0 +1,40 @@
+[Icon]
+Icon = objects/stattops/SE/SE
+Icon = objects/stattops/SW/SW
+Icon = objects/stattops/NW/NW
+Icon = objects/stattops/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 210
+cNameID = 6403
+cHelpID = 6403
+cFootprintX = 4
+cFootprintY = 4
+cUsedThought=10259
+cHeight = 3
+;Bad Habitat Type
+cHabitat = 9414
+cUseNumbersInName=0
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 6
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 6

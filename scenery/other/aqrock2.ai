@@ -1,0 +1,34 @@
+[Icon]
+Icon=objects/aqrock2/SE/SE
+Icon=objects/aqrock2/SW/SW
+Icon=objects/aqrock2/NW/NW
+Icon=objects/aqrock2/NE/NE
+
+[Member]
+rocks
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 150
+cNameID = 9238
+cHelpID = 9238
+cHabitat = 9413
+cLocation = 9633
+cFootprintX = 2
+cFootprintY = 2
+cAutoRotate = 1
+cRock = 1
+cHeight = 3
+cLand = 1
+cSwims = 1
+cOnlySwims = 0
+cUnderwater = 1
+cUseNumbersInName=0
+cRubbleable = 0
+cDeadOnFlatWater=0
+cDeadUnderwater=1
+cDeadOnLand=1
+
+[Animations]
+idle = idle
+idledead = dead

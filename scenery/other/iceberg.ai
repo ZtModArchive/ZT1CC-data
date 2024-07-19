@@ -1,0 +1,43 @@
+[Global]
+AvailableAtStartup=0
+
+[Icon]
+Icon=objects/iceberg/SE/SE
+Icon=objects/iceberg/SW/SW
+Icon=objects/iceberg/NW/NW
+Icon=objects/iceberg/NE/NE
+
+
+[Member]
+rocks
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 200
+cNameID = 9240
+cHelpID = 9240
+cHabitat = 9413
+cLocation = 9626
+cFootprintX = 8
+cFootprintY = 8
+cAutoRotate = 1
+cRock = 1
+cHeight = 3
+cDepth = 1
+cSwims = 1
+cLand = 1
+cUnderwater = 1
+cSurface = 1
+cUseNumbersInName=0
+cRubbleable = 0
+cDeadOnLand=1
+cUsesRealShadows = 1
+cHasShadowImages = 1
+cHasUnderwaterSection = 1
+cDeadStateHeight=4
+
+[Animations]
+idle = objects/iceberg/idle/idle.ani
+idledead = objects/iceberg/dead/dead.ani
+shadowidle = objects/iceberg/sidle/sidle.ani
+underidle = objects/iceberg/uidle/uidle.ani

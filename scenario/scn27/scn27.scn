@@ -1,0 +1,813 @@
+[desc]
+;
+;TUTORIAL 5: Marine Mania Tutorial
+;
+name=16027
+story=SCENARIO_START_STORY_SCN27
+picture=scenario/scn27/scn27/scn27
+winstory=SCENARIO_WIN_STORY_SCN27
+winpicture=scenario/aquawin/aquawin
+losestory=SCENARIO_LOSE_STORY_SCN27
+losepicture=scenario/aqualose/aqualose
+lockedstory=SCENARIO_LOCK_STORY_8
+lockedpicture=scenario/aqualock/aqualock
+
+;Icons for completion, in progress, not done
+iconf=ui/scenario/iconf/iconf
+iconc=ui/scenario/iconc/iconc
+iconp=ui/scenario/iconp/iconp
+
+;Marks scenario as being a Marine Mania scenario
+expansion=3
+;This limits the player to just using aqua and zoo entities
+expansionLocked=1
+;Defaults the selected expansion filter to Zoo Tycoon
+defaultExpansion=1
+
+[start]
+economy=scenario/scn27/economy.cfg
+savegame=maps/scn27.zoo
+setcash=150000
+reset = 0
+resetdate = 1
+resetanimals = 0
+resetguests = 1
+resethabitats = 1
+resetfences=0
+research=research.cfg
+marketing=mktg.cfg
+worldConfig=sounds/sea1.cfg
+triggers=hideall
+triggers=disableUI
+
+[resume]
+triggers=hideall
+triggers=disableUI
+
+[hideall]
+trulea=4
+truleb=9
+
+[disableUI]
+trulea=2
+truleb=12
+targa=2000
+
+[2000]
+;Construct
+id=1002
+;Fence tab
+id=3251
+;Path tab
+id=3056
+;Foliage tab
+id=3252
+;Rocks tab
+id=3256
+;Terrain tab
+id=3362
+;Terraform tab
+id=3361
+;Adopt
+id=1000
+;Buy
+id=1001
+;Building tab
+id=3050
+;Scenery tab
+id=3053
+;Shelter tab
+id=3255
+;Toys tab
+id=3254
+;Hire
+id=1005
+;Delete
+;id=1028
+;Message
+id=1006
+;Research
+id=1019
+;Scenario
+id=4107
+;Zoo status
+id=1014
+;Animal status
+id=1010
+;Guest status
+id=1012
+;Habitat status
+id=1050
+;Staff status
+id=1051
+;Zoom In
+id=1007
+;Zoom Out
+id=1023
+;Pause
+id=1071
+;Rotate ccw
+id=1008
+;Rotate cw
+id=1009
+;Save button
+id=1502
+;Drain tank
+id=4885
+;Fill salt water
+id=4869
+;Fill fresh water
+id=4870
+;Exhibit Status
+id=4310
+;Exhibit Donations
+id=4313
+;Animals in Exhibit
+id=4311
+;Thoughts About Exhibit
+id=4312
+;Wall up
+id=4875
+;Wall down
+id=4874
+;Tank up
+id=4880
+;Tank down
+id=4879
+;Show Objects Tab
+id=2076
+
+[ambients]
+;Santa
+id=5083
+;Parrot
+id=5054
+;Seagull
+id=5053
+;Bi-Plane
+id=5082
+;Witch
+id=5084
+
+[goals]
+goal=AQUA_TUTORIAL_CHAIN
+
+[AQUA_TUTORIAL_CHAIN]
+rtype=2
+child=INTRO
+child=FILTER_DIALOG
+child=show_staff
+child=show_hire
+child=FILTER_MARINE
+child=HIRE_MARINE
+child=close_hire
+child=show_construct_fence
+child=show_tank_wall
+child=show_tank_wall_2
+child=show_tank_wall_3
+child=ADOPT_DOLPHIN
+child=close_construction
+child=show_adopt
+child=BUY_KELP
+child=close_adopt
+child=show_foliage
+child=close_const2
+child=BUY_FILTER
+child=RAISE_WALL
+child=show_wall_up
+child=LOWER_WALL
+child=show_wall_down
+child=TANK_UP
+child=show_raise_tank
+child=TANK_DOWN
+child=show_lower_tank
+child=BUY_DOLPHIN_RIDE
+child=close_exhibit
+child=show_building
+child=click_buy
+child=END_TUTORIAL
+
+[INTRO]
+;Intro Dialog
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=1
+
+[1]
+; "Welcome to marine tutorial.."
+image1=scenario/scn27/01/01
+longText1=TUTORIAL_T5_PROMPT1
+
+[FILTER_DIALOG]
+;Display the "Change Expansion Pack Filter" dialog
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=100
+text=17760
+
+[100]
+;"Sort by Marine Mania only . . . "
+image1=scenario/scn27/02/02
+longText1=TUTORIAL_T5_PROMPT1A
+persistentShortText = 17760
+
+[show_staff]
+; Make the tour guide and marine specialist available to show filter effect.
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=7
+truleb=0
+targa=9000
+
+[9000]
+;tour guide
+id=9502
+;marine specialist
+id=9552
+
+[show_hire]
+; Make the hire staff button available
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=6
+targa=1005
+
+[FILTER_MARINE]
+; If user sorts expansion pack filter by Marine Mania only, display next pop-up.
+rulea=11
+ruleb=1
+arga=22900
+argb=22903
+value=1
+type=0
+hidden=0
+sticky=1
+optional=0
+trulea=2
+truleb=0
+targa=6
+text=17760
+
+[6]
+; "Hire a marine specialist..."
+image1=scenario/scn27/09/09
+longText1=TUTORIAL_T5_PROMPT6
+persistentShortText = 17757
+
+[HIRE_MARINE]
+; If user hires a marine specialist, display next pop-up.
+rulea=2
+ruleb=0
+arga=9552
+value=1
+sticky=1
+hidden=0
+optional=0
+trulea=2
+truleb=0
+targa=2
+text=17757
+
+[2]
+; "Build a marine tank..."
+image1=scenario/scn27/03/03
+longText1=TUTORIAL_T5_PROMPT2
+persistentShortText = 17754
+
+[close_hire]
+; Click tab to close hire staff panel
+rulea=2
+ruleb=0
+arga=9552
+value=1
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1005
+
+[show_construct_fence]
+; Make the construction button and fence tab available
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=2100
+
+[2100]
+;Construct
+id=1002
+;Fence tab
+id=3251
+;Undo button
+;id=1075
+
+[show_tank_wall]
+; Make the tank wall available.
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=4
+truleb=0
+targa=9340
+
+[show_tank_wall_2]
+; Make the tank wall available.
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=4
+truleb=0
+targa=9341
+
+[show_tank_wall_3]
+; Make the tank wall available.
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=4
+truleb=0
+targa=9344
+
+[ADOPT_DOLPHIN]
+;When player builds a tank, makes the bottlenose dolphin available and displays next popup
+rulea=3
+ruleb=0
+type=0
+value=2
+sticky=1
+hidden=0
+optional=0
+text=17754
+trulea=4
+truleb=4
+targa=5402
+targb=5
+
+[5]
+; "Now adopt a dolphin..."
+image1=scenario/scn27/07/07
+longText1=TUTORIAL_T5_PROMPT5
+persistentShortText = 17756
+
+[close_construction]
+; Close construction panel
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=1
+targa=1002
+
+[show_adopt]
+; Make the adopt animal button available
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=2101
+
+[2101]
+;Adopt
+id=1000
+
+[BUY_KELP]
+; When player Adopts 1 bottlenose dolphin, make kelp object available and show next popup
+rulea=3
+ruleb=1
+value=2
+sticky=1
+hidden=0
+optional=0
+text=17756
+trulea=4
+truleb=4
+targa=7409
+targb=13
+
+[13]
+; "Purchase 4 kelp foliage..."
+image1=scenario/scn27/08/08
+longText1=TUTORIAL_T5_PROMPT6A
+persistentShortText = 17772
+
+[close_adopt]
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=1000
+
+[show_foliage]
+; Make the foliage tab and construction panel available
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=2103
+
+[2103]
+;foliage tab
+id=3252
+;construction panel
+id=1002
+
+[close_const2]
+;When player has 4 kelp, close construction panel
+rulea=2
+ruleb=0
+arga=7409
+value=6
+sticky=1
+hidden=0
+optional=0
+text=17772
+trulea=2
+truleb=1
+targa=1002
+
+[BUY_FILTER]
+;Make tank filter available and display next popup
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=4
+truleb=4
+targa=6471
+targb=7
+text=17757
+
+[7]
+; "Buy a tank filtration unit..."
+image1=scenario/scn27/10/10
+longText1=TUTORIAL_T5_PROMPT7
+persistentShortText = 17775
+
+[RAISE_WALL]
+; When player buys a tank filter, close construction panel and display next popup
+rulea=2
+ruleb=0
+arga=6471
+value=2
+sticky=1
+hidden=0
+optional=0
+text=17775
+trulea=2
+truleb=2
+targa=1002
+targb=30
+
+[30]
+; "Raise the wall..."
+image1=scenario/scn27/add01/add01
+longText1=TUTORIAL_T5_PROMPT3A
+persistentShortText = 17777
+
+[show_wall_up]
+;Make "adjust wall up" button available.
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=6
+targa=4875
+
+[LOWER_WALL]
+; When player clicks "adjust wall up", show next popup
+rulea=16
+ruleb=1
+arga=6
+value=2
+sticky=1
+hidden=0
+optional=0
+text=17777
+trulea=2
+truleb=0
+targa=10
+
+[10]
+; "Lower the wall..."
+image1=scenario/scn27/add02/add02
+longText1=TUTORIAL_T5_PROMPT10
+persistentShortText = 17788
+
+[show_wall_down]
+;Make "adjust wall down" button available.
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=6
+targa=4874
+
+[TANK_UP]
+;When player clicks "adjust wall down" button, show next popup.
+rulea=16
+ruleb=2
+arga=5
+value=1
+sticky=1
+hidden=0
+optional=0
+text=17788
+trulea=2
+truleb=0
+targa=31
+
+[31]
+; "Raise the whole tank..."
+image1=scenario/scn27/add03/add03
+longText1=TUTORIAL_T5_PROMPT3B
+persistentShortText = 17776
+
+[show_raise_tank]
+;Make "raise tank" button available.
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=6
+targa=4880
+
+[TANK_DOWN]
+;When player clicks "adjust base up" show the next popup
+rulea=10
+ruleb=1
+arga=4880
+value=1
+sticky=1
+hidden=0
+optional=0
+text=17776
+trulea=2
+truleb=0
+targa=11
+
+[11]
+; "Lower the whole tank..."
+image1=scenario/scn27/add04/add04
+longText1=TUTORIAL_T5_PROMPT11
+persistentShortText = 17789
+
+[show_lower_tank]
+;Make "lower tank" button available.
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=6
+targa=4879
+
+;[EMPTY_TANK]
+;When player clicks the "lower tank" button, show next pop up
+;rulea=10
+;ruleb=1
+;arga=4879
+;value=1
+;sticky=1
+;hidden=0
+;optional=0
+;text=17789
+;trulea=2
+;truleb=0
+;targa=4
+
+;[4]
+; "Drain the tank..."
+;image1=scenario/scn27/06/06
+;longText1=TUTORIAL_T5_PROMPT4
+;persistentShortText = 17759
+
+;[show_drain_tank]
+;Make "drain tank" button available.
+;rulea=99
+;ruleb=0
+;type=0
+;value=0
+;sticky=1
+;hidden=1
+;optional=0
+;trulea=2
+;truleb=6
+;targa=4885
+
+;[FILL_TANK]
+; When the player clicks the "drain tank" button, show the next popup
+;rulea=10
+;ruleb=1
+;arga=4885
+;value=1
+;sticky=1
+;hidden=0
+;optional=0
+;text=17759
+;trulea=2
+;truleb=0
+;targa=12
+
+;[12]
+; "Fill the tank..."
+;image1=scenario/scn27/add05/add05
+;longText1=TUTORIAL_T5_PROMPT12
+;persistentShortText = 17790
+
+;[show_fill_tank]
+;Make "fill tank" button available.
+;rulea=99
+;ruleb=0
+;type=0
+;value=0
+;sticky=1
+;hidden=1
+;optional=0
+;trulea=2
+;truleb=6
+;targa=4884
+
+[BUY_DOLPHIN_RIDE]
+;When the player clicks the "lower tank" button, display next popup
+rulea=10
+ruleb=1
+arga=4879
+value=1
+sticky=1
+hidden=0
+optional=0
+text=17789
+trulea=4
+truleb=4
+targa=8060
+targb=40
+
+[40]
+; "Purchase a dolphin ride..."
+image1=scenario/scn27/add03b/add03b
+longText1=TUTORIAL_T5_PROMPT13
+persistentShortText = 17770
+
+[close_exhibit]
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+trulea=2
+truleb=1
+targa=4334
+
+[show_building]
+; Make the buy button and building tab available
+rulea=99
+ruleb=0
+type=0
+value=0
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=13
+targa=2104
+
+[2104]
+;buy
+id=1001
+;building tab
+id=3050
+
+[click_buy]
+; Click tab to close build panel when the dolphin ride is placed
+rulea=2
+ruleb=0
+arga=8060
+value=1
+sticky=1
+hidden=0
+text=17770
+optional=0
+trulea=2
+truleb=1
+targa=1001
+
+[END_TUTORIAL]
+;When dolphin ride purchased, end tutorial.
+rulea=2
+ruleb=0
+arga=8060
+value=1
+sticky=1
+hidden=1
+optional=0
+trulea=2
+truleb=0
+targa=8
+
+[8]
+; "The End..."
+image1=scenario/scn27/11/11
+longText1=TUTORIAL_T5_PROMPT8
+
+\\\\\\\\\\\\\
+;45200 medium
+
+[default]
+layout=45100
+background=ui/tutorial/tutorial/tutorial
+icon=
+image1=
+image2=
+shortText1=0
+longText1=
+shortText2=0
+longText2=
+ok=1
+yes=1
+no=1
+cancel=0
+pause=1
+
+persistentTextLayout = 45400
+persistentShortText = 0
+persistentLongText = 

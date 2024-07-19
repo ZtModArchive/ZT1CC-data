@@ -1,0 +1,7 @@
+In the same way, you can lower the entire marine exhibit by adjusting the base of the tank.
+
+1. On the Exhibit Information panel, click the Recess Tank button. Notice how the whole exhibit is lowered.
+
+Animals have no preference with regard to the position of the tank. This is an aesthetic adjustment.
+
+Click the OK button to proceed.

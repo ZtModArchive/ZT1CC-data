@@ -1,0 +1,25 @@
+[Icon]
+Icon=objects/junflowr/SE/SE
+Icon=objects/junflowr/SW/SW
+Icon=objects/junflowr/NW/NW
+Icon=objects/junflowr/NE/NE
+
+[Member]
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 75
+cNameID = 7428
+cHelpID = 7428
+cHabitat = 9414
+cLocation = 9618
+cFootprintX = 4
+cFootprintY = 4
+cAutoRotate = 1
+cHeight = 1
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

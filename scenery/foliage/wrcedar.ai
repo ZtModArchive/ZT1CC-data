@@ -1,0 +1,26 @@
+[Icon]
+Icon=objects/wrcedar/SE/SE
+Icon=objects/wrcedar/SW/SW
+Icon=objects/wrcedar/NW/NW
+Icon=objects/wrcedar/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 165
+cNameID = 7068
+cHelpID = 7068
+;Coniferous forest
+cHabitat = 9403
+;North America
+cLocation = 9607
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

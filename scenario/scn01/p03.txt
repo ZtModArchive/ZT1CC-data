@@ -1,0 +1,9 @@
+Great job! Now that you have an exhibit, let's adopt a Bengal tiger.
+
+1. On the left side of the gameplay screen, click the Adopt Animals button. 
+2. Click the Bengal tiger icon on the Adopt Animals panel. 
+3. Place the cursor over the exhibit you just created, and then click to place a Bengal tiger.
+
+Notice the information in the lower portion of the Adopt Animals panel. This information gives you an overview of where an animal is from, what type of environment it likes, and what it costs to adopt it.
+
+Click the OK button to proceed.

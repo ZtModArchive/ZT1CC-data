@@ -1,0 +1,44 @@
+[Icon]
+Icon=objects/darch2/SE/SE
+Icon=objects/darch2/SW/SW
+Icon=objects/darch2/NW/NW
+Icon=objects/darch2/NE/NE
+
+
+[Member]
+scenery
+dinosaur
+
+; rock gate
+
+[Characteristics/Integers]
+cPurchaseCost = 375
+cNameID = 6406
+cHelpID = 6406
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 6
+cFootprintY = 2
+
+cHeight = 3
+walkable = 1
+
+
+
+
+
+[Animations]
+idle = idle
+[EstheticBonus]
+; man
+v = 9503
+v = 12
+; woman
+v = 9504
+v = 12
+; boy
+v = 9505
+v = 7
+; girl
+v = 9506
+v = 7

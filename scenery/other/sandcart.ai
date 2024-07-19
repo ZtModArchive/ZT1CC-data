@@ -1,0 +1,40 @@
+[Icon]
+Icon = objects/sandcart/SE/SE
+Icon = objects/sandcart/SW/SW
+Icon = objects/sandcart/NW/NW
+Icon = objects/sandcart/NE/NE
+
+[Member]
+scenery
+
+[Characteristics/Integers]
+cPurchaseCost = 85
+cNameID = 6456
+cHelpID = 6456
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 2
+cFootprintY = 2
+cUsedThought=10646
+cEstheticWeight = 33
+cGawkOnlyFromFront = 0
+cHeight = 1
+cUseNumbersInName=0
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 2
+; woman
+v = 9504
+v = 2
+; boy
+v = 9505
+v = 4
+; girl
+v = 9506
+v = 4
+

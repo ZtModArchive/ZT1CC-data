@@ -1,0 +1,12 @@
+Marine Mania: Tutorial 2 teaches you the important elements of creating marine animal shows!
+
+You will learn:
+-- How to recognize which animals are show animals.
+-- How to adopt a show animal.
+-- How to build a show tank.
+-- How to place grandstands.
+-- How to add tricks to a show animal's script.
+-- How to change the show frequency.
+-- How to purchase and place show objects.
+-- How to add tricks that use show objects to a show animal's script.
+-- How to research new tricks.

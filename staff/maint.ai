@@ -1,0 +1,177 @@
+; $Id: maint.ai,v 1.6 2002/08/02 23:39:09 sds Exp $
+; IMPLEMENTED
+[Global]
+Class = staff
+Type = maint
+Subtype =
+DefaultSubtype = m
+
+
+[f/Icon]
+Icon=staff/icfmaint/icfmaint
+
+[m/Icon]
+Icon=staff/icmmaint/icmmaint
+
+[Member]
+staff
+zoo
+aqua
+
+[m/colorrep]
+color = cr_color
+replace = cr_hair
+replace = cr_skin
+
+[f/colorrep]
+color = cr_color
+replace = cr_hair
+replace = cr_skin
+
+[cr_color]
+ncolors = 224
+fullpal = staff/maint/maint.pal
+colorpal = staff/maint/color.pal
+
+[cr_hair]
+ncolors = 16
+pal = guests/hblack.pal
+pal = guests/hbrown.pal
+pal = guests/hblond.pal
+pal = guests/hred.pal
+
+[cr_skin]
+ncolors = 16
+pal = guests/skcauc1.pal
+pal = guests/skcauc2.pal
+pal = guests/skdark1.pal
+pal = guests/skdark2.pal
+pal = guests/skolive.pal
+
+[m/Characteristics/Strings]
+cGeneralInfoTextName = MAINT
+cPlaqueImageName = staff/plmaint/plmaint
+cInfoImageName = staff/inmmaint/inmmaint
+cListImageName = staff/lsmmaint/lsmmaint
+cTrainingIconName = research/smmtran1/smmtran1
+cTrainingIconName = research/smmtran2/smmtran2
+cTrainingIconName = research/smmaint3/smmaint3
+
+[m/Characteristics/Integers]
+cNameID = 9501
+cHelpID = 9501
+cPurchaseCost = 300
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 1
+
+cWorkCheck = 20
+cChaseCheck = 2
+cDutiesTextID = 3616
+
+cTrainingTooltip = 24242
+cTrainingTooltip = 24246
+cTrainingTooltip = 24346
+
+[f/Characteristics/Integers]
+cNameID = 9501
+cHelpID = 9501
+cPurchaseCost = 300
+cSlowRate = 33
+cMediumRate = 44
+cFastRate = 66
+cFootprintX = 1
+cFootprintY = 1
+
+cWorkCheck = 20
+cChaseCheck = 2
+
+[f/Characteristics/Strings]
+cInfoImageName = staff/infmaint/infmaint
+cListImageName = staff/lsfmaint/lsfmaint
+
+[m/Animations]
+idle = stndidle
+walk = walk
+stand = stndidle
+run = run
+water = water
+sweep = sweep
+empty = empty
+fix = fix
+cleanup = cleanup
+
+[f/Animations]
+idle = stndidle
+walk = walk
+stand = stndidle
+run = run
+water = water
+sweep = sweep
+empty = empty
+fix = fix
+cleanup = cleanup
+
+[Sounds]
+sweep = staff/msweep.wav
+sweep = 2000
+empty_trash = staff/mempty.wav
+empty_trash = 2000
+fix = staff/fix.wav
+fix = 1500
+vac = staff/vac.wav
+vac = 1500
+
+[BehaviorSet\bSweep]
+f = fPlayWithSound(sweep,sweep)
+f = fPlayWithSound(sweep,sweep)
+
+[BehaviorSet\bBag]
+f = fPlayWithSound(sweep,sweep)
+f = fPlayWithSound(sweep,sweep)
+
+[BehaviorSet\bBagDino]
+f = fPlayWithSound(cleanup,vac)
+f = fPlayWithSound(cleanup,vac)
+f = fPlay(idle)
+
+[BehaviorSet\bFix]
+f = fPlayWithSound(fix,fix)
+f = fPlayWithSound(fix,fix)
+
+[BehaviorSet\bEmpty]
+f = fPlayWithSound(empty,empty_trash)
+f = fPlayWithSound(empty,empty_trash)
+
+[BehaviorSet\bWalkRandomly]
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fWalk(0,0)
+f = fPlayTime(idle,2)
+
+[BehaviorSet\bWalk]
+f = fWalk(0,0)
+
+[BehaviorSet\bRun]
+f = fRun(0,0)
+
+[BehaviorSet\bTest]
+; test
+f = fPlay(stand)
+f = fPlay(walk)
+f = fWalk(0,0)
+
+[BehaviorSet\bZooRoutine]
+f = fMaintRoutine()
+
+[BehaviorSet\bRunFromPredator]
+f = fMove(0,0,run,55)
+
+[AmbientAnims]
+a = -100
+a = 100
+b = bZooRoutine
+;b = bTest
+

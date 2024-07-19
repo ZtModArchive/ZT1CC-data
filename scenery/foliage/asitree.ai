@@ -1,0 +1,27 @@
+[Icon]
+Icon = objects/asitree/SE/SE
+Icon = objects/asitree/SW/SW
+Icon = objects/asitree/NW/NW
+Icon = objects/asitree/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 115
+cNameID = 7433
+cHelpID = 7433
+cHabitat = 9405
+cLocation = 9603
+cFootprintX = 2
+cFootprintY = 2
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

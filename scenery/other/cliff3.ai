@@ -1,0 +1,27 @@
+[Icon]
+Icon = objects/jeep1/SE/SE
+Icon = objects/jeep1/SW/SW
+Icon = objects/jeep1/NW/NW
+Icon = objects/jeep1/NE/NE
+
+[Member]
+developer
+
+[Characteristics/Integers]
+cPurchaseCost = 0
+cNameID = 	6177
+cHelpID = 	6177
+cFootprintX = 10
+cFootprintY = 4
+;Bad Habitat Type
+cHabitat = 9414
+cCommerce = 0
+cSelectable = 0
+cDeletable = 1
+cHeight = 1
+cUseNumbersInName=0
+cRubbleable = 0
+
+[Animations]
+idle = idle
+

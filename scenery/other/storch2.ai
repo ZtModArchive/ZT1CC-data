@@ -1,0 +1,42 @@
+
+[Icon]
+Icon = objects/storch2/SE/SE
+Icon = objects/storch2/SW/SW
+Icon = objects/storch2/NW/NW
+Icon = objects/storch2/NE/NE
+
+[Member]
+scenery
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 250
+cFootprintX = 1
+cFootprintY = 1
+cNameID = 6427
+cHelpID = 6427
+;Bad Habitat Type
+cHabitat = 9414
+cUsedThought=10220
+cHeight = 3
+cUseNumbersInName=0
+
+
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 3
+; woman
+v = 9504
+v = 6
+; boy
+v = 9505
+v = 3
+; girl
+v = 9506
+v = 6
+

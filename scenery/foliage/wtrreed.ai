@@ -1,0 +1,36 @@
+[Icon]
+Icon=objects/wtrreed/SE/SE
+Icon=objects/wtrreed/SW/SW
+Icon=objects/wtrreed/NW/NW
+Icon=objects/wtrreed/NE/NE
+
+[Member]
+habitatfoliage
+zoofoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 60
+cNameID = 7062
+cHelpID = 7062
+;Aquatic
+cHabitat = 9413
+;Southeast Asia
+cLocation = 9603
+cFootprintX = 1
+cFootprintY = 1
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 2
+cSwims = 1
+cLand = 1
+cUnderwater = 1
+cSurface = 0
+walkable = 1
+cUseNumbersInName=0
+cUsesTreeRubble=1
+cDeadOnLand=1
+
+[Animations]
+idle = idle
+idledead = dead

@@ -1,0 +1,112 @@
+[Icon]
+Icon = objects/aqbath/SE/SE
+Icon = objects/aqbath/SW/SW
+Icon = objects/aqbath/NW/NW
+Icon = objects/aqbath/NE/NE
+
+[Member]
+structures
+aqua
+
+[Characteristics/Integers]
+cPurchaseCost = 250
+cNameID = 8062
+cHelpID = 8062
+;Bad Habitat Type
+cHabitat = 9414
+cFootprintX = 4
+cFootprintY = 2
+cNeedsConfirm = 1
+cCommerce = 0
+cSelectable = 1
+cAdultChange = 5
+cChildChange = 5
+cHungerChange = 0
+cThirstChange = 0
+cBathroomChange = -200
+cEnergyChange = 0
+cHideUser = 1
+cUserStaysOutside = 0
+cHideBuilding = 0
+cTimeInside = 5
+cCapacity = 8
+cHeight = 3
+
+cIsColorReplaced = 1
+
+
+[UseSound]
+alwayson = 0
+loops = 0
+name = scenery/building/bathroom.wav
+attenuation = 1300
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Characteristics/Floats]
+cUpkeep = 50.00
+
+[Animations]
+idle = idle
+used = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 0
+; woman
+v = 9504
+v = 0
+; boy
+v = 9505
+v = 0
+; girl
+v = 9506
+v = 0
+
+[Satisfies]
+building
+familybathroom
+bathroom
+
+[slots]
+name=slot
+
+[slot]
+; using
+;id=9503
+; would restrict this slot only to "man"
+
+; spot in the building where guest would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=-48
+slotpos=16
+
+; spots outside the building where guest paths to
+entrpos=-32
+entrpos=48
+
+; spot to place guest in once they've used the building
+exitpos=-32
+exitpos=48
+
+; 1000 = essentially infinite capacity
+capacity=8
+facing=0
+
+[colorrep]
+
+; cr_color is listed below
+color = cr_color
+
+; cr_part1 is listed in building.ai
+replace = cr_part1
+title = 2302
+defaultpal = scenery/building/pals/teal16.pal
+
+[cr_color]
+ncolors = 232
+fullpal = objects/aqbath/aqbath.pal
+colorpal = objects/aqbath/color.pal
+

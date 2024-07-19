@@ -1,0 +1,28 @@
+[Icon]
+Icon=objects/quiver/SE/SE
+Icon=objects/quiver/SW/SW
+Icon=objects/quiver/NW/NW
+Icon=objects/quiver/NE/NE
+
+[Member]
+habitatfoliage
+foliage
+
+[Characteristics/Integers]
+cPurchaseCost = 210
+cNameID = 7033
+cHelpID = 7033
+;Desert
+cHabitat = 9409
+;Africa
+cLocation = 9600
+cFootprintX = 2
+cFootprintY = 2
+cFoliage = 1
+cAutoRotate = 1
+cHeight = 3
+cUseNumbersInName=0
+cUsesTreeRubble=1
+
+[Animations]
+idle = idle

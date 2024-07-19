@@ -1,0 +1,64 @@
+[Icon]
+Icon = objects/asirope/SE/SE
+Icon = objects/asirope/SW/SW
+Icon = objects/asirope/NW/NW
+Icon = objects/asirope/NE/NE
+
+
+[Member]
+toys
+
+[Characteristics/Integers]
+cPurchaseCost = 500
+cNameID = 6111
+cHelpID = 6111
+cFootprintX = 4
+cFootprintY = 8
+cCommerce = 0
+cSelectable = 0
+cMoveable = 0
+cDeletable = 1
+cHideUser = 0
+cUserStaysOutside = 0
+cHideBuilding = 0
+cCapacity = 1
+cTimeInside = 19
+cUsedThought = 0
+cUserUsesExit = 1
+cHeight = 1
+cToySatisfaction = 2
+cUseNumbersInName=0
+cBlocksLOS = 0
+
+; Animal moves into bldg more quickly
+cDirectEntrance = 1
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = objects/asirope/idle/idle.ani
+used = objects/asirope/used/used.ani
+
+[Satisfies]
+building
+animalrest
+
+[slots]
+name=slot
+
+[slot]
+;orangutan
+id = 5506
+
+slotpos = 0
+slotpos = 0
+
+entrpos = 32
+entrpos = -144
+
+exitpos = 32
+exitpos = 144
+
+capacity = 1
+facing = 0

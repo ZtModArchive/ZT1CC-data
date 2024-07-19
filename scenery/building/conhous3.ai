@@ -1,0 +1,68 @@
+[Icon]
+Icon = objects/conhous3/SE/SE
+Icon = objects/conhous3/SW/SW
+Icon = objects/conhous3/NW/NW
+Icon = objects/conhous3/NE/NE
+
+[Member]
+shelters
+
+[Characteristics/Integers]
+cPurchaseCost = 225
+cNameID = 8109
+cHelpID = 8109
+cHabitat = 9410
+cLocation = 9618
+cFootprintX = 6
+cFootprintY = 4
+cSelectable = 0
+cTimeInside = 8
+cHeight = 3
+cCommerce = 0
+cHideUser = 1
+cHideBuilding = 0
+cUserStaysOutside = 0
+cUserUsesExit = 0
+cShelter = 1
+cUseNumbersInName=0
+
+cCapacity = 6
+cAdultChange = 10
+cChildChange = 10
+cEnergyChange = 50
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle
+used = idle
+
+[Satisfies]
+building
+animalrest
+animalsex
+
+[slots]
+name=slot
+
+[slot]
+; Animals which can use this shelter
+;(ALL)
+
+; spot in the building where animal would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where animal paths to
+entrpos=0
+entrpos=80
+
+; spot to place animal in once they've used the building
+exitpos=0
+exitpos=80
+
+; 1000 = essentially infinite capacity
+capacity=6
+facing=0

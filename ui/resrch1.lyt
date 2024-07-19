@@ -1,0 +1,195 @@
+[LayoutInfo]
+x=0
+y=0
+dx=179
+dy=440
+id=150
+layer=1
+state=1
+
+[Background]
+type=UIImage
+id= 4000
+x=0
+y=0
+animation=ui/research/respan/respan
+layer=0
+
+[ResearchTitleLabel]
+type = UIText
+id = 4040
+textid=4040
+x=38
+y=45
+dx=110
+dy=fitfont
+font=4036
+fontsize=4037
+border=2
+forecolor=206
+forecolor=206
+forecolor=206
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+[ResearchProgram]
+type = UIText
+id = 4016
+x=38
+y=65
+dx=110
+dy=50
+font=4036
+fontsize=4037
+border=0
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+transparent=1
+layer=1
+justify=center
+
+[ResearchProgress]
+type = UIStatusImage
+id = 4018
+x = 40
+y = 205
+dx=110
+dy=12
+image=ui/sharedui/statg.tga
+layer=2
+
+[ResearchProgressBackground]
+type = UIImage
+id = 4017
+x = 35
+y = 203
+animation = ui/research/progback/progback
+layer = 1
+alias = 4018
+
+[Image  Research]
+type=UIImage
+id= 4019
+x=72
+y=116
+layer=1
+transparent=0
+
+[Image_Research_Border]
+type=UIImage
+id= 4061
+x=71
+y=115
+layer=2
+transparent=1
+animation = ui/sharedui/border/border
+
+
+
+[ConservationTitleLabel]
+type = UIText
+id = 4039
+textid = 4039
+x=34
+y=234
+dx=130
+dy=fitfont
+font=4036
+fontsize=4037
+border=2
+forecolor=206
+forecolor=206
+forecolor=206
+backcolor=68
+backcolor=36
+backcolor=20
+transparent=1
+layer=1
+justify=center
+
+
+[ConservationProgram]
+type = UIText
+id = 4012
+x=38
+y=255
+dx=110
+dy=50
+font=4036
+fontsize=4037
+border=0
+forecolor = 156
+forecolor = 205
+forecolor = 183
+backcolor = 121
+backcolor = 104
+backcolor = 50
+transparent=1
+layer=1
+justify=center
+
+
+[ConservationProgress]
+type = UIStatusImage
+id = 4014
+x = 40
+y = 395
+dx=110
+dy=12
+image=ui/sharedui/statg.tga
+layer=2
+
+
+[ConservationProgressBackground]
+type = UIImage
+id = 4013
+x = 35
+y = 393
+animation = ui/research/progback/progback
+layer = 1
+alias = 4014
+
+;[ConservationDayLabel]
+;type = UIText
+;id = 4041
+;textid = 4041
+;x=112
+;y=359
+;dx=45
+;dy=fitfont
+;font=3452
+;fontsize=3453
+;border=2
+;forecolor=155
+;forecolor=204
+;forecolor=182
+;backcolor=100
+;backcolor=108
+;backcolor=108
+;transparent=1
+;layer=1
+
+[Image Conservation]
+type=UIImage
+id= 4020
+x=72
+y=310
+layer=1
+transparent=0
+
+[Image Conservation_Border]
+type=UIImage
+id= 4060
+x=71
+y=309
+layer=2
+transparent=1
+animation = ui/sharedui/border/border

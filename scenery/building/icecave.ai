@@ -1,0 +1,82 @@
+; $Id: icecave.ai,v 1.5 2002/03/08 19:04:40 sjs Exp $
+[Icon]
+Icon = objects/icecave/SE/SE
+Icon = objects/icecave/SW/SW
+Icon = objects/icecave/NW/NW
+Icon = objects/icecave/NE/NE
+
+[Member]
+shelters
+dinosaur
+
+[Characteristics/Integers]
+cPurchaseCost = 1500
+cNameID = 8130
+cHelpID = 8130
+cHabitat = 9410
+cLocation = 9618
+cFootprintX = 6
+cFootprintY = 6
+cShelter = 1
+cCommerce = 0
+cSelectable = 0
+cHideUser = 1
+cHideBuilding = 0
+cUserStaysOutside = 0
+cTimeInside = 10
+cUserUsesExit = 0
+cHeight = 3
+cUseNumbersInName=0
+cRubbleable = 0
+cCapacity = 4
+cAdultChange = 20
+cChildChange = 20
+cEnergyChange = 75
+
+[Characteristics/Strings]
+cInfoImageName = scenery/building/inbldg/inbldg
+
+[Animations]
+idle = idle
+used = idle
+
+[Satisfies]
+building
+animalrest
+animalsex
+
+[slots]
+name=slot
+
+[slot]
+; Animals which can use this shelter
+
+;Wooly Mammoth
+id=5329
+;Smilodon
+id=5086
+;Wooly RHINO
+id=5330
+;YETTI
+id=5047
+;Megatherium
+id=5501
+
+; spot in the building where animal would play animation if didn't disappear
+; (in world coordinates, relative to building center; 16 per half-subtile)
+slotpos=0
+slotpos=0
+
+; spots outside the building where animal paths to
+entrpos=0
+entrpos=112
+
+; spot to place animal in once they've used the building
+exitpos=0
+exitpos=112
+
+; 1000 = essentially infinite capacity
+capacity=3
+facing=0
+
+

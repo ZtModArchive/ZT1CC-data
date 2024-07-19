@@ -1,0 +1,63 @@
+; $Id: brkpath.ai,v 1.2 2002/08/06 16:39:44 sjs Exp $
+
+[Icon]
+Icon=paths/brkpath/icon/icon
+
+[Member]
+paths
+all
+
+[Characteristics/Integers]
+cPurchaseCost=50
+cMaterial=0
+cNameID = 9108
+cHelpID = 9108
+cFootprintX = 2
+cFootprintY = 2
+;Bad Habitat Type
+cHabitat = 9414
+walkable = 1
+walkableByTall = 1
+
+[Animations]
+idle = idle
+
+[EstheticBonus]
+; man
+v = 9503
+v = 6
+; woman
+v = 9504
+v = 6
+; boy
+v = 9505
+v = 6
+; girl
+v = 9506
+v = 6
+
+[Shapes]
+shape=5
+shape=20
+shape=65
+shape=80
+shape=100
+shape=101
+shape=102
+shape=103
+shape=104
+shape=105
+shape=106
+shape=107
+shape=108
+shape=109
+shape=110
+shape=111
+shape=112
+shape=113
+shape=114
+shape=115
+shape=116
+
+
+

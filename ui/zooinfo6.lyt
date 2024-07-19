@@ -1,0 +1,73 @@
+[LayoutInfo]
+x=10
+y=0
+dx=490
+dy=295
+id=804
+layer=1
+state=1
+
+
+[Layout_Title]
+type=UIText
+id=4163
+textid=4163
+x=18
+y=30
+dx=250
+dy=fitfont
+font=4136
+fontsize=4137
+textid=4137
+border=0
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+transparent=1
+layer=1
+
+
+
+[Research_List]
+type=UIListBox
+id=4164
+x=5
+y=48
+dx=455
+dy=246
+font=4136
+fontsize=4137
+forecolor=255
+forecolor=228
+forecolor=173
+backcolor=100
+backcolor=108
+backcolor=108
+highlightcolor = 255
+highlightcolor = 228
+highlightcolor = 173
+highlightbordercolor = 100
+highlightbordercolor = 108
+highlightbordercolor = 108
+selectbordercolor = 100
+selectbordercolor = 108
+selectbordercolor = 108
+scrollbar=4165
+miniconwidth=50
+; not selectable
+;state = 262144
+layer=1
+transparent=1
+
+
+[Research_List_Scrollbar]
+type=UIScrollBar
+id=4165
+animation = ui/sharedui/scrolbck/scrolbck
+upArrow = ui/sharedui/arowup/arowup
+thumb = ui/sharedui/thumb/thumb
+downArrow = ui/sharedui/arowdn/arowdn
+layer = 2
